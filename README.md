@@ -25,7 +25,7 @@ The only translation to be using the new code is the Hebrew translation. I'll be
 * [Hebrew (Noam Hadar, Assaf Linial)](he)
 
 ### Other links
-* [List of contributors](contributors)
+* [List of contributors](https://github.com/almossawi/badarguments/wiki/Contributors)
 * Derivative works
 
 ## License
