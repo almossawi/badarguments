@@ -1,0 +1,376 @@
+a, a:active, a:link, a:visited {
+	text-decoration: none;
+	color: #0096dc;
+}
+
+.preorder-box {
+    border-radius: 10px;
+    background-color: #efefef;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.preorder-header {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+html, body {
+	font:  16px;
+	font-weight: 400;
+	font-family:  'Open Sans', Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/bg_tiles_the_book.png");
+	background-repeat: repeat;
+	/*background:  url(../images/holiday_bg.png) no-repeat center -200px fixed;
+	-webkit-background-size:  cover;
+	-moz-background-size:  cover;
+	-o-background-size:  cover;
+	background-size:  cover;*/
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	margin-top: 5px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 300;
+	padding: 0 0 10px 0;
+	margin: 0;
+	text-align: left; 
+	color: #8e7d74;
+}
+
+#main_container {
+	width: 1000px;
+	margin: 0 auto 50px auto;
+	background-image: url(../images/alpha.png);
+	border: 1px solid #d7d7d7;
+}
+
+#content {
+	width: 800px;
+	height: 3520px;
+	margin: 0 auto 50px auto;
+	position: relative;
+	color: #4b4b4b;
+	padding: 20px 0 20px 0;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+p {
+	font-family:  Georgia, 'PT Serif', Times;
+	margin-top: 0;
+	font-size: 17px;
+	line-height: 28px;
+}
+
+.serif {
+	font-style: italic;
+	font-family: Georgia, Times;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 28px;
+	color: #0a83c2;
+	font-weight: 300;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+ul {
+	list-style: none;
+	list-style-image: url('../images/li.png');
+	margin-left: 10px;
+	padding-left: 0;
+}
+
+li {
+	padding-bottom: 8px;
+	font-size: 16px;
+}
+
+.thumb_project {
+	float: right;
+	width: 460px;
+	margin-top: 34px;
+}
+
+.prose_project {
+	width: 500px;
+}
+
+.seperator_project {
+	clear: both;
+	height: 30px;
+	width: 100%;
+}
+
+.bookofbadarguments p {
+	text-align: justify;
+}
+
+#boat {
+	z-index: 1;
+	position: absolute;
+	top: 100px;
+	margin-left: 185px;
+}
+
+#wind {
+	z-index: -1;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 200px;
+}
+
+#status {
+	margin-top: 60px;
+	border: 0px solid black;
+}
+
+#status div {
+	float: left;
+	padding-left: 2px;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+}
+
+.not_yet {
+	color: #d7d7d7;
+}
+
+svg {
+	height: 20px;
+	width: 60px;
+	margin-left: 6px;
+}
+
+svg, 
+#status div div {
+	float: left;
+}
+
+#status div div {
+	text-align: center;
+	clear: both;
+	border: 1px solid black;
+	width: 200px;
+}
+
+#status div img {
+	 text-align: center;
+	 margin:  0 auto;
+}
+
+#voice_promo {
+	width: 450px;
+	font-weight: 400;
+	text-align: justify;
+	font-size: 12px;
+}
+
+#audioplayer {
+	margin: 20px 0 20px 0;
+}
+
+#giveaway {
+	width: 360px;
+	border: 0px solid black;
+	font-weight: 400;
+	text-align: justify;
+	font-size: 14px;
+}
+
+#more_to_come {
+	width: 480px;
+	border: 0px solid black;
+	font-weight: 400;
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+#more_to_come p,
+#more_to_come h2 {
+	text-align: center;
+}
+
+#title_the_book {
+	clear: both;
+	border: 0;
+	outline: both;
+	
+}
+
+#quote {
+	position: absolute;
+	z-index: 5;
+	margin: 8px 0 0 530px;
+}
+
+#footnote {
+	font-size: 11px;
+	text-align: center;
+	margin: 120px auto 20px auto;
+	color: #000000;
+	font-weight: 400;
+	width: 1000px;
+}
+
+#description {
+	width: 100%;
+	border: 0px solid black;
+	font-weight: 400;
+	font-size: 14px;
+	margin: 0 auto;
+}
+
+#topbar {
+	margin-left: auto;
+	margin-right: auto;
+	top: 0;
+	left: 0;
+	width: 1002px;
+	height: 230px;
+	z-index: 999999;
+	padding-top: 20px;
+	background-image: url('../images/header_the_book.png');
+	background-size:  100% 100%;	
+	border-right: 0px solid #a8a8a8;
+	border-left: 0px solid #a8a8a8;
+	border-bottom: 4px solid #885f3a;
+}
+
+#topbar img.logo {
+	width: 1000px;
+	display:  block;
+    margin-left:  auto;
+    margin-right:  auto;
+	text-align: center;
+}
+
+#topbar img.logo_big {
+	position: absolute;
+	z-index: 999;
+	top: 0;
+	margin-left: 0px;
+}
+
+#big_book {
+	position: absolute;
+	width: 400px;
+	margin-top: -15px;
+	margin-left: 0;
+}
+
+.tracker_tiny {
+	font-size: 10px;
+	color: #9e9e9e;
+}
+
+#foyles {
+	position: absolute;
+	margin-top: 402px;
+	margin-left: 500px;
+}
+
+.foyles_announcement {
+	width: 440px;
+	font-weight: 400;
+	text-align: justify;
+	font-size: 14px;
+}
+
+img {
+	border: 0;
+}
+
+#audiobook {
+	width: 470px;
+	border: 0px solid black;
+	font-weight: 400;
+	margin-left: -300px;
+	text-align: justify;
+	font-size: 14px;
+}
+
+#quote_audiobook {
+	position: absolute;
+	z-index: 5;
+	margin-top: 50px;
+	margin-left: 200px;
+}
+
+#russian {
+	position: absolute;
+	z-index: 5;
+	margin-top: 12px;
+	margin-left: 500px;
+}
+
+#australian {
+	position: absolute;
+	z-index: 5;
+	margin-top: -10px;
+	margin-left: 500px;
+}
+
+#sf_pic {
+	position: absolute;
+	z-index: 5;
+	margin-top: -10px;
+	margin-left: 500px;
+}
+
+#italian {
+	position: absolute;
+	z-index: 5;
+	margin-top: 10px;
+	margin-left: 520px;
+}
+
+#korean {
+	position: absolute;
+	z-index: 5;
+	margin-top: -135px;
+	margin-left: 500px;
+}
+
+#pt {
+	position: absolute;
+	z-index: 5;
+	margin-top: 6px;
+	margin-left: 500px;
+}
+
+.translation_prose {
+	width: 440px;
+	border: 0px solid black;
+	font-weight: 400;
+	text-align: justify;
+	font-size: 14px;
+}
+
+#sections {
+	text-align: center;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+#sections span {
+	color: #959595;
+}
+
+.hightop {
+	margin-top: 80px;
+}
