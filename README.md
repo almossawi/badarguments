@@ -30,4 +30,4 @@ The only translation to be using the new code is the Hebrew translation. I'll be
 
 ## License
 
-The __Bad Arguments__ code is shared under the terms of the [Creative Commons BY-NC License v3.0](https://creativecommons.org/licenses/by-nc/3.0/).
+The _Bad Arguments_ code is shared under the terms of the [Creative Commons BY-NC License v3.0](https://creativecommons.org/licenses/by-nc/3.0/).
