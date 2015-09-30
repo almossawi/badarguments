@@ -24,9 +24,10 @@ The only translation to be using the new code is the Hebrew translation. I'll be
 * Greek (Rafael Ketsetsides)
 * [Hebrew (Noam Hadar, Assaf Linial)](he)
 
-### Other links
+### Related links
 * [List of contributors](https://github.com/almossawi/badarguments/wiki/Contributors)
 * Derivative works
+* [Talk: Open-Sourcing the Creative Process](http://almossawi.com/open-sourcing-the-creative-process/)
 
 ## License
 
