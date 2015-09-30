@@ -4,9 +4,9 @@ _Bad Arguments_ has been read by nearly two million visitors since its release i
 
 ### How to contribute
 
-I'm grateful to anyone wishing to contribute to the project. If you wish to translate the book to a new language, you're welcome to contact me privately and send me the translated text and captions in a document. I can then take care of porting that to the website. That is what we've been doing so far.
+I'm grateful to anyone wishing to contribute to the project. If you wish to translate the book to a new language, you're welcome to contact me privately and send me the translated text and captions in a document. I can then take care of porting everything to the website. That is what we've been doing so far.
 
-Alternatively, you may wish to translate the prose on the website and then send that to me along with the translations for the captions, either as a [Pull Request](https://help.github.com/articles/using-pull-requests/). You can find all existing languages in the repository a top-level directories identified with their two-letter ISO 639-1 code (e.g. pt, es, he).
+Alternatively, you may wish to download the code for an existing translation, modify it, and then send me your work along with the new captions as a [Pull Request](https://help.github.com/articles/using-pull-requests/). You can find all existing languages in the repository as top-level directories, identified with their two-letter ISO 639-1 code (e.g. pt, es, he).
 
 You are welcome to suggest corrections or submit suggestions by opening an issue or by submitting a Pull Request using the controls on the right-hand side of this page.
 
