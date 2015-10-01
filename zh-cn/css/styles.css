@@ -610,6 +610,7 @@ p.justify-last:after {
 
 .languages {
     clear: both;
+    font-family: 'Open Sans', sans-serif;
     margin: 0 auto 0 auto;
     position: absolute;
     text-align: center;
