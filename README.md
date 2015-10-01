@@ -15,7 +15,7 @@ You are welcome to suggest corrections or submit suggestions by opening an issue
 I'll be rolling out the updated design and code to all the translations over the coming few days.
 
 * [Spanish (María Corchero)](es)
-* Brazilian Portuguese (Diogo Lindner)
+* [Brazilian Portuguese (Diogo Lindner)](pt-br)
 * [Arabic (Sadiq Alnemer)](ar)
 * [Portuguese (Anton Stark)](pt)
 * Simplified Chinese (Peng Liang)
