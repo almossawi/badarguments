@@ -12,11 +12,11 @@ You are welcome to suggest corrections or submit suggestions by opening an issue
 
 ### Existing translations
 
-The only translation to be using the new code is the Hebrew translation. I'll be committing the others as I update and deploy them.
+I'll be rolling out the updated design and code to all the translations over the coming few days.
 
 * Spanish (María Corchero)
 * Brazilian Portuguese (Diogo Lindner)
-* Arabic (Sadiq Alnemer)
+* [Arabic (Sadiq Alnemer)](ar)
 * Portuguese (Anton Stark)
 * Simplified Chinese (Peng Liang)
 * Finnish (Mikko Muilu, Harri Heikkilä, Timo Ylimäki, Marja Oilinki, Tere Sammallahti, Lauri Palsa)
