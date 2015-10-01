@@ -20,7 +20,7 @@ I'll be rolling out the updated design and code to all the translations over the
 * [Portuguese (Anton Stark)](pt)
 * Simplified Chinese (Peng Liang)
 * Finnish (Mikko Muilu, Harri Heikkilä, Timo Ylimäki, Marja Oilinki, Tere Sammallahti, Lauri Palsa)
-* Slovak (Filip Klinovský)
+* [Slovak (Filip Klinovský)](sk)
 * Greek (Rafael Ketsetsides)
 * [Hebrew (Noam Hadar, Assaf Linial)](he)
 
