@@ -1,0 +1,760 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:title" content="Un libro ilustrado de malos argumentos" />
+        <meta property="og:description" content="Este libro se dirige a recién llegados al campo del razonamiento lógico, y en concreto, a aquellos que, para tomar una expresión de Pascal, están tan acostumbrados que entienden todo mejor a través de lo visual. He seleccionado un pequeño conjunto de errores comunes en razonamiento y les he dado una configuración visual mediante ilustraciones fáciles de recordar, además de un montón de ejemplos." />
+        <meta property="og:image" content="https://bookofbadarguments.com/es/images/1.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bookofbadarguments.com/" />
+        <meta property="og:site_name" content="Un libro ilustrado de malos argumentos" />
+        <meta property="fb:admins" content="542418566" />
+
+        <title>Un libro ilustrado de malos argumentos (Traducido al español por María Corchero)</title>
+
+        <link rel="stylesheet" href="../css/jquery-ui.css" type="text/css" />
+        <link rel="stylesheet" href="../css/colorbox.css" type="text/css" />
+        <link rel="stylesheet" href="../css/double-page.css" type="text/css" />
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js" type="text/javascript"></script>
+
+        <script src="../js/jquery.colorbox-min.js"></script>
+        <script src="../js/modernizr.2.5.3.min.js"></script>
+        <script src="../js/turn.min.js"></script>
+        <script src="../js/turn.html4.min.js"></script>
+        <script src="../js/scissor.min.js"></script>
+        <script src="../js/jquery.easing.1.3.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-42350635-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            //ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=256637467814064";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!--<div class="corner-ribbon top-left brown shadow hidden-xs hidden-sm">1.8 million visitors</div>-->
+ 
+        <!-- force background image to load first -->
+        <img src="../images/community-heart.png" style="display:none" />
+        <img src="../images/noise.png" style="display:none" />
+        <img src="../images/bg_right.png" style="display:none" />
+        <img src="../images/bg_right2.png" style="display:none" />
+        <img src="../images/bg_right3.png" style="display:none" />
+        <img src="../images/bg_left.png" style="display:none" />
+        <img src="../images/bg_left2.png" style="display:none" />
+        <img src="../images/arrow-right.png" style="display:none" />
+        <img src="../images/handle.png" style="display:none" />
+        <img src="../images/slider-bg.png" style="display:none" />
+        <img src="../images/bear.png" style="display:none" />
+        <img src="../images/book.png" style="display:none" />
+        <img src="../images/stripe_thumb.png" style="display:none" />
+
+        <div class="topbar">
+            <div class="contributors">
+                <a href="https://github.com/almossawi/badarguments/wiki/contributors">
+                    <img src="../images/community-heart.png" />
+                </a>
+            </div>
+            <a href="/thebook/?from=main_page">
+                <img src="../images/track_the_book.png" class="buy-the-book" />
+            </a>
+            <div id="zoom_info"></div>
+        </div>
+
+        <!-- languages -->
+        <div class="container-languages">
+            <div class="languages">
+                <a href="/">English</a>
+                <a href="/es/" class="selected">Español</a>
+                <a href="/ar/">العربية</a>
+                <a href="/pt-br/">Português</a>
+                <a href="/pt/">Português brasileiro</a>
+                <a href="/zh-cn/">中文</a>
+                <a href="/fi/">Suomeksi</a>
+                <a href="/sk/">Slovenčina</a>
+                <a href="/he">עברית</a>
+            </div>
+        </div>
+
+        <div class="container">
+          <div class="left-arrow"><a href="#"><img src="../images/arrow-left.png" /></a></div>
+          <div class="right-arrow"><a href="#"><img src="../images/trans.png" /></a></div>
+
+          <div class="loading">CARGANDO</div>
+          <div class="howto"><img src="images/howto.png" /></div>
+
+          <div class="flipbook" style="position:relative">
+            <div id="cover" class="left">
+                <img src="images/1.jpg" />
+            </div>
+            <div id="blank_page" class="left">
+            </div>
+            <div class="right right-option1">
+                <img src="images/2b.png" />
+
+                <div class="page-content" style="position:absolute;z-index:999;right:0">
+                    <p class="translated-by">
+                        <span class="translated-into">Traducido al español por</span><br />
+                        <span class="authors">María Corchero</span>
+                        <br /><br />
+                        <span class="contact">10 de marzo de 2014</span>
+                    </p>
+                </div>  
+            </div>
+
+            <!-- endorsements -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="text-align:justify;margin-top:280px;width:520px;font-size:7.5pt;line-height:14px">
+                        Esta letra minúscula no tiene más propósito que hacer que este libro parezca un libro real. En los libros impresos, normalmente se ve un largo párrafo de letra pequeña en la primera o segunda página seguido por términos como &copy 2103. Todos los derechos reservados. Tal y tal. Impreso en los Estados Unidos de América. El editor puede incluir también algunas palabras para desalentar a los piratas potenciales. Ninguna parte de este libro puede ser reproducida por ningún medio sin permiso escrito. Esto viene seguido típicamente de una o dos líneas sobre los editores, y de una secuencia de números.<br /><br />
+                        Para más información, por favor, contacte con Jasper Collins Publishers, 99 St Marks Pl New York, NY 94105.<br />
+                        12 13 14 15 16 LP/SSRH 10 9 8 7 6 5 4 3 2 1<br /><br />
+                        No, en serio. Todo lo que necesitas saber es que este trabajo está compartido bajo licencia <a href="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons BY-NC</a>, lo que significa que puedes compartirlo y adaptarlo libremente con fines no comerciales, con su correspondiente atribución.<br /><br />
+                    </p>
+                </div>
+            </div>
+            <div class="right right-option2">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class="endorsement"><span style="font-size:18px">&ldquo;</span>Me encanta este libro ilustrado de malos argumentos. Un compendio de defectos sin un solo defecto.<span style="font-size:18px">&rdquo;</span></p>
+                    <p class="endorsement_author">&#8212;Profesora Alice Roberts, anatomista, presentadora del<br />programa de la BBC ‘The Incredible Human Journey’</p>
+                    
+                    <p class="endorsement2"><span style="font-size:18px">&ldquo;</span>Un resumen maravillosamente digerible de las técnicas y trampas de la argumentación. No se me ocurre una forma mejor de aprender o reintroducirse en estas nociones fundamentales del discurso lógico. Un librito delicioso.<span style="font-size:18px">&rdquo;</span></p>
+                    <p class="endorsement_author2">&#8212;Aaron Koblin, Director creativo del equipo<br />de Data Art de Google</p>             
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/toc_i.png" />
+            </div>
+            <div class="right right-option3">
+                <img src="images/toc_ii.png" style="margin-left:1px" />
+            </div>
+
+            <!-- who is this book for -->
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/who_for.png" />
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">3</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:100px">Este libro se dirige a recién llegados al campo del razonamiento lógico, y en concreto, a aquellos que, para tomar una expresión de Pascal, están tan acostumbrados que entienden todo mejor a través de lo visual. He seleccionado un pequeño conjunto de errores comunes en razonamiento y les he dado una configuración visual mediante ilustraciones fáciles de recordar, además de un montón de ejemplos. Mi esperanza es que el lector aprenda de estas páginas algunas de las trampas más habituales de la argumentación, y sea capaz de identificarlas y de evitarlas en la práctica.</p>
+                </div>
+            </div>
+
+            <!-- preface -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/preface_i.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">5</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p>La bibliografía sobre lógica y falacias lógicas es amplia y exhaustiva. La novedad de este trabajo reside en el uso de las ilustraciones para describir un pequeño conjunto de errores comunes de razonamiento que están muy presentes en nuestro discurso actual.</p>
+                    <p>Las ilustraciones están en parte inspiradas en alegorías como las de Orwell en <i>Rebelión en la granja</i>, y en parte en el cómico sinsentido de obras como las historias y poemas de Carroll. Pero a diferencia de las anteriores, el nexo de unión no es narrativo, sino que se trata de escenas independientes, conectadas mediante su tema y su estilo, lo cual ofrece una mayor flexibilidad y posibilidades de reutilización. Cada falacia se expone en una sola página, por lo que el laconismo expresivo es intencional.</p>
+                    <p>Leer sobre lo que no se debe hacer es una experiencia de aprendizaje muy útil. Stephen King, en su libro <i>Mientras escribo</i>, dijo: “Uno aprende qué no hacer con más claridad cuando lee mala prosa”.  Y describió su experiencia leyendo una novela particularmente mala como “el equivalente literario de la vacuna contra la viruela” [King]. Al matemático George Pòlya se le atribuye la cita, en una conferencia sobre la suma, de que para entender bien esta operación hay que desentenderla [Pòlya]. Este trabajo trata principalmente sobre lo que no se debe hacer en argumentación<sup>1</sup>.</p>
+                    <p class="block">* * * *</p>
+
+                    <p class="footnote" style="bottom:-60px"><sup>1</sup> Para tener otra visión, recomiendo el libro de T. Edward Darmer sobre razonamiento incorrecto.</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">6</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p>Hace muchos años, dediqué parte de mi tiempo a escribir especificaciones de software usando lógica de predicados de primer orden. Era una forma curiosa de razonamiento sobre invariantes, usando matemáticas discretas en vez de la notación usual (inglés). Y aportó precisión donde había ambigüedad potencial, y rigor donde había vaguedad y palabras insustanciales.</p>
+                    <p>En esa misma época, estudié minuciosamente algunos libros sobre lógica proposicional, tanto modernos como medievales, uno de los cuales fue <i>A Handbook of Logical Fallacies</i>, de Robert Gula. Esta obra me recordó una lista heurística que había garabateado en un cuaderno una década antes sobre cómo argumentar; era el resultado de años de discusiones con extraños en foros <i>online</i> y tenía cosas como <i>trata de no hacer afirmaciones generales sobre nada</i>. Para mí, ahora es algo obvio, pero para un colegial era un descubrimiento excitante.</p>
+                    <p>Pronto encontré evidente que formalizar los razonamientos propios puede tener beneficios útiles, tales como claridad de pensamiento y expresión, objetividad y mayor confianza. La habilidad de analizar argumentos también ayuda a establecer una regla para saber cuándo retirarse de discusiones que no llevan a ningún sitio.</p>
+                    <p class="justify-last">Temas y acontecimientos que afectan a nuestras vidas y a nuestra sociedad, como los derechos civiles o las elecciones presidenciales, normalmente hacen a la gente discutir sobre creencias y política. Observando algunas de estas discusiones, se adquiere la sensación de que muchas de ellas carecen de razonamientos de calidad. El objetivo</p>
+                </div>
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">7</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p>de algunos de los escritos sobre lógica es ayudar a conocer las herramientas y paradigmas que permiten el buen razonamiento y por tanto conducen a debates más constructivos.</p>
+                    <p>Teniendo en cuenta que en la persuasión intervienen otros aspectos además de la lógica, es útil conocerlos. La retórica probablemente encabeza la lista, y me vienen a la cabeza preceptos como el principio de parsimonia, o la “carga de prueba” y dónde descansa esta. El lector interesado encontrará valiosa la amplia bibliografía sobre el&nbsp;tema.</p>
+                    <p>En resumen, las reglas de la lógica no son leyes del mundo natural ni constituyen todo el razonamiento humano. Como Marvin Minsky afirma, el razonamiento del sentido común ordinario es difícil de explicar en términos de principios lógicos, al igual que las analogías, añadiendo: “La lógica explica cómo pensamos tanto como la gramática explica cómo hablamos” [Minsky]. La lógica no genera verdades nuevas, pero permite verificar la coherencia y consistencia de cadenas de pensamiento existentes. Precisamente por esa razón, es una herramienta efectiva para el análisis y comunicación de ideas y argumentos.</p>
+
+                    <p style="padding-top:20px;margin-left:270px;font-style:italic">&#8211; A. A., San Francisco, julio de 2013</p>
+                </div>
+            </div>
+            <!-- end preface -->
+
+            <!-- logical fallacies -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/logical_fallacies_i.png" />
+            </div>
+            <div class="right right-option1">
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:130px;padding-left:80px;padding-right:80px">El primer principio es que no debes engañarte a ti mismo, y tú eres la persona más fácil de engañar.</p>
+                    <p style="padding-left:300px">&#8212;Richard P. Feynman</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">10</div>
+                <div class="taxonomy">Falacias informales <b>&rsaquo;</b> Pistas falsas <b>&rsaquo;</b> <b>Argumentación dirigida a las consecuencias</b></div>
+                <div class="page-title">Argumentación dirigida a las consecuencias</div>
+                <div class="page-content">
+                    <p>La argumentación dirigida a las consecuencias se basa en hablar a favor o en contra de una proposición apelando a las consecuencias de aceptarla o rechazarla. El hecho de que una proposición conduzca a un resultado desfavorable no significa que sea falsa. Del mismo modo, el solo hecho de que una proposición tenga consecuencias positivas no la convierte automáticamente en verdadera. Como explica David Hackett Fisher,  “no se deduce que una cualidad ligada a un efecto sea transferible a su causa”.</p>
+                    <p>En el caso de consecuencias positivas, un argumento puede apelar a las esperanzas de la audiencia, y a veces adopta la forma de expresión de deseo. En el caso de consecuencias negativas, los argumentos apelan al miedo. Por ejemplo, en esta cita de Dostoyevsky: “Si Dios no existe, entonces todo está permitido”. Poniendo a un lado las discusiones sobre la moralidad objetiva, la alusión a las consecuencias aparentemente sombrías de un mundo puramente materialista no dicen nada sobre si el antecedente es verdadero o no.</p>
+                    <p>Se debería tener en mente que estos argumentos solo son falaces cuando tratan sobre proposiciones con valores de verdad objetivos, y no cuando tienen que ver con decisiones o políticas [Curtis], como por ejemplo, el caso de un político que se opone a la subida de impuestos por miedo a su impacto negativo sobre las vidas de los votantes.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_consequences.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">12</div>
+                <div class="taxonomy">Falacias informales <b>&rsaquo;</b> Pistas falsas <b>&rsaquo;</b> <b>Hombre de paja</b></div>
+                <div class="page-title">Hombre de paja</div>
+                <div class="page-content">
+                    <p>La falacia del hombre de paja consiste en caricaturizar intencionadamente el argumento del otro con la intención de atacar esta caricatura en vez del argumento real. Tergiversar, citar de forma incorrecta, malinterpretar o simplificar en exceso son medios para poner en práctica esta falacia. Así, se propone un argumento más absurdo que el real, más sencillo de atacar, y como consecuencia, se lleva a nuestro oponente a defender dicho argumento ridículo en vez del original, haciendo que pierda credibilidad.</p>
+                    <p>Por ejemplo: <i>Mi oponente está intentando convencerle de que descendemos de monos que se columpiaban de los árboles, una afirmación verdaderamente ridícula</i>. Esto tergiversa claramente lo que afirma la biología evolucionista, que es la idea de que humanos y  simios compartimos un antepasado común hace varios millones de años. Tergiversar la idea es mucho más sencillo que refutar las pruebas.</p>
+                </div>
+            </div>
+            <img src="images/strawman.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">14</div>
+                <div class="taxonomy">Falacias informales <b>&rsaquo;</b> Pistas falsas <b>&rsaquo;</b> Falacia genética <b>&rsaquo;</b> <b> Apelar a una autoridad irrelevante</b></div>
+                <div class="page-title">Apelar a una autoridad irrelevante</div>
+                <div class="page-content">
+                    <p>Al apelar a una autoridad irrelevante hacemos una apelación al propio sentido de modestia [Engel], es decir, a que otros son más sabios. La apabullante mayoría de las cosas en las creemos, como en los átomos o en el Sistema Solar, descansan sobre una autoridad fiable, al igual que todas las afirmaciones históricas, como señala C. S. Lewis. Sin embargo, se puede apelar razonablemente a autoridades pertinentes, tal y como hacen habitualmente científicos y académicos. Un argumento tan solo se convierte en falaz cuando apela a una autoridad que no es experta en la materia. Una apelación sin valor similar es aquella que se refiere a una autoridad vaga o a un colectivo difuminado. Por ejemplo: <i>Profesores alemanes mostraron que tales cosas eran ciertas</i>.</p>
+                    <p>Otro tipo de autoridad irrelevante es la sabiduría ancestral, donde se asume que algo es cierto simplemente porque se ha creído así durante años. Por ejemplo: <i>La astrología fue practicada por civilizaciones tecnológicamente avanzadas como la Antigua China. Por tanto, debe ser una ciencia verdadera</i>. Se puede apelar al conocimiento tradicional para sostener ideas que son idiosincráticas o que pueden cambiar con el tiempo. Por ejemplo: <i>La gente solía dormir nueve horas hace muchos siglos, por tanto, necesitamos dormir lo mismo ahora</i>. Hay todo tipo de factores que pueden haber hecho que la gente durmiese más en el pasado, pero el hecho de que lo hicieran no ofrece pruebas para el argumento.</p>
+                </div>
+            </div>
+            <img src="images/irrelevant_authority.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">16</div>
+                <div class="taxonomy">Falacias informales <b>&rsaquo;</b> Ambigüedad <b>&rsaquo;</b> <b>Equívoco</b><sup>2</sup></div>
+                <div class="page-title">Equívoco</div>
+                <div class="page-content">
+                    <p>El equívoco explota la ambigüedad del lenguaje, cambiando el significado de una palabra durante el desarrollo de un argumento y usando sus diferentes significados para sostener una conclusión. Una palabra cuyo significado se mantiene es usada de forma unívoca. Considerando el siguiente argumento: <i>¿Cómo puedes estar contra la fe cuando hacemos actos de fe<sup>*</sup> todo el tiempo, por ejemplo, con amigos, futuras esposas e inversores?</i> Aquí, el significado de la palabra fe cambia de una creencia espiritual en el Creador a la confianza en un proyecto arriesgado.</p>
+                    <p>A menudo se invoca esta falacia en discusiones de ciencia y religión, donde la palabra <i>porqué</i> puede ser usada de forma equívoca. En un contexto puede ser usada para buscar la causa, como ocurre en ciencia, y en otros, el propósito, y tratar sobre temas morales y lagunas de conocimiento para las que la ciencia puede no tener respuesta. Por ejemplo, se puede argüir: <i>La ciencia no puede decirnos por qué ocurren las cosas. ¿Por qué existimos?, ¿por qué ser moral? Así, necesitamos alguna otra fuente que nos diga por qué ocurren las cosas</i>.</p>
+
+                    <p class="footnote" style="position:absolute;bottom:-35px"><sup>2</sup> La ilustración se basa en una conversación entre Alicia y la Reina Blanca en <i>A través del espejo</i>, de Lewis Carrol.
+                    <br /><br /><sup>*</sup> En el original, se juega con los significados de <i>faith, fe y confianza</i>, por lo que en español sería más adecuado emplear la expresión voto de confianza en lugar de de acto de fe. (N. del T.)</p>
+                </div>
+            </div>
+            <img src="images/equivocation.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">18</div>
+                <div class="taxonomy">Falacias informales <b>&rsaquo;</b> Hipótesis injustificada <b>&rsaquo;</b> <b>Falso dilema</b><sup>3</sup></div>
+                <div class="page-title">Falso dilema</div>
+                <div class="page-content">
+                    <p>Un falso dilema es un argumento que presenta una pareja de posibles categorías, y asume que todo lo que se discute debe pertenecer a una de ellas. Si una de esas categorías se rechaza, entonces necesariamente se ha de aceptar la otra. Por ejemplo: <i>En la guerra contra el fanatismo no hay márgenes; estás con nosotros o con los fanáticos</i>. En realidad, hay una tercera opinión, que podría ser perfectamente neutral; una cuarta, que podría estar en contra de ambas; e incluso una quinta, la cual podría empatizar con elementos de ambas.</p>
+                    <p>En <i>The Strangest Man</i> [Farmelo], se menciona que el físico Ernest Rutherford contó una vez a su colega Niels Bohr una anécdota sobre un hombre que compró un loro en una tienda y lo devolvió porque no hablaba. Después de varias visitas, el vendedor finalmente le dijo: “¡Oh, de acuerdo! Usted quería un loro que hablase. Por favor, discúlpeme. Le di el loro que pensaba”. Rutherford estaba claramente usando dicha historia para ilustrar el genio del silencioso físico Paul Dirac, protagonista del libro, aunque se puede imaginar que alguien podría usar este razonamiento para sugerir que una persona es ambas cosas: silencioso y pensador, o hablador e imbécil.</p>
+
+                    <p class="footnote" style="bottom:-35px"><sup>3</sup> Esta falacia se puede llamar también la falacia del medio excluido, del blanco y negro o de la falsa dicotomía.</p>
+                </div>
+            </div>
+            <img src="images/false_dilemma.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">20</div>
+                <div class="taxonomy">Falacias informales <b>&rsaquo;</b> Falacia causal <b>&rsaquo;</b> <b>Causa cuestionable</b></div>
+                <div class="page-title">Causa cuestionable</div>
+                <div class="page-content">
+                    <p>Esta falacia asume la causa de un acontecimiento sin  que haya realmente pruebas de que esta exista. Dos acontecimientos pueden ocurrir bien de forma consecutiva, o bien juntos, porque son correlativos, por accidente, o por otro factor desconocido, y no se puede concluir que estén causalmente conectados sin una prueba. <i>El reciente terremoto fue debido a la desobediencia contra el rey</i> no es un buen argumento.</p>
+                    <p>Esta falacia tiene dos tipos específicos: “después de esto, por tanto, por causa de esto” y “con esto, por tanto, por causa de esto”. En el primer caso, se dice que un acontecimiento causa otro porque lo precede, y en el segundo, porque los dos acontecimientos suceden a la vez, se dice que uno causa el otro. En varias disciplinas, se define como <i>confundir correlación con causa</i><sup>4</sup>.</p>
+                    <p>Aquí hay un par de ejemplos, el primero, tomado del cómico Stewart Lee: <i>No puedo decir que, porque yo dibujé un robot en 1976, se estrenó Star Wars, y por tanto ellos copiaron la idea de mí</i>. Y este  otro que vi hace poco en un foro online: <i>Hackearon la web de la compañía de trenes, y cuando miré el horario de llegadas, ¿sabes qué? ¡Iban todos con retraso!</i> Lo que no tuvo en cuenta quien escribió esto es que los trenes raramente llegan a tiempo, por eso, sin ningún tipo de control científico, la inferencia es infundada.</p>
+
+                    <p class="footnote" style="bottom:-35px"><sup>4</sup> Resulta que comer chocolate y ganar el Nobel han mostrado estar altamente relacionados, y quizás esto eleve las esperanzas de muchos comedores de chocolate.</p>
+                </div>
+            </div>
+            <img src="images/not_a_cause_for_a_cause.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">22</div>
+                <div class="taxonomy">Falacias informales <b>&rsaquo;</b> Pistas falsas <b>&rsaquo;</b> Apelar a las emociones> <b>&rsaquo;</b> <b> Apelar al miedo</b></div>
+                <div class="page-title"> Apelar al miedo</div>
+                    <div class="page-content">
+                    <p>Esta falacia juega con los miedos de la audiencia imaginando un futuro temible al que se llegaría si una determinada proposición fuera aceptada. En vez de ofrecer pruebas que muestren que una conclusión sigue a un conjunto de premisas, las cuales supondrían una causa legítima para dicho temor, tales argumentos descansan en la retórica, en amenazas o mentiras descaradas. Por ejemplo: <i>Pido a todos los empleados que voten por mi candidato en las próximas elecciones. Si el otro candidato gana, subirá los impuestos y muchos de vosotros perderéis vuestros trabajos</i>.</p>
+                    <p>Aquí hay otro ejemplo tomado de la novela <i>The Trial</i>: <i>Deberías darme todos vuestros objetos de valor antes de que llegue la policía. Las pondrán en el almacén y allí tienden a perderse</i>. Aquí, el argumento es una amenaza más probable aunque algo más sutil, pero hay un intento de razonamiento. Amenazas obvias y órdenes que no tratan de ofrecer pruebas no deberían confundirse con este tipo de falacias,  incluso si explotan el propio sentido del miedo [Engel].</p>
+                    <p>La apelación al miedo puede proceder a describir un conjunto de acontecimientos terroríficos que ocurren como resultado de aceptar una proposición sin que en realidad existan lazos causales, creando lo que se conoce como <i>efecto dominó</i> o <i>bola de nieve</i>. Igualmente, puede ofrecer alguna alternativa, en cuyo caso nos encontraríamos con un falso dilema.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_fear.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">24</div>
+                <div class="taxonomy">Falacias informales <b>&rsaquo;</b> Analogías débiles <b>&rsaquo;</b> Ejemplos no representativos <b>&rsaquo;</b> <b>Generalizaciones precipitadas</b></div>
+                <div class="page-title">Generalizaciones precipitadas</div>
+                <div class="page-content">
+                    <p>Esta falacia se debe a la generalización a partir de un ejemplo demasiado pequeño o específico para ser representativo. Por ejemplo, preguntar a diez personas de la calle qué piensan del plan presidencial para reducir el déficit no puede decirse que sea representativo del sentimiento de la nación entera.</p>
+                    <p>Aunque convenientes, este tipo de generalizaciones puede conducir a resultados costosos y catastróficos. Por ejemplo, se podría argumentar que los supuestos de ingeniería que condujeron a la explosión del <i>Arianne 5</i> durante su primer lanzamiento fueron el resultado de una generalización precipitada: el conjunto de casos de pruebas (o <i>test cases</i>) que fueron usados en el controlador del <i>Arianne 4</i> no fueron suficientes para cubrir el conjunto de casos de uso en el controlador del <i>Arianne 5</i>. Refrendar tales decisiones normalmente recae sobre la habilidad de ingenieros y directivos para argumentar, y de aquí la relevancia de este y otros ejemplos similares para nuestra discusión sobre falacias lógicas.</p>
+                    <p>El ejemplo siguiente está tomado de <i>Alicia en el País de las Maravillas</i>, donde Alicia infiere que si ella está flotando en una masa de agua, cerca debería haber una estación de tren y, por consiguiente, alguien que la ayude: “Alicia había ido a la playa una vez en su vida, y había llegado a la conclusión general de que, vayas donde vayas en la costa inglesa encontrarás un buen numero de casetas de playa, algunos niños cavando en la arena con palas de madera, una fila de hostales, y detrás, una estación de tren” [Carroll].</p>
+                </div>
+            </div>
+            <img src="images/hasty_generalization.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">26</div>
+                <div class="taxonomy">Falacias informales <b>&rsaquo;</b> Falacia de los datos desaparecidos <b>&rsaquo;</b> <b>Apelar a la ignorancia</b><sup>5</sup></div>
+                <div class="page-title">Apelar a la ignorancia</div>
+                <div class="page-content">
+                    <p>Considerar que una proposición es verdadera simplemente porque no hay pruebas que demuestren que no lo es. Así, la ausencia de evidencias se convierte en evidencia de ausencia. Un ejemplo de Carl Sagan: “<i>No hay pruebas convincentes de que los ovnis no estén visitando la Tierra; por tanto, existen</i>”. Igualmente, como no sabemos cómo se construyeron las pirámides, muchos concluyen que, a menos que se pruebe lo contrario, deben haber sido construidas por un poder sobrenatural. La carga de la prueba, la responsabilidad de demostrar la veracidad, recae sobre la persona que hace la aseveración.</p>
+                    <p>En realidad, siempre deberíamos preguntarnos qué es más probable y basarnos en la evidencia de observaciones pasadas. ¿Es más probable que un objeto que vuela por el espacio sea un artefacto fabricado por humanos o un fenómeno natural, o bien que sean alienígenas de otro planeta? Partiendo de que lo primero lo hemos observado frecuentemente, y lo segundo nunca, es más razonable concluir que es poco probable que los ovnis sean visitantes del espacio exterior.</p>
+                    <p>Una forma específica es el argumento de la incredulidad personal, donde la incapacidad de una persona para imaginar algo conduce a la creencia de que el argumento es falso. Por ejemplo: <i>Es imposible imaginar que realmente mandáramos un hombre a la Luna, por eso, nunca ocurrió</i>. Respuestas que a menudo merecen réplicas ingeniosas como “por eso tú no eres físico”.</p>
+                    
+                    <p class="footnote" style="bottom:-35px"><sup>5</sup> La ilustración está inspirada por la respuesta de Neil de Grasse Tyson a una pregunta de un espectador sobre los ovnis: <a href="https://youtu.be/NSJElZwEI8o">youtu.be/NSJElZwEI8o</a>.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_ignorance.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">28</div>
+                <div class="taxonomy">Falacias informales <b>&rsaquo;</b> Ambigüedad <b>&rsaquo;</b> Equivocación <b>&rsaquo;</b> Redefinición <b>&rsaquo;</b> <b>Ningún escocés verdadero</b></div>
+                <div class="page-title">Ningún escocés verdadero</div>
+                <div class="page-content">
+                    <p>A veces, una afirmación general puede tratar sobre una categoría de cosas. Cuando la enfrentamos al desafío de las pruebas, en vez de aceptarla o rechazarla, se puede contrargumentar mediante una redefinición arbitraria de los criterios para encajar en dicha categoría<sup>6</sup>.</p>
+                    <p>Por ejemplo, se puede exponer que los programadores son personas sin habilidades sociales. Si alguien sale y rechaza esa afirmación diciendo: “<i>Pero John es un programador, y él no es socialmente torpe en absoluto</i>” puede provocar la respuesta: “<i>Sí, pero John no es un verdadero programador</i>”. Aquí, ni están claros cuáles son los atributos de un programador, ni la categoría de programadores está claramente definida, como por ejemplo, digamos, la categoría de gente de ojos azules. La ambigüedad permite a una mentalidad testaruda redefinir las cosas a su voluntad.</p>
+                    <p>Esta falacia fue acuñada por Antony Flew en su libro <i>Thinking about Thinking</i>, donde da el siguiente ejemplo: Hamish está leyendo el periódico y se encuentra una historia sobre un inglés que ha cometido un crimen atroz, a lo que reacciona pensando: “<i>Ningún escocés haría eso</i>”. Al día siguiente, encuentra una historia sobre un escocés que ha cometido un crimen aún peor; en vez de cambiar su afirmación sobre los escoceses, reacciona diciendo: “<i>Ningún verdadero escocés haría eso</i>”.</p>
+                    
+                    <p class="footnote" style="position:absolute;bottom:-35px"><sup>6</sup> Cuando un oponente malicioso redefine una categoría, sabiendo bien que haciéndolo está tergiversando, su ataque remite a la falacia del hombre de paja.</p>
+                </div>
+            </div>
+            <img src="images/no_true_scotsman.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">30</div>
+                <div class="taxonomy">Falacia informal <b>&rsaquo;</b> Pistas falsas <b>&rsaquo;</b> <b>Falacia genética</b></div>
+                <div class="page-title">Falacia genética</div>
+                <div class="page-content">
+                    <p>Los orígenes de un argumento o de la persona que lo expone no tienen ningún efecto sobre su validez. Una falacia genética se comete cuando un argumento es defendido o devaluado exclusivamente por su historia. Como señala T. Edward Damer, cuando uno está emocionalmente ligado a los orígenes de una idea, no suele ser fácil separarse de estos para evaluarla.</p>
+                    <p>Consideremos el siguiente argumento: <i>Por supuesto que apoya a los trabajadores en huelga; después de todo, él es del mismo pueblo</i>. Aquí, en vez de evaluar un argumento basándose en sus méritos, se desestima porque la persona  procede del mismo sitio que los huelguistas. Por tanto, esta información se usa para inferir que sus argumentos no tienen valor. Otro ejemplo: <i>Como hombres y mujeres vivimos en el siglo XXI, no podemos continuar abrazando esas creencias de la Edad de Bronce</i>. ¿Por qué no?, se podría preguntar. ¿Tenemos que desestimar todas las creencias originadas en la Edad de Bronce simplemente porque nacieron en ese periodo?</p>
+                    <p>Por el contrario, se puede invocar la falacia genética en un sentido positivo, diciendo por ejemplo: <i>La visión del arte de Jack no puede ser contestada; proviene de una larga estirpe de reputados artistas</i>. Aquí, como en los ejemplos previos, falta una prueba sólida que sostenga la inferencia.</p>
+                </div>
+            </div>
+            <img src="images/genetic_fallacy.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">32</div>
+                <div class="taxonomy">Falacia informal <b>&rsaquo;</b> Pistas falsas <b>&rsaquo;</b> <b>Culpabilidad por asociación</b></div>
+                <div class="page-title">Culpabilidad por asociación</div>
+                <div class="page-content">
+                    <p>La culpabilidad por asociación es una forma de desacreditar un argumento resaltando una idea compartida por una persona o un grupo demonizado de alguna manera. Por ejemplo: <i>Mi oponente está pidiendo un sistema de salud que remite a los países socialistas. Eso sería claramente inaceptable</i>. Si el sistema de salud propuesto sigue la línea o no de los países socialistas no tiene nada que ver con si es bueno o no.  Es, por tanto, un completo <i>non sequitur</i>. </p>
+                    <p>Otro tipo de argumento, que ha sido repetido <i>ad nauseam</i> en algunas sociedades, es este: <i>No podemos dejar a las mujeres conducir porque en los países infieles dejan a sus mujeres conducir</i>. Esencialmente, lo que este ejemplo y el anterior tratan de argumentar es que algunos grupos de personas son absoluta y categóricamente malos. Por tanto, compartir un solo atributo con dichos grupos nos convertiría en uno de sus miembros, y nos transmitiría todo lo malo con lo que los asociamos.</p>
+                </div>
+            </div>
+            <img src="images/guilt_by_association.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">34</div>
+                <div class="taxonomy">Falacia formal <b>&rsaquo;</b> Falacia proposicional <b>&rsaquo;</b> <b>Afirmar la consecuencia</b></div>
+                <div class="page-title">Afirmar la consecuencia</div>
+                <div class="page-content">
+                    <p>Una de las muchas formas válidas de argumentación es conocida como <i>modus ponens</i> (el modo de afirmar mediante afirmación) y toma la siguiente forma: <strong>Si A entonces C, A; por tanto C.</strong> Más formalmente:</p>
+                    <p style="text-align:center;font-weight:bold">A <b>&rArr;</b> C, A &#8866; C.</p>
+                    <p>Aquí nos encontramos tres proposiciones: dos premisas y una conclusión. A es llamada antecedente y C consecuente. Por ejemplo: <i>Si el agua está hirviendo al nivel del mar, entonces su temperatura es al menos de 100 &deg;C. Este vaso de agua está hirviendo al nivel del mar; por lo tanto, su temperatura es al menos de 100 &deg;C</i>. Tal argumento es válido además de sólido.</p>
+                    <p>Afirmar la consecuencia es una falacia formal que toma la siguiente forma: <br /><strong>Si A entonces C, C; por tanto A.</strong></p>
+                    <p>El error nace de asumir que si la consecuencia es verdad, entonces el antecedente debe ser verdad, lo cual no tiene por qué ser necesariamente el caso. Por ejemplo: <i>La gente que va a la universidad tiene más éxito en la vida. John tiene éxito; por tanto, debe haber ido a la universidad</i>. El éxito de John puede deberse a su educación académica, pero podría ser también el resultado de su crianza o de su entusiasmo para superar dificultades. Más generalmente, no se puede decir que, porque la educación académica implique éxito, si uno tiene éxito es porque ha recibido dicha educación.</p>
+                </div>
+            </div>
+            <img src="images/affirming_the_consequent.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">36</div>
+                <div class="taxonomy">Falacia informal <b>&rsaquo;</b> Pistas falsas <b>&rsaquo;</b> Falacia genética <b>&rsaquo;</b> <i>Ad hominem</i> <b>&rsaquo;</b> <b>Recurso a la hipocresía</b></div>
+                <div class="page-title">Recurso a la hipocresía</div>
+                <div class="page-content">
+                    <p>Conocida también por su nombre latino, <i>tu quoque (tú también)</i>, implica contrarrestar una acusación con otra para desviar la atención del argumento original. Por ejemplo, John dice: “<i>Este hombre está equivocado porque no tiene integridad; solo pregúntale por qué fue despedido de su último trabajo</i>”, a lo que Jack replica: “<i>¿Y qué pasa con lo que hablamos de la prima que te llevaste el año pasado a pesar de que se despidió a la mitad de tu compañía?</i>”. Este recurso se utiliza cuando una persona ataca a otra porque lo que está argumentando choca con sus acciones pasadas [Engel].</p>
+                    <p>En el programa británico de actualidad <i>Have I Got News For You</i>, un tertuliano criticó una protesta en Londres aludiendo a la aparente hipocresía de los manifestantes, señalando que mientras aparentan estar contra el capitalismo, continúan usando <i>smartphones</i> y tomando café en las grandes cadenas. Su intervención se puede ver aquí: <a href="https://youtu.be/8WvAkhW-XNI" target="_blank">youtu.be/8WvAkhW-XNI</a>.</p>
+                    <p>En la película de Jason Reitman <i>Gracias por fumar</i> (Fox Searchlight Pictures, 2005), un diálogo cargado de <i>tu quoque</i> termina con estas palabras del representante del <i>lobby</i> del tabaco, el embaucador Nick Taylor: “<i>Simplemente  me divierte la idea de que este caballero de Vermont me llame hipócrita cuando, en su día, él mismo dio una rueda de prensa en la que pidió que los campos de tabaco de América fueran arrasados y quemados, se montó en su jet privado y voló a Farm Aid**, donde  se montó en un tractor sobre el escenario y se lamentó amargamente de la caída del agricultor americano</i>”.</p>
+                    
+                    <p class="footnote" style="bottom:-35px">** Concierto benéfico anual organizado por la asociación estadounidense del mismo nombre, que apoya a los pequeños granjeros y agricultores. farmaid.org. (N. del T.)</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_hypocrisy.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">38</div>
+                <div class="taxonomy">Falacia informal <b>&rsaquo;</b> La causa por la causa <b>&rsaquo;</b> <b>Efecto dominó</b></div>
+                <div class="page-title">Efecto dominó</div>
+                <div class="page-content">
+                    <p>El efecto dominó<sup>7</sup> desacredita un argumento apuntando a que su aceptación conduce inevitablemente a una concatenación de efectos indeseables. Aunque puede darse el caso de que esta secuencia suceda, la transición de un efecto a otro ocurrirá con alguna probabilidad, y no de forma absolutamente inevitable, como se asume en el argumento sin que se ofrezca ninguna prueba para  sostener tal cosa. La falacia juega con el miedo de la audiencia, y está relacionada con varias otras falacias, tales como la apelación al miedo, el falso dilema y la argumentación dirigida a las consecuencias.</p>
+                    <p>Por ejemplo: <i>No deberíamos permitir el acceso incontrolado a Internet. Lo próximo que sabrás es que la gente frecuenta webs pornográficas, pronto nuestra moral se desintegrará y nos convertiremos en auténticos animales</i>. Está claro que no se aporta ninguna prueba, sino tan solo conjeturas infundadas y ciertas presuposiciones sobre la conducta que implican que el acceso a internet supone la desintegración de la moral social.</p>
+                    
+                    <p class="footnote" style="position:absolute;bottom:-35px"><sup>7</sup> La falacia de efecto dominó descrita aquí es de tipo causal.</p>
+                </div>
+            </div>
+            <img src="images/slippery_slope.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">40</div>
+                <div class="taxonomy">Falacia informal <b>&rsaquo;</b> Pistas falsas <b>&rsaquo;</b> <b>Seguir al rebaño</b></div>
+                <div class="page-title">Seguir al rebaño</div>
+                <div class="page-content">
+                    <p>También conocido como argumento <i>ad populum</i> o sofisma populista, esta falacia se basa en el hecho de que un número considerable de gente, o incluso la mayoría, cree en algo, y se emplea esta creencia como una prueba de verdad.  Muchas veces, este tipo de argumentos han impedido la aceptación generalizada de ideas pioneras. Galileo, por ejemplo, tuvo que enfrentarse a la ridiculización por parte de sus compañeros por seguir el modelo copernicano.</p>
+                    <p>Más recientemente, Barry Marshall tuvo que tomar la extrema determinación de inocularse a sí mismo  con la bacteria <i>H. Pilory</i> para demostrar que era la causante de la úlcera péptica, una teoría que inicialmente fue ampliamente desestimada.</p>
+                    <p>Atraer a la gente mediante la popularidad de un argumento es un recurso muy usado en política y en publicidad. Por ejemplo: <i>Todos los chicos de moda usan esta gomina; sé uno de ellos</i>. Aunque convertirse en un “chico de moda” es una oferta seductora, nada sostiene que haya que comprar el producto anunciado. Los políticos suelen usar una retórica similar para añadir impulso a sus campañas e influir sobre sus votantes.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_bandwagon.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">42</div>
+                <div class="taxonomy">Falacia informal <b>&rsaquo;</b> Pistas falsas <b>&rsaquo;</b> Falacia genética <b>&rsaquo;</b> <b><i>Ad hominem</i></b><sup>8</sup></div>
+                <div class="page-title"><i>Ad hominem</i></div>
+                <div class="page-content">
+                    <p>Un argumento <i>ad hominem</i> es aquel que ataca las características personales en vez de lo que dice el individuo, con la intención de distraer la discusión y desacreditar su argumento.  Por ejemplo: <i>Tú no eres un historiador, ¿por qué no te quedas en tu propio campo?</i> Aquí, el hecho de que la persona sea o no un historiador no tiene ningún impacto sobre el mérito de su argumento, y no refuerza de ningún modo la posición de su atacante.</p>
+                    <p>Este tipo de ataque personal se define como un <i>ad hominem</i> ofensivo. Un segundo tipo, llamado circunstancial, es cualquier argumento que ataca al oponente por razones cínicas, juzgando sus intenciones. Por ejemplo: <i>En realidad, no te importa reducir el crimen en tu ciudad, lo único que quieres es que la gente vote por ti</i>. Sin embargo, hay ocasiones en las que es legítimo sacar a relucir el carácter de una persona y su integridad, como por ejemplo, durante una declaración judicial.</p>
+
+                    <p class="footnote" style="position:absolute;bottom:-35px"><sup>8</sup> La ilustración está basada en una discusión sobre <i>Usenet</i> hace años, en la que participaba un programador muy testarudo y demasiado entusiasta.</p>
+                </div>
+            </div>
+            <img src="images/ad_hominem.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">44</div>
+                <div class="taxonomy">Falacia informal <b>&rsaquo;</b> Falacia de la petición de principio <b>&rsaquo;</b> <b>Razonamiento circular</b></div>
+                <div class="page-title">Razonamiento circular</div>
+                <div class="page-content">
+                    <p>El razonamiento circular es uno de los cuatro tipos conocidos como petición de principio [Damer], donde se asume la conclusión, explícita o implícitamente, en una o más premisas. En el razonamiento circular, la conclusión es usada como premisa de forma evidente, o más a menudo, reformulada para parecer una proposición diferente cuando realmente es la misma. Por ejemplo: <i>Estás completamente equivocado, lo que dices no tiene  ningún sentido</i>. Estas dos proposiciones realmente son la misma, porque estar equivocado y no tener sentido, en este contexto, es lo mismo. El argumento es simplemente afirmar: “Por causa de x, entonces x”, lo cual no tiene sentido.</p>
+                    <p>A veces, un argumento circular descansa en premisas que no se dicen, lo cual puede hacer más difícil que sea detectado. Aquí hay un ejemplo de la serie de TV australiana <i>Please Like Me</i>, donde uno de los personajes condena a otro, ateo, al infierno, a lo cual este responde: “<i>Eso no tiene sentido. Es como si un hippy te amenazase con pegarle a tu aura</i>”. En este ejemplo, la premisa silenciada es la existencia de un Dios que envía a un subgrupo de gente al infierno. Por tanto, la premisa <i>Existe un Dios que envía a los ateos al infierno</i> se usa para sostener la conclusión <i>Existe un Dios que envía a los ateos al infierno</i>.</p>
+                </div>
+            </div>
+            <img src="images/circular.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">46</div>
+                <div class="taxonomy">Falacia informal <b>&rsaquo;</b> Hipótesis injustificada > Composición y división</b></div>
+                <div class="page-title">Composición y división</div>
+                <div class="page-content">
+                    <p>Composición es inferir que un todo debe tener una determinada particularidad porque una de sus partes la posee. Que cada oveja de un rebaño tenga una madre no implica que el propio rebaño tenga una madre, para parafrasear a Peter Millican. Otro ejemplo: <i>Cada módulo de este sistema de software ha estado sujeto a un conjunto de tests y los ha pasado todos. Por tanto, cuando el software se ensamble, el sistema no violará ninguna de las invariantes verificadas por dichos tests</i>. La realidad es que la integración de partes individuales introduce nuevas complejidades en el sistema que se deben a determinadas dependencias que pueden introducir nuevas vías de fallo potencial.</p>
+                    <p>Por el contrario, la división infiere que una parte debe tener algún atributo porque el todo al que pertenece lo tiene. Por ejemplo: <i>Nuestro equipo es imbatible. Cualquiera de nuestros jugadores sería capaz de enfrentarse a un jugador de otro equipo y eclipsarlo</i>. Mientras puede ser verdad que el equipo sea imbatible, no se puede usar esta evidencia para inferir que cada uno de sus jugadores sea imbatible. El éxito de un equipo no es, claramente, la suma de las habilidades individuales de sus jugadores.</p>
+                </div>
+            </div>
+            <img src="images/composition_and_division.png" class="right" />
+
+            <!-- final remarks -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/final_remarks.png" />
+            </div>
+            <div class="right">
+                <div class="page-number">49</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <!--<p style="margin-top:95px">Many years ago, I heard a professor introduce deductive arguments using a wonderful metaphor, describing them as watertight pipes where truth goes in one end and truth comes out the other end. As it happens, that was the inspiration for this book's cover.  Having reached the end of this book, I hope that you leave with a better appreciation of the benefits of watertight arguments in validating and expanding knowledge.  I hope that you also leave with a realization of the dangers of flimsy arguments and how commonplace they are in our everyday lives.</p>-->
+                    <p style="margin-top:95px">Hace muchos años escuché a un profesor introducir los argumentos deductivos usando una metáfora maravillosa, describiéndolos como tuberías herméticas donde la verdad entra por un extremo y sale por el otro. Y esta fue la inspiración para la portada del libro. Llegando al final, espero que el lector tenga una mejor apreciación de los argumentos herméticos, sin lagunas, en la validación y expansión del conocimiento, sino también de la complejidad de los argumentos inductivos, donde la probabilidad entra en juego. Con estos argumentos en concreto, el pensamiento crítico se convierte en una herramienta indispensable. Espero que el lector se marche también con la conciencia de los peligros que ofrecen los argumentos endebles, y de lo presentes que estos están en nuestras vidas.</p>
+                    <p class="footnote license" style="position:absolute;bottom:36px;width:520px">
+                        <a class="internal" href="#base">Scroll down for more</a> &nbsp; <b>&middot;</b> &nbsp;
+                        Share on &nbsp; 
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- definitions -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/definitions.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">51</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>Proposición:</strong> Afirmación que puede ser verdadera o falsa, pero no las dos cosas a la vez. Por ejemplo, <i>Boston es la ciudad más grande de Massachusetts</i>.</p>
+                    <p><strong>Premisa:</strong> Proposición que proporciona el apoyo para la conclusión de un argumento. Un argumento debe tener una o más premisas.</p>
+                    <p><strong>Argumento:</strong> Conjunto de proposiciones dirigido a persuadir a través del razonamiento. En la estructura del argumento, un subconjunto de proposiciones, llamadas <i>premisas</i>, proporcionan el soporte necesario para otra proposición llamada <i>conclusión</i>.</p>
+                    <p><strong>Argumento deductivo:</strong> Argumento en el cual, si las premisas son verdad, la conclusión debe ser verdad. Se dice que la conclusión deriva por necesidad lógica de las premisas. Por ejemplo: <i>Todos los hombres son mortales. Sócrates es un hombre. Por tanto, Sócrates es mortal</i>. Un argumento deductivo se plantea como válido, pero evidentemente, puede no serlo.</p>
+                    <p><strong>Argumento inductivo:</strong> En un argumento en el que las premisas son verdad, es probable que la conclusión sea también verdad<sup>9</sup>. La conclusión no deriva por tanto de las premisas por necesidad lógica, sino más bien por probabilidad.</p>
+                    
+                    <p class="footnote" style="bottom:-60px"><sup>9</sup> En la ciencia, se suele proceder de los datos a las leyes, y de estas a las teorías, así que la inducción es el fundamento de muchas ciencias. La inducción normalmente presupone la necesidad de experimentar para probar una proposición o un ejemplo, bien porque sería imposible, o bien porque no sería práctico hacerlo de otra manera.</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">52</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p>Por ejemplo: <i>Cada vez que medimos la velocidad de la luz en el vacío, esta es de 3&nbsp;x&nbsp;10<sup>8</sup>&nbsp;m/s. Por tanto, la velocidad de la luz en el vacío es una constate universal</i>. Los argumentos deductivos proceden generalmente de lo específico a lo general.</p>
+                    <p><strong>Falacia lógica:</strong> Error de razonamiento que lleva a un argumento inválido. Dichos errores tienen que ver estrictamente con el razonamiento usado en la transición de una proposición a la siguiente, y no con los hechos. Para explicarlo de otra manera, un argumento inválido en la expresión de una cuestión no implica necesariamente que la cuestión no sea razonable. Las falacias lógicas son violaciones de uno o más de los principios que construyen un buen argumento, como una buena estructura, consistencia, claridad, orden, relevancia o integridad.</p>
+                    <p><strong>Falacia formal:</strong> Una falacia cuya forma  no se adecua a la gramática y las reglas de la inferencia y el cálculo formal. La validez del argumento puede ser determinada mediante el análisis de su estructura abstracta, sin necesidad de evaluar su contenido.</p>
+                    <p><strong>Falacia informal:</strong> Una falacia lógica que se debe a su contenido y su contexto más que a su forma. Si el error de razonamiento es invocado comúnmente, el argumento se considera una falacia informal.</p>
+                    <p><strong>Validez:</strong> Un argumento deductivo es válido si su conclusión se deriva lógicamente de sus premisas. En caso contrario, se dice que es inválido. Los descriptores <i>válido</i> e <i>inválido</i> se aplican exclusivamente a los argumentos y no a las proposiciones.</p>
+                </div>
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">53</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>Solidez:</strong> Un argumento deductivo es sólido si es válido y sus premisas son verdaderas. Si una de estas condiciones no se cumple, el argumento no es sólido. La verdad se determina atendiendo a la concordancia entre las premisas y conclusiones y los hechos del mundo real.</p>
+                    <p><strong>Fuerza:</strong> Un argumento inductivo es fuerte en el caso de que sus premisas sean verdad, por lo que es altamente probable que su conclusión sea también verdadera. En el caso contrario, cuando es improbable que la conclusión sea verdadera, se dice que es <i>débil</i>. Los argumentos inductivos no son nunca garantes de la verdad, pues nunca se da el caso de que una conclusión verdadera tenga que derivar necesariamente de las premisas aunque estas lo sean.</p>
+                    <p><strong>Contundencia:</strong> Un argumento inductivo es contundente si es fuerte y las premisas son realmente verdaderas. De otro modo, se dice que no es contundente o que es dudoso.</p>
+                    <p><strong>Falsabilidad:</strong> Atributo de una proposición o argumento que puede ser refutado o reprobado a través de la observación o la experimentación. Por ejemplo, la proposición <i>Todas las hojas son verdes</i> puede ser refutada señalando a una hoja en concreto que no es verde. La falsabilidad es un signo de la fuerza de un argumento más que de su debilidad.</p>
+                </div>
+            </div>
+            <!-- end definitions -->
+
+            <!-- references -->
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/references_i.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">55</div>
+                <div class="page-title"></div>
+                <div class="page-content bibliography">
+                    <p>[Aristotle] Aristotle, On Sophistical Refutations, translated by W. A. Pickard, http://classics.mit.edu/Aristotle/sophist_refut.html</p>
+                    <p>[Avicenna] Avicenna, Treatise on Logic, translated by Farhang Zabeeh, 1971.</p>
+                    <p>[Carroll] Lewis Carroll, Alice's Adventures in Wonderland, 2008,<br />http://www.gutenberg.org/files/11/11-h/11-h.htm</p>
+                    <p>[Curtis] Gary N. Curtis, Fallacy Files, http://fallacyfiles.org</p>
+                    <p>[Damer] T. Edward Damer, Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments (6th ed), 2005.</p>
+                    <p>[Engel] S. Morris Engel, With Good Reason: An Introduction to Informal Fallacies, 1999.</p>
+                    <p>[Farmelo] Graham Farmelo, The Strangest Man: The Hidden Life of Paul Dirac, Mystic of the Atom, 2011.</p>
+                    <p>[Fieser] James Fieser, Internet Encyclopedia of Philosophy, http://www.iep.utm.edu</p>
+                    <p>[Firestein] Stuart Firestein, Ignorance: How it Drives Science, 2012.</p>
+
+                    <p class="footnote license" style="position:absolute;bottom:-46px;width:520px">
+                        <a class="internal" href="#base">Scroll down for more</a> &nbsp; <b>&middot;</b> &nbsp;
+                        Share on &nbsp; 
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">56</div>
+                <div class="page-title"></div>
+                <div class="page-content bibliography">
+                    <p>[Fischer] David Hackett Fischer, Historians' Fallacies: Toward a Logic of Historical Thought, 1970.</p>
+                    <p>[Gula] Robert J. Gula, Nonsense: A Handbook of Logical Fallacies, 2002.</p>
+                    <p>[Hamblin] C. L. Hamblin, Fallacies, 1970.</p>
+                    <p>[King] Stephen King, On Writing, 2000.</p>
+                    <p>[Minsky] Marvin Minsky, The Society of Mind, 1988.</p>
+                    <p>[P&oacute;lya] George P&oacute;lya, How to Solve It: A New Aspect of Mathematical Method, 2004.</p>
+                    <p>[Russell] Bertrand Russell, The Problems of Philosophy, 1912,<br />http://ditext.com/russell/russell.html</p>
+                    <p>[Sagan] Carl Sagan, The Demon-Haunted World: Science as a Candle in the Dark, 1995.</p>
+                    <p>[Simanek] Donald E. Simanek, <i>Uses and Misuses of Logic</i>, 2002,<br />http://www.lhup.edu/~dsimanek/philosop/logic.htm</p>
+                    <p>[Smith] Peter Smith, An Introduction to Formal Logic, 2003.</p>
+                </div>
+            </div>
+            <div class="right right-option3">
+                <div class="page-number">57</div>
+                <div class="page-title"></div>
+                <div class="page-content">              
+                    <p class="footnote license" style="position:absolute;bottom:-60px;width:520px">
+                        <a class="internal" href="#base">Scroll down for more</a> &nbsp; <b>&middot;</b> &nbsp;
+                        Share on &nbsp; 
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                </div>
+            </div>
+            <!-- end references -->
+          </div>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="hope-you-enjoyed-that"> 
+            <h3>Hope you enjoyed that</h3>
+            <div class="outro">
+                <p>This has been <span class="highlight">An Illustrated Book of Bad Arguments</span>. Thanks for visiting. Sightings of unintended irony should be <a href='https://github.com/almossawi/badarguments' class='underline'>reported to the author!</a></p>
+                <p>If you would like to help support this book with a small donation, that would be much appreciated.  Thank you!</p>
+                
+                <div id="slider-div">
+                    <div id="slider-range-min" style="margin-top:5px;padding-right:10px"></div>
+                    <label for="amount" style="line-height:40px">Name your price (drag slider to change)</label>
+                </div>
+                <div id="amount-div">
+                    <span id="amount" style="font-size:40px"></span>
+                </div>
+
+                <form id="stripe-form" action="../charge.php" method="POST" style="padding-top:22px">
+                    <input type="hidden" id="amount_in_cents" name="amount_in_cents" value="200" />
+
+                    <div>
+                    <script
+                      src="https://checkout.stripe.com/v2/checkout.js" class="stripe-button"
+                          data-key="pk_live_1wyUR9ETeoSkjh7mvhfbYkLz"
+                          data-name="An Illustrated Book of Bad Arguments"
+                          data-description="Donation"
+                          data-currency="usd"
+                          data-image="../images/stripe_thumb.png">
+                    </script>
+                    </div>
+                </form>
+                <p class="stripe">Secure payments by <a href="https://stripe.com" class="underline" target="_blank">stripe</a></p>
+                <p class="courtesy-of">Background image courtesy of <a href="http://subtlepatterns.com" class="underline">subtlepatterns</a></p>
+
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHRwYJKoZIhvcNAQcEoIIHODCCBzQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYC4WHPVa+29SuioGqHt01NUHAxbkRYBoaztr+ujnKAGgl/AJvpWo7HLiwh8HwtJG7JuDyzDSnD2MeegwGyvh8kZRIOtD95vTGj3w4jHbPZxzeufTQBgsSOxKTLFACJtcF09cmF5H+Ho87hkg5lBps1jPfIdUfTlOoslnOcEfaDrKjELMAkGBSsOAwIaBQAwgcQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQINB++j5Z2XoSAgaBQdLH/6j+AyGfYOOxREz/7UooEWn9TwNjoax8xzIDYcPE5YuejTg8ztN2i78FR0EDZOHe2feCkshxtox95PPC+t5vRnWxYntkJE04tVwUFy0B0HoYTBx78CD65uuW8O9AmOxqI0L5Dq44MtI2E+NXnQQVOfzsbNOTJzdPM6FMr1JFaC2A+x2AXccZ4su6o2QR+GaoEFnvCXror57is5kW8oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTQwNjIwMjExNjA3WjAjBgkqhkiG9w0BCQQxFgQUwMFAvYwN5fWFnC6A3WyA+a07u/gwDQYJKoZIhvcNAQEBBQAEgYA1J7KFMhnclAg5Lyqf7ZvGFmAOu7u0/o2QasuztGZEiTCJ1eaiWHFO3jAcZ5pd3faC0XYNBIbpmvyo6daI4AOu7aCn1mMfWNE0VCTE+piSa7BxfM90n30bqra9SWy4Gxeod20OLuuwgnSkSFKNDp9WoRSB5hei+K/Cd1JPNlwdUA==-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://bookofbadarguments.com/images/paypal-donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin-left:30px;margin-top:15px">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </div>
+            <div class="gradient"></div>
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div id="base" name="base">
+            <div id="base-book">
+                <img src="../images/book.png" width="220" height="185" alt="In print" />
+            </div>
+
+            <div id="base-prose">
+                <p style="margin-left:12px">Join the mailing list for two updates per year about this and <a href='https://thelandofbards.com' class='underline'>related projects</a>.</p>
+
+                <link href="../css/mailchimp-slim-081711.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{clear:left;font:14px;width:400px;}
+                </style>
+                <div id="mc_embed_signup">
+                    <form action="https://almossawi.us7.list-manage.com/subscribe/post?u=9c4dbd8f3e2d9a588cfe43dae&amp;id=3c89277de1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="base-contact">
+                <a class='tiny-button fa fa-2x fa-facebook-square' href='https://www.facebook.com/badarguments' title='Facebook'></a> 
+                <a class='tiny-button fa fa-2x fa-github' href='https://github.com/almossawi/badarguments' title='Github'></a> 
+                <a class='tiny-button fa fa-2x fa-twitter' href='https://twitter.com/alialmossawi' title='Twitter'></a> 
+                <a class='tiny-button fa fa-2x fa-instagram' href='https://instagram.com/almossawi' title='Instagram'></a>
+                <!--<a class='tiny-button fa fa-2x fa-envelope-o' href='mailto:ali@almossawi.com' title='Email'></a>-->
+
+                <div id="base-social">
+                    <div class="twitter-block"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://bookofbadarguments.com" data-via="alialmossawi">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+                    <div id="fb-block" class="fb-like" data-href="https://bookofbadarguments.com" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-font="arial"></div>
+
+                    <div style="height:15px;clear:both"></div>
+                    <div class="copyright-strip">
+                        2013-2015 &middot; <a href="#inline_content" class='inline underline'>See the sketches</a> 
+                        &middot; <a href="https://github.com/almossawi/badarguments" class='underline'>Get the code</a>
+                        <div class="url-link"><a href="https://almossawi.com/bookofbadarguments.html" style="text-decoration:none;color:#c7c7c7">www.bookofbadarguments.com</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="base-news" class="hide-on-mobile">
+                <div class='announcement'><b>News</b> &middot; <a href="http://www.abc.net.au/radionational/programs/drive/the-lost-art-of-making-sense/5919286" class='underline'>A conversation with ABC Radio about the art of making sense.</a></div>
+                <div class='announcement'><b>Announcement</b> &middot; <a href="http://www.reddit.com/r/IAmA/comments/2irsu5/hi_reddit_i_created_the_book_of_bad_arguments/" class='underline'>I'll be doing a Reddit Ask Me Anything on October 9 at 1:00PM (ET).</a></div>
+                <div class='announcement'><b>News</b> &middot; <a href="https://twitter.com/alialmossawi/status/526110069348257795" class='underline'>The Book of Bad Arguments website recently crossed 1 million visitors.</a></div>
+            </div>
+
+            <div style="clear:both;height:20px"></div>
+
+            <div id="press" class="hide-on-mobile">
+                <img src="../images/in_the_press.png" /> 
+                <a href="https://www.fastcocreate.com/3019063/now-more-than-ever-you-need-this-illustrated-guide-to-bad-arguments-faulty-logic-and-silly-r"><img src="../images/fastcompany.png" /></a> 
+                <a href="http://geekdad.com/2013/09/teach-kids-logic-illustrated-book-bad-arguments/"><img src="../images/geekdad.png" /></a> 
+                <a href="http://dish.andrewsullivan.com/2013/09/09/this-little-piggy-made-a-logical-error/"><img src="../images/the_dish.png" /></a> &nbsp;
+                <a href="https://www.buzzfeed.com/kevintang/charming-cartoons-that-debunk-your-bs-arguments"><img src="../images/buzzfeed.png" /></a> &nbsp;
+                <a href="http://io9.com/a-guide-to-fallacious-arguments-illustrated-with-funny-1273276162"><img src="../images/io9.png" /></a> 
+                <a href="https://laughingsquid.com/an-illustrated-book-of-bad-arguments-logical-fallacies-explained-with-fun-animal-illustrations/"><img src="../images/laughing_squid.png" /></a> 
+                <a href="https://boingboing.net/2014/03/21/bad-arguments-great-illustrat.html"><img src="../images/boingboing.png" /></a> &nbsp;
+                <!--<a href="https://www.reddit.com/r/philosophy/comments/1lcqzu/an_illustrated_book_of_bad_arguments/"><img src="../images/reddit.png" /></a> &nbsp;-->
+                <!--<a href="http://www.philosophynews.com/post/2013/08/21/An-Illustrated-Book-of-Bad-Arguments.aspx"><img src="../images/philosophy_news.png" /></a>--> 
+                <a href="http://www.openculture.com/2015/04/an-illustrated-book-of-bad-arguments.html"><img src="../images/open_culture.png" /></a> 
+                <a href="http://dangerousminds.net/comments/an_illustrated_book_of_bad_arguments_dispatching_the_dumb_one_funny_animal" class="hide-on-mobile"><img src="../images/dangerous_minds.png" /></a> 
+            </div>
+        </div>
+
+        <div style='display:none'>
+            <div id='inline_content'>
+                <p>A reader recently wrote in asking if I could share a bit about the process of putting the book together and talk about how the project started.  Certainly.</p>
+                <br /><br />
+                <p><span style="font-family:Georgia,Times;font-size:60px">I</span> go on two solitary walks every day.  There is a small park off the Embarcadero that is tucked away in a quiet spot.  It has a pleasant stream flowing through it and an unassuming bench beside that stream.  I have made walking to that frail bench a ritual, and the half an hour or so spent daydreaming on it amid the cool San Francisco breeze, an article of faith.</p>
+                <p>It was on a day in October of last year when, during one of those quiet moments on that bench, I recalled my college years and how outspoken I happened to be during them, an observation only made interesting by the fact that  I have since turned into the quietest of beings.  They say that achieving knowledge is a function of one's ability to maintain both doubt and hubris.  I don't know.  I find that as the years go by, I am left with more of the former and less of the latter.</p>
+                <p>A realization that coincided with that nostalgic whiff was that a sizable amount of the discourse nowadays continues to be plagued with bad reasoning.</p>
+                <p>Hence, the idea that finally shook me into soberness was one that had been fermenting for a while.  It was that of visualizing, in a simple manner, some of the principles that had helped me do well in debates and in off-the-cuff arguments with colleagues.  Simple.  That would be the novelty of it.  And so, with my two-year old daughter in the back of my mind, I decided that illustration would be an ideal language, given its universal appeal.</p>
+                <p>Once I had a draft version of the book ready, I sent it to one of my life-long idols, Marvin Minsky, co-founder of the MIT Artificial Intelligence Lab and author of <i>The Society of Mind</i>.  I must have spent a good week writing that email.  I was overjoyed when he wrote back a few hours later calling the book &ldquo;beautiful!&rdquo;  It was quite possibly one of the highlights of my life.  Having read the email, I made sure to maintain my earnestness while I found a private place, wherein I proceeded to do the Apache dance from <i>Fresh Prince</i>.</p>
+                <div style="height:312px;width:800px">
+                    <img src="../images/sketches/minsky.jpg" />
+                </div>
+                <p>The cover is inspired by one of my favorite games growing up: LucasArts' <i>Monkey Island</i> series.  The title's typography and the general feel of the whole scene borrow a bit from <i>Monkey Island</i> and a bit from <i>Indiana Jones</i>.  The cover's concept is based on the metaphor that good deductive logic is like a watertight pipe where truth goes in and truth comes out.  Hence, the cave that the two explorers are peeking through, which you may notice has an opening resembling that of a human ear, is actually the inside of someone's head, and the leaking pipes indicate that this person's head is filled with bad logic.</p>
+                <p>Shown below are some of the original sketches that I came up with.  I had the scenarios, characters and captions in mind, and a modest ability to transform them into drawings.  What I really wanted though was a woodcut style that would give the work an antiquated feel, because after all, if it looks old, then it must be of value&mdash;irony intended.  I commissioned a professional illustrator who did a nice job of translating a set of sketches, prose and undocumented ideas into the illustrations you see in this final artifact.</p>
+                <p>The project is a public service, and although it has cost a fair amount of money, nothing would make me happier than to see it used to teach younger people or those new to the field the importance of logical reasoning.  It is meant to serve as a modest, yet hopefully timeless, contribution.</p>
+                <p>Thank you for visiting and for your emails; they make my day.  Enjoy the sketches below.  If you don't see them, then they are still being loaded. Look out for the print version on Amazon later this year.</p>
+                <p><i>August 20, 2013 &middot; <a href="/#inline_content" style="color:white">(permalink)</a></i></p>
+                <div style="height:9600px;width:800px"> 
+                    <img src="../images/sketches/bear.jpg" />
+                    <img src="../images/sketches/pig.jpg" />
+                    <img src="../images/sketches/donkey.jpg" />
+                    <img src="../images/sketches/donkey2.jpg" />
+                    <img src="../images/sketches/frog.jpg" />
+                    <img src="../images/sketches/frog2.jpg" />
+                    <img src="../images/sketches/cat.jpg" />
+                    <img src="../images/sketches/vultures.jpg" />
+                    <img src="../images/sketches/toucan.jpg" />
+                    <img src="../images/sketches/chimp.jpg" />
+                    <img src="../images/sketches/crane.jpg" />
+                    <img src="../images/sketches/cow.jpg" />
+                    <img src="../images/sketches/sealion.jpg" />
+                    <img src="../images/sketches/all.jpg" />
+                    <img src="../images/sketches/proof.jpg" />
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/global.js"></script>
+    </body>
+</html> 
