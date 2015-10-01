@@ -1,0 +1,766 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:title" content="Kehnojen Argumenttien Kuvakirja (Suomeksi kääntäneet Mikko Muilu et al)" />
+        <meta property="og:description" content="Tämä kirja on suunnattu ihmisille, jotka aloittelevat loogisen päättelyn parissa ja jotka ymmärtävät parhaiten kuvien kautta. Olen valinnut pienen joukon yleisimpiä päättelyvirheitä ja visualisoinut niitä käyttämällä muistiinpainuvia piirroksia ja niitä täydentäviä esimerkkejä. Toivon, että lukija oppisi tämän kirjan avulla yleisimmät argumentoinnin sudenkuopat ja pystyisi tunnistamaan ja välttämään niitä käytännössä." />
+        <meta property="og:image" content="https://bookofbadarguments.com/fi/images/1.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bookofbadarguments.com/" />
+        <meta property="og:site_name" content="Kehnojen Argumenttien Kuvakirja" />
+        <meta property="fb:admins" content="542418566" />
+        
+        <title>Kehnojen Argumenttien Kuvakirja (Suomeksi kääntäneet Mikko Muilu, Harri Heikkilä, Timo Ylimäki, Marja Oilinki, Tere Sammallahti, Lauri Palsa)</title>
+
+        <link rel="stylesheet" href="../css/jquery-ui.css" type="text/css" />
+        <link rel="stylesheet" href="../css/colorbox.css" type="text/css" />
+        <link rel="stylesheet" href="../css/double-page.css" type="text/css" />
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js" type="text/javascript"></script>
+
+        <script src="../js/jquery.colorbox-min.js"></script>
+        <script src="../js/modernizr.2.5.3.min.js"></script>
+        <script src="../js/turn.min.js"></script>
+        <script src="../js/turn.html4.min.js"></script>
+        <script src="../js/scissor.min.js"></script>
+        <script src="../js/jquery.easing.1.3.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-42350635-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            //ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=256637467814064";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!--<div class="corner-ribbon top-left brown shadow hidden-xs hidden-sm">1.8 million visitors</div>-->
+ 
+        <!-- force background image to load first -->
+        <img src="../images/community-heart.png" style="display:none" />
+        <img src="../images/noise.png" style="display:none" />
+        <img src="../images/bg_right.png" style="display:none" />
+        <img src="../images/bg_right2.png" style="display:none" />
+        <img src="../images/bg_right3.png" style="display:none" />
+        <img src="../images/bg_left.png" style="display:none" />
+        <img src="../images/bg_left2.png" style="display:none" />
+        <img src="../images/arrow-right.png" style="display:none" />
+        <img src="../images/handle.png" style="display:none" />
+        <img src="../images/slider-bg.png" style="display:none" />
+        <img src="../images/bear.png" style="display:none" />
+        <img src="../images/book.png" style="display:none" />
+        <img src="../images/stripe_thumb.png" style="display:none" />
+
+        <div class="topbar">
+            <div class="contributors">
+                <a href="https://github.com/almossawi/badarguments">
+                    <img src="../images/community-heart.png" />
+                </a>
+            </div>
+            <a href="/thebook/?from=main_page">
+                <img src="../images/track_the_book.png" class="buy-the-book" />
+            </a>
+            <div id="zoom_info"></div>
+        </div>
+
+        <!-- languages -->
+        <div class="container-languages">
+            <div class="languages">
+                <a href="/">English</a>
+                <a href="/es/">Español</a>
+                <a href="/ar/">العربية</a>
+                <a href="/pt/">Português</a>
+                <a href="/pt-br/">Português brasileiro</a>
+                <a href="/zh-cn/">中文</a>
+                <a href="/fi/" class="selected">Suomeksi</a>
+                <a href="/sk/">Slovenčina</a>
+                <a href="/he">עברית</a>
+            </div>
+        </div>
+
+        <div class="container">
+          <div class="left-arrow"><a href="#"><img src="../images/arrow-left.png" /></a></div>
+          <div class="right-arrow"><a href="#"><img src="../images/trans.png" /></a></div>
+
+          <div class="loading">LADATAAN</div>
+          <div class="howto"><img src="images/howto.png" /></div>
+
+          <div class="flipbook" style="position:relative">
+            <div id="cover" class="left">
+                <img src="images/1.jpg" />
+            </div>
+            <div id="blank_page" class="left">
+            </div>
+            <div class="right right-option1">
+                <img src="images/2b.png" />
+
+                <div class="page-content" style="position:absolute;z-index:999;right:0">
+                    <p class="translated-by">
+                        <span class="translated-into">Suomeksi kääntäneet</span><br />
+                        <span class="authors">Mikko Muilu, Harri Heikkilä, Timo Ylimäki, Marja Oilinki, Tere Sammallahti, Lauri Palsa</span>
+                        <br /><br />
+                        <span class="contact">mikko.muilu@gmail.com &middot; 17.6.2015</span>
+                    </p>
+                </div>  
+            </div>
+
+            <!-- endorsements -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="text-align:justify;margin-top:280px;width:520px;font-size:7.5pt;line-height:14px">
+                        Tämä pienellä kirjoitettu teksti ei palvele mitään tarkoitusta, mutta saa tämän opuksen näyttämään oikealta kirjalta. Painettujen kirjojen ensimmäisellä tai toisella sivulla on yleensä pätkä pienellä painettua tekstiä ja sitä seuraa symboleja ja merkintöjä, kuten © 2013. Kaikki oikeudet pidätetään. Tämä ja tuo. Painettu Yhdysvalloissa. Kustantaja voi lisätä tähän lakitekstiä pelotellakseen mahdollisia piraatteja. Mitään osaa tästä kirjasta ei saa käyttää tai jäljentää millään tavalla ilman kirjallista lupaa. Tätä seuraa tyypillisesti parin rivin verran tietoja kustantajasta, minkä jälkeen tulee numerosarja.<br /><br />
+                        Jos haluat lisätietoja, ota yhteyttä JasperCollins Publishers-kustantamoon, 99 St Marks Pl New York, NY 94105.<br />
+                        12 13 14 15 16 LP/SSRH 10 9 8 7 6 5 4 3 2 1<br /><br />
+                        Vakavasti ottaen, tämä teos on jaettu 
+                        <a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons BY-NC</a>-lisenssin ehdoilla, mikä tarkoittaa, että voit vapaasti jakaa ja muokata tätä ei-kaupalliseen käyttöön, kun nimeät lähteen.<br /><br />
+                        Taiteellinen johtaja: Ali Almossawi, Kuvitus: Alejandro Giraldo.
+                    </p>
+                </div>
+            </div>
+            <div class="right right-option2">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class="endorsement"><span style="font-size:18px">&ldquo;</span>Rakastan Kehnojen Argumenttien Kuvakirjaa, virheetöntä virheiden kokoelmaa.<span style="font-size:18px">&rdquo;</span></p>
+                    <p class="endorsement_author">&#8212;Professori Alice Roberts, anatomian tutkija,<br />BBC:n &ldquo;The Incredible Human Journey&rdquo;-ohjelman juontaja</p>
+
+                    <p class="endorsement2"><span style="font-size:18px">&ldquo;</span>Ihastuttavan helppolukuinen yhteenveto argumentaation sudenkuopista ja tekniikoista. En voisi kuvitella parempaa tapaa logiikan diskurssin perustaviin ajatuksiin tutustumiseen ja niiden kertaamiseen. Ihana kirja.<span style="font-size:18px">&rdquo;</span></p>
+                    <p class="endorsement_author2">&#8212;Aaron Koblin, luova johtaja Googlen Data Arts-tiimi</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/toc_i.png" />
+            </div>
+            <div class="right right-option3">
+                <img src="images/toc_ii.png" style="margin-left:1px" />
+            </div>
+
+            <!-- who is this book for -->
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/who_for.png" />
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">3</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:100px">Tämä kirja on suunnattu ihmisille, jotka aloittelevat loogisen päättelyn parissa ja jotka ymmärtävät parhaiten kuvien kautta. Olen valinnut pienen joukon yleisimpiä päättelyvirheitä ja visualisoinut niitä käyttämällä muistiinpainuvia piirroksia ja niitä täydentäviä esimerkkejä. Toivon, että lukija oppisi tämän kirjan avulla yleisimmät argumentoinnin sudenkuopat ja pystyisi tunnistamaan ja välttämään niitä käytännössä.</p>
+                </div>
+            </div>
+
+            <!-- preface -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/preface_i.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">5</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p>Kirjallisuus logiikasta ja logiikan virheistä on laaja ja kattava. Uutta tämän kirjan tarkastelutavassa on kuvien käyttö yleisimpien keskusteluja vaivaavien loogisten virheiden selittäjänä.</p>
+                    <p>Kuvituksen innoittajina ovat olleet osittain Orwellin Eläinten vallankumous ja osittain humoristiset hölynpölyteokset, kuten Lewis Carrollin sadut ja runot. Mainituista teoksista poiketen tämän kirjan kuvia ei yhdistä juoni, joka sitoisi tarinoita yhteen. Nämä ovat erillisiä tapauksia, jotka ovat samankaltaisia lähinnä teemansa ja tyylinsä puolesta, mikä mahdollistaa paremmin sovellettavuuden ja uudelleenkäytön. Jokaisen päättelyvirheen esittelylle on varattu vain yksi aukeama, joten teksti on tarkoituksella tiivistä ja suppeaa.</p>
+                    <p>Uusia asioita oppii tehokkaasti, kun näkee miten asioita ei pitäisi tehdä. Kirjassaan “Kirjoittamisesta” Stephen King kirjoittaa: "Huonoa proosaa lukemalla oppii parhaiten sen, mitä ei tule tehdä". Hän kuvailee erityisen huonon romaanin lukemista “kirjallisuuden vastineeksi rokotukselle” [King]. Matemaatikko George Pólya on sanonut, että hyvä opettaja ymmärtää asiansa hyvin, mutta tietää myös, miten asia voidaan ymmärtää väärin [Pólyan]. Tässä teoksessa puhutaan pääasiassa asioista, joita ei pitäisi tehdä argumentoidessa.<sup>1</sup></p>
+                    <p class="block">* * * *</p>
+
+                    <p class="footnote" style="bottom:-60px"><sup>1</sup> Päinvastainen lähestymistapa löytyy T. Edward Damerin kirjasta virheellisestä päättelystä.</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">6</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p>Vuosia sitten kirjoitin ohjelmien spesifikaatioita käyttäen ensimmäisen kertaluvun predikaattilogiikkaa. Oli kiehtovaa käyttää vakiotermien määrittelyyn diskreettiä matematiikkaa tavallisen notaation, englannin, sijaan. Se toi tarkkuutta epäselviin asioihin ja kurinalaisuutta tavallisesti käden heilautuksella ohitettaviin kohtiin.</p>
+                    <p>Samaan aikaan tutkiskelin muutamia sekä moderneja että keskiaikaisia kirjoja lauselogiikasta. Yksi näistä oli Robert Gulan käsikirja Loogiset virheet. Gulan kirja muistutti minua heuristiikkaluettelosta, johon olin vuosikymmen aiemmin luonnostellut argumentointisääntöjä. Luetteloni oli tulosta vuosikymmenten väittelystä tuntemattomien kanssa online-foorumeilla ja koostui sellaisista asioita kuin "älä yleistä". Nyt tämä on minulle itsestäänselvyys, mutta koulupojalle se oli jännittävä oivallus.</p>
+                    <p>Ymmärsin nopeasti, että päättelyn formalisoinnilla olisi mahdollista saada etuja, kuten ajattelun ja ilmaisun kirkastumista, objektiivisuutta ja suurempi itseluottamus. Väitteiden analysointikyky auttaa myös päättelemään milloin kannattaa vetäytyä todennäköisesti turhaksi osoittautuvasta keskustelusta.</p>
+
+                    <p class="justify-last">Asiat ja tapahtumat, jotka vaikuttavat elämäämme ja yhteiskuntaamme, kuten kansalaisvapaudet ja presidentinvaalit, saavat ihmiset väittelemään politiikasta ja uskomuksista. Tarkkailemalla näitä keskusteluja herää tunne, että huomattavan moni kärsii</p>
+                </div>
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">7</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p>hyvien perustelujen puuttumisesta. Joidenkin logiikan kirjoitusten tavoitteena on auttaa ymmärtämään niitä työkaluja ja toimintamalleja, joilla saadaan aikaan hyviä perusteluja ja siten rakentavampia keskusteluja.</p>
+                    <p>Suostuttelu ei ole vain logiikkaa, vaan samalla täytyy ymmärtää retoriikkaa, parsimoniaperiaatteen kaltaisia ohjeita ja erilaisia käsitteitä kuten "todistustaakka". Aiheesta kiinnostuneelle lukijalle löytyy valtavasti luettavaa.</p>
+                    <p>Logiikan säännöt eivät ole luonnonlakeja, eivätkä ne muodosta kaikkea inhimillistä päättelykykyä. Marvin Minsky sanoo, että tavallista maalaisjärkistä päättelyä ja analogioita on vaikea selittää loogisten periaatteiden avulla, "Logiikka ei selitä miten ajattelemme, kuten myöskään kielioppi ei selitä miten puhumme" [Minsky]. Logiikka ei muodosta uusia totuuksia, mutta sen avulla on mahdollista varmistua päättelyketjun yhtenäisyydestä ja johdonmukaisuudesta. Juuri tästä syystä se on tehokas työkalu ideoiden ja argumenttien analyysiin ja niiden välittämiseksi edelleen.</p>
+
+                    <p style="padding-top:20px;margin-left:270px;font-style:italic">&#8211; A.A., San Francisco, heinäkuu 2013</p>
+                </div>
+            </div>
+            <!-- end preface -->
+
+            <!-- logical fallacies -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/logical_fallacies_i.png" />
+            </div>
+            <div class="right right-option1">
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:130px;padding-left:80px;padding-right:80px">Ensimmäinen sääntö on, ettet saa huijata itseäsi ja olet itse kaikkein helpoin huijattava.</p>
+                    <p style="padding-left:300px">&#8212;Richard P. Feynman</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">10</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Harhautus <b>&rsaquo;</b> <b>Seurauksiin vetoaminen</b></div>
+                <div class="page-title">Seurauksiin vetoaminen</div>
+                <div class="page-content">
+                    <p>Seurauksiin vetoaminen on väitteen puoltamista tai vastustamista vetoamalla sen hyväksymisen tai hylkäämisen seurauksiin. Väite ei ole välttämättä väärä, vaikka se johtaisikin epämiellyttäviin lopputuloksiin. Väite ei myöskään aina ole tosi, vaikka sen seuraukset olisivat hyviä. David Hackett Fischerin sanoin, “Syy ei ole riippuvainen seurauksen laadusta.”</p>
+                    <p>Kun kyseessä on mieluisa seuraus, argumentti voi vedota yleisön odotuksiin tai toivomuksiin. Kun kyseessä on epämiellyttävä seuraus, väite voi sen sijaan vedota yleisön pelkoihin. Esimerkkinä Dostojevskin lause, “<i>Jos Jumalaa ei ole olemassa, kaikki on sallittua.</i>” Siirrettäessä objektiivinen moraalikeskustelu syrjään, vetoaminen näennäisen synkkiin seurauksiin ei kerro, onko edeltävä väite totta vai ei.</p>
+                    <p>On syytä pitää mielessä, että tällaiset väitteet ovat harhaanjohtavia vain silloin, kun ne käsittelevät objektiivista totuutta, eivät silloin, kun ne käsittelevät päätöksiä tai käytäntöjä [Curtis]. Esimerkiksi kun poliitikko vastustaa verojen nostoa epäillessään sen vaikuttavan kielteisesti äänestäjien elämään, hän ei tee välttämättä päätöstä väärin perustein.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_consequences.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">12</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Harhautus <b>&rsaquo;</b> <b>Olkinukke</b></div>
+                <div class="page-title">Olkinukke</div>
+                <div class="page-content">
+                    <p>Olkinukkea vastaan hyökkäämisellä tarkoitetaan vastaväittäjän argumentin tarkoituksellista vääristelyä, jonka jälkeen hyökätään vääristeltyä, eikä todellista argumenttia vastaan. Tämä harhautus voidaan tehdä laittamalla sanoja toisen suuhun ja vääristelemällä, tulkitsemalla väärin tai yksinkertaistamalla argumenttia. Olkinukkeargumentti on yleensä absurdimpi kuin todellinen väite, joten sitä vastaan on helpompi hyökätä ja mahdollisesti harhauttaa väitteentekijä puolustamaan naurettavaa väitettä alkuperäisen sijaan.</p>
+                    <p>Esimerkiksi: <i>Vastaväittelijäni saattaa yrittää vakuuttaa, että olemme kehittyneet apinoista, jotka keinuvat puissa; todella naurettava väite.</i> Tämä on vääristely evoluutiobiologian väitteestä, jonka mukaan ihmiset ja simpanssit jakoivat yhteisen esi-isän useita miljoonia vuosia sitten. Idean vääristely on paljon helpompaa kuin sen vääräksi osoittaminen.</p>
+                </div>
+            </div>
+            <img src="images/strawman.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">14</div>
+                <div class="taxonomy">
+                    Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Harhautus <b>&rsaquo;</b> Alkuperäharha<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&rsaquo;</b> <b>Vetoaminen asiaankuulumattomaan auktoriteettiin</b>
+                </div>
+                <div class="page-title">Vetoaminen asiaankuulumattomaan auktoriteettiin</div>
+                <div class="page-content">
+                    <p>Auktoriteettiin vetoaminen on vetoamista omaan vaatimattomuuteen [Engel], mikä on sama kuin vetoaminen tunteeseen toisten suuremmasta ymmärryksestä. Ylivoimaisesti suurin osa uskomistamme asioista, kuten atomiteoria, aurinkokunnan malli ja kaikki historialliset tosiasiat ovat peräisin luotettavista lähteistä, mukaillakseni C.S. Lewisia. Asiaankuuluvaan auktoriteettiin vetoaminen on hyväksyttävää, ihan niin kuin tiedemiehet ja akateemikot tavallisesti tekevät. Argumentista tulee virheellinen, kun vedotaan sellaiseen auktoriteettiin, joka ei ole asiantuntija kyseessä olevassa asiassa. Samantyyppinen huomionarvoinen vetoaminen on vetoaminen epämääräiseen auktoriteettiin, jossa jokin lausunto kiinnitetään epämääräiseen asiantuntijaryhmään. Esimerkiksi: <i>Saksalaiset professorit osoittivat, että se ja se asia on totta.</i></p>
+                    <p>Yksi asiaankuulumattomaan auktoriteettiin vetoamisen tyyppi on vedota muinaiseen viisauteen, eli jonkin asian oletetaan olevan totta, koska sen uskottiin olevan totta kauan sitten. Esimerkiksi: <i>Astrologiaa harjoittivat teknologisesti kehittyneet sivilisaatiot, kuten muinaiset kiinalaiset, joten sen täytyy olla totta.</i> Muinaiseen viisauteen voidaan myös vedota, kun haetaan tukea ominaisuuksille, jotka ovat yksilöllisiä tai jotka voivat muuttua ajan myötä. Esimerkiksi: <i>Ihmiset nukkuivat satoja vuosia sitten yhdeksän tunnin yöunia, joten ihmisten täytyy nukkua yhtä paljon myös nykyaikana.</i> Pidempiin uniin voi olla kaikenlaisia ​​syitä. Se, että ihmiset nukkuivat aikoinaan pidempään, ei ole todiste väitteen todenperäisyydestä.</p>
+                </div>
+            </div>
+            <img src="images/irrelevant_authority.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">16</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Merkitysero <b>&rsaquo;</b> <b>Harhautus</b><sup>2</sup></div>
+                <div class="page-title">Harhautus</div>
+                <div class="page-content">
+                    <p>Harhautuksessa käytetään hyväksi sanojen merkityseroja. Vaihtamalla sanan merkitystä kesken argumenttia, voidaan hakea tukea halutulle johtopäätökselle. Sanaa, jonka merkitys säilyy samana läpi koko argumentin, sanotaan käytetyn yksiselitteisesti. Tarkastellaan seuraavaa väitettä: <i>Miten voit olla uskontoja vastaan, kun ihmiset uskovat talouden nousuun, avioliittonsa pelastumiseen ja uutisten oikeellisuuteen?</i> Tässä esimerkissä sanoja “uskonto ja “usko” väitettiin samaa tarkoittaviksi, vaikka toista käytettiin kuvaamaan oppijärjestelmää ja toista korvaamaan sana oletus.</p>
+                    <p>Harhautus on yleinen tieteestä ja uskonnosta keskusteltaessa, jolloin sanaa “miksi” voidaan käyttää monessa merkityksessä. Sanaa voidaan käyttää etsittäessä syytä tapahtumalle, niin kuin sitä tieteessä käytetään, mutta sitä voidaan myös käyttää tarkoituksen etsimiseen tai moraalisten ongelmien pohdinnassa, joihin tiede ei etsi vastausta. Joku voisi esittää väittämän: <i>Tiede ei kerro miksi asiat tapahtuvat. Miksi olemme olemassa? Miksi pitäisi noudattaa moraalisääntöjä? Tarvitsemme siis jonkin muun lähteen vastaamaan “miksi”-kysymyksiin.</i></p>
+
+                    <p class="footnote" style="bottom:-35px"><sup>2</sup> kuva perustuu Liisan ja Valkoisen kuningattaren keskusteluun Lewis Carrollin kirjassa Liisan seikkailut peilimaailmassa.</p>
+                </div>
+            </div>
+            <img src="images/equivocation.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">18</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Tarpeeton oletus <b>&rsaquo;</b> <b>Väärä dilemma</b><sup>3</sup></div>
+                <div class="page-title">Väärä dilemma</div>
+                <div class="page-content">
+                    <p>Väärä dilemma on argumentti, joka esittelee kaksi mahdollista kategoriaa ja olettaa, että kaikki keskusteluun liittyvät asiat kuuluvat jompaan kumpaan niistä. Jos toinen näistä luokista hylätään, on toinen hyväksyttävä. Esimerkiksi <i>Sodassa terrorismia vastaan kukaan ei ole puolueeton; olet joko meidän puolellamme tai terroristi.</i> Todellisuudessa on olemassa muitakin vaihtoehtoja: joku voisi hyvinkin olla neutraali, joku voisi olla molempia vastaan ja joku voi olla kummankin puolella.</p>
+                    <p>Kirjassa The Strangest Man mainitaan fyysikko Ernest Rutherfordin kertoneen kollegalleen Niels Bohrille vertauksen miehestä, joka osti papukaijan ja palautti sen myymälään, koska se ei puhunut. Usean palautuksen jälkeen myymäläpäällikkö lopulta sanoo: “Oi, aivan oikein! Halusitte papukaijan, joka puhuu. Antakaa anteeksi, annoin teille papukaijan, joka ajattelee.” Rutherford käytti selvästi vertausta kuvatakseen hiljaisen Diracin neroutta, vaikka voi hyvin kuvitella, että joku käyttäisi samaa ajatusketjua antaakseen ymmärtää, että ihmiset ovat joko hiljaisia ja neroja tai puheliaita ja idiootteja.</p>
+                    <p class="footnote" style="bottom:-35px"><sup>3</sup> Tätä päättelyvirhettä voidaan kutsua myös välimuotojen hylkäämisvirheeksi, mustavalkoiseksi ajatteluksi tai vääräksi kahtiajaoksi.</p>
+                </div>
+            </div>
+            <img src="images/false_dilemma.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">20</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Syy-Seuraus-virhe <b>&rsaquo;</b> <b>Virheellinen syyn olettaminen</b></div>
+                <div class="page-title">Virheellinen syyn olettaminen</div>
+                <div class="page-content">
+                    <p>Tässä oletetaan syy tapahtumalle, vaikkei ole näyttöä siitä, että syy-seuraussuhdetta olisi olemassa. Kaksi tapahtumaa voivat tapahtua peräkkäin tai yhtäaikaa, koska ne korreloivat, yhtäaikaiset tapahtumat ovat sattumaa tai ne tapahtuvat jostain muusta syystä lähekkäin. Syy-seuraussuhdetta eli kausaliteettia ei saa olettaa ilman todisteita. “<i>Viimeaikainen maanjäristys johtui siitä, etteivät ihmiset totelleet kuningasta</i>” ei ole hyvä argumentti.</p>
+                    <p>Päättelyvirheellä on kaksi erillistä tyyppiä: “tämän jälkeen, siksi tämän takia” ja “tämän kanssa, joten tämän takia.” Ensimmäisessä oletetaan tapahtuman syyksi jokin tapahtumaa edeltänyt asia. Toisessa syyksi oletetaan tapahtuman kanssa samaan aikaan sattunut asia. Tavallisesti sanotaan, että korrelaatio on sekoitettu kausaalisuuden kanssa.<sup>4</sup></p>
+                    <p>Esimerkkinä tästä on mukaelma koomikko Stewart Leeltä: “<i>Piirsin robotin vuonna 1976 ja heti tämän jälkeen tehtiin Star Wars, joten pakostahan he olivat kopioineet ideani.</i>” Toisen esimerkin löysin vähän aikaa sitten keskustelupalstalta: “Hakkeri oli kaatanut rautatieyhtiön verkkosivun ja kun tarkistin junien saapumisajat, kaikki junat olivat myöhässä!” Viestin lähettäjä ei ymmärtänyt, että junat ovat harvoin ajoissa ja ilman minkäänlaista tieteellistä kontrollia päättely on perusteeton.</p>
+
+                    <p class="footnote" style="bottom:-35px">
+                    <sup>4</sup> Nobel-palkinnon voittamisen on osoitettu korreloivan voimakkaasti suklaan syönnin kanssa, mikä kenties houkuttaa suklaansyöjiä toivomaan yhteyttä näiden asioiden välille.</p>
+                </div>
+            </div>
+            <img src="images/not_a_cause_for_a_cause.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">22</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Harhautus <b>&rsaquo;</b> Tunteisiin vetoaminen <b>&rsaquo;</b> <b>Vetoaminen pelkoon</b></div>
+                <div class="page-title">Vetoaminen pelkoon</div>
+                <div class="page-content">
+                    <p>Tällä päättelyvirheellä vedotaan ihmisten pelkoihin esittelemällä tietyn päätöksen aiheuttamia tulevia ongelmia.  Sen sijaan, että näytettäisiin johtopäätöksen seuraavan oletuksista käyttämällä logiikkaa, keskitytään retorisiin keinoihin, uhkauksiiin tai valheisiin. Esimerkiksi <i>Pyydän kaikkia työntekijöitä äänestämään minun valitsemaani ehdokasta seuraavissa vaaleissa. Toisen ehdokkaan voittaessa veroja nostetaan ja monet työntekijöistä menettävät työnsä.</i></p>
+                    <p>Toinen esimerkki on Kafkan kirjasta Oikeusjuttu: <i>Sinun pitäisi antaa minulle kaikki arvotavarasi ennen poliisin tuloa. He laittavat ne varastoon ja asioilla on tapana hukkua varastossa.</i> Vaikka väite on todennäköisesti uhkaus, se yritetään naamioida päättelyksi. Suoria uhkauksia tai käskyjä ei tule sekoittaa tähän päättelyvirheeseen, vaikka niissä hyödynnetäänkin pelontunnetta [Engel].</p>
+                    <p>Pelkoon vetoaminen voi edeltää kamalien tapahtumien kuvailua, joiden väitetään olevan seurausta loppupäätelmän hyväksymiselle, vaikkei selkeää syy-seuraussuhdetta ole osoitettavissa. Tämä muistuttaa kaltevan pinnan päättelyvirhettä. Väärien johtopäätösten kimppuun on myös helppo hyökätä, jolloin päättelyvirhe muuttuu väärän dilemman päättelyvirheeksi.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_fear.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">24</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Heikko Analogia <b>&rsaquo;</b> Epäedustava otos <b>&rsaquo;</b> <b>Hätäinen yleistys</b></div>
+                <div class="page-title">Hätäinen yleistys</div>
+                <div class="page-content">
+                    <p>Tämä päättelyvirhe tehdään, kun vedetään koko populaatiota koskevia yleistyksiä liian pienestä tai erikoistuneesta otoksesta. Esimerkiksi kymmenen ihmisen katugallup presidentin suunnitelmista alijäämän pienentämiseksi ei edusta koko kansakunnan mielipidettä.</p>
+                    <p>Vaikka hätäisten johtopäätösten tekeminen on helppoa, ne voivat johtaa kalliisiin ja katastrofaalisiin seurauksiin. Voidaan sanoa, että ESA:n Ariane 5-raketin räjähdys oli seurausta hätäisestä yleistyksestä: Ariane 4-raketin ohjaimille tehdyt testit eivät olleet riittävän laajoja kattamaan Ariane 5-raketin käyttötarkoituksia. Päätökset tällaisten testien tekemättä jättämisestä ovat usein insinöörien ja johtajien väittelykyvyn ansiota ja siksi ne ovat tärkeitä loogisista harhoista keskustellessa.</p>
+                    <p>Liisa ihmemaassa -kirjassa Liisa päättelee, että koska hän kelluu vedessä, lähellä täytyy olla rautatieasema ja rautatieaseman takia myös apu on lähellä: <i>Liisa oli ollut merenrannassa yhden kerran elämässään ja oletti jokaiselta Englannin rannalta löytyvän siirrettäviä pukukoppeja, lapsia leikkimässä puulapioilla, mökkejä ja että mökkien takana olisi rautatieasema.</i> [Carroll]</p>
+                </div>
+            </div>
+            <img src="images/hasty_generalization.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">26</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Puuttuvan tiedon harha <b>&rsaquo;</b> <b>Vetoaminen todisteiden puutteeseen</b><sup>5</sup></div>
+                <div class="page-title">Vetoaminen todisteiden puutteeseen</div>
+                <div class="page-content">
+                    <p>Väitteen oletetaan olevan totta, koska päinvastaisesta ei ole todisteita. Toisin sanoen, todistusaineiston puuttumisen oletetaan olevan todiste niiden olemassaolemattomuudesta. Esimerkki Carl Saganilta: <i>En ole nähnyt vakuuttavia todisteita siitä, että avaruusolennot eivät olisi vierailleet maapallolla; siispä avaruusolentoja on olemassa.</i> Vastaavasti kun emme vielä tienneet, miten pyramidit rakennettiin, jotkut päättelivät yliluonnollisen voiman rakentaneen ne. Todistustaakka kuuluu aina väitteen esittäjälle.</p>
+                    <p>Kuten monet ovat sanoneet, täytyy myös pohtia mikä on todennäköistä ja mikä vähemmän todennäköistä aikaisempien havaintojen perusteella. Onko todennäköisempää, että ilmassa lentävä esine on ihmisen tekemä tai luonnollinen ilmiö, vai onko todennäköisempää, että se on ulkoavaruudesta tulleiden avaruusolentojen alus? Koska olemme usein havainneet edellä mainitun, mutta emme koskaan jälkimmäistä, on järkevämpää olettaa, että tunnistamattomat lentävät oliot eivät ole ulkoavaruudesta tulleita muukalaisia.</p>
+                    <p>Yksi todisteiden puutteeseen vetoamisen erikoistapaus on vetoaminen henkilökohtaiseen epäuskoon. En voi kuvitella tilannetta, joten se ei voi olla totta.  Esimerkiksi jonkun on mahdotonta kuvitella miehen kävelleen kuussa, joten sitä ei ole hänen mielestään koskaan tapahtunut. Tämmöisiin voi vastata esimerkiksi “Ja sen takia sinä et ole fyysikko.”</p>
+
+                    <p class="footnote" style="bottom:-25px"><sup>5</sup> Kuvan inspiraationa on Neil deGrasse Tysonin vastaus yleisön UFO-kysymykseen: <a href="http://youtu.be/NSJElZwEI8o">youtu.be/NSJElZwEI8o</a>.<br />
+                </div>
+            </div>
+            <img src="images/appeal_to_ignorance.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">28</div>
+                <div class="taxonomy">
+                    Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Moniselitteisyys <b>&rsaquo;</b> Sanan käyttö eri merkityksissä<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&rsaquo;</b> Sanan uudelleenmäärittely <b>&rsaquo;</b> <b>Yksikään todellinen skotti</b>
+                </div>
+                <div class="page-title">Yksikään todellinen skotti</div>
+                <div class="page-content">
+                    <p>Joskus tehdään kokonaista ryhmää tai luokkaa koskeva väite. Kun väite haastetaan vastakkaisella todistusaineistolla, vastaväite voidaan hylätä määrittelemällä ryhmään tai luokkaan kuuluminen uudelleen.<sup>6</sup></p>
+                    <p>Esimerkiksi väite: “Ohjelmoijilla ei ole sosiaalisia taitoja.” Joku voisi tarjota vastakkaista todistusaineistoa sanomalla “John on ohjelmoija ja hän on sosiaalinen”. Tähän väitteen puolustaja voisi sanoa “Kyllä, mutta John ei ole oikea ohjelmoija.” Alkuperäinen väite ei määrittele ohjelmoijan ominaisuuksia, eikä se ole muutenkaan selkeä ja helposti rajattava ryhmä, kuten esimerkiksi sinisilmäisyys. Tämän epätarkkuuden ansiosta asiat voidaan määritellä uudelleen aina, kun väite haastetaan.</p>
+                    <p>Antony Flew nimesi päättelyvirheen kirjassaan Thinking about thinking. Kirjassaan hän antaa esimerkin: Hamish lukee lehdestä englantilaismiehen tekemästä kauheasta rikoksesta ja huudahtaa “Yksikään skotti ei voisi tehdä tuollaista!” Seuraavana päivänä hän lukee uutisen skotista, joka on tehnyt vielä kauheamman rikoksen. Sen sijaan, että hän muuttaisi käsitystään skoteista, hän toteaa “Tuo ei ole oikea skotti, sillä yksikään todellinen skotti ei voisi tehdä tuollaista”.</p>
+
+                    <p class="footnote" style="bottom:-35px"><sup>6</sup> Kun väite haastetaan uudelleenmäärittelemällä luokka ja näin vääristämällä väite, hyökkäystä sanotaan olkimieheksi.</p>
+                </div>
+            </div>
+            <img src="images/no_true_scotsman.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">30</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Harhautus <b>&rsaquo;</b> <b>Alkuperäharha</b></div>
+                <div class="page-title">Alkuperäharha</div>
+                <div class="page-content">
+                    <p>Väitteen alkuperä tai väitteen tekijän aiemmat vaiheet eivät vaikuta millään tavalla väitteen oikeellisuuteen. Alkuperäharha tehdään, kun väitettä puolustetaan tai haastetaan pelkästään sen historian perusteella. Kuten T. Edward Damer kirjoittaa, väitteen historiaan liittyvät vahvat tunteet vaikeuttavat väitteen arviointia.</p>
+                    <p>Tarkastellaan väitettä <i>Tietenkin hän kannattaa liiton työntekijöiden lakkoa, hänhän on kotoisin samasta kylästä kuin työntekijätkin.</i> Tässä ei arvioida laisinkaan henkilön argumenttia työntekijöiden lakosta, vaan se hylätään henkilön kotipitäjän perusteella.  Tätä tietoa käytetään todistamaan, että henkilön väite on arvoton. Toinen esimerkki: <i>Emme voi pitää kiinni enää pronssikauden uskomuksista, kun elämme 2000-lukua.</i> Miksi ei? Pitäisikö kaikki pronssikaudelta peräisin olevat ideat hylätä vain sen takia, että ne ovat peräisin tuolta kaudelta?</p>
+                    <p>Kääntäen: <i>Jackin näkemyksiä taiteesta ei voida kiistää, hänen suvussaan on monta arvostettua pitkän linjan taiteilijaa.</i> Tässäkin todistusaineisto Jackin tiedoista ja taidoista on puutteellinen.</p>
+                </div>
+            </div>
+            <img src="images/genetic_fallacy.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">32</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Harhautus <b>&rsaquo;</b> <b>Yhteyden tuoma syyllisyys</b></div>
+                <div class="page-title">Yhteyden tuoma syyllisyys</div>
+                <div class="page-content">
+                    <p>Tämän virheen tekijän tarkoituksena on mustamaalata väite sillä perusteella, että se tukee jotain ideaa, jota kannattaa jokin sosiaalisesti demonisoitu yksilö tai ryhmä.  Esimerkiksi <i>Vastaväittäjäni haluaa terveydenhuoltojärjestelmän, joka muistuttaa sosialistimaiden järjestelmiä. On selvää, ettei sellaista voida hyväksyä.</i> Sillä onko jokin terveydenhuoltojärjestelmä käytössä sosialistimaissa ei ole mitään tekemistä sen toimivuuden kanssa. Johtopäätös ei seuraa oletuksista.</p>
+                    <p>Toinen esimerkki: <i>Emme voi antaa naisten ajaa autoa, koska ihmiset jumalattomissa maissa sallivat naisten ajaa.</i> Väite perustuu siihen, että jotkut ihmisryhmät ovat ehdottomasti ja kategorisesti pahoja. Yhdenkin yhteisen ominaisuuden jakaminen tällaisen ryhmän kanssa tekee itsestä ryhmän jäsenen, jonka jälkeen kaikki huonot ominaisuudet voidaan liittää myös itseen.</p>
+                </div>
+            </div>
+            <img src="images/guilt_by_association.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">34</div>
+                <div class="taxonomy">Muodollinen päättelyvirhe <b>&rsaquo;</b> Ehdottava päättelyvirhe <b>&rsaquo;</b> <b>Seurauksesta päättely</b></div>
+                <div class="page-title">Seurauksesta päättely</div>
+                <div class="page-content">
+                    <p>Yksi monista pätevistä päättelyn muodoista tunnetaan nimellä Modus ponens (vahvistamalla vahvistaminen) ja se muodostetaan seuraavasti: Jos A, niin C, A; siis C. Muodollisemmin:</p>
+                    <p style="text-align:center;font-weight:bold">A <b>&rArr;</b> C, A &#8866; C.</p>
+                    <p>Päättelyssä esiintyy kolme väitettä: kaksi olettamusta ja yksi johtopäätös.  A on syylause ja C on seurauslause. Esimerkiksi, jos vesi kiehuu merenpinnan tasolla, sen lämpötila on vähintään 100 &deg;C. Tämä lasillinen vettä kiehuu merenpinnan tasolla, joten sen lämpötila on vähintään 100 &deg;C. Tällainen päättely on sekä pätevä, että järkevä.</p>
+                    <p>Seurauksesta päättely on muodollinen päättelyvirhe, joka on muotoa Jos A, niin C, C, siis A.</p>
+                    <p>Virhe tapahtuu olettamalla syy-seuraussuhteen olevan voimassa kumpaankin suuntaan. Vaikka seurauslause on tosi, syylauseen ei tarvitse olla tosi. Esimerkkinä päättelyketju <i>Yliopiston käyneet menestyvät paremmin elämässä. John on menestynyt, joten hänellä on yliopistotutkinto.</i> Tietysti Johnin menestys voi olla koulutuksen tulosta, mutta se voi olla seurausta myös hänen kasvatuksestaan tai sinnikkyydestään vaikeuksien voittamisessa. Yleistäen ei voida sanoa menestyneen olevan aina koulutettu, vaikka koulutuksesta seuraakin aina menestys.</p>
+                </div>
+            </div>
+            <img src="images/affirming_the_consequent.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">36</div>
+                <div class="taxonomy">
+                    Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Harhautus <b>&rsaquo;</b> Alkuperävirhe<br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&rsaquo;</b> Henkilöön kohdistuvat <b>&rsaquo;</b> <b>Vetoaminen tekopyhyyteen</b>
+                </div>
+                <div class="page-title">Vetoaminen tekopyhyyteen</div>
+                <div class="page-content">
+                    <p>Tämä päättelyvirhe tunnetaan myös latinankielisellä nimellään tu quoque, joka tarkoittaa "Sinä myös". Tätä päättelyvirhettä käytetään vastattaessa hyökkäykseen hyökkäyksellä ja yritetään viedä huomio pois esitetystä väitteestä, eikä ottamalla kantaa itse väitteeseen. Esimerkiksi John sanoo: <i>Tämä mies on väärässä, koska hän ei ole rehellinen; kysykää häneltä miksi hän sai potkut työstään</i>, johon Jack vastaa: <i>Entäpä jos puhuisimmekin lihavasta bonuksestasi, jonka otit vastaan, vaikka puolet firmasta sai potkut.</i> Vetoamista tekopyhyyteen käytetään myös silloin, kun henkilö hyökkää toisen argumenttia vastaan, koska argumentin esittäjä on tehnyt tai ajatellut päinvastoin joskus aiemmin [Engel].</p>
+                    <p>Brittien Uutisvuoto-ohjelmassa panelisti moitti Lontoon mielenosoittajia tekopyhyydestä, koska he osoittivat mieltään kapitalismia vastaan, mutta samaan aikaan ostivat kahvia Starbucksista ja käyttivät älypuhelimia. Tämä video löytyy täältä: <a href="http://youtu.be/8WvAkhW-XNI" target="_blank">youtu.be/8WvAkhW-XNI</a>.</p>
+                    <p>Toisena esimerkkinä Jason Reitmanin elokuva, Thank You for Smoking (Fox Searchlight Pictures, 2005), jossa lipevä tupakkalobbari Nick Naylor päättää tu quoque -täyteisen keskustelun: <i>Minua huvittaa tämä minua tekopyhäksi haukkuva herrasmies. Tämä sama mies piti taannoin lehdistötilaisuuden, jossa hän sanoi haluavansa tuhota amerikkalaisten tupakkapellot. Tämän jälkeen hän hyppäsi yksityiskoneeseen ja lensi voivottelemaan maanviljelijöiden kokoontumiseen heidän ahdinkoaan.</i></p>
+                </div>
+            </div>
+            <img src="images/appeal_to_hypocrisy.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">38</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Syy ei ole syy syylle <b>&rsaquo;</b> <b>Kalteva taso</b></div>
+                <div class="page-title">Kalteva taso</div>
+                <div class="page-content">
+                    <p>Kaltevalla pinnalla<sup>7</sup> yritetään viedä väitteeltä pohja väittämällä sen hyväksymisen johtavan epätoivottavaan lopputulokseen. Vaikka kuvailtu tapahtumasarja voisikin olla mahdollinen jokaisen vaiheen tapahtuessa omalla todennäköisyydellään, tässä oletetaan jokaisen vaiheen tapahtuvan vääjäämättä. Tämä päättelyvirhe vetoaa kuulijoiden pelkoihin ja onkin sukua pelkoon vetoamiselle ja muutamille muille tässä kirjassa esitetyille päättelyvirheille.</p>
+                    <p>Esimerkiksi <i>Emme saa antaa ihmisille kontrolloimatonta pääsyä internetiin. Siitä seuraa jatkuvaa pornografisilla sivuilla vierailua ja pian koko yhteiskunnan moraalirakenne murenee ja ihmiset vajoavat eläinten tasolle.</i> Todisteita internetin yhteiskuntaa romuttavista ominaisuuksista ei anneta, ainoastaan esitetään useita oletuksia sisältävä arvaus.</p>
+
+                    <p class="footnote" style="bottom:-35px"><sup>7</sup> Tässä kuvattu kaltevan tason päättelyvirhe tarjoaa syyn tuleville tapahtumille.</p>
+                </div>
+            </div>
+            <img src="images/slippery_slope.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">40</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Harhautus <b>&rsaquo;</b> <b>Muihin vetoaminen</b></div>
+                <div class="page-title">Muihin vetoaminen</div>
+                <div class="page-content">
+                    <p>Argumentti vetoaa siihen, ettei suuri joukko ihmisiä tai enemmistö voi olla väärässä. Jotkut suuria tieteen kehitysaskeleita vastustaneet ihmiset ovat käyttäneet juuri tätä argumenttityyppiä. Aikalaiset pilkkasivat Galileota, koska tämä uskoi Kopernikuksen mallin olevan oikea. Barry Marshallia ei uskottu hänen uskottuaan, että mahahaava johtuu <i>H. pylori</i> -bakteerista. Hän sai ihmisten mielipiteet muuttumaan vasta, kun nieli bakteerilientä ja sai sen seurauksena vakavan vatsahaavan.</p>
+                    <p>Mainoksissa ja politiikassa käytetään usein mielipiteen muokkaamiseen kertomuksia suosiosta ja käyttäjämääristä. Esimerkiksi <i>Kaikki siistit tyypit käyttävät tätä hiusgeeliä; ole yksi heistä.</i> Vaikka "Siistiksi tyypiksi" tuleminen onkin houkutteleva tarjous, se ei mitenkään tue ostopäätöksen tekemistä. Poliitikot käyttävät usein samanlaista retoriikkaa vauhdittaakseen kampanjaansa ja vaikuttaakseen äänestäjiin.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_bandwagon.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">42</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Harhautus <b>&rsaquo;</b> Alkuperäharha <b>&rsaquo;</b> <b>Ad hominem</b><sup>8</sup></div>
+                <div class="page-title">Ad hominem</div>
+                <div class="page-content">
+                    <p>Ad hominem on argumentti, jolla hyökätään henkilön luonnetta tai muita ominaisuuksia vastaan, eikä suinkaan hänen argumenttiaan vastaa. Tarkoituksena on suunnata keskustelu uuteen suuntaan ja kaivaa maata toisen henkilön argumentin alta. Esimerkiksi <i>Sinä et ole historioitsija, mikset pysyisi oman osaamisesi piirissä?</i> Argumentin esittäjän ammatilla ei ole mitään vaikutusta argumentin totuusarvoon, eikä se paranna hyökkääjän asemia väittelyssä.</p>
+                    <p>Tämän tyyppisiin henkilökohtaisiin hyökkäyksiin viitataan loukkaavana ad hominemina. Toinen ad hominemin tyyppi on argumentti, joka keskittyy henkilön aikomuksiin tai motivaatioon. Esimerkiksi <i>Et sinä oikeasti välitä kaupungin rikollisuudesta, haluat vain ihmisten äänestävän sinua.</i> On kuitenkin tilanteita, joissa voi perustellusti kyseenalaistaa henkilön luonteen ja rehellisyyden, esimerkiksi oikeudenkäynnissä annettavan todistuksen yhteydessä.</p>
+
+                    <p class="footnote" style="bottom:-35px"><sup>8</sup> Kuva on Usenetissä vuosia sitten käydyn keskustelun innoittama, jossa intohimoinen ja itsepäinen ohjelmoija oli osallisena.</p>
+                </div>
+            </div>
+            <img src="images/ad_hominem.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">44</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Ladattu kysymys <b>&rsaquo;</b> <b>Kehäpäätelmä</b></div>
+                <div class="page-title">Kehäpäätelmä</div>
+                <div class="page-content">
+                    <p>Kehäpäätelmä on yksi neljästä erilaisesta ladatusta kysymystyypistä [Damer], joissa johtopäätös löytyy joko suoraan tai välillisesti oletuksista.  Kehäpäätelmässä johtopäätöstä käytetään jo suoraan premissinä tai vielä useammin se on muotoitu näyttämään eri väitteeltä, vaikka se ei sitä ole. Esimerkiksi <i>Olet täysin väärässä, koska puheessasi ei ole mitään järkeä.</i> Väärässä oleminen ja järjen puuttuminen puheesta ovat tässä asiayhteydessä sama asia. Argumentti siis väittää “Koska x, siis x” ja tällainen väite on merkityksetön.</p>
+                    <p>Kehäpäätelmä voi ajoittain nojata lausumattomiin premisseihin, minkä vuoksi kehäpäätelmää ei helposti huomaa. Esimerkiksi australialaisessa tv-sarjassa Please like me yksi henkilöistä tuomitsee toisen, ei-uskovaisen, helvettiin, jolloin tämä vastaa: <i>Tuossa ei ole mitään järkeä.  Samalla tavalla hippi voisi uhata lyödä auraani</i>. Tässä esimerkissä lausumaton premissi on, että on olemassa Jumala, joka lähettää osan ihmisiä helvettiin. Siis olettamaa “On olemassa Jumala, joka lähettää ei-uskovat helvettiin” käytetään tukemaan päätelmää “On olemassa Jumala, joka lähettää ei-uskovaiset helvettiin.”</p>
+                </div>
+            </div>
+            <img src="images/circular.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">46</div>
+                <div class="taxonomy">Epämuodollinen päättelyvirhe <b>&rsaquo;</b> Oikeuttamaton olettamus <b>&rsaquo;</b> <b>Kokonaisuus ja osat</b></div>
+                <div class="page-title">Kokonaisuus ja osat</div>
+                <div class="page-content">
+                    <p>Osista kokonaisuuteen -virhepäätelmässä ajatellaan, että kokonaisuudella on sama ominaisuus kuin sen osilla. Peter Millicanin esimerkkiä mukaillen: <i>Jos jokainen lammas laumassa on äiti, siitä ei seuraa, että lauma on äiti.</i> Tässä on toinen esimerkki: <i>Jokainen yksittäinen alaosio tässä ohjelmistossa on testattu virheiden varalta ja läpäissyt testit. Siispä kun alaosiot yhdistetään, ohjelmisto toimii virheettä kokonaisuutena.</i> Todellisuudessa yksittäisten osioiden yhdistäminen tekee järjestelmästä monimutkaisemman ja syntyneet uudet riippuvuudet altistavat ohjelmiston uusille toimintavirheiden mahdollisuuksille.</p>
+                    <p>Kokonaisuuksista osiin päättelemisessä puolestaan viitataan siihen, että osalla täytyy olla jokin ominaisuus, koska kokonaisuudellakin on. Esimerkiksi <i>Joukkueemme on lyömätön. Kuka tahansa pelaajistamme pystyisi siis voittamaan kenet tahansa pelaajan vastustajan joukkueesta.</i> Vaikka voi olla totta, että ryhmä kokonaisuudessaan on lyömätön, sitä ei voi käyttää todisteena sille, että jokainen sen pelaaja on voittamaton. Joukkueen menestys ei selvästikään aina ole sen pelaajien taitojen summa.</p>
+                </div>
+            </div>
+            <img src="images/composition_and_division.png" class="right" />
+
+            <!-- final remarks -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/final_remarks.png" />
+            </div>
+            <div class="right">
+                <div class="page-number">49</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:95px">Useita vuosia sitten kuulin erään professorin esittelevän deduktiiviset argumentit upealla vertauksella, kuvaten niitä vesitiiviiksi putkiksi, joissa totuus menee toisesta päästä sisään ja tulee ulos toisesta päästä. Tämä kielikuva oli myös inspiraationa tämän kirjan kansikuvaan. Nyt kun olet päässyt tämän kirjan loppuun, toivon, että ymmärrät vesitiiviiden argumenttien hyödyt tiedon vahvistamisessa ja laajentamisessa, mutta myös induktiivisten argumenttien monimutkaisuuden, kun eri vaiheiden todennäköisyydet astuvat mukaan. Toivon, että olet myös huomannut hatarien argumenttien vaarat ja huomannut kuinka yleisiä ne ovat jokapäiväisessä elämässämme.</p>
+                    <p class="footnote license" style="position:absolute;bottom:36px;width:520px">
+                        <a class="internal" href="#base">Scroll down for more</a> &nbsp; <b>&middot;</b> &nbsp;
+                        Share on &nbsp; 
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- definitions -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/definitions.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">51</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>Väitelause:</strong> Lausuma, joka voi olla joko tosi tai epätosi, mutta ei molempia. Esimerkiksi “Boston on suurin kaupunki Massachusettsissa” tai “Kaikki linnut osaavat uida”.</p>
+                    <p><strong>Oletus:</strong> Väitelauseen alkuehto eli premissi, joka tukee väitteen johtopäätöstä. Väitteellä voi olla yksi tai useampi oletus.</p>
+                    <p><strong>Argumentti:</strong> Joukko väitelauseita, joilla pyritään vaikuttamaan mielipiteisiin päättelyn keinoin. Argumentissa on joukko väitelauseita ja oletuksia, joilla tuetaan johtopäätökseksi sanottua väitelausetta.</p>
+                    <p><strong>Deduktiivinen argumentti:</strong> Argumentti, jossa johtopäätöksen on oltava tosi, jos oletukset ovat tosia. Johtopäätöksen sanotaan olevan oletuksien looginen välttämättömyys. Esimerkiksi “Kaikki miehet ovat kuolevaisia. Sokrates on ihminen. Siispä Sokrates on kuolevainen.” Deduktiivisen argumentin pitäisi olla aina tosi, muttei tietenkään välttämättä ole.</p>
+                    <p class="justify-last"><strong>Induktiivinen argumentti:</strong>  Argumentti, jossa oletuksien ollessa tosia, on todennäköistä, että päätelmä on myös tosi.<sup>9</sup> Johtopäätös ei seuraa loogisella välttämättömyydellä, vaan pikemminkin todennäköisyydellä. Esimerkiksi, Valon nopeus tyhjiössä on jokaisella mittauskerralla 3 &times; 10<sup>8</sup> m / s. Näin ollen, valon nopeus tyhjiössä on universaali vakio. Induktiiviset argumentit etenevät yleensä spesifisistä tapauksista yleisempiin esityksiin.</i></p>
+                
+                    <p class="footnote" style="bottom:-55px"><sup>9</sup> Tieteessä edetään yleensä induktiivisesti datasta lakeihin ja teorioihin, joten induktio on ollut perustana suurelle osalle tieteellistä tietoa. Induktiolla tarkoitetaan yleensä oletuksen testaamista otoksella, koska olisi epäkäytännöllistä tai mahdotonta testata kaikki mahdolliset tapahtumat.</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">52</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>Looginen päättelyvirhe:</strong> Virheellinen päättely, joka johtaa virheelliseen johtopäätökseen. Virheitä ei tehdä faktojen kanssa, vaan logiikassa siirryttäessä päättelyn keinoin väitteestä toiseen. Toisin sanoen virheellinen argumentti ei välttämättä tarkoita sitä, että itse asia olisi järjenvastainen. Loogiset päättelyvirheet ovat virheitä hyvän argumentin periaatteissa, kuten rakenteessa, johdonmukaisuudessa, selkeydessä, järjestyksessä, merkityksessä ja yleistettävyydessä.</p>
+                    <p><strong>Muodollinen päättelyvirhe:</strong> Looginen virhe, jonka muoto ei vastaa loogisen päättelyn kielioppia ja sääntöjä. Argumentin paikkansapitävyys voidaan määrittää analysoimalla sen abstraktia rakennetta, eikä sisältöä tarvitse arvioida.</p>
+                    <p><strong>Epämuodollinen päättelyvirhe:</strong> Looginen päättelyvirhe, joka johtuu väitteen sisällöstä tai käytetystä yhteydestä, ei niinkään sen loogisesta muodosta. Päättelyvirheen pitää olla yleisesti käytetty, jotta argumenttia voidaan pitää epämuodollisena päättelyvirheenä.</p>
+                    <p><strong>Validiteetti:</strong> Deduktiivinen argumentti on tosi, jos johtopäätös seuraa loogisesti oletuksia. Muussa tapauksessa sen sanotaan olevan virheellinen. Sanat tosi ja epätosi koskevat vain argumentteja, eivät käsiteltäviä väitteitä.</p>
+                </div>
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">53</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>Järkevyys:</strong> Deduktiivinen argumentti on järkevä, jos se on pätevä ja sen premissit ovat totta. Argumentti ei ole järkevä, jos jompikumpi näistä edellytyksistä puuttuu. Totuus päätellään katsomalla, ovatko argumentin premissit ja johtopäätökset yhteneväisiä oikean maailman tosiasioiden kanssa.</p>
+                    <p><strong>Vahvuus:</strong> induktiivinen argumentti on vahva, jos sen premissit ovat totta. Tällöin on erittäin todennäköistä, että myös sen päätelmä on myös totta. Jos taas sen johtopäätös on todennäköisesti epätosi, sen voi sanoa olevan heikko. Induktiiviset päätelmät eivät välttämättä tuota uutta tietoa: tosista premisseistä ei välttämättä seuraa oikea johtopäätös.</p>
+                    <p><strong>Vakuuttavuus:</strong> Induktiivinen argumentti on vakuuttava, jos se on vahva ja sen oletukset ovat oikeasti tosia - eli yhtäpitäviä faktojen kanssa. Muussa tapauksessa se ei ole vakuuttava.</p>
+                    <p><strong>Falsifioitavuus eli kumoutuvuus:</strong> Kertoo voidaanko argumentti kumota tai osoittaa vääräksi havainnoinnin tai kokeen avulla. Esimerkiksi väite <i>Kaikki lehdet ovat vihreitä</i> voidaan kumota osoittamalla lehti, joka ei ole vihreä. Falsifioitavuus on merkki argumentin vahvuudesta pikemminkin kuin sen heikkoudesta.</p>
+                </div>
+            </div>
+            <!-- end definitions -->
+
+            <!-- references -->
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/references_i.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">55</div>
+                <div class="page-title"></div>
+                <div class="page-content bibliography">
+                    <p>[Aristotle] Aristotle, On Sophistical Refutations, translated by W. A. Pickard, http://classics.mit.edu/Aristotle/sophist_refut.html</p>
+                    <p>[Avicenna] Avicenna, Treatise on Logic, translated by Farhang Zabeeh, 1971.</p>
+                    <p>[Carroll] Lewis Carroll, Alice's Adventures in Wonderland, 2008,<br />http://www.gutenberg.org/files/11/11-h/11-h.htm</p>
+                    <p>[Curtis] Gary N. Curtis, Fallacy Files, http://fallacyfiles.org</p>
+                    <p>[Damer] T. Edward Damer, Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments (6th ed), 2005.</p>
+                    <p>[Engel] S. Morris Engel, With Good Reason: An Introduction to Informal Fallacies, 1999.</p>
+                    <p>[Farmelo] Graham Farmelo, The Strangest Man: The Hidden Life of Paul Dirac, Mystic of the Atom, 2011.</p>
+                    <p>[Fieser] James Fieser, Internet Encyclopedia of Philosophy, http://www.iep.utm.edu</p>
+                    <p>[Firestein] Stuart Firestein, Ignorance: How it Drives Science, 2012.</p>
+
+                    <p class="footnote license" style="width:520px">
+                        <a class="internal" href="#base">Scroll down for more</a> &nbsp; <b>&middot;</b> &nbsp;
+                        Share on &nbsp; 
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">56</div>
+                <div class="page-title"></div>
+                <div class="page-content bibliography">
+                    <p>[Fischer] David Hackett Fischer, Historians' Fallacies: Toward a Logic of Historical Thought, 1970.</p>
+                    <p>[Gula] Robert J. Gula, Nonsense: A Handbook of Logical Fallacies, 2002.</p>
+                    <p>[Hamblin] C. L. Hamblin, Fallacies, 1970.</p>
+                    <p>[King] Stephen King, On Writing, 2000.</p>
+                    <p>[Minsky] Marvin Minsky, The Society of Mind, 1988.</p>
+                    <p>[P&oacute;lya] George P&oacute;lya, How to Solve It: A New Aspect of Mathematical Method, 2004.</p>
+                    <p>[Russell] Bertrand Russell, The Problems of Philosophy, 1912,<br />http://ditext.com/russell/russell.html</p>
+                    <p>[Sagan] Carl Sagan, The Demon-Haunted World: Science as a Candle in the Dark, 1995.</p>
+                    <p>[Simanek] Donald E. Simanek, <i>Uses and Misuses of Logic</i>, 2002,<br />http://www.lhup.edu/~dsimanek/philosop/logic.htm</p>
+                    <p>[Smith] Peter Smith, An Introduction to Formal Logic, 2003.</p>
+                </div>
+            </div>
+            <div class="right right-option3">
+                <div class="page-number">57</div>
+                <div class="page-title"></div>
+                <div class="page-content">              
+                    <p class="footnote license" style="width:520px">
+                        <a class="internal" href="#base">Scroll down for more</a> &nbsp; <b>&middot;</b> &nbsp;
+                        Share on &nbsp; 
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                </div>
+            </div>
+            <!-- end references -->
+          </div>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="hope-you-enjoyed-that"> 
+            <h3>Hope you enjoyed that</h3>
+            <div class="outro">
+                <p>This has been <span class="highlight">An Illustrated Book of Bad Arguments</span>. Thanks for visiting. Sightings of unintended irony should be <a href='https://github.com/almossawi/badarguments' class='underline'>reported to the author!</a></p>
+                <p>If you would like to help support this book with a small donation, that would be much appreciated.  Thank you!</p>
+                
+                <div id="slider-div">
+                    <div id="slider-range-min" style="margin-top:5px;padding-right:10px"></div>
+                    <label for="amount" style="line-height:40px">Name your price (drag slider to change)</label>
+                </div>
+                <div id="amount-div">
+                    <span id="amount" style="font-size:40px"></span>
+                </div>
+
+                <form id="stripe-form" action="../charge.php" method="POST" style="padding-top:22px">
+                    <input type="hidden" id="amount_in_cents" name="amount_in_cents" value="200" />
+
+                    <div>
+                    <script
+                      src="https://checkout.stripe.com/v2/checkout.js" class="stripe-button"
+                          data-key="pk_live_1wyUR9ETeoSkjh7mvhfbYkLz"
+                          data-name="An Illustrated Book of Bad Arguments"
+                          data-description="Donation"
+                          data-currency="usd"
+                          data-image="../images/stripe_thumb.png">
+                    </script>
+                    </div>
+                </form>
+                <p class="stripe">Secure payments by <a href="https://stripe.com" class="underline" target="_blank">stripe</a></p>
+                <p class="courtesy-of">Background image courtesy of <a href="http://subtlepatterns.com" class="underline">subtlepatterns</a></p>
+
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHRwYJKoZIhvcNAQcEoIIHODCCBzQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYC4WHPVa+29SuioGqHt01NUHAxbkRYBoaztr+ujnKAGgl/AJvpWo7HLiwh8HwtJG7JuDyzDSnD2MeegwGyvh8kZRIOtD95vTGj3w4jHbPZxzeufTQBgsSOxKTLFACJtcF09cmF5H+Ho87hkg5lBps1jPfIdUfTlOoslnOcEfaDrKjELMAkGBSsOAwIaBQAwgcQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQINB++j5Z2XoSAgaBQdLH/6j+AyGfYOOxREz/7UooEWn9TwNjoax8xzIDYcPE5YuejTg8ztN2i78FR0EDZOHe2feCkshxtox95PPC+t5vRnWxYntkJE04tVwUFy0B0HoYTBx78CD65uuW8O9AmOxqI0L5Dq44MtI2E+NXnQQVOfzsbNOTJzdPM6FMr1JFaC2A+x2AXccZ4su6o2QR+GaoEFnvCXror57is5kW8oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTQwNjIwMjExNjA3WjAjBgkqhkiG9w0BCQQxFgQUwMFAvYwN5fWFnC6A3WyA+a07u/gwDQYJKoZIhvcNAQEBBQAEgYA1J7KFMhnclAg5Lyqf7ZvGFmAOu7u0/o2QasuztGZEiTCJ1eaiWHFO3jAcZ5pd3faC0XYNBIbpmvyo6daI4AOu7aCn1mMfWNE0VCTE+piSa7BxfM90n30bqra9SWy4Gxeod20OLuuwgnSkSFKNDp9WoRSB5hei+K/Cd1JPNlwdUA==-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://bookofbadarguments.com/images/paypal-donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin-left:30px;margin-top:15px">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </div>
+            <div class="gradient"></div>
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div id="base" name="base">
+            <div id="base-book">
+                <img src="../images/book.png" width="220" height="185" alt="In print" />
+            </div>
+
+            <div id="base-prose">
+                <p style="margin-left:12px">Join the mailing list for two updates per year about this and <a href='https://thelandofbards.com' class='underline'>related projects</a>.</p>
+
+                <link href="../css/mailchimp-slim-081711.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{clear:left;font:14px;width:400px;}
+                </style>
+                <div id="mc_embed_signup">
+                    <form action="https://almossawi.us7.list-manage.com/subscribe/post?u=9c4dbd8f3e2d9a588cfe43dae&amp;id=3c89277de1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="base-contact">
+                <a class='tiny-button fa fa-2x fa-facebook-square' href='https://www.facebook.com/badarguments' title='Facebook'></a> 
+                <a class='tiny-button fa fa-2x fa-github' href='https://github.com/almossawi/badarguments' title='Github'></a> 
+                <a class='tiny-button fa fa-2x fa-twitter' href='https://twitter.com/alialmossawi' title='Twitter'></a> 
+                <a class='tiny-button fa fa-2x fa-instagram' href='https://instagram.com/almossawi' title='Instagram'></a>
+                <!--<a class='tiny-button fa fa-2x fa-envelope-o' href='mailto:ali@almossawi.com' title='Email'></a>-->
+
+                <div id="base-social">
+                    <div class="twitter-block"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://bookofbadarguments.com" data-via="alialmossawi">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+                    <div id="fb-block" class="fb-like" data-href="https://bookofbadarguments.com" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-font="arial"></div>
+
+                    <div style="height:15px;clear:both"></div>
+                    <div class="copyright-strip">
+                        2013-2015 &middot; <a href="#inline_content" class='inline underline'>See the sketches</a> 
+                        &middot; <a href="https://github.com/almossawi/badarguments" class='underline'>Get the code</a>
+                        <div class="url-link"><a href="https://almossawi.com/bookofbadarguments.html" style="text-decoration:none;color:#c7c7c7">www.bookofbadarguments.com</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="base-news" class="hide-on-mobile">
+                <div class='announcement'><b>News</b> &middot; <a href="http://www.abc.net.au/radionational/programs/drive/the-lost-art-of-making-sense/5919286" class='underline'>A conversation with ABC Radio about the art of making sense.</a></div>
+                <div class='announcement'><b>Announcement</b> &middot; <a href="http://www.reddit.com/r/IAmA/comments/2irsu5/hi_reddit_i_created_the_book_of_bad_arguments/" class='underline'>I'll be doing a Reddit Ask Me Anything on October 9 at 1:00PM (ET).</a></div>
+                <div class='announcement'><b>News</b> &middot; <a href="https://twitter.com/alialmossawi/status/526110069348257795" class='underline'>The Book of Bad Arguments website recently crossed 1 million visitors.</a></div>
+            </div>
+
+            <div style="clear:both;height:20px"></div>
+
+            <div id="press" class="hide-on-mobile">
+                <img src="../images/in_the_press.png" /> 
+                <a href="https://www.fastcocreate.com/3019063/now-more-than-ever-you-need-this-illustrated-guide-to-bad-arguments-faulty-logic-and-silly-r"><img src="../images/fastcompany.png" /></a> 
+                <a href="http://geekdad.com/2013/09/teach-kids-logic-illustrated-book-bad-arguments/"><img src="../images/geekdad.png" /></a> 
+                <a href="http://dish.andrewsullivan.com/2013/09/09/this-little-piggy-made-a-logical-error/"><img src="../images/the_dish.png" /></a> &nbsp;
+                <a href="https://www.buzzfeed.com/kevintang/charming-cartoons-that-debunk-your-bs-arguments"><img src="../images/buzzfeed.png" /></a> &nbsp;
+                <a href="http://io9.com/a-guide-to-fallacious-arguments-illustrated-with-funny-1273276162"><img src="../images/io9.png" /></a> 
+                <a href="https://laughingsquid.com/an-illustrated-book-of-bad-arguments-logical-fallacies-explained-with-fun-animal-illustrations/"><img src="../images/laughing_squid.png" /></a> 
+                <a href="https://boingboing.net/2014/03/21/bad-arguments-great-illustrat.html"><img src="../images/boingboing.png" /></a> &nbsp;
+                <!--<a href="https://www.reddit.com/r/philosophy/comments/1lcqzu/an_illustrated_book_of_bad_arguments/"><img src="../images/reddit.png" /></a> &nbsp;-->
+                <!--<a href="http://www.philosophynews.com/post/2013/08/21/An-Illustrated-Book-of-Bad-Arguments.aspx"><img src="../images/philosophy_news.png" /></a>--> 
+                <a href="http://www.openculture.com/2015/04/an-illustrated-book-of-bad-arguments.html"><img src="../images/open_culture.png" /></a> 
+                <a href="http://dangerousminds.net/comments/an_illustrated_book_of_bad_arguments_dispatching_the_dumb_one_funny_animal" class="hide-on-mobile"><img src="../images/dangerous_minds.png" /></a> 
+            </div>
+        </div>
+
+        <div style='display:none'>
+            <div id='inline_content'>
+                <p>A reader recently wrote in asking if I could share a bit about the process of putting the book together and talk about how the project started.  Certainly.</p>
+                <br /><br />
+                <p><span style="font-family:Georgia,Times;font-size:60px">I</span> go on two solitary walks every day.  There is a small park off the Embarcadero that is tucked away in a quiet spot.  It has a pleasant stream flowing through it and an unassuming bench beside that stream.  I have made walking to that frail bench a ritual, and the half an hour or so spent daydreaming on it amid the cool San Francisco breeze, an article of faith.</p>
+                <p>It was on a day in October of last year when, during one of those quiet moments on that bench, I recalled my college years and how outspoken I happened to be during them, an observation only made interesting by the fact that  I have since turned into the quietest of beings.  They say that achieving knowledge is a function of one's ability to maintain both doubt and hubris.  I don't know.  I find that as the years go by, I am left with more of the former and less of the latter.</p>
+                <p>A realization that coincided with that nostalgic whiff was that a sizable amount of the discourse nowadays continues to be plagued with bad reasoning.</p>
+                <p>Hence, the idea that finally shook me into soberness was one that had been fermenting for a while.  It was that of visualizing, in a simple manner, some of the principles that had helped me do well in debates and in off-the-cuff arguments with colleagues.  Simple.  That would be the novelty of it.  And so, with my two-year old daughter in the back of my mind, I decided that illustration would be an ideal language, given its universal appeal.</p>
+                <p>Once I had a draft version of the book ready, I sent it to one of my life-long idols, Marvin Minsky, co-founder of the MIT Artificial Intelligence Lab and author of <i>The Society of Mind</i>.  I must have spent a good week writing that email.  I was overjoyed when he wrote back a few hours later calling the book &ldquo;beautiful!&rdquo;  It was quite possibly one of the highlights of my life.  Having read the email, I made sure to maintain my earnestness while I found a private place, wherein I proceeded to do the Apache dance from <i>Fresh Prince</i>.</p>
+                <div style="height:312px;width:800px">
+                    <img src="../images/sketches/minsky.jpg" />
+                </div>
+                <p>The cover is inspired by one of my favorite games growing up: LucasArts' <i>Monkey Island</i> series.  The title's typography and the general feel of the whole scene borrow a bit from <i>Monkey Island</i> and a bit from <i>Indiana Jones</i>.  The cover's concept is based on the metaphor that good deductive logic is like a watertight pipe where truth goes in and truth comes out.  Hence, the cave that the two explorers are peeking through, which you may notice has an opening resembling that of a human ear, is actually the inside of someone's head, and the leaking pipes indicate that this person's head is filled with bad logic.</p>
+                <p>Shown below are some of the original sketches that I came up with.  I had the scenarios, characters and captions in mind, and a modest ability to transform them into drawings.  What I really wanted though was a woodcut style that would give the work an antiquated feel, because after all, if it looks old, then it must be of value&mdash;irony intended.  I commissioned a professional illustrator who did a nice job of translating a set of sketches, prose and undocumented ideas into the illustrations you see in this final artifact.</p>
+                <p>The project is a public service, and although it has cost a fair amount of money, nothing would make me happier than to see it used to teach younger people or those new to the field the importance of logical reasoning.  It is meant to serve as a modest, yet hopefully timeless, contribution.</p>
+                <p>Thank you for visiting and for your emails; they make my day.  Enjoy the sketches below.  If you don't see them, then they are still being loaded. Look out for the print version on Amazon later this year.</p>
+                <p><i>August 20, 2013 &middot; <a href="/#inline_content" style="color:white">(permalink)</a></i></p>
+                <div style="height:9600px;width:800px"> 
+                    <img src="../images/sketches/bear.jpg" />
+                    <img src="../images/sketches/pig.jpg" />
+                    <img src="../images/sketches/donkey.jpg" />
+                    <img src="../images/sketches/donkey2.jpg" />
+                    <img src="../images/sketches/frog.jpg" />
+                    <img src="../images/sketches/frog2.jpg" />
+                    <img src="../images/sketches/cat.jpg" />
+                    <img src="../images/sketches/vultures.jpg" />
+                    <img src="../images/sketches/toucan.jpg" />
+                    <img src="../images/sketches/chimp.jpg" />
+                    <img src="../images/sketches/crane.jpg" />
+                    <img src="../images/sketches/cow.jpg" />
+                    <img src="../images/sketches/sealion.jpg" />
+                    <img src="../images/sketches/all.jpg" />
+                    <img src="../images/sketches/proof.jpg" />
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/global.js"></script>
+    </body>
+</html> 
