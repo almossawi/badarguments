@@ -18,7 +18,7 @@ I'll be rolling out the updated design and code to all the translations over the
 * [Brazilian Portuguese (Diogo Lindner)](pt-br)
 * [Arabic (Sadiq Alnemer)](ar)
 * [Portuguese (Anton Stark)](pt)
-* Simplified Chinese (Peng Liang)
+* [Simplified Chinese (Peng Liang)](zh-cn)
 * [Finnish (Mikko Muilu, Harri Heikkilä, Timo Ylimäki, Marja Oilinki, Tere Sammallahti, Lauri Palsa)](fi)
 * [Slovak (Filip Klinovský)](sk)
 * Greek (Rafael Ketsetsides)
