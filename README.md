@@ -14,7 +14,7 @@ You are welcome to suggest corrections or submit suggestions by opening an issue
 
 I'll be rolling out the updated design and code to all the translations over the coming few days.
 
-* Spanish (María Corchero)
+* [Spanish (María Corchero)](es)
 * Brazilian Portuguese (Diogo Lindner)
 * [Arabic (Sadiq Alnemer)](ar)
 * Portuguese (Anton Stark)
