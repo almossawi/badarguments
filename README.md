@@ -19,7 +19,7 @@ I'll be rolling out the updated design and code to all the translations over the
 * [Arabic (Sadiq Alnemer)](ar)
 * [Portuguese (Anton Stark)](pt)
 * Simplified Chinese (Peng Liang)
-* Finnish (Mikko Muilu, Harri Heikkilä, Timo Ylimäki, Marja Oilinki, Tere Sammallahti, Lauri Palsa)
+* [Finnish (Mikko Muilu, Harri Heikkilä, Timo Ylimäki, Marja Oilinki, Tere Sammallahti, Lauri Palsa)](fi)
 * [Slovak (Filip Klinovský)](sk)
 * Greek (Rafael Ketsetsides)
 * [Hebrew (Noam Hadar, Assaf Linial)](he)
