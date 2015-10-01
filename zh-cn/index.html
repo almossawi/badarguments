@@ -1,0 +1,787 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta property="og:title" content="失败逻辑论证的插画书 简体中文版 镜飞译" />
+        <meta property="og:description" content="这本书的目标人群是逻辑推理领域的入门者，特别是那些，用帕斯卡的话说，通过视觉理解得最好的人。我选出了一系列推理中的常见错误，并将他们用好记的插图可视化出来，插图还补充有很多例子。希望读者能从书中学到论证中一些最常见的陷阱，并能在实践中识别并避免这些陷阱。" />
+        <meta property="og:image" content="https://bookofbadarguments.com/zh-cn/images/1.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bookofbadarguments.com/" />
+        <meta property="og:site_name" content="失败逻辑论证的插画书（翻译：镜飞）" />
+        <meta property="fb:admins" content="542418566" />
+        
+        <title>失败逻辑论证的插画书 简体中文版 镜飞译</title>
+
+        <link rel="stylesheet" href="../css/jquery-ui.css" type="text/css" />
+        <link rel="stylesheet" href="../css/colorbox.css" type="text/css" />
+        <link rel="stylesheet" href="../css/double-page.css" type="text/css" />
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-42350635-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            //ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=256637467814064";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!--<div class="corner-ribbon top-left brown shadow hidden-xs hidden-sm">1.8 million visitors</div>-->
+ 
+        <!-- force background image to load first -->
+        <img src="../images/community-heart.png" style="display:none" />
+        <img src="../images/noise.png" style="display:none" />
+        <img src="../images/bg_right.png" style="display:none" />
+        <img src="../images/bg_right2.png" style="display:none" />
+        <img src="../images/bg_right3.png" style="display:none" />
+        <img src="../images/bg_left.png" style="display:none" />
+        <img src="../images/bg_left2.png" style="display:none" />
+        <img src="../images/arrow-right.png" style="display:none" />
+        <img src="../images/handle.png" style="display:none" />
+        <img src="../images/slider-bg.png" style="display:none" />
+        <img src="../images/bear.png" style="display:none" />
+        <img src="../images/book.png" style="display:none" />
+        <img src="../images/stripe_thumb.png" style="display:none" />
+
+        <div class="topbar">
+            <div class="contributors">
+                <a href="https://github.com/almossawi/badarguments">
+                    <img src="../images/community-heart.png" />
+                </a>
+            </div>
+            <a href="/thebook/?from=main_page">
+                <img src="images/track_the_book.png" class="buy-the-book" />
+            </a>
+            <div id="zoom_info"></div>
+        </div>
+
+        <!-- languages -->
+        <div class="container-languages">
+            <div class="languages">
+                <a href="/">English</a>
+                <a href="/es/">Español</a>
+                <a href="/ar/">العربية</a>
+                <a href="/pt/">Português</a>
+                <a href="/pt-br/">Português brasileiro</a>
+                <a href="/zh-cn/" class="selected">中文</a>
+                <a href="/fi/">Suomeksi</a>
+                <a href="/sk/">Slovenčina</a>
+                <a href="/he">עברית</a>
+            </div>
+        </div>
+
+        <div class="container">
+          <div class="left-arrow"><a href="#"><img src="../images/arrow-left.png" /></a></div>
+          <div class="right-arrow"><a href="#"><img src="../images/trans.png" /></a></div>
+
+          <div class="loading">加载中</div>
+          <div class="howto"><img src="images/howto.png" /></div>
+
+          <div class="flipbook" style="position:relative">
+            <div id="cover" class="left">
+                <img src="images/1.jpg" />
+            </div>
+            <div id="blank_page" class="left">
+            </div>
+            <div class="right right-option1">
+                <img src="images/2b.png" />
+
+                <div class="page-content" style="position:absolute;z-index:999;right:0">
+                    <p class="translated-by">
+                        <span class="authors">翻译: 镜飞</span>
+                        <br /><br />
+                        <span class="contact">Peng Liang &middot; liangpeng2108@gmail.com &middot; 2015/4/6</span>
+                    </p>
+                </div>  
+            </div>
+
+            <!-- endorsements -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="text-align:justify;margin-top:260px;width:520px;font-size:8.5pt;line-height:14px">
+                        这一块小字只是为了让这本书看起来更像一本真书，除此之外没有什么特别的目的。在印刷出版的书里，通常会看到一大块小字印在第一页或者第二页，还写着©2013版权所有什么什么某某印刷出版之类的。出版社可能还会加入禁止复制翻印的文字。若非获得书面允许，不得用任何方式复制传播本书中任何部分。通常印在出版社信息下面一两行，还跟着一串数字。<br /><br /><br />
+                        如需更多信息，请联系JasperCollins Publishers, 99 St Marks Pl New York, NY 94105.<br />
+                        12 13 14 15 16 LP/SSRH 10 9 8 7 6 5 4 3 2 1<br /><br />
+                        但是认真地说，你只需要知道这个作品是在<a href="http://creativecommons.org/licenses/by-nc/3.0/">知识共享许可协议署名-非商业性（Creative Commons BY-NC）</a> 下共享的，这意味着你可以在保留作者署名的情形下非商业性自由共享和改编此作品。<br /><br />
+                        艺术指导：阿里·阿莫萨维    插图：亚历杭德罗·希拉尔多    翻译：镜飞
+                    </p>
+                </div>
+            </div>
+            <div class="right right-option2">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class="endorsement"><span style="font-size:18px">&ldquo;</span>我喜欢这本失败逻辑论证的插画书。<br />一本毫无漏洞的漏洞大全。<span style="font-size:18px">&rdquo;</span></p>
+                    <p class="endorsement_author">——BBC节目《奇妙的人类旅程》主持人，解剖学家，<br />爱丽丝·罗伯茨（Alice Roberts）教授</p>
+
+                    <p class="endorsement2"><span style="font-size:18px">&ldquo;</span>一本关于论证陷阱和技巧的非常易懂的总结。<br />我想不出比这更好的教授或重新介绍<br />这些逻辑论述基础概念的方式了。<br />一本让人愉快的小书。<span style="font-size:18px">&rdquo;</span></p>
+                    <p class="endorsement_author2">——谷歌数据艺术团队创意总监，<br />艾伦·考卜林（Aaron Koblin）</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/toc_i.png" />
+            </div>
+            <div class="right right-option3">
+                <img src="images/toc_ii.png" style="margin-left:1px" />
+            </div>
+
+            <!-- who is this book for -->
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/who_for.png" />
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">3</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class="text-indent" style="margin-top:100px">这本书的目标人群是逻辑推理领域的入门者，特别是那些，用帕斯卡的话说，通过视觉理解得最好的人。我选出了一系列推理中的常见错误，并将他们用好记的插图可视化出来，插图还补充有很多例子。希望读者能从书中学到论证中一些最常见的陷阱，并能在实践中识别并避免这些陷阱。</p>
+                </div>
+            </div>
+
+            <!-- preface -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/preface_i.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">5</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent'>关于逻辑和逻辑谬误的著述广泛而全面。这个作品的创新之处是用插图来描述一系列为害我们现在的论述的常见推理错误。</p>
+                    <p class='text-indent'>插图一部分受到例如奥威尔的《动物农庄》之类的寓言的启发，一部分受到例如刘易斯·卡罗尔的故事和诗歌之类的幽默荒唐作品的启发。和这些作品不一样的是，没有一个将插图联系起来的故事，它们都是独立的场景，只是通过风格和主题联系在一起，这使其有更好的适应性，更容易再利用。每个谬误只有一页解释，所以文字的简洁是有意为之的。</p>
+                    <p class='text-indent'>读不应该做的事的实际上很有用的学习方法。在《谈写作》（On Writing）一书中，史蒂芬·金（Stephen King）写道：“通过读烂文章，人们最能清楚地了解不要怎样写作。”他描述他阅读一本特别糟糕的小说时的感受为“和种牛痘的感觉一模一样”<sup>[1]</sup>。引用数学家乔治·波利亚（George Pólya）在一次授课讲座中的话，除了完全理解，还必须知道怎样去误解它<sup>[2]</sup>。这个作品主要探讨在论证中我们不应该做的事<sup>1</sup>。</p>
+                    <p class="block">* * * *</p>
+
+                    <p class="footnote" style="bottom:-60px"><sup>1</sup> 如果想看相反的书，请看T·爱德华·戴默（T. Edward Damer）关于推理谬误的书。</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">6</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent'>多年前，我花了部分时间用一阶谓词逻辑写软件说明。用离散数学而不用通常的符号——英语来写不变条件是种迷人的推理方式。这让有可能歧义的地方变得精准，让有些难以表达的地方变得严格。</p>
+                    <p class='text-indent'>那段时间，我精读了几本关于命题逻辑的书，现代的和古代的都有，其中一本是罗伯特·古拉（Robert Gula）的《逻辑谬误手册》（A Handbook of Logical Fallacies）。古拉的书让我想起我十年前在本子上草草写下的一系列关于如何辩论的启发。那都是我在网上论坛和陌生人辩论多年的成果。有例如“试着不对事物做一般性论断。”之类的话。现在这对于我来说是理所当然的，但对于一个学生，当时那是激动人心的发现。</p>
+                    <p class='text-indent'>很快变得明显的是，规范推理可以产生有用的收益，例如思想和表达的清晰性，客观性和更高的自信。分析论证的能力也提供了一个标尺，让人知道何时退出一个极可能毫无意义的讨论。</p>
+                    <p class='text-indent'>影响我们的生活和我们生活的社会的问题和事件，如公民自由、总统选举等，通常导致人们辩论政策和信念。通过观察一些这类论述，可以感觉到有大量的内容都有缺乏有效推理的问题。一些关于逻辑的写作的目的是帮助人们意识到塑造成功推理的工具和范本，并因此产生更有建设性的辩论。</p>
+                </div>
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">7</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent'>由于说服别人不仅是逻辑的作用之一，也是一些其它事物的作用，所以认识这些事物是什么对我们是有帮助的。修辞很可能首先被提到，一些规范，例如奥卡姆剃刀出现脑子里，一些概念，例如“举证责任”以及举证责任应归谁承担也是。感兴趣的读者可能愿意参考关于此主题的更广泛的文献。</p>
+                    <p class='text-indent'>最后，逻辑规则既不是自然世界的法则也不构成全部人类推理。如马文·闵斯基（Marvin Minsky）所言，普通常识推理是很难以逻辑原则来解释的，他类比补充道，“逻辑对于我们怎样思考的解释，</p>
+                    <p class='text-indent'>比语法对于我们怎样说话的解释更多”<sup>[3]</sup>。逻辑不产生新的真理，但让人可以验证已存在的思路的一致与连贯。正是因为如此，它被证明是观点和论证的分析与交流的有效工具。</p>
+
+                    <p style="text-align:right;font-weight:bold;padding-top:20px;margin-left:270px">阿里·阿莫萨维<br />2013年7月写于旧金山</p>
+                </div>
+            </div>
+            <!-- end preface -->
+
+            <!-- logical fallacies -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/logical_fallacies_i.png" />
+            </div>
+            <div class="right right-option1">
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:130px;padding-left:80px;padding-right:80px">第一原则就是你一定不能骗你自己<br />以及你是最容易被骗的人。</p>
+                    <p style="padding-left:300px">——理查德·P·费曼</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">10</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 混淆视听（红鲱鱼） <b>&rsaquo;</b> <b>诉诸后果</b></div>
+                <div class="page-title">诉诸后果</div>
+                <div class="page-content">
+                    <p class='text-indent'>诉诸后果是指将支持或反对一个命题的有效性诉诸于接受或拒绝此命题将产生的后果。仅仅因为一个命题会导致一些不受欢迎的结果，并不意味着这个命题是伪的。同样的，仅仅因为一个命题会导致好的结果，也不能让它一下子就变成真的。就像大卫·哈克特·费雪（David Hackett Fischer）说的那样：“结果的好坏不能传递到原因。”</p>
+                    <p class='text-indent'>结果好的情况下，论点可能诉诸听众的愿望，而听众的愿望有时只是一厢情愿的空想。结果坏的情况下，相反的，论点可能诉诸听众的恐惧。例如，陀思妥耶夫斯基的话：“上帝若不存在，一切皆为可为。”抛开客观道德的讨论不谈，对一个纯唯物主义世界的明显糟糕结果的好恶与前情的对错毫无关系。</p>
+                    <p class='text-indent'>要牢记这样的论证是错误的，仅当它们用于有客观真理价值的命题时，而不是当它们用于决定或政策时<sup>[4]</sup>，例如政客因为担心对选民的生活造成负面影响而反对加税之类。</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_consequences.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">12</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 混淆视听 <b>&rsaquo;</b> <b>稻草人谬误</b></div>
+                <div class="page-title">稻草人谬误</div>
+                <div class="page-content">
+                    <p class='text-indent'>故意夸张恶搞别人的论证，以攻击这个夸张恶搞，而不是实际的论点，就是“竖起稻草人”的意思。歪曲、错误引用、曲解以及过度简化都是这个谬误的形式。一个稻草人论证通常比实际论证更荒诞，所以使它成为一个更容易攻击的目标，并且可能诱导别人为那个更荒诞的论点辩解而不是为原论点辩解。</p>
+                    <p class='text-indent'>例如，“我的对手想让你相信我们是从在树上跳来跳去的猴子进化来的——一个绝对滑稽的观点。”这就是一个对演化生物学理论的明显歪曲，演化生物学的观点是人类和猿享有几百万年前共同的祖先。歪曲观点比反驳证据容易得多。</p>
+                </div>
+            </div>
+            <img src="images/strawman.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">14</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 混淆视听 <b>&rsaquo;</b> 起源谬误 <b>&rsaquo;</b> <b>诉诸无关权威</b></div>
+                <div class="page-title">
+                    诉诸无关权威
+                </div>
+                <div class="page-content">
+                    <p class='text-indent'>诉诸权威就是诉诸人的谦逊<sup>[5]</sup>，也就是说，诉诸“他人更博学”的观念。转述C·S·刘易斯（C. S. Lewis）的话：我们相信的绝大多数事情，例如原子和太阳系，是来自可信权威，因为它们都是历史观念。人们可以理性地诉诸相关权威，就像科学家和学者的典型行为。当诉诸一个对当前问题不在行的权威时，这种论证就是谬误的。另一种值得一提的相似行为是诉诸模糊权威，即观点是由一个模糊的集体提出的。例如，“德国的教授们证明了什么什么是正确的。”</p>
+                    <p class='text-indent'>一类诉诸无关权威是诉诸古代智慧，一些事被假设是正确的仅仅因为过去它被认为是对的，例如，“占星术过去被技术领先的文明，如古中国，所使用。因此，它肯定是正确的。”人们还可能诉诸古代智慧来支持个人偏好或者随时间变化的事物。例如，“人从几千年前就习惯每晚睡九个小时，因此我们现在也需要睡这么长时间。”过去有多重因素导致人们睡得更久。他们这样做过的事实没有为论证提供任何佐证。</p>
+                </div>
+            </div>
+            <img src="images/irrelevant_authority.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">16</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 歧义谬误 <b>&rsaquo;</b> <b>一词多义</b><sup>2</sup></div>
+                <div class="page-title">一词多义</div>
+                <div class="page-content">
+                    <p class='text-indent'>一词多义利用语言中的歧义，在论证的过程中改变一个词的含义，并用不同的语义来支持某些结论。一个词的含义在论述过程中保持一致称为单义使用。考虑下面的论证：“当我们无时不刻不在朋友、未来的伴侣以及投资中碰运气冒险的时候，你怎么能反对信仰呢？（How can you be against faith when we take leaps of faith all the time, with friends and potential spouses and investments? ）”这里，“faith”一词的意思从对造物主的精神信念变成了冒险行为<sup>*</sup>。
+                    <p class='text-indent'>这种谬误的常在对科学和信仰的讨论中发生。在此类讨论中，“为什么”一词可能被模棱两可地使用。在一种语境中，它可能被用作对“原因”的探索，这是科学的主要动力，而在另一种语境中，它可能被用作探索“目的<sup>**</sup>”和处理道德和分歧，这是科学给不出答案的。例如，有人会争辩说：“科学不能告诉我们事情为什么发生，我们为什么存在，有道德是为什么。因此，我们需要其它来源来告诉我们事情为什么发生。”</p>
+
+                    <p class="footnote" style="bottom:-15px"><sup>2</sup> 插图基于刘易斯·卡罗的《爱丽丝镜中奇遇》中爱丽丝和白皇后的交易。
+                    <br /><sup>*</sup> 译注1 《李天命的思考艺术》中给出了一个汉语例子，“我向你借100元，你只借了50元给我，还欠50元。但既然借了50元给我，于是我也欠你50元。由于各欠对方50元，所以我们扯平了，谁也不欠谁。”欠字的意思一为借了东西未还，二为仍差某一未足之数。
+                    <br /><sup>**</sup> 译注2 即“为（了）什么”。</p>
+                </div>
+            </div>
+            <img src="images/equivocation.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">18</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 不当假设 <b>&rsaquo;</b> <b>虚假两难</b><sup>3</sup></div>
+                <div class="page-title">虚假两难</div>
+                <div class="page-content">
+                    <p class='text-indent'>虚假两难给出两种可能的类别，并且假定讨论范围内的任何东西都必须属于其中一个类别。如果拒绝其中一个类别，就必须接受另一个类别。例如，“在对抗狂热主义的战争中没有局外人。你要么站在我们一边要么站在狂热分子一边。”在现实中，有第三个选项：可以保持中立；以及第四个选项：对抗双方；甚至第五个选项：对双方均表示理解。</p>
+                    <p class='text-indent'>《极怪之人》（The Strangest Man）中提到，物理学家欧内斯特·卢瑟福曾对他的同事尼尔斯·玻尔讲了一个寓言故事。一个人从一家店买了只鹦鹉，只因为鹦鹉不说话所以要退货。几次三番之后，店长最终说：“哦，好吧！你想要一只说话的鹦鹉。请原谅。我给了你思考的鹦鹉。”这里很显然，卢瑟福在用这个寓言解释沉默的狄拉克的天才之处，尽管可以想见某人可以用这样的理论来表示一个人要么是沉默的思想家，要么是唠叨的大笨蛋。</p>
+                    <p class="footnote" style="bottom:-18px"><sup>3</sup> 这种谬误也可以称作排中谬误、非黑即白谬误或者伪二分法。</p>
+                </div>
+            </div>
+            <img src="images/false_dilemma.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">20</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 因果谬误 <b>&rsaquo;</b> <b>相关非因果</b></div>
+                <div class="page-title">相关非因果</div>
+                <div class="page-content">
+                    <p class='text-indent'>这个谬误为一个事件假定了一个原因，但没有证据表明那个原因存在。两个事件可能一个在另一个之后发生，或者一起发生，因为它们相关，它们因为意外或者因为某些其它未知事件从而相关；不能在没有证据的情况下得出它们因果相连的结论。“最近的地震是因为人民违抗国王”不是个好论证。
+                    <p class='text-indent'>这个谬误有两种具体类型：“后此故因此”和“与此故因此”。前者，因为一个事件先于另一个事件发生，先发生的事就被说成了后发生的事的原因。后者，因为一件事与另一件事同时发生，就被说成了另一件事的原因。在不同学科中，这称为混淆相关与因果<sup>4</sup>。
+                    <p class='text-indent'>这里给出一个转述自喜剧演员斯图亚特·李（Stewart Lee）的例子：“我不能说，因为我在1976年画了个机器人然后《星球大战》上映了，他们就肯定抄袭了我。”我最近在一个网络论坛看到了另一个例子：“黑客弄瘫了铁路公司的网站，然后我一查列车到达时间，你猜怎么着，火车全晚点了！”楼主没意识到火车本就很少准时到站，所以在没有任何科学控制的情况下，这个推理不成立。
+
+                    <p class="footnote" style="bottom:-15px">
+                    <sup>4</sup> 吃巧克力和获诺贝尔奖<a href='http://www.bbc.com/news/magazine-20356613'>显示出极高的相关性</a>，这也许为许多吃巧克力的人燃起了希望。</p>
+                </div>
+            </div>
+            <img src="images/not_a_cause_for_a_cause.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">22</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 混淆视听 <b>&rsaquo;</b> 诉诸情感 <b>&rsaquo;</b> <b>诉诸恐惧</b></div>
+                <div class="page-title">诉诸恐惧</div>
+                <div class="page-content">
+                    <p class='text-indent' style='margin-bottom:0'>此谬误依赖于听众的恐惧，让听众想像接受某命题后会造成的恐怖未来以造成恐惧。这种论证</p>
+                    <p class='text-indent' style='margin-top:0'>提供证据证明一个结论从一系列可能给出合理恐惧原因前提条件中来。这种论证依赖花言巧语、威胁或公然的谎言。例如，“我要求所有雇员在即将到来的竞选中为我选定的候选人投票。如果其他候选人当选，他将增加赋税，你们中的很多人都将丢掉饭碗。”</p>
+                    <p class='text-indent'>另一个例子摘自小说《审判》：“你应该在警察来之前将你所有值钱的东西给我。他们会把你的东西放进库房，东西在库房里很容易丢。”在这里，尽管论证更像威胁，虽然是轻微的威胁，但还是试图在推理的。连证据都懒得提供的厚颜无耻的威胁或命令不应该和这种谬误相混淆，尽管它们也利用人的恐惧感<sup>[5]</sup>。</p>
+                    <p class='text-indent'>诉诸恐惧可以继而描述一系列由于接受某一命题从而发生的可怕事件，这些事件没有清晰的因果联系，这让人想起滑坡谬误。这个谬误也可能为被攻击的命题提供一个且是唯一一个替代方案，这种情况下它让人想起虚假两难。</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_fear.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">24</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 弱类比 <b>&rsaquo;</b> 不具代表性的样本 <b>&rsaquo;</b> <b>轻率概化</b></div>
+                <div class="page-title">轻率概化</div>
+                <div class="page-content">
+                    <p class='text-indent'>当用一个太小或者太特殊的例子来代表整个集体的时候就犯了这个谬误。例如，在街上问十个人他们对总统削减赤字的计划的看法，无论怎样都不能说成是代表了整个国家的态度。</p>
+                    <p class='text-indent'>尽管很方便，但轻率概化可以导致昂贵和灾难性的后果。例如，可以认为导致阿丽亚娜5型火箭首次发射爆炸的工程假设就是轻率概化的结果。对阿丽亚娜4型火箭控制器的一系列测试不能替代阿丽亚娜5型控制器的用例必要测试。签署这种决定主要在于工程师和管理人员的论证能力，因此也是这个例子以及相似的例子与我们的逻辑谬误讨论之间的相关点。</p>
+                    <p class='text-indent'>另一个例子来源于《爱丽丝梦游仙境》，在故事中爱丽丝推断道，因为她在水里飘着，看到个火车站，因此她觉得附近肯定有人能救她：“爱丽丝活到现在只去过海边一次，就得出了普遍结论，无论你去英格兰的哪个海边，你都会发现海里有几个更衣车，一些小孩在用木铲挖沙子，一排小屋，小屋后面是个火车站。”<sup>[6]</sup></p>
+                </div>
+            </div>
+            <img src="images/hasty_generalization.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">26</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 资料缺失谬误 <b>&rsaquo;</b> <b>诉诸无知</b><sup>5</sup></div>
+                <div class="page-title">诉诸无知</div>
+                <div class="page-content">
+                    <p class='text-indent'>这种论证仅因为没有证据证明一个命题是假的就假设它是真的。因此，证据的缺乏被用来表示不存在证据。一个例子，来自卡尔·萨根（Carl Sagan）：“没有有力证据表明UFO没有造访地球，因此UFO存在。”近似的，当我们不知道金字塔是怎样建造的时候，有些人得出结论说，除非被证明用其他手段建造，否则，因为没有其它方法，所以它们必须是由超自然能力建成的。举证责任永远横在想要做论断的人面前。</p>
+                    <p class='text-indent'>更进一步来说，如其他几位作者对这个问题的阐述，我们必须问问，基于过去的观察所得到的证据，什么是更可能的，什么是更不可能的。穿越宇宙飞来的一个物体，是更可能是人造的或是自然现象呢，还是更可能是外星人从其它星球前来拜访呢？因为我们经常观察到前者，从没观察到后者，因此得出UFO不太可能是从外层空间前来访问的外星人的结论是更合理的。</p>
+                    <p class='text-indent'>诉诸无知的一个具体形式是诉诸个人怀疑，在这种形式中，一个人的想像力的无能会导致相信提出的论证是错的。例如，“无法想像我们已经让人登陆月球了，因此这件事从没发生过。”对这种观点的回复有时很是机智地应对说，“这就是你不是物理学家的原因。”</p>
+
+                    <p class="footnote" style="bottom:-15px"><sup>5</sup> 插图灵感来自奈尔·德葛拉司·泰森（Neil deGrasse Tyson）对一个听众提问的回答：<a href="http://youtu.be/NSJElZwEI8o">youtu.be/NSJElZwEI8o</a>。
+                </div>
+            </div>
+            <img src="images/appeal_to_ignorance.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">28</div>
+                <div class="taxonomy">非形式谬误>歧义谬误 <b>&rsaquo;</b> 一词多义>修改定义 <b>&rsaquo;</b> <b>没有真正的苏格兰人</b></div>
+                <div class="page-title">没有真正的苏格兰人</div>
+                <div class="page-content">
+                    <p class='text-indent'>对一类事物有时会有一般性的描述。当面对违反这种描述的例证时，这种论证方式不去接受或拒绝这个例证，而是通过随意修改对这类事物成员的限制条件来应对<sup>6</sup>。</p>
+                    <p class='text-indent'>例如，有人可能假想程序员都是毫无社交能力的生物。如果有人否认这个论述说，“但是约翰是个程序员，他毫无社交障碍。”这可能会将引发这样的回应，“对，但是约翰不是真正的程序员。”在这里，程序员的属性到底是什么并不明确，程序员的分类也不像比如蓝眼睛的人那样明确。歧义让固执的人可以凭意愿修改定义。</p>
+                    <p class='text-indent'>这个谬误是由安东尼·弗鲁（Antony Flew）在他的著作《思考之思考》（Thinking about Thinking）中提出的。书中，他给出了这个例子： 哈米什在看报，看到一个消息说一个英格兰人犯下十恶不赦的大罪，于是哈米什说，“没有苏格兰人会干这种事。”第二天，他又看到一个消息，一个苏格兰人犯了更十恶不赦的罪；哈米什没有修正他关于苏格兰人的论断，反而说，“没有真正的苏格兰人会干这种事。”</p>
+
+                    <p class="footnote" style="bottom:-15px"><sup>6</sup> 当抨击者蓄意重新定义一个类别，明知故犯时，他或她故意歪曲它，这种抨击即成为稻草人谬误。</p>
+                </div>
+            </div>
+            <img src="images/no_true_scotsman.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">30</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 混淆视听 <b>&rsaquo;</b> <b>起源谬误</b></div>
+                <div class="page-title">起源谬误</div>
+                <div class="page-content">
+                    <p class='text-indent'>论证的来源或人的出身对论证的有效性毫无影响。当论证独因为它的历史而被贬低或反驳时，就犯了起源谬误。如T·爱德华·戴默（T. Edward Damer）所指出，当一个人情绪性地被一个想法的起源束缚时，在评价后者时无视前者并不总是那么容易。</p>
+                    <p class='text-indent'>考虑下面这个论证，“他当然支持工会工人罢工，他怎么着也是从同一个村子来的。”在这里，没有根据行为的价值来评价论证，这一点因为这个人恰巧与抗议者来自同一个村子而被无视了。这个信息随之被用来推断出此人的论证因此毫无意义。另一个例子：“因为我们生活在21世纪，所以我们不能继续抱着那些青铜时代的信念。”为什么不呢，可能有人会问。我们要仅仅因为它们是在那个时代出现，就摒弃所有来源于青铜时代的想法吗？</p>
+                    <p class='text-indent'>相反的，起源谬误也可能以积极的方式被使用，例如，“杰克在艺术上的观点是不容质疑的，他师出名门。”在这里，用于推理的论据和之前的例子里一样缺乏。</p>
+                </div>
+            </div>
+            <img src="images/genetic_fallacy.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">32</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 混淆视听 <b>&rsaquo;</b> <b>罪恶关联</b></div>
+                <div class="page-title">罪恶关联</div>
+                <div class="page-content">
+                    <p class='text-indent'>因提议的观点与某个被社会恶魔化的个人或群体相同而贬低一个论证，就是罪恶关联。例如，“我的对手提议建设一个像社会主义国家的医疗系统一样的体系。很明显，这是让人无法接受的。”被提议的医疗系统是否和社会主义国家的系统相似和它的好坏没有任何关系，这个例子由前提完全推不出结论。</p>
+                    <p class='text-indent'>另一种论证，在某些社会中被反复诉诸反复，是这样的：“我们不能让女人开车，因为那些不信神的国家的人让他们的女人开车。”本质上，这个例子和前面的例子都试图论证的是，某些人群整体上绝对邪恶，因此，和他们哪怕有同样的一个观点都会让人变成他们中的一员，与那个团体相关的邪恶都将被赋予这个人。</p>
+                </div>
+            </div>
+            <img src="images/guilt_by_association.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">34</div>
+                <div class="taxonomy">形式谬误 <b>&rsaquo;</b> 命题逻辑谬误 <b>&rsaquo;</b> <b>肯定后件</b></div>
+                <div class="page-title">肯定后件</div>
+                <div class="page-content">
+                    <p class='text-indent' style='margin:0'>肯定前件（通过肯定来肯定的模式），是几个正确的论证形式之一。肯定前件的形式如下：若<b>A</b>则<b>C</b>，<b>A</b>成立，因此<b>C</b>成立。更正规的写法是：</p>
+                    <p style='margin:0'>A <b>&rArr;</b> C, A &#8866; C.</p>
+                    <p style='margin:0'>在这里，我们有三个命题：两个前提和一个结论。A叫做前提，C则是结论。例如，“如果水在海平面高度沸腾，那么水的温度至少有100°C。这杯水在海平面高度沸腾，因此它的温度至少有100°C”这样的论证不仅是听起来正确，实际上也是有效的。</p>
+                    <p class='text-indent'>肯定后件是一种以下面的形式存在的形式谬误：<br />
+                    若A则C，C成立，因此A成立。</p>
+                    <p class='text-indent'>这个错误是假设如果结论是真的，那么它的前提肯定也是真的，但实际上并不一定这样。例如，“上大学的人的人生更成功。约翰很成功，因此他肯定上过大学。”很明显，约翰的成功可能是正规教育的结果，但是也可能是因为他的儿时教育，又或者是因为他克服困难环境的渴望。更普遍地说，不能说因为教育意味着成功，所以如果一个人成功了，那么这个人就肯定是接受了教育。</p>
+                </div>
+            </div>
+            <img src="images/affirming_the_consequent.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">36</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 混淆视听 <b>&rsaquo;</b> 起源谬误 <b>&rsaquo;</b> 诉诸人身 <b>&rsaquo;</b> <b>你也一样</b></div>
+                <div class="page-title">你也一样</div>
+                <div class="page-content">
+                    <p class='text-indent'>这个谬误的拉丁文名称是tu quoque，意为“你也是”。这个谬误涉嫌用一项控诉来应对另一项控诉，而不是陈述被提出的问题，此谬误从原论证中故意转移注意力。例如，约翰说：“这个人是错的，因为他不诚实，就问问他为什么被炒掉上一份工作。”杰克对此回应说：“我们来谈谈去年尽管你的半个公司被裁员了你还装进自己口袋的大笔红利吧。”当一个人正在论证的事与其过去的举动相冲突时，你也一样也可能在这时被用来攻击这个人<sup>[5]</sup>。</p>
+                    <!--<p class='text-indent'>英国电视话题节目《新闻问答》（Have I Got News For You）的其中一集里，一位嘉宾因为在伦敦反对公司贪婪的抗议者的明显虚伪行为而反对他，嘉宾指出，当他们反对资本主义的时候，他们还在继续使用手机并购买咖啡。节选视频的地址在此 <a href="http://youtu.be/8WvAkhW-XNI" target="_blank">youtu.be/8WvAkhW-XNI</a>。--></p>
+                    <p class='text-indent'>另一个例子来自贾森·雷特曼（Jason Reitman）的电影《吸烟无罪》（Thank You for Smoking，福克斯探照灯影业，2005）。影片中，一个满是你也一样谬误的交易被侃侃而谈的烟草游说者尼克·内勒终结：“我真是被那位从佛蒙特来的先生的想法逗笑了，他管我叫伪君子的同时，他自己，有一天举办了一个记者招待会，招待会上他号召把美国的烟草田割掉烧光，然后他跳上一驾私人客机，飞到农场救助音乐会（Farm Aid）<sup>*</sup>，开上一辆拖拉机表演他为美国农场主的衰落而悲哀。”</p>
+
+                    <p class="footnote" style="bottom:-15px">* 译注3 为家庭农场主募捐的美国慈善音乐会。</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_hypocrisy.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">38</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 相关非因果 <b>&rsaquo;</b> <b>滑坡谬误</b></div>
+                <div class="page-title">滑坡谬误</div>
+                <div class="page-content">
+                    <p class='text-indent'>滑坡谬误<sup>7</sup>企图通过论证接受某一命题会毫无疑问地导致一系列事件，其中一件或多件是人们不想发生的，来贬低一个命题。尽管那一系列事件可能发生有可能是实际情况，每个转变都有一定概率发生，但这种论证假设所有的转变都是不可避免的，却完全不提供任何证据来证明确实会是这样。这个谬误利用听众的恐惧，并且和一些其它谬误相关，例如诉诸恐惧、虚假两难以及诉诸后果。</p>
+                    <p class='text-indent'>例如，“我们不应该让人民不受限制地使用网络。你要知道，接下来他们就会频繁访问色情网站，然后很快我们的整个道德结构就会土崩瓦解，我们将败坏得与禽兽无异。”极为明显的是，除了毫无根据的推断，没有给出任何证据表明使用网络导致社会道德结构的崩溃，却对人的品行进行了预先假设。</p>
+
+                    <p class="footnote" style="bottom:-15px"><sup>7</sup> 这里描述的滑坡谬误是因果型的。</p>
+                </div>
+            </div>
+            <img src="images/slippery_slope.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">40</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 混淆视听 <b>&rsaquo;</b> <b>从众谬误</b></div>
+                <div class="page-title">从众谬误</div>
+                <div class="page-content">
+                    <p class='text-indent'>也被称为诉诸众人，这种论证用一定规模的人群，或者甚至是大多数人，相信某事物作为因此这件事肯定是真的的证据。某些阻碍了前锋思想被世人接受的论证就属于这种类型。举例来说，伽利略就面对他同时代的人对于他对哥白尼模型的支持的嘲笑。距今更近一些，巴里·马歇尔不得不采取自行服用的极端方法以说服科学界胃溃疡可能是由幽门螺杆菌造成的，这一理论在此之前从一开始就被广泛无视。
+                    <p class='text-indent'>诱导人们接受流行的事物是广泛应用于广告和政治中手段。例如，“小帅哥们都用这款发胶，成为他们中的一员。”尽管变成“小帅哥”是个很诱人的提议，但它并没有对应该买广告产品的要求提供支持。政客们经常使用相似的花言巧语来为他们的宣传增加势力并影响选民。</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_bandwagon.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">42</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 混淆视听 <b>&rsaquo;</b> 起源谬误 <b>&rsaquo;</b> <b>诉诸人身</b><sup>8</sup></div>
+                <div class="page-title">诉诸人身</div>
+                <div class="page-content">
+                    <p class='text-indent'>诉诸人身论证是攻击一个人的特征而不是攻击他或她所说的话，是故意岔开讨论话题贬低他人论证。例如，“你又不是历史学家，你为什么不管好自己的事。”这里，一个人是不是历史学家对他们的论证是否合理毫无影响，也丝毫不能强化攻击者的立场。</p>
+                    <p class='text-indent'>这种个人性的攻击被称为人身攻击。第二种类型，旁证型诉诸人身（动机型诉诸人身），是以犬儒理由攻击一个人的任何论证，是通过评价他人的意图。例如，“你不是真心关心减少城市犯罪，你只是想让大家投你的票。”有些情况下会合法地对一个人的个性和正直进行质疑，例如在作证的时候。</p>
+
+                    <p class="footnote" style="bottom:-15px"><sup>8</sup> 插图受几年前Usenet上的讨论的启发，讨论的一位参与者是一位过度热情又固执的程序员。</p>
+                </div>
+            </div>
+            <img src="images/ad_hominem.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">44</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 乞题谬误 <b>&rsaquo;</b> <b>循环论证</b></div>
+                <div class="page-title">循环论证</div>
+                <div class="page-content">
+                    <p class='text-indent'>循环论证是四种乞题论证之中的一种<sup>[7]</sup>，乞题论证中隐性或显性地在前提中假设了结论。在循环论证中，结论或是被明目张胆地用作前提，或者更常见地，是结论被改写，使其看起来是一个不同的命题，但实际上还是一样的。例如，“你根本不对，因为你毫无道理。”这里，两个命题是一个相同的命题，因为不对和毫无道理在这个语境中的意思是一样的。这种论证是在简单地说“因为x所以x。”这是毫无意义的。</p>
+                    <p class='text-indent'>循环论证会不时依赖未声明的前提，这能其更难被发现。这里有一个例子来源于澳大利亚电视剧《请喜欢我》（Please Like Me），剧中一个角色诅咒另一个不信教的角色下地狱，这个人回答道：“（你的诅咒）毫无道理。就好像嬉皮士威胁说要揍你身边的空气。”在这个例子中，未声明的前提是，有一位上帝存在，上帝将一部分人打入地狱。因此，这个前提“存在一位上帝将不信教的人打入地狱”被用于支持结论“存在一位上帝将不信教的人打入地狱”。</p>
+                </div>
+            </div>
+            <img src="images/circular.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">46</div>
+                <div class="taxonomy">非形式谬误 <b>&rsaquo;</b> 不当假设 <b>&rsaquo;</b> <b>合成谬误与分割谬误</b></div>
+                <div class="page-title">合成谬误与分割谬误</div>
+                <div class="page-content">
+                    <p class='text-indent'>合成谬误指一个整体肯定拥有某一特定属性因为它的一部分恰好有这一属性。转述彼得·米利肯（Peter Millican）的话，如果羊群里的每只羊都一个母亲，不能推出整群羊有一个母亲。这里还有一个例子：“这个软件系统中的每个模块都经过一组模块测试并通过了全部测试，因此，当模块整合起来之后，这个软件系统不会触犯任何已经被模块测试验证的不变条件。”实际情况是个体部件的整合会因为依赖关系给系统引入新的复杂性，这可能随之埋下失败的种子。</p>
+                    <p class='text-indent'>相反的，分割谬误是指一部分肯定拥有某属性，因为它所从属的整体正巧有那个属性。例如，“我们队是不败的。任何一个我们的队员都能与任何一个其它队的队员对抗并胜过他。”虽然队伍作为一个整体不败可能是真的，但不能用此作为证据推出它的每个队员因此都是不败的。一个队伍的成功明显不总是它的队员的个体技能的总和。</p>
+                </div>
+            </div>
+            <img src="images/composition_and_division.png" class="right" />
+
+            <!-- final remarks -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/final_remarks.png" />
+            </div>
+            <div class="right">
+                <div class="page-number">49</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent' style="margin-top:95px">多年前，我听说一位教授用一个绝妙的比喻来介绍演绎论证，把演绎论证描述成密封管道，真理从一端进去，从另一端出来。如你所见，那就是这本书封面的灵感。已经到了这本书的结尾，我希望你在结束对这本书的阅读时，不仅对滴水不漏的论证在验证和扩展知识中的好处有了更好的理解，也对概率参与其中的归纳论证的复杂性有了更深的认识。特别是对于这样的论证，批判性思维是一个必不可少的工具。我希望你还意识到了薄弱的论证的危险性以及它们在我们的日常生活中多么常见。</p>
+                    <p class="footnote license" style="position:absolute;bottom:36px;width:520px;font-family:'SimSun','FangSong','SimFang'">
+                        <a class="internal" href="#base">向下滚动了解更多</a> &nbsp; <b>&middot;</b> &nbsp;
+                        分享到  &nbsp; 
+                        <a href="http://www.weibo.com">微博</a> &nbsp; 
+                        <a href="http://www.douban.com/">豆瓣</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- translator's note -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/translators_note.png" />
+            </div>
+            <div class="right">
+                <div class="page-number">51</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent'>就在我翻译这本书的这段时间里，国内网络上又发生了不知多少场论战。我本想举几个其中的谬误例子，但想来想去，还是决定把这个任务留给读者。不是因为这样的例子难找，而是因为国内还有太多没有获得逻辑论证知识而又思维活跃的人，他们难免不能就事论事，而是一厢情愿地为我配上潜台词，宣布我意在支持某些派别或鼓吹某些思想。这也正是我翻译这本书的原因之一。</p>
+                    <p class='text-indent'>书中一些名词的译法，我参考了赵明燕译《简单的逻辑学》（D. Q. McInerny, Being Logical: A Guide to Good Thinking），杨武金译《逻辑的力量（第三版）》（C. Stephen Layman, The Power of Logic (3rd Edition)），以及我的程序员朋友小蕊的意见。在此表示感谢！如果您在阅读中发现翻译错误或对译文有修改意见，请一定联系我。</p>
+                    <p style="font-weight:bold;text-align:right;padding-top:20px;margin-left:270px">镜飞<br />写于2015年复活节</p>
+                </div>
+            </div>
+
+            <!-- definitions -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/definitions.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">53</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>命题：</strong> 一种非真即假的陈述，但不能既真又假。例如，“波士顿是马萨诸塞州最大的城市。”</p>
+                    <p><strong>前提：</strong> 为论证的结论提供支持的命题。一个论证可以有一个或多个前提。</p>
+                    <p><strong>论证：</strong> 目的是通过推理来说服他人的命题集。论证中，称为前提的命题子集，为某个其它的称为结论的命题提供支持。</p>
+                    <p><strong>演绎论证：</strong> 如果前提为真则结论肯定为真的论证。结论对于前提是逻辑必要的。例如，“人终有一死。苏格拉底是人。因此，苏格拉底终有一死。”演绎论证意欲有效，但当然也可能无效。</p>
+                    <p><strong>归纳论证：</strong> 如果前提为真则结论可能也为真的论证<sup>9</sup>。结论因此对于前提不是逻辑必要的，而是有概率的。例如，“每次测量光在真空中的速度，都是3×10<sup>8</sup> m/s。因此，光在真空中的速度是普适常数。”归纳推理通常将特殊例证推广到一般。</p>
+                
+                    <p class="footnote" style="bottom:-55px"><sup>9</sup> 科学上，通常从数据归纳推广到定律到理论，因此归纳是很多科学的基础。归纳常用于表示在一个样本上测试一个命题，或是因为其不切实际，或是因为其不可能付诸行动。</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">54</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>逻辑谬误：</strong> 推理中导致无效论证的错误。错误严格地与从一个命题到另一个命题的过渡推理有关，而不与事实相关。换句话说，对于一件事的无效的论证不一定意味着这件事是不合理的。逻辑谬误违反一项或多项构造成功论证的原则，如正确的结构、一致、清晰、顺序、相关和完备。</p>
+                    <p><strong>形式谬误：</strong> 不符合逻辑运算的语法和推理规则的逻辑谬误。论证的有效性可以通过分析它的简化结构而无需评价其内容即可确定。</p>
+                    <p><strong>非形式谬误：</strong> 不是因为自身形式而是因为内容和语境造成的逻辑谬误。被认为是非形式谬误的论证中，推理错误应该是普遍问题。</p>
+                    <p><strong>有效性：</strong> 一个演绎论证是有效的，当其结论能从其前提逻辑推出。否则，这个演绎论证是无效的。描述词“有效”和“无效”只针对论证，而不针对命题。</p>
+                    <p><strong>可靠性：</strong> 一个演绎论证是可靠的，当这个论证是有效的且前提均为真。如果其中任何一个条件不满足，则论证是不可靠的。真理是靠观察论证的前提和结论是否与真实世界中的事实相一致来判断的。</p>
+                </div>
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">55</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>效力：</strong> 一个归纳论证效力强，当其前提均为真，则其结论有很大可能性也为真。否则，如果其结论不大可能为真，则这个论证效力弱。归纳论证是不保真的，永远不可能有一个真结论肯定来自真前提的情况。</p>
+                    <p><strong>说服力：</strong> 一个归纳论证是有说服力的，当这个论证效力强且前提均确实为真，即与事实一致。否则，这个论证是无说服力的。</p>
+                    <p><strong>可证伪性：</strong> 命题或论证的一种属性，这种属性使命题或论证能通过观察或实验被反驳或证明有误。例如，命题“所有的叶子都是绿的”，可以通过指出一片叶子不是绿的来反驳。可证伪性，是一个论证的效力的标志，而不是标志着这个论证的缺陷。</p>
+                </div>
+            </div>
+            <!-- end definitions -->
+
+            <!-- references -->
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/references_i.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">57</div>
+                <div class="page-title"></div>
+                <div class="page-content bibliography">
+                    <p>[1] Stephen King, On Writing, 2000.</p>
+                    <p>[2] George Pólya, How to Solve It: A New Aspect of Mathematical Method, 2004.</p>
+                    <p>[3] Marvin Minsky, The Society of Mind, 1988.</p>
+                    <p>[4] Gary N. Curtis, Fallacy Files, http://fallacyfiles.org</p>
+                    <p>[5] S. Morris Engel, With Good Reason: An Introduction to Informal Fallacies, 1999.</p>
+                    <p>[6] Lewis Carroll, Alice's Adventures in Wonderland, 2008, http://www.gutenberg.org/files/11/11-h/11-h.htm.</p>
+                    <p>[7] T. Edward Damer, Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments (6th ed), 2005.</p>
+                    <p>[8] Aristotle, On Sophistical Refutations, translated by W. A. Pickard, http://classics.mit.edu/Aristotle/sophist_refut.html</p>
+                    <p>[9] Avicenna, Treatise on Logic, translated by Farhang Zabeeh, 1971.</p>
+                    <p>[10] Graham Farmelo, The Strangest Man: The Hidden Life of Paul Dirac, Mystic of the Atom, 2011.</p>
+
+                    <p class="footnote license" style="bottom:-50px;width:520px;font-family:'SimSun','FangSong','SimFang'">
+                        <a class="internal" href="#base">向下滚动了解更多</a> &nbsp; <b>&middot;</b> &nbsp;
+                        分享到  &nbsp; 
+                        <a href="http://www.weibo.com">微博</a> &nbsp; 
+                        <a href="http://www.douban.com/">豆瓣</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">58</div>
+                <div class="page-title"></div>
+                <div class="page-content bibliography">
+                    <p>[11] James Fieser, Internet Encyclopedia of Philosophy, http://www.iep.utm.edu</p>
+                    <p>[12] Stuart Firestein, Ignorance: How it Drives Science, 2012.</p>
+                    <p>[13] David Hackett Fischer, Historians' Fallacies: Toward a Logic of Historical Thought, 1970.</p>
+                    <p>[14] Robert J. Gula, Nonsense: A Handbook of Logical Fallacies, 2002.</p>
+                    <p>[15] C. L. Hamblin, Fallacies, 1970.</p>
+                    <p>[16] Bertrand Russell, The Problems of Philosophy, 1912, http://ditext.com/russell/russell.html</p>
+                    <p>[17] Carl Sagan, The Demon-Haunted World: Science as a Candle in the Dark, 1995.</p>
+                    <p>[18] Donald E. Simanek, Uses and Misuses of Logic, 2002, http://www.lhup.edu/~dsimanek/philosop/logic.htm</p>
+                    <p>[19] Peter Smith, An Introduction to Formal Logic, 2003.</p>
+                </div>
+            </div>
+            <div class="right right-option3">
+                <div class="page-number">59</div>
+                <div class="page-title"></div>
+                <div class="page-content">              
+                    <p class="footnote license" style="position:absolute;bottom:-60px;width:520px;font-family:'SimSun','FangSong','SimFang'">
+                        <a class="internal" href="#base">向下滚动了解更多</a> &nbsp; <b>&middot;</b> &nbsp;
+                        分享到  &nbsp; 
+                        <a href="http://www.weibo.com">微博</a> &nbsp; 
+                        <a href="http://www.douban.com/">豆瓣</a>
+                    </p>
+                </div>
+            </div>
+            <!-- end references -->
+          </div>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="hope-you-enjoyed-that"> 
+            <h3>希望你喜欢这本书</h3>
+            <div class="outro">
+                <p>这就是《失败逻辑论证的插画书》。感谢浏览。<br />如果发现作者自己无意中的谬误，一定要报告作者哦！</p>
+                <p>如果你愿意捐款支持这本书，那就再好不过啦。谢谢！</p>
+                
+                <div id="slider-div">
+                    <div id="slider-range-min" style="margin-top:5px;padding-right:10px"></div>
+                    <label for="amount" style="line-height:40px">捐款数额（拖动调整数额）</label>
+                </div>
+                <div id="amount-div">
+                    <span id="amount" style="font-size:40px"></span>
+                </div>
+
+                <form id="stripe-form" action="../charge.php" method="POST" style="padding-top:22px">
+                    <input type="hidden" id="amount_in_cents" name="amount_in_cents" value="200" />
+
+                    <div>
+                    <script
+                      src="https://checkout.stripe.com/v2/checkout.js" class="stripe-button"
+                          data-key="pk_live_1wyUR9ETeoSkjh7mvhfbYkLz"
+                          data-name="An Illustrated Book of Bad Arguments"
+                          data-description="Donation"
+                          data-currency="usd"
+                          data-image="../images/stripe_thumb.png">
+                    </script>
+                    </div>
+                </form>
+                <p class="stripe">Secure payments by <a href="https://stripe.com" class="underline" target="_blank">stripe</a></p>
+                <p class="courtesy-of">背景图片来自 <a href="http://subtlepatterns.com" class="underline">subtlepatterns</a></p>
+
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://bookofbadarguments.com/images/paypal-donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin-left:30px;margin-top:15px">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </div>
+            <div class="gradient"></div>
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div id="base" name="base">
+            <div id="base-book">
+                <img src="../images/book.png" width="220" height="185" alt="In print" />
+            </div>
+
+            <div id="base-prose">
+                <p style="margin-left:12px">Join the mailing list for two updates per year about this and <a href='https://thelandofbards.com' class='underline'>related projects</a>.</p>
+
+                <link href="../css/mailchimp-slim-081711.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{clear:left;font:14px;width:400px;}
+                </style>
+                <div id="mc_embed_signup">
+                    <form action="https://almossawi.us7.list-manage.com/subscribe/post?u=9c4dbd8f3e2d9a588cfe43dae&amp;id=3c89277de1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="base-contact">
+                <a class='tiny-button fa fa-2x fa-facebook-square' href='https://www.facebook.com/badarguments' title='Facebook'></a> 
+                <a class='tiny-button fa fa-2x fa-github' href='https://github.com/almossawi/badarguments' title='Github'></a> 
+                <a class='tiny-button fa fa-2x fa-twitter' href='https://twitter.com/alialmossawi' title='Twitter'></a> 
+                <a class='tiny-button fa fa-2x fa-instagram' href='https://instagram.com/almossawi' title='Instagram'></a>
+                <!--<a class='tiny-button fa fa-2x fa-envelope-o' href='mailto:ali@almossawi.com' title='Email'></a>-->
+
+                <div id="base-social">
+                    <div class="twitter-block"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://bookofbadarguments.com" data-via="alialmossawi">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+                    <div id="fb-block" class="fb-like" data-href="https://bookofbadarguments.com" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-font="arial"></div>
+
+                    <div style="height:15px;clear:both"></div>
+                    <div class="copyright-strip">
+                        2013-2015 &middot; <a href="#inline_content" class='inline underline'>See the sketches</a> 
+                        &middot; <a href="https://github.com/almossawi/badarguments" class='underline'>Get the code</a>
+                        <div class="url-link"><a href="https://almossawi.com/bookofbadarguments.html" style="text-decoration:none;color:#c7c7c7">www.bookofbadarguments.com</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="base-news" class="hide-on-mobile">
+                <div class='announcement'><b>News</b> &middot; <a href="http://www.abc.net.au/radionational/programs/drive/the-lost-art-of-making-sense/5919286" class='underline'>A conversation with ABC Radio about the art of making sense.</a></div>
+                <div class='announcement'><b>Announcement</b> &middot; <a href="http://www.reddit.com/r/IAmA/comments/2irsu5/hi_reddit_i_created_the_book_of_bad_arguments/" class='underline'>I'll be doing a Reddit Ask Me Anything on October 9 at 1:00PM (ET).</a></div>
+                <div class='announcement'><b>News</b> &middot; <a href="https://twitter.com/alialmossawi/status/526110069348257795" class='underline'>The Book of Bad Arguments website recently crossed 1 million visitors.</a></div>
+            </div>
+
+            <div style="clear:both;height:20px"></div>
+
+            <div id="press" class="hide-on-mobile">
+                <img src="../images/in_the_press.png" /> 
+                <a href="https://www.fastcocreate.com/3019063/now-more-than-ever-you-need-this-illustrated-guide-to-bad-arguments-faulty-logic-and-silly-r"><img src="../images/fastcompany.png" /></a> 
+                <a href="http://geekdad.com/2013/09/teach-kids-logic-illustrated-book-bad-arguments/"><img src="../images/geekdad.png" /></a> 
+                <a href="http://dish.andrewsullivan.com/2013/09/09/this-little-piggy-made-a-logical-error/"><img src="../images/the_dish.png" /></a> &nbsp;
+                <a href="https://www.buzzfeed.com/kevintang/charming-cartoons-that-debunk-your-bs-arguments"><img src="../images/buzzfeed.png" /></a> &nbsp;
+                <a href="http://io9.com/a-guide-to-fallacious-arguments-illustrated-with-funny-1273276162"><img src="../images/io9.png" /></a> 
+                <a href="https://laughingsquid.com/an-illustrated-book-of-bad-arguments-logical-fallacies-explained-with-fun-animal-illustrations/"><img src="../images/laughing_squid.png" /></a> 
+                <a href="https://boingboing.net/2014/03/21/bad-arguments-great-illustrat.html"><img src="../images/boingboing.png" /></a> &nbsp;
+                <!--<a href="https://www.reddit.com/r/philosophy/comments/1lcqzu/an_illustrated_book_of_bad_arguments/"><img src="../images/reddit.png" /></a> &nbsp;-->
+                <!--<a href="http://www.philosophynews.com/post/2013/08/21/An-Illustrated-Book-of-Bad-Arguments.aspx"><img src="../images/philosophy_news.png" /></a>--> 
+                <a href="http://www.openculture.com/2015/04/an-illustrated-book-of-bad-arguments.html"><img src="../images/open_culture.png" /></a> 
+                <a href="http://dangerousminds.net/comments/an_illustrated_book_of_bad_arguments_dispatching_the_dumb_one_funny_animal" class="hide-on-mobile"><img src="../images/dangerous_minds.png" /></a> 
+            </div>
+        </div>
+
+        <div style='display:none'>
+            <div id='inline_content'>
+                <p>A reader recently wrote in asking if I could share a bit about the process of putting the book together and talk about how the project started.  Certainly.</p>
+                <br /><br />
+                <p><span style="font-family:Georgia,Times;font-size:60px">I</span> go on two solitary walks every day.  There is a small park off the Embarcadero that is tucked away in a quiet spot.  It has a pleasant stream flowing through it and an unassuming bench beside that stream.  I have made walking to that frail bench a ritual, and the half an hour or so spent daydreaming on it amid the cool San Francisco breeze, an article of faith.</p>
+                <p>It was on a day in October of last year when, during one of those quiet moments on that bench, I recalled my college years and how outspoken I happened to be during them, an observation only made interesting by the fact that  I have since turned into the quietest of beings.  They say that achieving knowledge is a function of one's ability to maintain both doubt and hubris.  I don't know.  I find that as the years go by, I am left with more of the former and less of the latter.</p>
+                <p>A realization that coincided with that nostalgic whiff was that a sizable amount of the discourse nowadays continues to be plagued with bad reasoning.</p>
+                <p>Hence, the idea that finally shook me into soberness was one that had been fermenting for a while.  It was that of visualizing, in a simple manner, some of the principles that had helped me do well in debates and in off-the-cuff arguments with colleagues.  Simple.  That would be the novelty of it.  And so, with my two-year old daughter in the back of my mind, I decided that illustration would be an ideal language, given its universal appeal.</p>
+                <p>Once I had a draft version of the book ready, I sent it to one of my life-long idols, Marvin Minsky, co-founder of the MIT Artificial Intelligence Lab and author of <i>The Society of Mind</i>.  I must have spent a good week writing that email.  I was overjoyed when he wrote back a few hours later calling the book &ldquo;beautiful!&rdquo;  It was quite possibly one of the highlights of my life.  Having read the email, I made sure to maintain my earnestness while I found a private place, wherein I proceeded to do the Apache dance from <i>Fresh Prince</i>.</p>
+                <div style="height:312px;width:800px">
+                    <img src="../images/sketches/minsky.jpg" />
+                </div>
+                <p>The cover is inspired by one of my favorite games growing up: LucasArts' <i>Monkey Island</i> series.  The title's typography and the general feel of the whole scene borrow a bit from <i>Monkey Island</i> and a bit from <i>Indiana Jones</i>.  The cover's concept is based on the metaphor that good deductive logic is like a watertight pipe where truth goes in and truth comes out.  Hence, the cave that the two explorers are peeking through, which you may notice has an opening resembling that of a human ear, is actually the inside of someone's head, and the leaking pipes indicate that this person's head is filled with bad logic.</p>
+                <p>Shown below are some of the original sketches that I came up with.  I had the scenarios, characters and captions in mind, and a modest ability to transform them into drawings.  What I really wanted though was a woodcut style that would give the work an antiquated feel, because after all, if it looks old, then it must be of value&mdash;irony intended.  I commissioned a professional illustrator who did a nice job of translating a set of sketches, prose and undocumented ideas into the illustrations you see in this final artifact.</p>
+                <p>The project is a public service, and although it has cost a fair amount of money, nothing would make me happier than to see it used to teach younger people or those new to the field the importance of logical reasoning.  It is meant to serve as a modest, yet hopefully timeless, contribution.</p>
+                <p>Thank you for visiting and for your emails; they make my day.  Enjoy the sketches below.  If you don't see them, then they are still being loaded. Look out for the print version on Amazon later this year.</p>
+                <p><i>August 20, 2013 &middot; <a href="/#inline_content" style="color:white">(permalink)</a></i></p>
+                <div style="height:9600px;width:800px"> 
+                    <img src="../images/sketches/bear.jpg" />
+                    <img src="../images/sketches/pig.jpg" />
+                    <img src="../images/sketches/donkey.jpg" />
+                    <img src="../images/sketches/donkey2.jpg" />
+                    <img src="../images/sketches/frog.jpg" />
+                    <img src="../images/sketches/frog2.jpg" />
+                    <img src="../images/sketches/cat.jpg" />
+                    <img src="../images/sketches/vultures.jpg" />
+                    <img src="../images/sketches/toucan.jpg" />
+                    <img src="../images/sketches/chimp.jpg" />
+                    <img src="../images/sketches/crane.jpg" />
+                    <img src="../images/sketches/cow.jpg" />
+                    <img src="../images/sketches/sealion.jpg" />
+                    <img src="../images/sketches/all.jpg" />
+                    <img src="../images/sketches/proof.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="../js/modernizr.2.5.3.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js" type="text/javascript"></script>
+        <script>
+        yepnope([{
+           load: ['https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js'],
+           complete: function () {
+                if (!window.jQuery) {
+                    yepnope(['js/jquery.min.js', 'js/jquery-ui.min.js']);
+                }
+
+                yepnope(['../js/jquery.colorbox-min.js', 
+                    '../js/turn.min.js', 
+                    '../js/turn.html4.min.js', 
+                    '../js/scissor.min.js', 
+                    '../js/jquery.easing.1.3.min.js',
+                    'js/global.js']);
+            }
+        }]);
+        </script>
+    </body>
+</html> 
