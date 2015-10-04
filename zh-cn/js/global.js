@@ -22,13 +22,7 @@
         $('#zoom_info')
             .html(e);
 
-        yepnope({
-            test: Modernizr.csstransforms,
-            yep: ['../js/turn.min.js'],
-            nope: ['../js/turn.html4.min.js'],
-            both: ['../js/scissor.min.js', '../css/double-page.css'],
-            complete: loadApp
-        });
+        loadApp();
 
         $('div.right')
             .css('border-left', '0')
