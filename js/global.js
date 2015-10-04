@@ -16,8 +16,8 @@
             .css('height', '600px');
 
         var e = "<a href='/?view=flipbook' id='view_as_flipbook' "
-            + "class='selected'>VIEW AS BOOK</a> <a href='/?view=allpages' "
-            + "id='view_all_pages'>VIEW ALL PAGES</a>";
+            + "class='selected'>View as book</a> <a href='/?view=allpages' "
+            + "id='view_all_pages'>View all pages</a>";
 
         $('#zoom_info')
             .html(e);
@@ -40,9 +40,9 @@
         $('#cover')
             .attr('class', 'cover');
     } else {
-        var e = "<a href='/?view=flipbook' id='view_as_flipbook'>VIEW AS BOOK</a> "
+        var e = "<a href='/?view=flipbook' id='view_as_flipbook'>View as book</a> "
             + "<a href='/?view=allpages' id='view_all_pages' "
-            + "class='selected'>VIEW ALL PAGES</a>";
+            + "class='selected'>View all pages</a>";
 
         $('#zoom_info')
             .html(e);
