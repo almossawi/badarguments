@@ -33,7 +33,7 @@ You are welcome to suggest corrections or submit suggestions by opening an issue
 * [Hones Of Contention, The Common Reader](http://commonreader.wustl.edu/c/hones-of-contention/)
 * [A Fun Primer on How to Strengthen, Not Weaken, Your Arguments; Open Culture](http://www.openculture.com/2015/04/an-illustrated-book-of-bad-arguments.html)
 * [Eight Cousins Pick of the Year 2014](http://www.eightcousins.com/book/9781615192250)
-* [Now More Than Ever, You Need This Illustrated Guide To Bad Arguments, Faulty Logic, And Silly Rhetoric; Fast Company](http://www.fastcocreate.com/3019063/now-more-than-ever-you-need-this-illustrated-guide-to-bad-arguments-faulty-logic-and-silly-r)
+* [Now More Than Ever, You Need This Illustrated Guide To Bad Arguments; Fast Company](http://www.fastcocreate.com/3019063/now-more-than-ever-you-need-this-illustrated-guide-to-bad-arguments-faulty-logic-and-silly-r)
 * [Teach Your Kids Logic With An Illustrated Book of Bad Arguments by Jenny Williams, GeekDad](http://geekdad.com/2013/09/teach-kids-logic-illustrated-book-bad-arguments/)
 * [9 Charming Cartoons Explaining Logical Fallacies, BuzzFeed](http://www.buzzfeed.com/kevintang/charming-cartoons-that-debunk-your-bs-arguments)
 * [Bad arguments, great illustrations by Cory Doctorow at Boing Boing](https://boingboing.net/2014/03/21/bad-arguments-great-illustrat.html)
