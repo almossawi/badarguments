@@ -27,6 +27,27 @@ You are welcome to suggest corrections or submit suggestions by opening an issue
 * Derivative works
 * [Talk: Open-Sourcing the Creative Process](http://almossawi.com/open-sourcing-the-creative-process/)
 
+### In the press
+* [In the Mailbag: BEA 2015 Edition, Book Riot](https://www.youtube.com/watch?v=hvindvG0AbA#t=7m53s)
+* [San Diego Book Review](http://www.sandiegobookreview.com/an-illustrated-book-of-bad-arguments/)
+* [Hones Of Contention, The Common Reader](http://commonreader.wustl.edu/c/hones-of-contention/)
+* [A Fun Primer on How to Strengthen, Not Weaken, Your Arguments; Open Culture](http://www.openculture.com/2015/04/an-illustrated-book-of-bad-arguments.html)
+* [Eight Cousins Pick of the Year 2014](http://www.eightcousins.com/book/9781615192250)
+* [Now More Than Ever, You Need This Illustrated Guide To Bad Arguments, Faulty Logic, And Silly Rhetoric; Fast Company](http://www.fastcocreate.com/3019063/now-more-than-ever-you-need-this-illustrated-guide-to-bad-arguments-faulty-logic-and-silly-r)
+* [Teach Your Kids Logic With An Illustrated Book of Bad Arguments by Jenny Williams, GeekDad](http://geekdad.com/2013/09/teach-kids-logic-illustrated-book-bad-arguments/)
+* [9 Charming Cartoons Explaining Logical Fallacies, BuzzFeed](http://www.buzzfeed.com/kevintang/charming-cartoons-that-debunk-your-bs-arguments)
+* [Bad arguments, great illustrations by Cory Doctorow at Boing Boing](https://boingboing.net/2014/03/21/bad-arguments-great-illustrat.html)
+* [This Little Piggy Made A Logical Error, The Dish](http://dish.andrewsullivan.com/2013/09/09/this-little-piggy-made-a-logical-error/)
+* [A guide to fallacious arguments, illustrated with funny animals; io9](http://io9.com/a-guide-to-fallacious-arguments-illustrated-with-funny-1273276162)
+* [Appearance in Page Turners, submitted by Ellen at The Griswold Inn Store](http://www.easthavencourier.com/article/20141119/ENT03/141119799/1129/pageturners)
+* [National Indie Bestsellers - Extended Hardcover Nonfiction](http://www.bookweb.org/national-indie-bestsellers_extended-hardcover-nonfiction/2014-09-25%2000%3A00%3A00)
+* [Southern Indie Bestseller List](http://www.authorsroundthesouth.com/bestsellers/8951-southern-indie-bestseller-list-september-28-2014)
+* ['Bad Arguments' will entertain, help you diagnose poor logic; Omaha.com](http://www.omaha.com/living/book-review-bad-arguments-will-entertain-help-you-diagnose-poor/article_2114b88b-8398-53c9-97e3-25105fd16a41.html)
+* [Tripping Over Logic, The Philosophy Club](http://thephilosophyclub.com.au/2014/03/01/bad-arguments-book-review/)
+* [The Lost Art of Making Sense, ABC Radio](http://www.abc.net.au/radionational/programs/drive/the-lost-art-of-making-sense/5919286)
+* [New hardcover books teach kids through superheroes, gaming, art; Denver Post](http://blogs.denverpost.com/nerd/2014/09/23/nerd-books-for-kids/3124/)
+* [Greenville Public Library review](http://gplreads.tumblr.com/post/131019934269/an-illustrated-book-of-bad-arguments-by-ali)
+
 ## License
 
 The _Bad Arguments_ code is shared under the terms of the [Creative Commons BY-NC License v3.0](https://creativecommons.org/licenses/by-nc/3.0/).
