@@ -24,7 +24,7 @@ You are welcome to suggest corrections or submit suggestions by opening an issue
 
 ### Related links
 * [List of contributors](https://github.com/almossawi/badarguments/wiki/Contributors)
-* [Photos of _Bad Arguments_ in the wild](https://github.com/almossawi/badarguments/wiki/Photos)
+* [Photos of _Bad Arguments_ in the real world](https://github.com/almossawi/badarguments/wiki/Photos)
 * Derivative works
 * [Talk: Open-Sourcing the Creative Process](http://almossawi.com/open-sourcing-the-creative-process/)
 
