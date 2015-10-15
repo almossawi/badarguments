@@ -705,22 +705,29 @@ div.left p.translated-by span.translated-into {
         min-width: 674px;
         height: auto;
     }
-    
-    #base-contact {
-        border-right-width: 0;
-    }
 }
 
 @media (max-width: 1100px) {
+    #base-contact {
+        border-right-width: 0;
+        display: none;        
+    }
+
+    #zoom_info {
+        display: none;
+    }
+}
+
+@media (max-width: 780px) {
+    #base-news {
+        display: none;        
+    } 
+
     #base-prose {
         border-right-width: 0;
     }
-
-    #base-contact {
-        display: none;
-    }
     
-    #zoom_info {
-        display: none;
+    #base-book {
+        display: block;
     }
 }

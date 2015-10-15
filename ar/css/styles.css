@@ -714,31 +714,34 @@ div.left p.translated-by span.translated-into {
         min-width: 674px;
         height: auto;
     }
-    
-    #base-contact {
-        border-right-width: 0;
-    }
 }
 
 @media (max-width: 1100px) {
-    #base-prose {
+    #base-contact {
         border-right-width: 0;
+        display: none;        
     }
 
-    #base-contact {
-        display: none;
-    }
-    
     #zoom_info {
         display: none;
     }
 }
 
-@-moz-document url-prefix() {
-    #fb-block {
-        top:-2px;
-    }
+@media (max-width: 780px) {
+    #base-news {
+        display: none;        
+    } 
 
+    #base-prose {
+        border-right-width: 0;
+    }
+    
+    #base-book {
+        display: block;
+    }
+}
+
+@-moz-document url-prefix() {
     h3 {
         margin-left: 98px;
     }
