@@ -22,10 +22,9 @@ You are welcome to suggest corrections or submit suggestions by opening an issue
 * [Hebrew (Noam Hadar, Assaf Linial)](he)
 * [Greek (Rafael Ketsetsides)](gr) [work-in-progress]
 
-### Related links
+### Related material
 * [List of contributors](https://github.com/almossawi/badarguments/wiki/Contributors)
 * [Photos of _Bad Arguments_ in the real world](https://github.com/almossawi/badarguments/wiki/Photos)
-* Derivative works
 * [Talk: Open-Sourcing the Creative Process](http://almossawi.com/open-sourcing-the-creative-process/)
 
 ### In the press
