@@ -47,6 +47,7 @@ You are welcome to suggest corrections or submit suggestions by opening an issue
 * [The Lost Art of Making Sense, ABC Radio](http://www.abc.net.au/radionational/programs/drive/the-lost-art-of-making-sense/5919286)
 * [New hardcover books teach kids through superheroes, gaming, art; Denver Post](http://blogs.denverpost.com/nerd/2014/09/23/nerd-books-for-kids/3124/)
 * [Greenville Public Library review](http://gplreads.tumblr.com/post/131019934269/an-illustrated-book-of-bad-arguments-by-ali)
+* [How to argue, with others and yourself; Andreessen Horowitz Weekend Newsletter](http://us7.campaign-archive2.com/?u=35c671b34bb404149166bf755&id=278fbd99ab)
 
 ## License
 
