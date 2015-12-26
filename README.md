@@ -8,7 +8,7 @@ I'm grateful to anyone wishing to contribute to the project. If you wish to tran
 
 Alternatively, you may wish to download the code for an existing translation, modify it, and then send me your work along with the new captions as a [Pull Request](https://help.github.com/articles/using-pull-requests/). You can find all existing languages in the repository as top-level directories, identified with their two-letter ISO 639-1 code (e.g. pt, es, he).
 
-You are welcome to suggest corrections or submit suggestions by opening an issue or by submitting a Pull Request using the controls on the right-hand side of this page.
+You are welcome to suggest corrections or submit suggestions by opening an [issue](https://github.com/almossawi/badarguments/issues) or by submitting a [Pull Request](https://github.com/almossawi/badarguments/pulls) using the controls at the top of this page.
 
 ## Translations
 
