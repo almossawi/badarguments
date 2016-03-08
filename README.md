@@ -1,6 +1,6 @@
 # An Illustrated Book of Bad Arguments
 
-_Bad Arguments_ has been read by nearly two million visitors since its release in July 2013. This repository contains the code and documentation for the project, as of October 2015, which coincides with the first major update to the website since its release. This update cleans up the code and makes it mobile-friendly.
+_Bad Arguments_ has been read by over two million visitors since its release in July 2013. This repository contains the code and documentation for the project, as of October 2015, which coincides with the first major update to the website since its release. This update cleans up the code and makes it mobile-friendly.
 
 ## How to contribute
 
