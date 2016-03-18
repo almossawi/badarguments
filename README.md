@@ -21,6 +21,7 @@ You are welcome to suggest corrections or submit suggestions by opening an [issu
 * [Slovak (Filip Klinovský)](sk)
 * [Hebrew (Noam Hadar, Assaf Linial)](he)
 * [Greek (Rafael Ketsetsides)](gr) [work-in-progress]
+* [Czech (Jaromír Matýšek)](cz)
 
 ## Related material
 * [List of contributors](https://github.com/almossawi/badarguments/wiki/Contributors)
