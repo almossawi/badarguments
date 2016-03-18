@@ -1,0 +1,753 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta property="og:title" content="Ilustrovaná kniha argumentačních klamů (Jaromír Matýšek)" />
+        <meta property="og:description" content="Tato kniha je určena pro nováčky na poli logické argumentace, zvláště pak pro ty, kteří nejlépe chápou vizuálně. Vybral jsem malý soubor obvyklých chyb v argumentaci a znázornil je pomocí snadno zapamatovatelných ilustrací, které jsou doplněny příklady. Účelem je, aby se tak čtenář na těchto stránkách seznámil s některými z nejobvyklejších nástrah argumentování a byl schopen je v praxi rozpoznat a vyhnout se jim." />
+        <meta property="og:image" content="https://bookofbadarguments.com/cs/images/1.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bookofbadarguments.com/cs/" />
+        <meta property="og:site_name" content="Ilustrovaná kniha argumentačních klamů (Jaromír Matýšek)" />
+        <meta property="fb:admins" content="542418566" />
+        
+        <title>Ilustrovaná kniha argumentačních klamů (Jaromír Matýšek)</title>
+
+        <link rel="stylesheet" href="../css/jquery-ui.css" type="text/css" />
+        <link rel="stylesheet" href="../css/colorbox.css" type="text/css" />
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js" type="text/javascript"></script>
+
+        <script src="../js/jquery.colorbox-min.js"></script>
+        <script src="../js/modernizr.2.5.3.min.js"></script>
+        <script src="../js/jquery.easing.1.3.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-42350635-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            //ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=256637467814064";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+ 
+        <!-- force background image to load first -->
+        <img src="../images/community-heart.png" style="display:none" />
+        <img src="../images/noise.png" style="display:none" />
+        <img src="../images/bg_right.png" style="display:none" />
+        <img src="../images/bg_right2.png" style="display:none" />
+        <img src="../images/bg_right3.png" style="display:none" />
+        <img src="../images/bg_left.png" style="display:none" />
+        <img src="../images/bg_left2.png" style="display:none" />
+        <img src="../images/arrow-right.png" style="display:none" />
+        <img src="../images/handle.png" style="display:none" />
+        <img src="../images/slider-bg.png" style="display:none" />
+        <img src="../images/bear.png" style="display:none" />
+        <img src="../images/book.png" style="display:none" />
+        <img src="../images/stripe_thumb.png" style="display:none" />
+
+        <div class="topbar">
+            <div class="contributors">
+                <a href="https://www.facebook.com/badarguments/posts/1129791597061287">
+                    <img src="../images/two-million.png" />
+                </a>
+            </div>
+            <a href="/thebook/?from=main_page">
+                <img src="../images/track_the_book.png" class="buy-the-book" />
+            </a>
+            <div id="zoom_info"></div>
+        </div>
+
+        <!-- languages -->
+        <div class="container-languages">
+            <div class="languages">
+                <a href="/">English</a>
+                <a href="/es/">Español</a>
+                <a href="/ar/">العربية</a>
+                <a href="/pt/">Português</a>
+                <a href="/pt-br/">Português brasileiro</a>
+                <a href="/zh-cn/">中文</a>
+                <a href="/fi/">Suomeksi</a>
+                <a href="/sk/">Slovenčina</a>
+                <a href="/he/">עברית</a>
+                <a href="/cz/" class="selected">Česky</a>
+            </div>
+        </div>
+
+        <div class="container">
+          <div class="left-arrow"><a href="#"><img src="../images/arrow-left.png" /></a></div>
+          <div class="right-arrow"><a href="#"><img src="../images/trans.png" /></a></div>
+
+          <div class="loading">Nahrávám</div>
+          <div class="howto"><img src="images/howto.png" /></div>
+
+          <div class="flipbook" style="position:relative">
+            <div id="cover" class="left">
+                <img src="images/1.jpg" />
+            </div>
+            <div id="blank_page" class="left">
+            </div>
+            <div class="right right-option1">
+                <img src="images/2b.png" />
+
+                <div class="page-content" style="position:absolute;z-index:999;right:0">
+                    <p class="translated-by">
+                        <span class="translated-into">Do češtiny přeložil</span><br />
+                        <span class="authors">Jaromír Matýšek</span><br /><br />
+                        <span class="translated-into"><a href='http://archetypal.cz'>spolek Archetypal</a></span>
+                        <br /><br />
+                        <span class="contact">kerray.cz@gmail.com &middot March 19, 2016</span>
+                    </p>
+                </div>  
+            </div>
+
+            <!-- endorsements -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="text-align:justify;margin-top:240px;width:520px;font-size:7.5pt;line-height:14px">
+                        Toto drobné písmo slouží jen k tomu, aby tato kniha působila jako opravdová kniha. V tištěných knihách obvykle vidíme velký blok drobných písmen na první nebo druhé stránce, následovaný výrazy jako © 2016 Všechna práva vyhrazena. Ten a ten. Vytištěno v České Republice. Vydavatel také může zahrnout text, snažící se odradit případné piráty. Žádná část této knihy nemůže být použita či reprodukována žádným způsobem bez písemného svolení. Pak obvykle přichází řádek nebo dva o vydavateli, následovaný řadou čísel.<br /><br />
+                        Pro další informace prosíme kontaktujte <a href='http://archetypal.cz'>spolek Archetypal</a>.<br />
+                        12 13 14 15 16 LP/SSRH 10 9 8 7 6 5 4 3 2 1<br /><br />
+                        A teď vážně. Jediné, co potřebujete vědět, je to, že toto dílo je sdílené pod
+                        <a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons BY-NC</a> licencí, což znamená, že je při zachování informací o autorech můžete pro nekomerční použití volně sdílet a upravovat.<br /><br />
+                        Umělecká režie: Ali Almossawi<br />
+                        Ilustrace: Alejandro Giraldo<br />
+                        Překlad: Jaromír Matýšek<br />
+                        Redakce a korektury: <a href='http://archetypal.cz'>Kolektiv Archetypal.cz</a><br />
+                        Odborný poradce: Marek Picha
+                    </p>
+                </div>
+            </div>
+            <div class="right right-option2">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class="endorsement"><span style="font-size:18px">&ldquo;</span>Moc se mi tato ilustrovaná kniha argumentačních klamů líbí. Bezchybná sbírka chyb.<span style="font-size:18px">&rdquo;</span></p>
+                    <p class="endorsement_author">&#8212;prof. Alice Robertsová, moderátorka<br />pořadu BBC ‘Cesta lidstva’</p>
+                    
+                    <p class="endorsement2"><span style="font-size:18px">&ldquo;</span>Podivuhodně stravitelný výtah úskalí a technik argumentace. Nedokážu si představit lepší způsob, jak vyučovat a osvěžovat tyto základní pojmy logického rozpravy. Příjemná krátká kniha.<span style="font-size:18px">&rdquo;</span></p>
+                    <p class="endorsement_author2">&#8212;Aaron Koblin, kreativní ředitel týmu<br />datového umění v Google</p>              
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/toc_i.png" />
+            </div>
+            <div class="right right-option3">
+                <img src="images/toc_ii.png" style="margin-left:1px" />
+            </div>
+
+            <!-- who is this book for -->
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/who_for.png" />
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">3</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:100px">Tato kniha je určena pro nováčky na poli logické argumentace, zvláště pak pro ty, kteří nejlépe chápou vizuálně. Vybral jsem malý soubor obvyklých chyb v argumentaci a znázornil je pomocí snadno zapamatovatelných ilustrací, které jsou doplněny příklady. Účelem je, aby se tak čtenář na těchto stránkách seznámil s některými z nejobvyklejších nástrah argumentování a byl schopen je v praxi rozpoznat a vyhnout se jim.</p>
+                </div>
+            </div>
+
+            <!-- preface -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/preface_i.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">5</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p>Literatura na téma logiky a chyb v ní je početná a vyčerpávající. Přínos této práce spočívá ve využití ilustrací k popisu malého souboru obvyklých chyb v argumentaci, kterými je zamořeno značné množství dnešních debat.</p>
+                    <p>Ilustrace jsou zčásti inspirovány alegoriemi jako Orwellova <i>Farma zvířat</i> a zčásti humornými nesmysly z děl, jako jsou příběhy a básně Lewise Carrolla. Na rozdíl od těchto děl tu není přítomen spojující příběh, jedná se o oddělené scény spojené jen stylem a tématem, což umožňuje je snadno přizpůsobit a použít. Každý klam má popis pouze na jednu stránku a doprovodný text je záměrně hutný.</p>
+                    <p>Číst o věcech, které bychom neměli dělat, je často užitečná a poučná zkušenost. Ve své knize <i>O psaní</i> píše Stephen King: “Nejlépe se člověk naučí, čeho se vyvarovat, při čtení špatné prózy.” Popisuje svou zkušenost se čtením obzvlášť špatného románu jako “literární ekvivalent očkování proti neštovicím” [King]. Matematik George Pólya bývá citován, jak ve své přednášce o výuce matematiky prohlásil, že člověk musí nejen téma dobře chápat, ale také musí vědět, jak lze téma chápat špatně [Pólya]. Toto dílo tedy pojednává hlavně o věcech, které by člověk při argumentaci dělat neměl.<sup>1</sup></p>
+                    <p class="block">* * * *</p>
+
+                    <p class="footnote" style="bottom:-60px;text-align:left"><sup>1</sup> Pro podrobnější rozbor se dá doporučit kniha T. Edwarda Damera o chybách v uvažování.</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">6</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p>Před mnoha lety jsem strávil nějaký čas sepisováním specifikací softwaru pomocí predikátové logiky prvního řádu. Byl to zajímavý způsob, jak uvažovat o invariantách za pomoci diskrétní matematiky namísto použití obvyklého zápisu v přirozeném jazyce. Pomohlo to vnést přesnost tam, kde hrozila dvojsmyslnost, a důslednost tam, kde by vysvětlování probíhalo neurčitými gesty.</p>
+                    <p>Ve stejnou dobu jsem procházel několik moderních i středověkých knih o výrokové logice, mezi které patřila <i>A Handbook of Logical Fallacies</i> Roberta Guly. Gulova kniha mi připomněla seznam heuristik o argumentaci, který jsem si naškrábal do poznámek o dekádu dřív. Byly výsledkem několikaletých diskuzí s cizími lidmi v diskuzních fórech a obsahovaly věci jako “snaž se nedělat o věcech obecné závěry.” Což mi dnes přijde očividné, ale pro školáka to tehdy bylo zásadní poznání.</p>
+                    <p>Rychle se ukázalo, že formalizovat vlastní uvažování může mít praktické přínosy, tedy jasnost myšlení a vyjadřování, objektivitu a větší jistotu. Schopnost analyzovat argumenty také pomohla poskytnout měřítko při rozhodování, kdy se stáhnout z diskuzí, které by nejspíš byly zbytečné.</p>
+                    <p>Témata a události, která ovlivňují naše životy a společnosti, ve kterých žijeme, například lidská práva nebo volby, obvykle vedou k diskuzím o přístupech a přesvědčeních. Sledováním takových debat jde snadno získat dojem, že velká část z nich trpí nedostatkem logického myšlení. Cílem spisů o logice někdy bývá pomoci lidem nalézt nástroje a přístupy, které logické myšlení umožňují, a vedou tedy k přínosnějším debatám.</p>
+                </div>
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">7</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p>Protože přesvědčování se neopírá jen o logiku, je užitečné mít povědomí i o těchto oblastech. Nejdůležitější z nich je nejspíš rétorika a o slovo se hlásí i zásady jako princip logické úspornosti, podobně jako koncepty typu “důkazní břemeno” a na kom spočívá. Zaujatému čtenáři doporučuji obrátit se v této věci na další dostupnou literaturu.</p>
+                    <p>Závěrem bych podotknul, že pravidla logiky nepředstavují zákony přírodního světa ani nezahrnují všechno lidské uvažování. Jak naznačuje Marvin Minsky, obvykle používaný ‘selský rozum’ se těžko vysvětluje pomocí logických principů, jako jsou třeba analogie, a dodává, “Logika to, jak myslíme, nevysvětluje o nic více, než gramatika vysvětluje, jak mluvíme” [Minsky]. Logika nevytváří nové pravdy, ale dovoluje člověku ověřit si soudržnost a ucelenost existujících myšlenkových řetězů. A právě z toho důvodu je tak užitečným nástrojem pro analýzu a sdělování myšlenek a argumentů.</p>
+
+                    <p style="padding-top:20px;margin-left:270px;font-style:italic">&#8211; A. A., San Francisco, červenec 2013</p>
+                </div>
+            </div>
+            <!-- end preface -->
+
+            <!-- logical fallacies -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/logical_fallacies_i.png" />
+            </div>
+            <div class="right right-option1">
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:130px;padding-left:80px;padding-right:80px">První princip zní, že nesmíte klamat sami sebe, ačkoliv se dokážete oklamat ze všech nejsnáze.</p>
+                    <p style="padding-left:300px">&#8212;Richard P. Feynman</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">10</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Odvedení pozornosti <b>&rsaquo;</b> <b>Poukázání na důsledky</b></div>
+                <div class="page-title">Poukázání na důsledky</div>
+                <div class="page-content">
+                    <p>Poukazovat na důsledky znamená obhajovat nebo vyvracet pravdivost nějakého tvrzení poukazováním na jeho důsledky. To, že výrok by měl nepříjemné důsledky, neznamená, že je nepravdivý. Podobně se výrok nestane pravdivým jen proto, že má dobré důsledky. David Hackett Fischer to vystihl slovy “Nelze předpokládat, že lze vlastnosti důsledku volně přisoudit jeho příčinám.”</p>
+                    <p>V případě, že následky jsou dobré, snaží se argument podporovat naděje publika v duchu rčení “přání otcem myšlenky”. Se špatnými následky se argument snaží u publika vyvolat strach. Příklad z Dostojevského: “Není-li Bůh, je vše povoleno.” Když vynecháme diskuzi o objektivní morálce, poukázat na nepříjemné dopady materialistického pohledu na svět nevypovídá nic o tom, jestli Bůh je nebo není.</p>
+                    <p>Měli bychom si uvědomovat, že tento druh argumentu je klamný jen pokud se zabýváme tvrzením, u kterého lze mluvit o možnosti rozlišit objektivní pravdu, ne v případě, že se zabývá rozhodováním nebo přístupy [Curtis], například když se politik staví proti zvyšování daní ze strachu, že to bude mít dopady na životy jeho voličů.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_consequences.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">12</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Odvedení pozornosti <b>&rsaquo;</b> <b>Slaměný panák</b></div>
+                <div class="page-title">Slaměný panák</div>
+                <div class="page-content">
+                    <p>Zkreslit něčí argument se záměrem napadnout výslednou karikaturu namísto argumentu samotného označujeme jako podsouvání argumentu. Překrucování, uvádění v omyl, klamání a přílišné zjednodušování jsou všechno způsoby, jak se tohoto klamu dopustit. Podsunutý argument obvykle vypadá absurdněji než argument původní, což z něj dělá snazší cíl, a protivníka to svádí, aby namísto svého původního tvrzení začal obhajovat tuto podsunutou variantu.</p>
+                    <p>Například, <i>Můj protivník se vás snaží přesvědčit, že jsme se vyvinuli z opic, které se houpou na stromech; vskutku směšné tvrzení.</i> V tomto případě jde o očividné zkreslení skutečných tvrzení evoluční biologie. Podle původního tvrzení lidé a šimpanzi měli před miliony let společného předka. Překroutit tuto myšlenku je mnohem jednodušší, než vyvracet důkazy, které pro ni existují.</p>
+                </div>
+            </div>
+            <img src="images/strawman.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">14</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Odvedení pozornosti <b>&rsaquo;</b> Původ tvrzení <b>&rsaquo;</b> <b>Odvolání na nevhodné autority</b></div>
+                <div class="page-title">Odvolání na nevhodné autority</div>
+                <div class="page-content">
+                    <p>Odvolávat se na autoritu znamená odvolávat se na skromnost druhého [Engel], jde o vyvolávání dojmu, že jiní lidé jsou věci znalejší. Převážná většina věcí, v jejichž existenci věříme, jako jsou atomy nebo sluneční soustava, se opírá o spolehlivé autority, stejně jako, jak zmínil C. S. Lewis, všechna historická tvrzení. Je tedy možné se rozumně odvolávat odvolávat na autority vhodné, což dělají typicky vědci a akademici. Z tohoto typu argumentu se stane klam ve chvíli, kdy se odvoláváme na autoritu, která není expertem na probírané téma. Stojí za zmínku i další podobný klam, odvolávání se na vágní autority, kde je myšlenka přisouzena neurčitému kolektivu. <i>Například Profesoři v Německu ukázali, že to a to je pravda.</i></p>
+                    <p>Dalším druhem odvolávání se na nevhodné autority je odvolávání se na dávnou moudrost, kde něco má být pravda jen proto, že tomu lidé odedávna věřili. Například <i>Astrologie byla praktikována v technologicky pokročilých civilizacích, jako byla stará Čína, určitě tedy funguje.</i> Na dávnou moudrost se dá odvolávat při podpoře věcí, které jsou výstřední nebo se mění s průběhem času. Například <i>Lidé před mnoha staletími spali v noci devět hodin, proto takto dlouho potřebujeme spát i dnes.</i> Lze najít spoustu různých důvodů, kvůli kterým dřív lidé spali déle. Samotný fakt, že tomu tak bylo, však žádný důkaz na podporu argumentu neposkytuje.</p>
+                </div>
+            </div>
+            <img src="images/irrelevant_authority.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">16</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Mnohoznačnost <b>&rsaquo;</b> <b>Dvojsmysl</b><sup>2</sup></div>
+                <div class="page-title">Dvojsmysl</div>
+                <div class="page-content">
+                    <p>Dvojsmysl zneužívá mnohoznačnosti jazyka tím, že význam slova tak, jak je použito v argumentu, zamění, a použije tento odlišný, nový význam k podpoře nějakého závěru. Slovo, jehož význam je v argumentu konzistentně zachováván, označujeme jako jednoznačné. Vezměme si následující argument: <i>Jak můžeš být proti víře, když rozhodnutí na základě víry děláme každou chvíli, s přáteli, s potencionálními partnery i investicemi?</i> Význam slova “víra” byl v tomto případě od duchovní víry ve stvořitele rozšířen na každou riskantní činnost.</p>
+                    <p>Obvykle se tento klam používá v diskuzích o vědě a náboženství, kde slovo “proč” může být použito více způsoby. V jednom kontextu může být použito jako slovo, které pátrá po příčině, což je shodou okolností hlavním pohonem vědy, ale v jiném kontextu může jít o slovo, které se ptá po smyslu a snaží se řešit morálku a mezery, na které věda nemusí mít odpovědi. Například by šlo argumentovat: <i>Věda nám nedokáže říci, proč se věci dějí. Proč existujeme? Proč se chovat morálně? Proto potřebujeme nějaký jiný zdroj, který nám sdělí, proč se věci dějí.</i></p>
+
+                    <p class="footnote" style="bottom:-35px"><sup>2</sup> Ilustrace je založena na výměně mezi Alenkou a Bílou královnou v knize Lewise Carrolla <i>Alenka za zrcadlem.</i></p>
+                </div>
+            </div>
+            <img src="images/equivocation.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">18</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Nepodložené předpoklady <b>&rsaquo;</b> <b>Falešné dilema</b><sup>3</sup></div>
+                <div class="page-title">Falešné dilema</div>
+                <div class="page-content">
+                    <p>Falešné dilema je argument, který předkládá dvě kategorie a předpokládá, že všechno, o čem probíhá diskuze, musí do jedné z těchto kategorií patřit. Pokud do jedné nepatří, znamená to, že musí patřit do té druhé. Například <i>Ve válce s fanatismem nejde stát opodál; buďto jste s námi, nebo jste s fanatiky.</i> Ve skutečnosti existuje i třetí možnost, šlo by klidně zachovávat neutralitu; a čtvrtá možnost, dalo by se oponovat oběma možnostem; a dokonce i pátá možnost, dalo by se soucítit s některými prvky obou možností.</p>
+                    <p>V knize <i>The Strangest Man</i> (Nejzvláštnější muž) je zmíněno, že fyzik Ernest Rutheford jednou pověděl svému kolegovi Nielsi Bohrovi podobenství o muži, který si v obchodě koupil papouška a šel ho vrátit, protože papoušek nemluvil. Po několika takových návštěvách řekl nakonec manažer obchodu: “Aha, jistě! Chtěl jste papouška, který mluví. Prosím promiňte. Dával jsem vám papoušky, kteří jen mysleli.” V knize je jasné, že svým přirovnáním Rutherford chce ukázat genialitu tichého Diraca, ale můžeme si představit, že by stejnou úvahou mohl někdo naznačovat, že lze být jen tichý myslitel nebo mluvka a hlupák.</p>
+                    <p class="footnote" style="bottom:-35px"><sup>3</sup> Klam může být také označován jako chybějící střední člen, černobílý klam nebo falešná dichotomie.</p>
+                </div>
+            </div>
+            <img src="images/false_dilemma.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">20</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Příčinný klam <b>&rsaquo;</b> <b>Zdánlivá příčina</b></div>
+                <div class="page-title">Zdánlivá příčina</div>
+                <div class="page-content">
+                    <p>Klam předpokládá, že existuje příčina nějaké události, přestože nejsou důkazy o tom, že by událost skutečně nějakou příčinu měla. Dvě události se mohou udát jedna po druhé nebo zároveň i proto, že spolu souvisí, ať už čistě náhodou nebo protože mají společnou nějakou skrytou příčinu, ale závěr, že existuje příčinné propojení, nelze udělat bez důkazů. <i>To nedávné zemětřesení nastalo, protože lidé neposlouchali svého krále</i> není platný argument. </p>
+                    <p>Klam má tyto typy: “chybná časová souslednost” a “souběh událostí”. U prvního předpokládáme, že první událost musela způsobit druhou jen proto, že jí předcházela. Ve druhém případě prohlásíme, že se jedna událost druhou způsobila jen proto, že se staly ve stejnou dobu. Toto bývá označováno jako zaměňování korelace s kauzalitou.<sup>4</sup></p>
+                    <p>Následující příklad parafrázuje baviče Stewarta Leeho: <i>Nemůžu říct, že když jsem v roce 1976 nakreslil robota, a Hvězdné války vyšly až potom, že mi ten nápad museli ukrást.</i> A ještě jiný příklad, který jsem nedávno potkal v jednom online fóru: <i>Útočník shodil webové stránky železniční společnosti, a když jsem se díval na příjezdy vlaků, samozřejmě všechny měly zpoždění!</i> Co si ale pisatel neuvědomil je, že vlakům se podaří jet přesně na čas jen výjimečně, takže bez prověření je tato souvislost neopodstatněná.</p>
+
+                    <p class="footnote" style="bottom:-35px"><sup>4</sup> Ukazuje se, že obliba čokolády a šance na získání Nobelovky <a href='https://bbc.co.uk/news/magazine-20356613'>spolu úzce korelují</a>, což možné dodá naději lidem, kteří mají čokoládu v oblibě.</p>
+                </div>
+            </div>
+            <img src="images/not_a_cause_for_a_cause.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">22</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Odvedení pozornosti <b>&rsaquo;</b> Působení na emoce <b>&rsaquo;</b> <b>Zastrašování</b></div>
+                <div class="page-title">Zastrašování</div>
+                <div class="page-content">
+                    <p>Klam podsouvá lidem představu děsivé budoucnosti, kterou by přivodili, kdyby přistoupili na předložený návrh. Namísto aby poskytl důkazy o tom, že závěr vyplývá z několika předpokladů, což by mohlo skutečně obavy opodstatnit, klamný argument spoléhá na rétoriku, výhrůžky či dokonce přímé lži. Například, <i>Žádám všechny své zaměstnance, aby v nadcházejících volbách hlasovali pro mnou vybraného kandidáta. Pokud vyhraje ten druhý, zvýší daně a mnoho z vás tak přijde o práci.</i></p>
+                    <p>Tady je další příklad na základě Kafkova románu <i>Proces: Měl byste mi dát všechny cennosti, než sem dorazí policie. Oni je totiž nakonec uloží do skladu, a ve skladu mají věci tendenci se ztrácet.</i> Ačkoliv je takový argument pravděpodobněji výhrůžkou, byť skrytou, je podán jako pokus o vysvětlení. Přímé výhrůžky a příkazy, které se ani nesnaží o vlastní opodstatnění, by však s tímto klamem neměly být zaměňovány, i když se také snaží vyvolat strach [Engel].</p>
+                    <p>Zastrašování může pokračovat a popisovat celou řadu děsivých událostí, které by nastaly v důsledku přijetí návrhu, ale které k události nemají jasné příčinné souvislosti, což připomíná klam ‘šikmá plocha’. Také může nabízet jedinou alternativu k napadanému návrhu, a to tu, kterou předkládá útočící, což zase připomíná falešné dilema.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_fear.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">24</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Slabá analogie <b>&rsaquo;</b> Nereprezentativní vzorek <b>&rsaquo;</b> <b>Unáhlené zobecnění</b></div>
+                <div class="page-title">Unáhlené zobecnění</div>
+                <div class="page-content">
+                    <p>Na tento klam narazíme, když zobecňujeme podle vzorku, který je příliš malý nebo příliš výjimečný, než aby mohl představovat celou populaci. Například když se zeptáme deseti lidí na ulici, co si myslí o vládním plánu na snížení deficitu, nemůžeme prohlásit, že výsledky zachycují postoje celé země.</p>
+                    <p>Ačkoliv je unáhlené zobecnění pohodlné, může mít drahé či katastrofické následky. Například by se dalo říci, že předpoklady inženýrů, které vedly k explozi rakety <i>Ariane 5</i> během jejího prvního startu, byly výsledkem unáhleného zobecnění: soubor testů, které byly použity pro kontroler <i>Ariane 4</i>, nebyl dost široký na to, aby pokryl veškeré způsoby použití kontroleru v <i>Ariane 5</i>. To, jestli taková rozhodnutí projdou, většinou závisí na argumentačních schopnostech inženýrů a manažerů. Tento a další podobné příklady jsou tedy pro naše zkoumání klamů důležité.</p>
+                    <p>Tady je další příklad z <i>Alenky v říši divů</i>, kde Alenka z toho, že plave ve vodě, usuzuje, že někde poblíž musí být nádraží, a tedy i pomoc: “Alenka byla jednou s rodiči u moře a její představa mořského břehu od té doby byla řada kabin na svlékání, děti, hrabající v písku dřevěnými lopatkami, vzadu řada domů a za nimi železniční stanice.” [Caroll]</p>
+                </div>
+            </div>
+            <img src="images/hasty_generalization.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">26</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Problém nedostatku dat <b>&rsaquo;</b> <b>Dovolávání se neznalosti<sup>5</sup></b></div>
+                <div class="page-title">Dovolávání se neznalosti</div>
+                <div class="page-content">
+                    <p>Takový argument předpokládá, že návrh je pravdivý jednoduše proto, že nemáme žádné důkazy o tom, že by pravdivý nebyl. Nepřítomnost důkazů o jevu je tedy považována za důkaz nepřítomnosti jevu. Například slovy Carla Sagana: “Nemáme závažné důkazy o tom, že by UFO nenavštěvovalo Zemi, UFO tedy existují.” Podobně, dokud jsme nevěděli, jak byly postaveny pyramidy, někteří z toho usuzovali, že dokud někdo nedokáže opak, musela se o jejich vystavění zasadit nadpřirozená síla. Důkazní břemeno ale vždy spočívá na osobě, která s tvrzením přichází.</p>
+                    <p>Navíc, jak se vyjádřili i někteří další, musíme se ptát, co je na základě důkazů z minulých pozorování pravděpodobné více a co je pravděpodobné méně. Je pravděpodobnější, že objekt letící vesmírem je člověkem vytvořený artefakt či přírodní jev, nebo je pravděpodobnější, že jde o návštěvníky z jiných planet? Jelikož jsme často pozorovali to první, a nikdy to druhé, je rozumnější usoudit, že je nepravděpodobně, že by jevy označované jako UFO skutečně byly návštěvy z vesmíru.</p>
+                    <p>Specifická forma dovolávání se neznalosti je argument vlastní nedůvěřivostí, kde něčí neschopnost si něco přestavit vede k víře, že prezentovaný argument je neplatný. Například, <i>Je nemožné představit si, že by člověk skutečně mohl přistát na Měsíci, a proto se to nikdy nestalo.</i> Na tento typ odpovědi se někdy dá duchaplně odvětit, <i>Proto taky nejste fyzikem.</i></p>
+                    
+                    <p class="footnote" style="bottom:-35px"><sup>5</sup> Ilustrace je inspirována odpovědí Neila deGrasse Tysona na otázku z publika ohledně UFO: <a href='http://youtu.be/NSJElZwEI8o'>youtu.be/NSJElZwEI8o</a>.
+                </div>
+            </div>
+            <img src="images/appeal_to_ignorance.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">28</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Mnohoznačnost <b>&rsaquo;</b> Mlžení <b>&rsaquo;</b> <b>Žádný pravý Skot</b></div>
+                <div class="page-title">Žádný pravý Skot</div>
+                <div class="page-content">
+                    <p>Někdy můžeme tvrdit něco obecného o celé kategorii věcí. Když pak budeme čelit důkazům, které naše tvrzení nabourávají, namísto abychom přijali nebo zamítli samotné důkazy, změníme kritéria, podle kterých vyhodnocujeme členství v dané kategorii.<sup>6</sup></p> 
+                    <p>Například by někdo mohl tvrdit, že programátoři jsou společensky neschopní tvorové. Když někdo přijde a bude oponovat tvrzení řka, “<i>Ale John je programátor, a ve společnosti je jako ryba ve vodě</i>”, může to vyprovokovat odpověď, “<i>Ano, ale John není opravdový programátor.</i>” Není tu jasné, jaké vlastnosti má programátor, ani kategorie programátora není definována tak jasně, jako dejme tomu kategorie lidí s modrýma očima. Tato nejednoznačnost dovoluje tvrdohlavé mysli redefinovat si věci podle potřeby.</p>
+                    <p>Tento klam pojmenoval Antony Flew ve své knize <i>Thinking about Thinking</i>. Dává v ní následující příklad: Hamish čte noviny, kde narazí na článek o Angličanovi, který spáchal ohavný zločin, a reaguje na něj, řka, “<i>Žádný pravý Skot by takovou věc neudělal.</i>” Dalšího dne narazí na článek o Skotovi, který se dopustil zločinu ještě horšího, ale místo aby změnil svůj závěr o Skotech, reaguje na něj prohlášením, “<i>Žádný pravý Skot by takovou věc neudělal.</i>”</p>
+
+                    <p class="footnote" style="bottom:-35px"><sup>6</sup> Když si útočící kategorii redefinuje svévolně, při vědomí toho, že tak činí, a záměrně ji zkresluje, půjde o podsunutý argument.</p>
+                </div>
+            </div>
+            <img src="images/no_true_scotsman.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">30</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Odvedení pozornosti <b>&rsaquo;</b> <b>Útok na původ tvrzení</b></div>
+                <div class="page-title">Útok na původ tvrzení</div>
+                <div class="page-content">
+                    <p>Zdroj argumentu nebo původ osoby, která ho vyjadřuje, nemá na platnost argumentu naprosto žádný vliv. Útok na původ tvrzení znamená, že argument je shozen nebo bráněn jen kvůli své historii. Jak to vyjádřil T. Edward Damer, když je člověk emočně připoután k původu nějaké myšlenky, nebývá snadné si při vyhodnocování myšlenky emocí nevšímat.</p>
+                    <p>Vezměme si argument <i>Samozřejmě, že podporuje stávku odborářů; konec konců pochází ze stejné vesnice</i>. Místo hodnocení argumentu jako takového je argument smeten proto, že dotyčná osoba shodou okolností pochází se stejné vesnice jako protestující. Tento útržek informace je použit k dovození, že tvrzení dotyčné osoby je bezcenné. Tady je další příklad: <i>Jako muži a ženy žijící v 21. století už nemůžeme nadále uznávat tyto středověké hodnoty.</i> Proč ne, dalo by se ptát. Máme rovnou opustit všechny myšlenky, které mají původ ve středověku?</p>
+                    <p>Odpovídajícím způsobem je možný také útok na původ v kladném smyslu, lze například říci, <i>Jackův pohled na umění nemá sobě rovného; pochází z dávného rodu předních umělců.</i> Stejně jako v předchozích příkladech je důkaz použitý pro takový úsudek nedostatečný.</p>
+                </div>
+            </div>
+            <img src="images/genetic_fallacy.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">32</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Úhybný manévr <b>&rsaquo;</b> <b>Klamné propojení</b></div>
+                <div class="page-title">Klamné propojení</div>
+                <div class="page-content">
+                    <p>Klamné propojení diskredituje argument poukázáním na to, že podobnou myšlenku sdílí nějaký společensky démonizovaný jedinec nebo skupina. Například <i>Můj oponent volá po zdravotnickém systému, který by připomínal socialistický model. To je samozřejmě nepřijatelné.</i> Ať už navrhovaný systém zdravotnictví připomíná systém v socialistických zemí nebo ne, nemá to jakýkoli vliv na to, jestli je dobrý nebo špatný; jde o <i>non sequitur</i>, nesouvisející tvrzení.</p>
+                    <p>Další druh argumentu, který bývá v některých společnostech opakován ad nauseam, zní takto: <i>Nemůžeme ženy nechat řídit auta, protože ženy smí řídit auta jen v bezbožných zemích.</i> V podstatě se tento i předchozí příklad snažily ukázat, že nějaká skupina lidí je kategoricky špatná. Proto sdílet s touto skupinou byť jen jediný rys by z nás udělal člena této skupiny, a tím by se nás začalo týkat všechno zlé, co je se skupinou spojováno.</p>
+                </div>
+            </div>
+            <img src="images/guilt_by_association.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">34</div>
+                <div class="taxonomy">Formální klam <b>&rsaquo;</b> Návrhový klam <b>&rsaquo;</b> <b>Společná příčina</b></div>
+                <div class="page-title">Společná příčina</div>
+                <div class="page-content">
+                    <p>Jedna z několika platných podob argumentu je známa jako <i>modus ponens</i> (odvozovací pravidlo, pravidlo vynětí) a má následující podobu: <b>Pokud A, pak C; A, proto C.</b> Formálněji: <b>A &rArr; C, A &#8866; C.</b></p>
+                    <p>Máme tu tři výroky: dvě premisy a závěr. V tomto případě A nazýváme předchůdcem, a C je následek. Například <i>Pokud voda na úrovni hladiny moře vaří, je její teplota nejméně 100&deg;C. Tato sklenice vody na úrovni hladiny moře vaří; její teplota je tedy nejméně 100&deg;C.</i> Takový argument je platný a ještě k tomu pravdivý.</p>
+                    <p>Společná příčina je formální klam, který má podobu <b>Pokud A, pak C, C; proto A.</b></p>
+                    <p>Chybný je předpoklad, že když je následek pravdivý, musí být pravdivý i předchůdce. Například <i>Lidé, kteří vystudovali vysokou školu, bývají v životě úspěšnější. John je úspěšný; musel tedy určitě nějakou vysokou školu vystudovat.</i> Johnův úspěch samozřejmě mohl být důsledkem vzdělávání, ale také mohl být důsledkem výchovy, nebo třeba jeho odhodlání překonávat obtížné okolnosti. Obecněji, nelze říci, že když vzdělání implikuje úspěch, znamená to, že úspěšnému člověku se vzdělání muselo dostat.</p>
+                </div>
+            </div>
+            <img src="images/affirming_the_consequent.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">36</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Odvedení pozornosti <b>&rsaquo;</b> Útok na původ <b>&rsaquo;</b> <i>Ad hominem</i> <b>&rsaquo;</b> <b>Stížnost na pokrytectví</b></div>
+                <div class="page-title">Stížnost na pokrytectví</div>
+                <div class="page-content">
+                    <p>Je také znám pod svým latinským názvem, <i>tu quoque</i>, tedy <i>ty také</i>. Tento klam odpovídá na obvinění obviněním se záměrem odvést pozornost od původního argumentu, namísto adresování zmíněného tématu. Například John říká, <i>“Tento muž nemá pravdu, protože nemá žádnou integritu; jen se ho zeptejte, proč ho propustili z práce,”</i> na což Jack odpovídá, “<i>Co kdybychom si promluvili o tom tučném bonusu, co sis loni odnesl domů, přestože jste propustili půlku lidí.”</i> Stížnost na pokrytectví můžeme také použít v případě, když někdo zaútočí na jinou osobu proto, že to, pro co dotyčná osoba argumentuje, je v rozporu s jejími minulými skutky [Engel].</p>
+                    <p>V epizodě tematické britské televizní show Have I Got News For You byl jeden z účastníků panelové diskuze v opozici vůči demonstracím proti korporátní chamtivosti v Londýně kvůli očividnému pokrytectví účastníků, kteří přesto se sice tváří, že jsou proti kapitalismu, ale i nadále používají chytré telefony a kupují si kávu. Ukázka je dostupná tady: <a href='http://youtu.be/8WvAkhW-XNI'>youtu.be/8WvAkhW-XNI</a></p>
+                    <p>A tady je další příklad z filmu Jasona Reitmana, <i>Děkujeme, že kouříte</i> (Fox Searchlight Pictures, 2005), kde je na tu quoque postavena výměna, kterou Nick Naylor, výmluvný lobbista za tabákový průmysl, zakončí takto: “Je mi k smíchu představa, že mě nějaký pán z Vermontu označuje za pokrytce. Ve stejný den tento stejný muž pořádal tiskovou konferenci, kde žádal, aby americká pole s tabákem byla posečena a vypálena, a přitom vzápětí nastoupil do soukromého letadla a přeletěl na jih na veletrh Farm Aid, kde přijel na pódium v traktoru a fňukal nad hrozným osudem amerických farmářů.”</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_hypocrisy.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">38</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Příčinný klam <b>&rsaquo;</b> Příčina nesouvisí, pátrání pokračuje <b>&rsaquo;</b> <b>Šikmá plocha<sup>7</sup></b></div>
+                <div class="page-title">Šikmá plocha</div>
+                <div class="page-content">
+                    <p>Šikmá plocha kauzálního typu se snaží zdiskreditovat návrh pomocí tvrzení, že přijetí tohoto návrhu bude bezpochyby vést k celé řadě událostí, z nichž alespoň některé jsou nežádoucí. Ačkoliv třeba taková posloupnost událostí může s nějakou pravděpodobností nastat, tento druh argumentu předpokládá, že jednotlivé kroky posloupnosti jsou nevyhnutelné, aniž by pro podporu tohoto tvrzení přinášela důkazy. Tento klam si pohrává se strachem publika a je napojen na celou řadu dalších klamů, jako jsou vyvolávání strachu, falešné dilema a argument z důsledků.</p>
+                    <p>Například <i>Neměli bychom lidem dovolit přistupovat k Internetu bez dozoru. Ani se nerozhlédneme, a už budou navštěvovat pornografické stránky, a zanedlouho na to se rozpadnou i poslední zbytky morálních struktur a budou z nás jen zvířata.</i> Jak je jasně vidět, o tom, že přístup k Internetu způsobí rozklad morálních struktur společností, nejsou uvedeny žádné důkazy, jen nepodložené dohady a předpoklady.</p>
+
+                    <p class="footnote" style="bottom:-35px"><sup>7</sup> Zde popsaná šikmá plocha je kauzálního typu.</p>
+                </div>
+            </div>
+            <img src="images/slippery_slope.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">40</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Úhybný manévr <b>&rsaquo;</b> <b>Odvolání na módní trend</b></div>
+                <div class="page-title">Odvolání na módní trend</div>
+                <div class="page-content">
+                    <p>Skutečnost, že velké množství lidí, možná dokonce většina, něčemu věří, tento klam povyšuje na důkaz toho, že to musí být pravda. Některé argumenty, které bránily širšímu přijetí objevných myšlenek, jsou tohoto druhu. Galileo například čelil posměchu od svých současníků za svou podporu Koperníkovu modelu. A nověji tu máme třeba Barryho Marshalla, který musel přistoupit k extrémnímu kroku a sám vypít nakažlivý roztok, aby přesvědčil vědeckou komunitu, že žaludeční vředy mohou být způsobeny bakterií <i>H. pylori</i>, protože tato teorie byla do té doby zavrhována.</p>
+                    <p>Nalákat lidi do přijímání toho, co je populární, je metoda často používaná v reklamě a politice. Například <i>Všechny hustý děcka používají tenhle gel na vlasy; buď jedním z nich.</i> Ačkoliv být “hustým děckem” je možná lákavá nabídka, neposkytuje pobídce kupovat inzerovaný produkt pražádnou podporu. Politici často používají podobnou rétoriku, aby dodali zdání podpory svým kampaním a strhli další voliče.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_bandwagon.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">42</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Odvedení pozornosti <b>&rsaquo;</b> Útok na původ <b>&rsaquo;</b> <b><i>Ad hominem</i></b><sup>8</sup></div>
+                <div class="page-title"><i>Ad hominem</i></div>
+                <div class="page-content">
+                    <p>Argument <i>ad hominem</i> útočí na charakter osoby místo na to, co dotyčná osoba říká. Záměrem je odvést diskuzi jinam a argument oné osoby zdiskreditovat. Například Nejste historik; radši se držte svého oboru. Ať už dotyčný je nebo není historik, nemá to vliv na hodnotu původního argumentu a nijak to neposiluje pozici útočníka.</p>
+                    <p>Tento druh osobního útoku označujeme jako urážlivý ad hominem. Existuje ještě další druh, označovaný jako nepřímý ad hominem, ten z cynických důvodů útočí na druhé tím, že hodnotí jejich záměry. Například <i>Ve skutečnosti vám vůbec nezáleží na snížení kriminality ve městě, prostě jen chcete, aby pro vás lidé hlasovali.</i> Jsou ale situace, ve kterých je otázka charakteru a integrity dotyčné osoby tématem, na které lze legitimně upozornit, například při svědectví u soudu.</p>
+
+                    <p class="footnote" style="bottom:-35px"><sup>8</sup> Ilustrace je inspirována internetovou diskuzí, které se účastnil jeden přespříliš horlivý a tvrdohlavý programátor.</p>
+                </div>
+            </div>
+            <img src="images/ad_hominem.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">44</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Sloučená otázka <b>&rsaquo;</b> <b>Logický kruh</b></div>
+                <div class="page-title">Logický kruh</div>
+                <div class="page-content">
+                    <p>Argumentace kruhem je jeden ze čtyř druhů argumentu, které známe pod označením ‘sloučená otázka’ [Damer]. Dotyčný schválně nebo mimoděk v jedné nebo více premisách předpokládá závěr. Při argumentaci kruhem je závěr buďto použit přímo jako premisa, nebo je častěji popsán jinými slovy, aby působil jako jiný výrok, ačkoliv jím není. Například <i>Máš to úplně špatně, protože to nedává žádný smysl.</i> Oba výroky jsou vlastně jeden a ten samý, protože ‘máš to špatně’ a ‘nedává to smysl’ říkají v tomto kontextu to stejné. Argument jednoduše tvrdí ‘jelikož platí x, platí x’, což je bez významu.</p>
+                    <p>Kruhový argument někdy spoléhá na nevyřčené premisy, které mohou způsobit, že je složitější jej rozpoznat. Toto je přiklad z australského televizního seriálu <i>Please Like Me</i>, ve kterém jedna z postav říká jiné, nevěřící postavě, že půjde do pekla, na což zavrhovaný odpovídá, “Nedává to žádný smysl. Je to, jako když mi bude nějaký hipík vyhrožovat, že mě praští do aury.” V tomto příkladu je nevyřčenou premisou existence Boha, který pošle část lidí do pekla. Premisa ‘Existuje Bůh, který pošle nevěřící do pekla’ je tu použita k podpoře závěru ‘Existuje Bůh, který pošle nevěřící do pekla.’</p>
+                </div>
+            </div>
+            <img src="images/circular.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">46</div>
+                <div class="taxonomy">Neformální klam <b>&rsaquo;</b> Bezdůvodný předpoklad <b>&rsaquo;</b> <b>Skládání a rozdělování</b></div>
+                <div class="page-title">Skládání a rozdělování</div>
+                <div class="page-content">
+                    <p>Skládat znamená usuzovat, že celek musí mít jistou vlastnost, protože ji mají jeho části. Když ale budeme parafrázovat Petera Millicana: přestože má každá ovce ve stádě matku, nevyplývá z toho, že stádo má matku. Tady je další příklad: <i>Každý modul v tomto softwarovém systému byl podroben sadě testů a všemi testy prošel. Proto, až budou všechny moduly propojeny, systém nepřekročí žádný z parametrů ověřených těmito testy.</i> Skutečnost je taková, že zapojení jednotlivých částí do systému přinese vyšší komplexitu kvůli vzájemným závislostem, a ty zase mohou vytvořit nový prostor pro možná selhání.</p>
+                    <p>Rozdělovat oproti tomu znamená usuzovat, že část celku musí mít jistou vlastnost proto, že celek, do kterého část náleží, tuto vlastnost má. Například <i>Náš tým je neporazitelný. Kterýkoliv z našich hráčů by si poradil s kterýmkoliv hráčem z libovolného jiného týmu.</i> Ačkoliv může být pravda, že tým jako celek je neporazitelný, nejde to použít jako důkaz toho, že každý jeden z hráčů v týmu je neporazitelný. Úspěch týmu přece není vždy jen součtem individuálních schopností jeho členů.</p>
+                </div>
+            </div>
+            <img src="images/composition_and_division.png" class="right" />
+
+            <!-- final remarks -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/final_remarks.png" />
+            </div>
+            <div class="right">
+                <div class="page-number">49</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:95px">Před mnoha lety jsem slyšel jednoho profesora představovat deduktivní argumentaci za pomoci úžasného přirovnání: popisoval ji jako vodotěsné potrubí. Pokud do něj na jedné straně proudí pravda, bude z něj na druhé straně opět pravda vytékat. Jak už to tak bývá, stala se tato myšlenka inspirací pro obal této knihy. Když už jste došli na konec, doufám, že knihu opustíte nejen s lepší představou přínosů, které mohou vodotěsné argumenty ve vyhodnocování a rozšiřování znalostí mít, ale také s lepší představou složitostí induktivní argumentace, u které vstupují do hry pravděpodobnosti. Protože obzvlášť u takových argumentů se kritické myšlení osvědčuje jako nenahraditelný nástroj. Vedle toho také doufám, že knihu opouštíte s uvědoměním, jak nebezpečné pochybné argumenty jsou, a jak často se v našem každodenním životě vyskytují.</p>
+                    <p class="footnote license" style="position:absolute;bottom:36px;width:520px">
+                        <a class="internal" href="#base">Scroll down for more</a> &nbsp; <b>&middot;</b> &nbsp;
+                        Share on &nbsp; 
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- definitions -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/definitions.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">51</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>Výrok:</strong> Tvrzení, které je pravdivé či nepravdivé, ale ne oboje zároveň. Například <i>Praha je největší město Polska.</i></p>
+                    <p><strong>Premisa:</strong> Výrok, který podporuje závěr argumentu. Argument může mít jednu nebo více premis.</p>
+                    <p><strong>Argument:</strong> Soubor výroků, který chce přesvědčit pomocí uvažování. Podporu pro výrok, nazývaný závěr argumentu, dodává podsoubor výroků, nazývaných premisy.</p>
+                    <p><strong>Deduktivní argument:</strong> Argument, ve kterém, pokud jsou premisy pravdivé, musí být pravdivý i závěr. O závěru říkáme, že logicky musí vyplývat z premis. Například <i>Všichni muži jsou smrtelní. Sokrates je muž. Sokrates je tedy smrtelný.</i> Deduktivní argument se snaží o platnost, ale samozřejmě se mu to nemusí podařit.</p>
+                    <p><strong>Induktivní argument:</strong> Argument, ve kterém, pokud jsou premisy pravdivé, je pravděpodobné, že závěr bude také pravdivý.<sup>9</sup> Závěr proto nevyplývá z premis s logickou nutností, ale pouze s vysokou pravděpodobností. Například <i>Pokaždé, když měříme rychlost světla ve vakuu, dostaneme 3 &times; 10<sup>8</sup> m/s. Proto je rychlost světla ve vakuu univerzální konstantou.</i> Induktivní argument je většinou vystavěn od specifických instancí k obecným.</p>
+                
+                    <p class="footnote" style="bottom:-55px"><sup>9</sup> Ve vědě obvykle přecházíme induktivně od dat k zákonům a teoriím, indukce je tedy základem většiny vědy. Indukce typicky znamená, že výrok je ověřen na nějakém vzorku, protože jinak by to bylo nepraktické nebo přímo nemožné.</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">52</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p></p>
+                    <p><strong>Logická chyba:</strong> Chyba v uvažování, jejímž výsledkem je neplatný argument. Logické chyby se týkají pouze uvažování, kterým přecházíme od jednoho výroku ke druhému, nezahrnují chyby ve faktech. Jinak řečeno, neplatný argument na dané téma neznamená, že o tématu nejde uvažovat. Logické chyby porušují jeden nebo více principů, o které se platné argumenty opírají, jako jsou dobrá struktura, konzistence, jasnost, pořadí, relevance a celistvost.</p>
+                    <p><strong>Formální klam:</strong> Logická chyba, jejíž podoba neodpovídá pravidlům odvozování v logickém kalkulu. Platnost argumentu může být vyhodnocena už jen analýzou jeho abstraktní struktury, aniž by bylo třeba zabývat se obsahem.</p>
+                    <p><strong>Neformální klam:</strong> Logická chyba, která spočívá v obsahu a kontextu spíše než ve formě. V uvažování by měla být některá ze známých chyb, aby šlo argument považovat za neformálně klamný.</p>
+                    <p><strong>Platnost:</strong> Deduktivní argument je platný, pokud jeho závěr logicky vyplývá z jeho premis. Jinak říkáme, že je neplatný. Označení <i>platný a neplatný</i> používáme pouze na argumenty, nikoliv na výroky.</p>
+                </div>
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">53</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>Pravdivost:</strong> Deduktivní argument je pravdivý, pokud je platný, a jeho premisy jsou pravdivé. Pokud jedna z podmínek není splněna, pak je argument nepravdivý. Pravdivost rozhodujeme podle toho, zda premisy a závěry argumentu souhlasí se skutečnostmi reálného světa.</p>
+                    <p><strong>Síla:</strong> Induktivní argument je silný v případě, že je vysoká pravděpodobnost, že když jeho premisy budou pravdivé, bude pravdivý i jeho závěr. Pokud je nepravděpodobné, že závěr je pravdivý, pak je argument slabý. Induktivní argumenty negarantují zachování pravdivosti; neznamená u nich, že z pravdivých premis musí vyplývat pravdivý záměr.</p>
+                    <p><strong>Přesvědčivost:</strong> Induktivní argument je přesvědčivý, pokud je silný a jeho premisy jsou skutečně pravdivé, tedy v souladu s fakty. Jinak říkáme, že je nepřesvědčivý.</p>
+                    <p><strong>Falzifikovatelnost:</strong> Vlastnost návrhu nebo argumentu, která dovoluje, aby byl odmítnut nebo vyvrácen pozorováním nebo experimentem. Například návrh <i>Všechny listy jsou zelené</i> může být vyvrácen poukázáním na list, který zelený není. Falzifikovatelnost bývá známkou toho, že argument je silný.</p>
+                </div>
+            </div>
+            <!-- end definitions -->
+
+            <!-- references -->
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/references_i.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">55</div>
+                <div class="page-title"></div>
+                <div class="page-content bibliography">
+                    <p>[Aristotle] Aristotle, On Sophistical Refutations, translated by W. A. Pickard, http://classics.mit.edu/Aristotle/sophist_refut.html</p>
+                    <p>[Avicenna] Avicenna, Treatise on Logic, translated by Farhang Zabeeh, 1971.</p>
+                    <p>[Carroll] Lewis Carroll, Alice's Adventures in Wonderland, 2008,<br />http://www.gutenberg.org/files/11/11-h/11-h.htm</p>
+                    <p>[Curtis] Gary N. Curtis, Fallacy Files, http://fallacyfiles.org</p>
+                    <p>[Damer] T. Edward Damer, Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments (6th ed), 2005.</p>
+                    <p>[Engel] S. Morris Engel, With Good Reason: An Introduction to Informal Fallacies, 1999.</p>
+                    <p>[Farmelo] Graham Farmelo, The Strangest Man: The Hidden Life of Paul Dirac, Mystic of the Atom, 2011.</p>
+                    <p>[Fieser] James Fieser, Internet Encyclopedia of Philosophy, http://www.iep.utm.edu</p>
+                    <p>[Firestein] Stuart Firestein, Ignorance: How it Drives Science, 2012.</p>
+
+                    <p class="footnote license" style="position:absolute;bottom:-46px;width:520px">
+                        <a class="internal" href="#base">Scroll down for more</a> &nbsp; <b>&middot;</b> &nbsp;
+                        Share on &nbsp; 
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">56</div>
+                <div class="page-title"></div>
+                <div class="page-content bibliography">
+                    <p>[Fischer] David Hackett Fischer, Historians' Fallacies: Toward a Logic of Historical Thought, 1970.</p>
+                    <p>[Gula] Robert J. Gula, Nonsense: A Handbook of Logical Fallacies, 2002.</p>
+                    <p>[Hamblin] C. L. Hamblin, Fallacies, 1970.</p>
+                    <p>[King] Stephen King, On Writing, 2000.</p>
+                    <p>[Minsky] Marvin Minsky, The Society of Mind, 1988.</p>
+                    <p>[P&oacute;lya] George P&oacute;lya, How to Solve It: A New Aspect of Mathematical Method, 2004.</p>
+                    <p>[Russell] Bertrand Russell, The Problems of Philosophy, 1912,<br />http://ditext.com/russell/russell.html</p>
+                    <p>[Sagan] Carl Sagan, The Demon-Haunted World: Science as a Candle in the Dark, 1995.</p>
+                    <p>[Simanek] Donald E. Simanek, <i>Uses and Misuses of Logic</i>, 2002,<br />http://www.lhup.edu/~dsimanek/philosop/logic.htm</p>
+                    <p>[Smith] Peter Smith, An Introduction to Formal Logic, 2003.</p>
+                </div>
+            </div>
+            <div class="right right-option3">
+                <div class="page-number">57</div>
+                <div class="page-title"></div>
+                <div class="page-content">              
+                    <p class="footnote license" style="position:absolute;bottom:-60px;width:520px">
+                        <a class="internal" href="#base">Scroll down for more</a> &nbsp; <b>&middot;</b> &nbsp;
+                        Share on &nbsp; 
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                </div>
+            </div>
+            <!-- end references -->
+          </div>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="hope-you-enjoyed-that"> 
+            <h3>Hope you enjoyed that</h3>
+            <div class="outro">
+                <p>This has been <span class="highlight">An Illustrated Book of Bad Arguments</span>. Thanks for visiting. Sightings of unintended irony should be <a href='https://github.com/almossawi/badarguments' class='underline'>reported to the author!</a></p>
+                <p>If you would like to help support this book with a small donation, that would be much appreciated.  Thank you!</p>
+                
+                <div id="slider-div">
+                    <div id="slider-range-min" style="margin-top:5px;padding-right:10px"></div>
+                    <label for="amount" style="line-height:40px">Name your price (drag slider to change)</label>
+                </div>
+                <div id="amount-div">
+                    <span id="amount" style="font-size:40px"></span>
+                </div>
+
+                <form id="stripe-form" action="../charge.php" method="POST" style="padding-top:22px">
+                    <input type="hidden" id="amount_in_cents" name="amount_in_cents" value="200" />
+
+                    <div>
+                    <script
+                      src="https://checkout.stripe.com/v2/checkout.js" class="stripe-button"
+                          data-key="pk_live_1wyUR9ETeoSkjh7mvhfbYkLz"
+                          data-name="An Illustrated Book of Bad Arguments"
+                          data-description="Donation"
+                          data-currency="usd"
+                          data-image="../images/stripe_thumb.png">
+                    </script>
+                    </div>
+                </form>
+                <p class="stripe">Secure payments by <a href="https://stripe.com" class="underline" target="_blank">stripe</a></p>
+                <p class="courtesy-of">Background image courtesy of <a href="http://subtlepatterns.com" class="underline">subtlepatterns</a></p>
+
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHRwYJKoZIhvcNAQcEoIIHODCCBzQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYC4WHPVa+29SuioGqHt01NUHAxbkRYBoaztr+ujnKAGgl/AJvpWo7HLiwh8HwtJG7JuDyzDSnD2MeegwGyvh8kZRIOtD95vTGj3w4jHbPZxzeufTQBgsSOxKTLFACJtcF09cmF5H+Ho87hkg5lBps1jPfIdUfTlOoslnOcEfaDrKjELMAkGBSsOAwIaBQAwgcQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQINB++j5Z2XoSAgaBQdLH/6j+AyGfYOOxREz/7UooEWn9TwNjoax8xzIDYcPE5YuejTg8ztN2i78FR0EDZOHe2feCkshxtox95PPC+t5vRnWxYntkJE04tVwUFy0B0HoYTBx78CD65uuW8O9AmOxqI0L5Dq44MtI2E+NXnQQVOfzsbNOTJzdPM6FMr1JFaC2A+x2AXccZ4su6o2QR+GaoEFnvCXror57is5kW8oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTQwNjIwMjExNjA3WjAjBgkqhkiG9w0BCQQxFgQUwMFAvYwN5fWFnC6A3WyA+a07u/gwDQYJKoZIhvcNAQEBBQAEgYA1J7KFMhnclAg5Lyqf7ZvGFmAOu7u0/o2QasuztGZEiTCJ1eaiWHFO3jAcZ5pd3faC0XYNBIbpmvyo6daI4AOu7aCn1mMfWNE0VCTE+piSa7BxfM90n30bqra9SWy4Gxeod20OLuuwgnSkSFKNDp9WoRSB5hei+K/Cd1JPNlwdUA==-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://bookofbadarguments.com/images/paypal-donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin-left:30px;margin-top:15px">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </div>
+            <div class="gradient"></div>
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div id="base" name="base">
+            <div id="base-book" class="hide-on-mobile">
+                <img src="../images/book.png" width="220" height="185" alt="In print" />
+            </div>
+
+            <div id="base-prose">
+                <p style="margin-left:12px">Join the mailing list for two updates per year about this and <a href='https://thelandofbards.com' class='underline'>related projects</a>.</p>
+
+                <link href="../css/mailchimp-slim-081711.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{clear:left;font:14px;width:400px;}
+                </style>
+                <div id="mc_embed_signup">
+                    <form action="https://almossawi.us7.list-manage.com/subscribe/post?u=9c4dbd8f3e2d9a588cfe43dae&amp;id=3c89277de1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="base-contact">
+                <a class='tiny-button fa fa-2x fa-facebook-square' href='https://www.facebook.com/badarguments' title='Facebook'></a> 
+                <a class='tiny-button fa fa-2x fa-github' href='https://github.com/almossawi/badarguments' title='Github'></a> 
+                <a class='tiny-button fa fa-2x fa-twitter' href='https://twitter.com/alialmossawi' title='Twitter'></a> 
+                <a class='tiny-button fa fa-2x fa-instagram' href='https://instagram.com/almossawi' title='Instagram'></a>
+                <!--<a class='tiny-button fa fa-2x fa-envelope-o' href='mailto:ali@almossawi.com' title='Email'></a>-->
+
+                <div id="base-social">
+                    <div class="twitter-block"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://bookofbadarguments.com" data-via="alialmossawi">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+                    <div id="fb-block" class="fb-like" data-href="https://bookofbadarguments.com" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-font="arial"></div>
+
+                    <div style="height:15px;clear:both"></div>
+                    <div class="copyright-strip">
+                        2013-2016 &middot; <a href="#inline_content" class='inline underline'>See the sketches</a> 
+                        &middot; <a href="https://github.com/almossawi/badarguments" class='underline'>Get the code</a>
+                        <div class="url-link"><a href="https://almossawi.com/bookofbadarguments.html" style="text-decoration:none;color:#c7c7c7">www.bookofbadarguments.com</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="base-news">
+                <div class='announcement'><b>News</b> &middot; <a href="https://github.com/almossawi/badarguments#an-illustrated-book-of-bad-arguments" class='underline'>See photos of the book in the wild and other related material.</a></div>
+                <div class='announcement'><b>News</b> &middot; <a href="http://www.abc.net.au/radionational/programs/drive/the-lost-art-of-making-sense/5919286" class='underline'>A conversation with ABC Radio about the art of making sense.</a></div>
+                <div class='announcement'><b>News</b> &middot; <a href="https://twitter.com/alialmossawi/status/526110069348257795" class='underline'>The Book of Bad Arguments website recently crossed 1 million visitors.</a></div>
+            </div>
+
+            <div style="clear:both;height:20px"></div>
+
+            <div id="press" class="hide-on-mobile">
+                <img src="../images/in_the_press.png" /> 
+                <a href="https://www.fastcocreate.com/3019063/now-more-than-ever-you-need-this-illustrated-guide-to-bad-arguments-faulty-logic-and-silly-r"><img src="../images/fastcompany.png" /></a> 
+                <a href="http://geekdad.com/2013/09/teach-kids-logic-illustrated-book-bad-arguments/"><img src="../images/geekdad.png" /></a> 
+                <a href="http://dish.andrewsullivan.com/2013/09/09/this-little-piggy-made-a-logical-error/"><img src="../images/the_dish.png" /></a> &nbsp;
+                <a href="https://www.buzzfeed.com/kevintang/charming-cartoons-that-debunk-your-bs-arguments"><img src="../images/buzzfeed.png" /></a> &nbsp;
+                <a href="http://io9.com/a-guide-to-fallacious-arguments-illustrated-with-funny-1273276162"><img src="../images/io9.png" /></a> 
+                <a href="https://laughingsquid.com/an-illustrated-book-of-bad-arguments-logical-fallacies-explained-with-fun-animal-illustrations/"><img src="../images/laughing_squid.png" /></a> 
+                <a href="https://boingboing.net/2014/03/21/bad-arguments-great-illustrat.html"><img src="../images/boingboing.png" /></a> &nbsp;
+                <!--<a href="https://www.reddit.com/r/philosophy/comments/1lcqzu/an_illustrated_book_of_bad_arguments/"><img src="../images/reddit.png" /></a> &nbsp;-->
+                <!--<a href="http://www.philosophynews.com/post/2013/08/21/An-Illustrated-Book-of-Bad-Arguments.aspx"><img src="../images/philosophy_news.png" /></a>--> 
+                <a href="http://www.openculture.com/2015/04/an-illustrated-book-of-bad-arguments.html"><img src="../images/open_culture.png" /></a> 
+                <a href="http://dangerousminds.net/comments/an_illustrated_book_of_bad_arguments_dispatching_the_dumb_one_funny_animal" class="hide-on-mobile"><img src="../images/dangerous_minds.png" /></a> 
+            </div>
+        </div>
+
+        <div style='display:none'>
+            <div id='inline_content'>
+                <p>A reader recently wrote in asking if I could share a bit about the process of putting the book together and talk about how the project started.  Certainly.</p>
+                <br /><br />
+                <p><span style="font-family:Georgia,Times;font-size:60px">I</span> go on two solitary walks every day.  There is a small park off the Embarcadero that is tucked away in a quiet spot.  It has a pleasant stream flowing through it and an unassuming bench beside that stream.  I have made walking to that frail bench a ritual, and the half an hour or so spent daydreaming on it amid the cool San Francisco breeze, an article of faith.</p>
+                <p>It was on a day in October of last year when, during one of those quiet moments on that bench, I recalled my college years and how outspoken I happened to be during them, an observation only made interesting by the fact that  I have since turned into the quietest of beings.  They say that achieving knowledge is a function of one's ability to maintain both doubt and hubris.  I don't know.  I find that as the years go by, I am left with more of the former and less of the latter.</p>
+                <p>A realization that coincided with that nostalgic whiff was that a sizable amount of the discourse nowadays continues to be plagued with bad reasoning.</p>
+                <p>Hence, the idea that finally shook me into soberness was one that had been fermenting for a while.  It was that of visualizing, in a simple manner, some of the principles that had helped me do well in debates and in off-the-cuff arguments with colleagues.  Simple.  That would be the novelty of it.  And so, with my two-year old daughter in the back of my mind, I decided that illustration would be an ideal language, given its universal appeal.</p>
+                <p>Once I had a draft version of the book ready, I sent it to one of my life-long idols, Marvin Minsky, co-founder of the MIT Artificial Intelligence Lab and author of <i>The Society of Mind</i>.  I must have spent a good week writing that email.  I was overjoyed when he wrote back a few hours later calling the book &ldquo;beautiful!&rdquo;  It was quite possibly one of the highlights of my life.  Having read the email, I made sure to maintain my earnestness while I found a private place, wherein I proceeded to do the Apache dance from <i>Fresh Prince</i>.</p>
+                <div style="height:312px;width:800px">
+                    <img src="../images/sketches/minsky.jpg" />
+                </div>
+                <p>The cover is inspired by one of my favorite games growing up: LucasArts' <i>Monkey Island</i> series.  The title's typography and the general feel of the whole scene borrow a bit from <i>Monkey Island</i> and a bit from <i>Indiana Jones</i>.  The cover's concept is based on the metaphor that good deductive logic is like a watertight pipe where truth goes in and truth comes out.  Hence, the cave that the two explorers are peeking through, which you may notice has an opening resembling that of a human ear, is actually the inside of someone's head, and the leaking pipes indicate that this person's head is filled with bad logic.</p>
+                <p>Shown below are some of the original sketches that I came up with.  I had the scenarios, characters and captions in mind, and a modest ability to transform them into drawings.  What I really wanted though was a woodcut style that would give the work an antiquated feel, because after all, if it looks old, then it must be of value&mdash;irony intended.  I commissioned a professional illustrator who did a nice job of translating a set of sketches, prose and undocumented ideas into the illustrations you see in this final artifact.</p>
+                <p>The project is a public service, and although it has cost a fair amount of money, nothing would make me happier than to see it used to teach younger people or those new to the field the importance of logical reasoning.  It is meant to serve as a modest, yet hopefully timeless, contribution.</p>
+                <p>Thank you for visiting and for your emails; they make my day.  Enjoy the sketches below.  If you don't see them, then they are still being loaded. Look out for the print version on Amazon later this year.</p>
+                <p><i>August 20, 2013 &middot; <a href="/#inline_content" style="color:white">(permalink)</a></i></p>
+                <div style="height:9600px;width:800px"> 
+                    <img src="../images/sketches/bear.jpg" />
+                    <img src="../images/sketches/pig.jpg" />
+                    <img src="../images/sketches/donkey.jpg" />
+                    <img src="../images/sketches/donkey2.jpg" />
+                    <img src="../images/sketches/frog.jpg" />
+                    <img src="../images/sketches/frog2.jpg" />
+                    <img src="../images/sketches/cat.jpg" />
+                    <img src="../images/sketches/vultures.jpg" />
+                    <img src="../images/sketches/toucan.jpg" />
+                    <img src="../images/sketches/chimp.jpg" />
+                    <img src="../images/sketches/crane.jpg" />
+                    <img src="../images/sketches/cow.jpg" />
+                    <img src="../images/sketches/sealion.jpg" />
+                    <img src="../images/sketches/all.jpg" />
+                    <img src="../images/sketches/proof.jpg" />
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/global.js"></script>
+    </body>
+</html> 

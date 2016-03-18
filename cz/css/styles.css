@@ -1,9 +1,3 @@
-.buy {
-    color: #fff;
-    padding: 10px 0 10px 0;
-    text-align: center;
-}
-
 .announcement {
     padding-bottom: 20px;
 }
@@ -19,7 +13,7 @@ a:link.underline {
 
 body {
     background-color:#2a2a2a;
-    background-image:url('../images/bg-tile2.jpg');
+    background-image:url('../../images/bg-tile2.jpg');
     background-repeat:repeat;
     margin:0;
     padding:0;
@@ -56,46 +50,46 @@ div.left {
 }
 
 div.left {
-    background-image: url('../images/bg_left.png');
+    background-image: url('../../images/bg_left.png');
     background-position: right top;
 }
 
 div.right {
-    background-image: url('../images/bg_right.png');
+    background-image: url('../../images/bg_right.png');
     background-position: 1px top;
     border-left: 1px solid black;
 }
 
 div.right-option1 {
-    background-image: url('../images/bg_right.png');
+    background-image: url('../../images/bg_right.png');
 }
 
 div.right-option2 {
-    background-image: url('../images/bg_right2.png');
+    background-image: url('../../images/bg_right2.png');
 }
 
 div.right-option3 {
-    background-image: url('../images/bg_right3.png');
+    background-image: url('../../images/bg_right3.png');
 }
 
 div.left-option1 {
-    background-image: url('../images/bg_left.png');
+    background-image: url('../../images/bg_left.png');
 }
 
 div.left-option2 {
-    background-image: url('../images/bg_left2.png');
+    background-image: url('../../images/bg_left2.png');
 }
 
 div.left-option3 {
-    background-image: url('../images/bg_left3.png');
+    background-image: url('../../images/bg_left3.png');
 }
 
 div.right .taxonomy,
 div.left .taxonomy {
     color: #291414;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     font-weight: normal;
-    margin: 40px 0 0 100px;
+    margin: 43px 0 0 100px;
     position: absolute;
 }
 
@@ -153,6 +147,8 @@ sub {
     font-size: 0.75rem;
     line-height: 14px;
     padding-top: 2px;
+    position: absolute;
+    bottom: -35px;
 }
 
 .page-content p.block {
@@ -209,7 +205,7 @@ a:hover {
 }
 
 .topbar {
-    background-image: url('../images/noise.png');
+    background-image: url('../../images/noise.png');
     background-repeat: repeat;
     height: 80px;
     left: 0;
@@ -223,9 +219,8 @@ a:hover {
 
 .topbar div#zoom_info {
     color: #e6e6e6;
-    font-size: 0.75rem;
     font-weight: 400;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     margin-top: 20px;
     text-align: center;
 }
@@ -285,13 +280,13 @@ a:hover {
 }
 
 div.page-content p.license {
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 17px;
     text-align: center;
 }
 
 .hope-you-enjoyed-that {
-    background-image: url("../images/bear.png");
+    background-image: url("../../images/bear.png");
     background-position: 720px 5px;
     background-repeat: no-repeat;
     clear: both;
@@ -422,7 +417,7 @@ p.justify-last:after {
 
 .right-arrow img {
     border: 0;
-    background: url('../images/arrow-right.png') 0 0;
+    background: url('../../images/arrow-right.png') 0 0;
     width: 50px;
     height: 50px;
 }
@@ -491,7 +486,7 @@ p.justify-last:after {
 }
 
 #slider-range-min {
-    background-image: url("../images/slider-bg.png") !important;
+    background-image: url("../../images/slider-bg.png") !important;
     border: 0x solid #565a5f !important;
 }
 
@@ -554,7 +549,7 @@ p.justify-last:after {
 
 #inline_content {
     background-color: #2a2a2a;
-    background-image: url('../images/bg-tile2.jpg');
+    background-image: url('../../images/bg-tile2.jpg');
     background-repeat: repeat;
     color: #e1ded8;
     margin: 0;
@@ -642,6 +637,32 @@ a:visited.tiny-button {
     border: 0;
     height: 100px;
     width: 300px;
+}
+
+div.right p.translated-by,
+div.left p.translated-by {
+	line-height: 22px;
+	margin-top: 200px;
+	text-align: center;
+	width: 520px;
+	z-index: 9999;
+}
+
+div.right p.translated-by span.contact,
+div.left p.translated-by span.contact {
+    font-size: 0.85rem;
+}
+
+div.right p.translated-by span.authors,
+div.left p.translated-by span.authors {
+    font-size: 1.4rem;
+    font-style: normal;
+}
+
+div.right p.translated-by span.translated-into,
+div.left p.translated-by span.translated-into {
+    font-size: 0.95rem;
+    font-style: normal;
 }
 
 @media (max-width: 1450px) {
