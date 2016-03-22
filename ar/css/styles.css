@@ -37,6 +37,11 @@ img.right {
     width: 664px;
 }
 
+.inner-title-page {
+    background-image: url('../images/2b.png'),
+                      url('../../images/bg_right.png') !important;
+}
+
 .left img,
 .right img {
     height: 600px;
