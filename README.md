@@ -22,6 +22,7 @@ You are welcome to suggest corrections or submit suggestions by opening an [issu
 * [Hebrew (Noam Hadar, Assaf Linial)](he)
 * [Greek (Rafael Ketsetsides)](gr) [work-in-progress]
 * [Czech (Jaromír Matýšek)](cz)
+* [Bulgarian (Carrie Djokova, Violeta Kunovska)](bg)
 
 ## Related material
 * [List of contributors](https://github.com/almossawi/badarguments/wiki/Contributors)
