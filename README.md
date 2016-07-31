@@ -51,6 +51,7 @@ You are welcome to suggest corrections or submit suggestions by opening an [issu
 * [Greenville Public Library review](http://gplreads.tumblr.com/post/131019934269/an-illustrated-book-of-bad-arguments-by-ali)
 * [How to argue, with others and yourself; Andreessen Horowitz Weekend Newsletter](http://us7.campaign-archive2.com/?u=35c671b34bb404149166bf755&id=278fbd99ab)
 * [Shelf Awareness starred review](http://www.shelf-awareness.com/readers-issue.html?issue=326#m5772)
+* [The Booklist Reader review](http://www.booklistreader.com/2016/07/29/bookends-childrens-literature/bad-arguments-learning-the-lost-art-of-making-sense/)
 
 ## License
 
