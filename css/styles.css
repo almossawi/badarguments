@@ -652,7 +652,8 @@ a:visited.tiny-button {
     .container-languages,
     .hope-you-enjoyed-that,
     .howto,
-    .loading {
+    .loading,
+    .buy {
         min-width: 674px;
         width: 100%;
     }
