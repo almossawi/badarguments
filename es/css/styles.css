@@ -599,7 +599,7 @@ p.justify-last:after {
 
 .container-languages {
     height: 34px;
-    margin: 120px auto 0 auto;
+    margin: 140px auto 0 auto;
     position: relative;
     width: 1338px;
 }
@@ -701,7 +701,10 @@ div.left p.translated-by span.translated-into {
 @media (max-width: 1100px) {
     #base-contact {
         border-right-width: 0;
-        display: none;        
+    }
+
+    #base-news {
+        display: none;
     }
 
     #zoom_info {

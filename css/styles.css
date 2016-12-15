@@ -1,3 +1,21 @@
+#rhglobalprivacy {
+  border-top: 1px solid #ccc !important;
+  font-weight: normal !important;
+  font-family: 'Open Sans', Arial !important;
+  opacity: 0.9 !important;
+}
+
+#rhglobalprivacy a {
+  color: #f0642e !important;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+}
+
+#rhglobalprivacy div.txt {
+  font-size: 13px !important;
+  left: 23px !important;
+}
+
 .buy {
     color: #fff;
     padding: 10px 0 10px 0;
@@ -345,7 +363,7 @@ div.page-content p.license {
     font-size: 1rem;
     margin: 10px 0 0 50px;
     padding-right: 40px;
-    height: 180px;
+    height: 230px;
     width: 380px;
 }
 
@@ -354,7 +372,7 @@ div.page-content p.license {
     color: #e1ded8;
     float: left;
     font-size: 1rem;
-    height: 165px;
+    height: 215px;
     margin: 10px 0 0 50px;
     padding: 15px 60px 0 0;
     width: 220px;
@@ -598,7 +616,7 @@ p.justify-last:after {
 
 .container-languages {
     height: 34px;
-    margin: 120px auto 0 auto;
+    margin: 140px auto 0 auto;
     position: relative;
     width: 1338px;
 }
@@ -652,8 +670,7 @@ a:visited.tiny-button {
     .container-languages,
     .hope-you-enjoyed-that,
     .howto,
-    .loading,
-    .buy {
+    .loading {
         min-width: 674px;
         width: 100%;
     }
@@ -675,7 +692,10 @@ a:visited.tiny-button {
 @media (max-width: 1100px) {
     #base-contact {
         border-right-width: 0;
-        display: none;        
+    }
+
+    #base-news {
+        display: none;
     }
 
     #zoom_info {
