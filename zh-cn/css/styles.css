@@ -1,3 +1,21 @@
+#rhglobalprivacy {
+  border-top: 1px solid #ccc !important;
+  font-weight: normal !important;
+  font-family: 'Open Sans', Arial !important;
+  opacity: 0.9 !important;
+}
+
+#rhglobalprivacy a {
+  color: #f0642e !important;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+}
+
+#rhglobalprivacy div.txt {
+  font-size: 13px !important;
+  left: 23px !important;
+}
+
 .buy-print {
     color: #fff;
     padding: 10px 0 10px 0;

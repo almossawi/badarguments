@@ -1,3 +1,21 @@
+#rhglobalprivacy {
+  border-top: 1px solid #ccc !important;
+  font-weight: normal !important;
+  font-family: 'Open Sans', Arial !important;
+  opacity: 0.9 !important;
+}
+
+#rhglobalprivacy a {
+  color: #f0642e !important;
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+}
+
+#rhglobalprivacy div.txt {
+  font-size: 13px !important;
+  left: 23px !important;
+}
+
 a, a:active, a:link, a:visited {
 	text-decoration: none;
 	color: #0096dc;
