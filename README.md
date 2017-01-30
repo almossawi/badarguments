@@ -23,6 +23,7 @@ You are welcome to suggest corrections or submit suggestions by opening an [issu
 * [Greek (Rafael Ketsetsides)](gr) [work-in-progress]
 * [Czech (Jaromír Matýšek)](cz)
 * [Bulgarian (Carrie Djokova, Violeta Kunovska)](bg)
+* [French (Alcide Leon)](fr)
 
 ## Related material
 * [List of contributors](https://github.com/almossawi/badarguments/wiki/Contributors)
