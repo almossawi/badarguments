@@ -2,10 +2,10 @@
     'use strict';
 
     setInterval(function() {
-      document.getElementsByClassName('margie')[0].src = 'images/bad-choices-blink.png';
-      setTimeout(function() {
-        document.getElementsByClassName('margie')[0].src = 'images/bad-choices.png';
-      }, 200);
+        document.getElementsByClassName('margie')[0].src = 'images/bad-choices-blink.png';
+        setTimeout(function() {
+            document.getElementsByClassName('margie')[0].src = 'images/bad-choices.png';
+        }, 200);
     }, 4000);
 
     var global = {
