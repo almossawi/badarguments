@@ -25,6 +25,7 @@ You are welcome to suggest corrections or submit suggestions by opening an [issu
 * [Bulgarian (Carrie Djokova, Violeta Kunovska)](bg)
 * [French (Alcide Leon)](fr)
 * [Japanese (Masahito Nangaku)](jp)
+* [German (Claudia Aden, Ian Erik Stewart)](de)
 
 ## Related material
 * [List of contributors](https://github.com/almossawi/badarguments/wiki/Contributors)
