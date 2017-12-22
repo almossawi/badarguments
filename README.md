@@ -31,8 +31,11 @@ You are welcome to suggest corrections or submit suggestions by opening an [issu
 * [List of contributors](https://github.com/almossawi/badarguments/wiki/Contributors)
 * [Photos of _Bad Arguments_ in the real world](https://github.com/almossawi/badarguments/wiki/Photos)
 * [Talk: Open-Sourcing the Creative Process](http://almossawi.com/open-sourcing-the-creative-process/)
+* [Podcast: Metalearn interview](http://www.metalearn.net/podcasts/ml98-ali-almossawi)
+* [Video: This Week in Tech interview](http://www.twit.tv/tri/306)
 
 ## In the press
+* [Summer Reading For The College-Bound, NPR](https://www.npr.org/sections/ed/2017/06/30/534458892/the-books-college-kids-are-reading-this-summer)
 * [In the Mailbag: BEA 2015 Edition, Book Riot](https://www.youtube.com/watch?v=hvindvG0AbA#t=7m53s)
 * [San Diego Book Review](http://www.sandiegobookreview.com/an-illustrated-book-of-bad-arguments/)
 * [Hones Of Contention, The Common Reader](http://commonreader.wustl.edu/c/hones-of-contention/)
