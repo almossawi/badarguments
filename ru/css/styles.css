@@ -131,9 +131,9 @@ div.right p,
 div.left p {
     color: black;
     font-family: Georgia, Times;
-    font-size: 0.8rem;
-    line-height: 20px;
-    text-align: left;
+    font-size: 0.75rem;
+    line-height: 18px;
+    text-align: justify;
 }
 
 div.bibliography p {
@@ -167,12 +167,9 @@ sub {
 }
 
 .page-content p.footnote {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     line-height: 14px;
     padding-top: 2px;
-    position: absolute;
-    bottom: -35px;
-    text-align: left;
 }
 
 .page-content p.block {
@@ -449,7 +446,7 @@ p.justify-last:after {
 .loading {
     color: #ccc;
     font-size: 9pt;
-    letter-spacing: 2px;
+    letter-spacing: 1.2px;
     margin: 290px auto 0 auto;
     position: absolute;
     text-align: center;
