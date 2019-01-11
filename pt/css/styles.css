@@ -368,7 +368,7 @@ div.page-content p.license {
     font-size: 1rem;
     margin: 10px 0 0 50px;
     padding-right: 40px;
-    height: 180px;
+    height: 230px;
     width: 380px;
 }
 
@@ -377,7 +377,7 @@ div.page-content p.license {
     color: #e1ded8;
     float: left;
     font-size: 1rem;
-    height: 165px;
+    height: 215px;
     margin: 10px 0 0 50px;
     padding: 15px 60px 0 0;
     width: 220px;
@@ -693,9 +693,15 @@ div.left p.translated-by span.translated-into {
     font-style: normal;
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1430px) {
     .hide-on-mobile {
         display: none;
+    }
+}
+
+@media (max-width: 1450px) {
+    .in-the-press {
+        width: 104px;
     }
 
     .container-languages,

@@ -662,9 +662,15 @@ a:visited.tiny-button {
     width: 300px;
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1430px) {
     .hide-on-mobile {
         display: none;
+    }
+}
+
+@media (max-width: 1450px) {
+    .in-the-press {
+        width: 104px;
     }
 
     .container-languages,
