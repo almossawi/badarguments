@@ -131,8 +131,8 @@ div.right p,
 div.left p {
     color: black;
     font-family: Georgia, Times;
-    font-size: 0.75rem;
-    line-height: 18px;
+    font-size: 0.8rem;
+    line-height: 20px;
     text-align: justify;
 }
 
@@ -167,9 +167,11 @@ sub {
 }
 
 .page-content p.footnote {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     line-height: 14px;
     padding-top: 2px;
+    position: absolute;
+    bottom: -35px;
 }
 
 .page-content p.block {
@@ -240,8 +242,9 @@ a:hover {
 
 .topbar div#zoom_info {
     color: #e6e6e6;
+    font-size: 0.75rem;
     font-weight: 400;
-    letter-spacing: 0;
+    letter-spacing: 0px;
     margin-top: 20px;
     text-align: center;
 }
@@ -361,7 +364,7 @@ div.page-content p.license {
     font-size: 1rem;
     margin: 10px 0 0 50px;
     padding-right: 40px;
-    height: 180px;
+    height: 230px;
     width: 380px;
 }
 
@@ -370,7 +373,7 @@ div.page-content p.license {
     color: #e1ded8;
     float: left;
     font-size: 1rem;
-    height: 165px;
+    height: 215px;
     margin: 10px 0 0 50px;
     padding: 15px 60px 0 0;
     width: 220px;
@@ -446,7 +449,7 @@ p.justify-last:after {
 .loading {
     color: #ccc;
     font-size: 9pt;
-    letter-spacing: 1.2px;
+    letter-spacing: 2px;
     margin: 290px auto 0 auto;
     position: absolute;
     text-align: center;
@@ -676,7 +679,7 @@ div.left p.translated-by span.contact {
 
 div.right p.translated-by span.authors,
 div.left p.translated-by span.authors {
-    font-size: 1.15rem;
+    font-size: 1.4rem;
     font-style: normal;
 }
 
@@ -686,9 +689,15 @@ div.left p.translated-by span.translated-into {
     font-style: normal;
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1430px) {
     .hide-on-mobile {
         display: none;
+    }
+}
+
+@media (max-width: 1450px) {
+    .in-the-press {
+        width: 104px;
     }
 
     .container-languages,
