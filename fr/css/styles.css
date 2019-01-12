@@ -627,6 +627,7 @@ p.justify-last:after {
     position: absolute;
     text-align: center;
     width: 100%;
+    line-height: 23px;
 }
 
 .languages a {
