@@ -1,0 +1,925 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta property="og:title" content="Ilustrirana knjiga slabih argumentov / Ali Almossawi" />
+        <meta property="og:description" content="Pričujoča knjiga je namenjena začetnikom na področju logičnega sklepanja, predvsem tistim, in tu si sposojam Pascalovo frazo, ki zadeve najbolje razumejo takrat, ko jih vidijo. Pripravil sem majhen nabor zelo običajnih napak pri argumentiranju in jih ponazoril s pomočjo ilustracij, nato pa jih podkrepil z veliko primeri. Upam, da se bo bralec na teh straneh poučil o nekaterih najbolj običajnih pasteh pri argumentiranju, jih v praksi znal prepoznati ter se jim na koncu tudi izogniti." />
+        <meta property="og:image" content="https://bookofbadarguments.com/si/images/1.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bookofbadarguments.com/" />
+        <meta property="og:site_name" content="Ilustrirana knjiga slabih argumentov / Ali Almossawi" />
+        <meta property="fb:admins" content="542418566" />
+        
+        <title>Ilustrirana knjiga slabih argumentov / Ali Almossawi</title>
+
+        <link rel="stylesheet" href="../css/jquery-ui.css" type="text/css" />
+        <link rel="stylesheet" href="../css/colorbox.css" type="text/css" />
+        <link rel="stylesheet" href="../css/double-page.css" type="text/css" />
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="../js/modernizr.2.5.3.min.js"></script>
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-42350635-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            //ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=256637467814064";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <!--<div class="corner-ribbon top-left brown shadow hidden-xs hidden-sm">1.8 million visitors</div>-->
+ 
+        <!-- force background image to load first -->
+        <img src="../images/community-heart.png" style="display:none" />
+        <img src="../images/noise.png" style="display:none" />
+        <img src="../images/bg_right.png" style="display:none" />
+        <img src="../images/bg_right2.png" style="display:none" />
+        <img src="../images/bg_right3.png" style="display:none" />
+        <img src="../images/bg_left.png" style="display:none" />
+        <img src="../images/bg_left2.png" style="display:none" />
+        <img src="../images/arrow-right.png" style="display:none" />
+        <img src="../images/handle.png" style="display:none" />
+        <img src="../images/slider-bg.png" style="display:none" />
+        <img src="../images/bear.png" style="display:none" />
+        <img src="../images/book.png" style="display:none" />
+        <img src="../images/stripe_thumb.png" style="display:none" />
+
+        <div class="topbar">
+            <img src="../images/bad-choices-ribbon.png" style="position:absolute;top:-21px;left:8px;z-index:999" />
+            <div class="contributors" style='left:60px'>
+                <a href="https://bookofbadchoices.com">
+                    <img class='margie' src="../images/bad-choices.png" style='left:20px' alt='An illustrated introduction to computational thinking' title='An illustrated introduction to computational thinking' />
+                </a>
+            </div>
+            <a href="/thebook/?from=si">
+                <img src="../images/track_the_book.png" class="buy-the-book" />
+            </a>
+            <div id="zoom_info"></div>
+        </div>
+
+        <!-- languages -->
+        <div class="container-languages">
+            <div class="languages">
+                <a href="/">English</a>
+                <a href="/es/">Español</a>
+                <a href="/ar/">العربية</a>
+                <a href="/pt/">Português</a>
+                <a href="/pt-br/">Português brasileiro</a>
+                <a href="/zh-cn/">中文</a>
+                <a href="/fi/">Suomeksi</a>
+                <a href="/sk/">Slovenčina</a>
+                <a href="/he/">עברית</a>
+                <a href="/cz/">Česky</a>
+                <a href="/bg/">Български</a>
+                <a href="/fr/">Français</a>
+                <a href="/jp/">日本語版</a>
+                <a href="/de/">Deutsch</a>
+                <a href="/ru/">Pусский</a>
+                <a href="/si/" class="selected">Slovensko</a>
+            </div>
+        </div>
+
+        <div class="container">
+          <div class="left-arrow"><a href="#"><img src="../images/arrow-left.png" /></a></div>
+          <div class="right-arrow"><a href="#"><img src="../images/trans.png" /></a></div>
+
+          <div class="loading">Nalagam</div>
+          <div class="howto"><img src="images/howto.png" /></div>
+
+          <div class="flipbook" style="position:relative">
+            <div id="cover" class="left">
+                <img src="images/1.jpg" />
+            </div>
+            <div id="blank_page" class="left">
+            </div>
+            <div class="inner-title-page right right-option1">
+                <div class="page-content">
+                    <p class="translated-by">
+                        <span class="contact">
+                        <b>Prevedli</b> Viktorija Aleksovska in Eva Rosič
+                        <br /><b>Spremna študija</b> Boris Vezjak
+                        <br />
+                        20.12.2019
+                        </span>
+
+                        <br /><br />
+                        Dostopno tudi na <a href='http://zofijini.net/ilustrirana-knjiga-slabih-argumentov'>Zofijini</a>
+                    </p>
+                </div>  
+            </div>
+
+            <!-- endorsements -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="text-align:justify;margin-top:210px;width:520px;font-size:8.5pt;line-height:14px">
+                        Tale drobni tisk ne služi nobenemu drugemu namenu, razen temu, da je knjižica videti kot prava knjiga. V tiskanih knjigah lahko na prvi ali drugi strani običajno vidimo obsežen blok drobnega tiska, ki mu sledijo podatki, kot so: © 2013, vse pravice pridržane, »tako in tako«, natisnjeno v Združenih državah Amerike. Založnik lahko vključi tudi besedilo, ki bi odvrnilo potencialne pirate: noben del te knjige se ne sme uporabiti ali kopirati brez pisnega dovoljenja. Temu običajno sledi vrstica ali dve o založniku, nato pa zaporedje številk:<br /><br /><br />
+                        Za več informacij prosim pišite na JasperCollins Publishers, 99 St Marks Pl New York, NY 94105.<br />
+                        12 13 14 15 16 LP/SSRH 10 9 8 7 6 5 4 3 2 1<br /><br />
+                        Za to knjižico pa velja, da je vse, kar morate o njej vedeti, da je objavljena pod licenco <a href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons BY-NC</a>, kar pomeni, da jo lahko s pripisom avtorstva svobodno delite in prirejate za nekomercialno rabo.<br /><br />
+                        Prelom: Maja Šušteršič<br />
+                        Knjižica je izšla s finančno pomočjo Mestne občine Maribor.
+                    </p>
+                </div>
+            </div>
+            <div class="right right-option2">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class="endorsement"><span style="font-size:18px">»</span>Obožujem pričujočo ilustrirano knjigo slabih argumentov. Brezhiben priročnik hib.<span style="font-size:18px">«</span></p>
+                    <p class="endorsement_author">- prof. Alice Roberts, anatomistka, voditeljica BBC-jeve oddaje ‘The Incredible Human Journey’<br />(Neverjetno potovanje človeštva)</p>
+
+                    <p class="endorsement2"><span style="font-size:18px">»</span>Čudovito lahkoten povzetek pasti in tehnik argumentacije. To je najboljši način, da se naučiš ali obnoviš znanje o teh temeljnih pojmih logične razprave. Krasna knjižica.<span style="font-size:18px">«</span></p>
+                    <p class="endorsement_author2">- Aaron Koblin, kreativni direktor ekipe Data Arts pri Googlu</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/toc_i.png" />
+            </div>
+            <div class="right right-option3">
+                <img src="images/toc_ii.png" style="margin-left:1px" />
+            </div>
+
+            <!-- who is this book for -->
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/who_for.png" />
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">3</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class="text-indent" style="margin-top:100px"> Pričujoča knjiga je namenjena začetnikom na področju logičnega sklepanja, predvsem tistim, in tu si sposojam Pascalovo frazo, ki zadeve najbolje razumejo takrat, ko jih vidijo. Pripravil sem majhen nabor zelo običajnih napak pri argumentiranju in jih ponazoril s pomočjo ilustracij, nato pa jih podkrepil z veliko primeri. Upam, da se bo bralec na teh straneh poučil o nekaterih najbolj običajnih pasteh pri argumentiranju, jih v praksi znal prepoznati ter se jim na koncu tudi izogniti.</p>
+                </div>
+            </div>
+
+            <!-- preface -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/preface_i.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">5</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent'> Seznam del s področja logike in logičnih zmot je obširen in izčrpen. Novost, ki jo prinaša ta knjiga, pa so ilustracije, ki prikazujejo majhen nabor običajnih napak pri argumentiranju in zaznamujejo obsežen del naših današnjih razprav.</p>
+                    <p class='text-indent'>Ilustracije so deloma navdahnile prispodobe, kot je recimo Orwellova <i>Animal Farm (Živalska farma)</i>, deloma pa šaljivi nesmisli v delih, kot so zgodbe in pesmi Lewisa Carolla. Za razliko od omenjenih ta knjiga nima skupne pripovedne niti; gre za nepovezane prizore, ki jih družita le slog in tema, kar knjigo dela bolj prilagodljivo in spodbuja k njeni ponovni rabi. Vsaka zmota obsega samo eno stran razlage, zato je zgoščenost zgodb premišljena in načrtovana.</p>
+                    <p class='text-indent'>Brati o stvareh, ki jih ne bi smeli početi, je pravzaprav uporabna učna izkušnja. Stephen King v svoji knjigi <i>On Writing (O pisanju)</i> zapiše: <i>»Z branjem slabe proze se človek najbolje nauči, česa ne sme početi.«</i> Svojo izkušnjo branja nekega še posebej obupnega romana opiše kot <i>»literarno inačico cepljenja proti kozam«</i> [King]. Matematik George Pólya je na predavanju o poučevanju matematike baje dejal, da mora človek matematiko, sicer ob tem, da jo dobro razume, znati razumeti tudi napačno [Pólya]. Pričujoča knjiga zato v prvi vrsti govori o stvareh, ki jih pri argumentiranju ne bi smeli početi<sup>1</sup>.</p>
+                    <p class="block">* * * *</p>
+
+                    <p class="footnote" style="bottom:-60px"><sup>1</sup>Za vpogled v nasprotno preverite knjigo T. Edward Damerja o napačnem argumentiranju.</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">6</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent'>Pred mnogimi leti sem del svojega časa posvetil pripravi podrobnih opisov programske opreme, pri čemer sem uporabljal sodobno simbolno ali predikatno logiko. To je bil zanimiv način sklepanja o konstantah s pomočjo rabe abstraktne matematike, namesto običajnega sistema zapisovanja v angleščini. Tam, kjer sem naletel na možno nejasnost, mi je to ponujalo natančnost in strogost pred skušnjavo, da zapadem v zmotnost.</p>
+                    <p class='text-indent'>V istem času sem skrbno pregledal nekaj knjig o stavčni oziroma propozicionalni logiki, tako sodobni kot srednjeveški, ena izmed teh knjig je bila Handbook of Logical Fallacies (Priročnik o logičnih zmotah) Roberta Gula. No, Gulova knjiga me je spomnila na seznam metod za reševanje problemov, ki sem jih o tem, kako voditi razpravo, pred desetletjem načečkal v svojo beležko. Te so bile rezultat večletnega razpravljanja z neznanci na spletnih forumih in so vsebovale nasvete, kot je »Poskusi o stvareh ne podajati splošnih trditev.« Kar mi je zdaj jasno, toda za šolarja je bilo to razburljivo spoznanje.</p>
+                    <p class='text-indent'>Hitro je postalo očitno, da lahko formaliziranje posameznikovega sklepanja vodi do uporabnih prednosti, kot so jasnost misli in izražanja, objektivnost in večja samozavest. Sposobnost analiziranja argumentov mi je prav tako pomagala pri zavedanju, kdaj se umakniti iz razprave, ki bi bila najverjetneje nesmiselna.</p>
+                    <p class='text-indent'>Posamični primeri in dogodki, kot so državljanske svoboščine in predsedniške volitve, s vplivom na naše življenje in na skupnosti, v katerih živimo, običajno spodbujajo ljudi k</p>
+                </div>
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">7</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent'> razpravljanju o politikah in prepričanjih. Pri opazovanju nekaterih izmed teh razprav dobimo občutek, da v njih pogrešamo dobro argumentiranje. Namen nekaterih knjig o logiki je pomagati prepoznati orodja in paradigme, ki omogočajo dobro argumentiranje in posledično vodijo k bolj plodnim debatam.</p>
+                    <p class='text-indent'>Ker je prepričevanje naloga ne le logike, ampak tudi še česa drugega, se je koristno tega zavedati. Retorika je verjetno na vrhu tega seznama, na misel nam pridejo načela, kot je Ockhamova britev, pa tudi pojmi, kot je »dokazno breme« in kje ga lahko zaznamo. Bralec, ki ga zanima, si lahko privošči obširni seznam del na to temo.</p>
+                    <p class='text-indent'>Za zaključek: pravila logike niso zakoni naravnega sveta, niti ne predstavljajo vsega človeškega argumentiranja. Kot trdi Marvin Minsky, je običajno zdravorazumsko sklepanje težko razloži- ti s pojmi logičnih načel, kakor tudi analogijami, in dodaja: <i>»Logika nič bolje ne razlaga tega, kako mislimo, kot slovnica razlaga to, kako govorimo«</i> [Minsky]. Logika ne izumlja novih resnic, ampak nam omogoča, da preverimo konsistenco in koherenco obstoječih miselnih verig. Prav iz tega razloga se logika izkaže za učinkovito orodje za analizo, izražanje idej in argumentov.</p>
+
+                    <p style="text-align:right;font-style:italic;padding-top:20px;margin-left:270px">- A.A., San Francisco, julij 2013</p>
+                </div>
+            </div>
+            <!-- end preface -->
+
+            <!-- logical fallacies -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/logical_fallacies_i.png" />
+            </div>
+            <div class="right right-option1">
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:130px;padding-left:80px;padding-right:80px"> Prvo načelo je, da ne slepiš samega sebe, toda prav sebe je najlažje preslepiti.</p>
+                    <p style="padding-left:300px;font-style:italic">- Richard P. Feynman</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">10</div>
+                <div class="taxonomy">Neformalna zmota <b>&rsaquo;</b> Napačna sled <b>&rsaquo;</b> <b>Argument iz posledic</b></div>
+                <div class="page-title">Argument iz posledic</div>
+                <div class="page-content">
+                    <p class='text-indent'>Argument iz posledic poskuša opredeliti za ali proti resničnosti izjave s sklicevanjem na posledice njenega sprejetja ali zavrnitve. Samo zato, ker neka trditev vodi k nezaželenemu rezultatu, še ne pomeni, da je napačna. Podobno velja, da le zato, ker ima predpostavka zaželene posledice, to še ne pomeni, da je zato nenadoma tudi resnična. Kot pravi David Hocket Fischer, <i>»ne sledi, da je lastnost, ki je povezana z učinkom, prenosljiva na vzrok«</i>.</p>
+                    <p class='text-indent'>V primeru želenih posledic bi argument lahko naslavljal katero od upanj ljudi, kar se včasih kaže v obliki pobožnih želja. V primeru neželenih posledic pa lahko takšen argument naslavlja njihove strahove. Na primer, vzemimo stavek Dostojevskega <i>»Če Bog ne obstaja, je vse dovoljeno.«</i> Če damo na stran razglabljanja o objektivni morali, sklicevanje na očitno strašljive posledice izključno materialističnega sveta ne pove ničesar o tem, ali je antecedens (<i>»Če bog ne obstaja«</i>) resničen ali ne.</p>
+                    <p class='text-indent'>V mislih moramo imeti, da so tovrstni argumenti napačni samo, kadar imajo opraviti s trditvami z objektivno resničnimi vrednostmi, ne pa takrat, kadar imajo opraviti z odločitvami ali politikami [Curtis], kot je na primer nasprotovanje politika povišanju davkov iz strahu, da bo to slabo vplivalo na življenje njegovih volivcev.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_consequences.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">12</div>
+                <div class="taxonomy">Neformalna zmota <b>&rsaquo;</b> Napačna sled <b>&rsaquo;</b> <b>Slamnati mož</b></div>
+                <div class="page-title">Slamnati mož</div>
+                <div class="page-content">
+                    <p class='text-indent'>»Postaviti slamnatega moža« pomeni namerno karikirati posameznikov argument z namen- om napasti takšno karikaturo namesto dejanskega argumenta, ki ga je nekdo izrekel. Napačno prikazovanje, napačno navajanje, napačna interpretacija in pretirano poenostavljanje so sred- stva, s katerimi zagrešimo to zmoto. Argument slamnatega moža je običajno od dejanskega argumenta bolj absurden in tako lažja tarča za napad, s čimer prelisiči osebo in jo zapelje k zag- ovarjanju bolj nesmiselnega argumenta namesto izvirnega.</p>
+                    <p class='text-indent'>Na primer: <i>Moj nasprotnik vas poskuša prepričati, da smo se ljudje razvili iz opic, ki so se zibale na drevesih: resnično nesmiselna trditev.</i> Gre za očitno napačno prikazovanje trditev evoluci- jske biologije, ideje, da smo si ljudje in opice pred mnogimi milijoni let delili skupnega predni- ka. Napačno in potvorjeno prikazati idejo je veliko lažje kot izpodbijati dokaze zanjo.</p>
+                </div>
+            </div>
+            <img src="images/strawman.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">14</div>
+                <div class="taxonomy">Neformalna zmota <b>&rsaquo;</b> Napačna sled <b>&rsaquo;</b> Izvorna zmota <b>&rsaquo;</b> <b>Sklicevanje na napačno avtoriteto</b></div>
+                <div class="page-title">
+                    Sklicevanje na napačno avtoriteto
+                </div>
+                <div class="page-content">
+                    <p class='text-indent'>Sklicevanje na avtoriteto je vselej sklicevanje na posameznikov čut za skromnost [Engel], se pravi na občutek, da drugi vedo več. Čeprav je to udobna in naravna težnja pri ljudeh, nam tovrstna sklicevanja ne morejo pojasniti, katere stvari so resnične in katere ne. Da lahko ločimo resnico od neresnice, se moramo zanašati na dokaze in razum.<br />Vendar pa nam sklicevanje na pravo avtoriteto, na znanstvenike in akademike, lahko pove, katere stvari so verjetno resnične. To je način, na katerega oblikujemo prepričanja. Kot je z drugimi besedami povedal C. S. Lewis, velika večina tega, kar verjamemo, recimo obstoj atomov in sončnega sistema, pa tudi vse zgodovinske izjave, temelji na zaupanja vredni avtoriteti.</p>
+                    <p class='text-indent'>Napačno pa je oblikovati prepričanje, kadar se sklicujemo na avtoriteto, ki ni strokovnjak za določeno področje. Podobno sklicevanje, na katerega je prav tako vredno opozoriti, je sklicevanje na nedoločeno avtoriteto, kjer je ideja pripisana nedoločenemu kolektivu. Na primer: <i>Profesorji v Nemčiji so dokazali, da je to in to resnično.</i> Vrsta sklicevanja na napačno avtoriteto je tudi sklicevanje na starodavno modrost, kjer se nekaj jemlje za resnično samo zato, ker so ljudje v preteklosti verjeli, da je resnično. Na primer: <i>Tehnološko napredne civilizacije, kot je bila stara Kitajska, so prakticirale astrologijo. Torej je astrologija resnična.</i> Na starodavno modrost se lahko sklicujemo tudi takrat, ko želimo podpreti stvari, ki so svojevrstne ali ki se s časom spreminjajo. Na primer: <i>Pred mnogimi stoletji so ljudje spali po devet ur na noč, zato moramo tako dolgo spati tudi danes.</i> Obstajajo različni razlogi, zaradi katerih so ljudje morda v preteklosti morali spati dlje, toda samo dejstvo, da so, še ni dokaz za podani argument, da moramo tudi danes.</p>
+                </div>
+            </div>
+            <img src="images/irrelevant_authority.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">16</div>
+                <div class="taxonomy">Neformalna zmota <b>&rsaquo;</b> Dvoumnost <b>&rsaquo;</b> <b>Dvoumno izražanje</b><sup>2</sup></div>
+                <div class="page-title">Dvoumno izražanje</div>
+                <div class="page-content">
+                    <p class='text-indent'>Dvoumno izražanje ali ekvivokacija izkorišča nejasnosti jezika, saj sogovorec v razpravi spreminja pomen besede in za utemeljitev določenega sklepa uporabi njene različne pomene. Beseda, katere pomen se med razpravo ne spreminja, je opisana kot enopomenska. Vzemimo naslednji primer: <i>Kako si lahko proti verjetju, ko pa na primer v prijatelje, potencialne partnerje in v investicije ves čas brez težav slepo verjamemo?</i> V tem primeru se pomen besede »vera« spremeni, iz duhovno pogojene vere v stvarnika je postala ime za tvegano dejanje.</p>
+                    <p class='text-indent'>Pogosto se taka zmota pojavi v debatah o znanosti in religiji, pri katerih se beseda »zakaj« lahko uporabi na dvoumne načine. V enem kontekstu jo lahko jemljemo kot besedo za iskanje vzroka, kar je osnovno gonilo znanosti, v drugem kontekstu pa jo lahko rabimo kot besedo, s katero iščemo smisel in se ukvarja z moralo in vprašanji, na katere znanost morda še nima odgovora. Nekdo bi lahko, na primer, menil tole: <i>Znanost nam ne more povedati, zakaj se nekaj zgodi. Zakaj obstajamo? Zakaj bi bili moralni? Zato potrebujemo drug vir, da nam pojasni, zakaj se stvari zgodijo.</i></p>
+                    <p class='text-indent'>Takoj vidimo, da smo namesto razprave o vzroku uvedli razpravo o smislu.</p>
+
+                    <p class="footnote" style="bottom:-15px"><sup>2</sup>Ilustracija temelji na pogovoru med Alico in Belo kraljico v knjigi <i>Through the Looking-Glass (Alica v ogledalu)</i> Lewisa Carrolla.</p>
+                </div>
+            </div>
+            <img src="images/equivocation.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">18</div>
+                <div class="taxonomy">Neformalna zmota <b>&rsaquo;</b> Neutemeljena domneva <b>&rsaquo;</b> <b>Napačna dilema</b><sup>3</sup></div>
+                <div class="page-title">Napačna dilema</div>
+                <div class="page-content">
+                    <p class='text-indent'>Napačna dilema je argument, kjer sta ponujeni zgolj dve možnosti in domneva, da mora biti vse, kar razprava ponuja, ena od njih. Če je katera od možnosti zavrnjena, potem moramo sprejeti drugo. Na primer: <i>V vojni proti fanatizmu ni nevtralnosti; ali si z nami ali pa si s fanatiki.</i> V resnici obstaja tudi tretja možnost: prav lahko smo tudi nevtralni; in četrta možnost: lahko smo proti obema; in peta možnost: lahko se strinjamo z elementi obeh možnosti.</p>
+                    <p class='text-indent'>V knjigi <i>The Strangest Man (Najbolj čuden mož)</i> beremo, kako je fizik Ernest Rutherford nekoč pripovedoval svojemu kolegu Nielsu Bohru zgodbo o človeku, ki je v trgovini kupil papagaja in ga vrnil samo zato, ker papagaj ni znal govoriti. Po nekaj tovrstnih obiskih mu je vodja trgovine končno rekel: <i>»Oh, saj res! Želeli ste papagaja, ki bi govoril. Prosim, oprostite mi. Dal sem vam papagaja, ki misli.«</i> Rutherford je zgodbo očitno uporabil kot ilustracijo genialnosti molčečega fizika Paula Diraca, vendar si predstavljamo, da bi lahko kdo na ta način sugeriral, da je nekdo bodisi tih po naravi in mislec ali pa zelo zgovoren in bedak.</p>
+                    <p class="footnote" style="bottom:-18px"><sup>3</sup>To zmoto lahko imenujemo tudi zmota izključene sredine, črno-bela zmota ali napačna dihotomija.</p>
+                </div>
+            </div>
+            <img src="images/false_dilemma.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">20</div>
+                <div class="taxonomy">Neformalna zmota <b>&rsaquo;</b> Vzročna zmota <b>&rsaquo;</b> <b>Napačni vzrok</b></div>
+                <div class="page-title">Napačni vzrok</div>
+                <div class="page-content">
+                    <p class='text-indent'>Zmota predvideva vzrok za nek dogodek, kjer ni nobenega dokazila, da tak vzrok sploh obstaja. Dva dogodka se lahko zgodita eden za drugim ali skupaj, ker sta vzročno povezana po naključju ali zaradi nekega drugega neznanega dogodka; brez dokazil ne moremo sklepati, da sta vzročno povezana. <i>Nedaven potres se je zgodil, ker ljudje niso ubogali kralja</i> res ni dober argument.</p>
+                    <p class='text-indent'>Ta zmota ima dva specifična tipa: »po tem, zato zaradi tega« in »hkrati s tem, zato zaradi tega«. Prvi tip: ker se nek dogodek zgodi pred drugim, potem rečemo, da ga je povzročil. Drugi tip: ker se nek dogodek zgodi hkrati z drugim, potem pravimo, da ga je povzročil. V različnih vedah označujemo isto stvar s pojmom zamenjave korelacije z vzročnostjo<sup>4</sup>.</p>
+                    <p class='text-indent'>Tukaj je inačica primera, ki ga je podal komedijant Stewart Lee: <i>Ne morem reči, da so ukradli mojo idejo, ker sem leta 1976 narisal risbo robota, potem pa je v kina prišel film Star Wars.</i> Še en primer, ki sem ga nedavno zasledil na spletnem forumu: <i>Napadalec je vdrl v spletno stran železniškega podjetja in ko sem istočasno želel preveriti vozni red prihodov vlakov, so ti, ne moreš verjeti, vsi po vrsti zamujali!</i> Oseba, ki je objavila domislico, očitno ni vedela, da vlaki skoraj nikoli ne prispejo pravočasno in zato je brez ustrezne znanstvene preverbe sklepanje neutemeljeno.</p>
+
+                    <p class="footnote" style="bottom:-15px">
+                      <sup>4</sup>Izkazalo se je, da sta uživanje čokolade in osvojitev Nobelove nagrade <u>močno soodvisna</u>, kar najbrž veliko jedcem čokolade povečuje upanje na osvojitev Nobelove nagrade.
+                    </p>
+                </div>
+            </div>
+            <img src="images/not_a_cause_for_a_cause.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">22</div>
+                <div class="taxonomy">Neformalna zmota <b>&rsaquo;</b> Napačna sled <b>&rsaquo;</b> Sklicevanje na čustva <b>&rsaquo;</b> <b>Sklicevanje na strah</b></div>
+                <div class="page-title">Sklicevanje na strah</div>
+                <div class="page-content">
+                    <p class='text-indent'>Zmota izkorišča strahove občinstva tako, da jim prikazuje domnevno srhljivo prihodnost, ki jih čaka, če bi sprejeli trditev, za katero ne želi, da bi bila sprejeta. Namesto da bi predložili dokazila, ki bi prepričala, da sklep sledi iz niza premis in ponudili resnični vzrok strahu, se tovrstni argumenti naslanjajo na retoriko, grožnje in navadne laži. Na primer: <i>Vse svoje zaposlene prosim, da na prihajajočih volitvah volijo kandidata, ki sem ga sam izbral. Če zmaga drugi kandidat, bo ta dvignil davke in mnogi med vami boste izgubili službe.</i></p>
+                    <p class='text-indent'>Še en primer, tokrat iz romana <i>The Trial (Proces): Raje mi izroči vse svoje dragocenosti, preden prispe policija. Dali jih bodo v shrambo, kjer pa se stvari rade izgubijo.</i> Čeprav gre tukaj bolj za subtilno grožnjo, lahko vidimo, da se jo poskuša utemeljevati. Neposrednih groženj ali ukazov, ki ne skušajo ponujati dokazil, ne smemo zamenjevati s to zmoto, čeprav na podoben način izkoriščajo človekov občutek strahu [Engel].</p>
+                    <p class='text-indent'>Sklicevanje na strah lahko preide k opisovanju niza strašnih dogodkov, ki bi se lahko odvili, če bi sprejeli trditev brez nobene jasne vzročne povezave, kar spominja na zmoto spolzke strmine. Lahko ponuja tudi zgolj eno samcato alternativo zavračani trditvi, in sicer tisto, ki jo podaja zavračajoči; v tem primeru spominja na zmoto napačne dileme.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_fear.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">24</div>
+                <div class="taxonomy">Neformalna zmota <b>&rsaquo;</b> Zgrešena analogija <b>&rsaquo;</b> Netipičen primer <b>&rsaquo;</b> <b>Prehitra posplošitev</b></div>
+                <div class="page-title">Prehitra posplošitev</div>
+                <div class="page-content">
+                    <p class='text-indent'>Do te zmote pride, ko posplošujemo na osnovi vzorca, ki je ali premajhen ali preveč specifičen, da bi bil značilen za celotno populacijo. Na primer: če na ulici vprašate deset ljudi, kaj si mislijo o predsednikovem načrtu za zmanjšanje proračunskega primanjkljaja, nikakor ne moremo trditi, da to predstavlja mnenje celotnega naroda.</p>
+                    <p class='text-indent'>Čeprav je prehitro posploševanje priročno, lahko vodi do zelo dragih in katastrofalnih rezultatov. Na primer: lahko trdimo, da so bile inženirske domneve, ki so vodile do eksplozije Ariane 5 ob njeni prvi izstrelitvi, rezultat prenagljenega posploševanja. Vrsta testov, ki so jih uporabili pri nadzoru <i>Ariane 4</i>, ni bila dovolj obsežnih, da bi zadostil seznamu ukrepov pri nadzoru <i>Ariane 5</i>. Tovrstna odločitev je običajno odvisna od zmožnosti argumentiranja inženirjev in menedžerjev, zato so ta in podobni primeri relevantni za našo razpravo o logičnih zmotah.</p>
+                    <p class='text-indent'>Tukaj je še en primer iz <i>Alice's Adventures in Wonderland (Alica v čudežni deželi)</i>, kjer Alica sklepa, da ker plava v vodi, mora biti železniška postaja in zato tudi pomoč nekje blizu: <i>»Alice je bila enkrat samkrat v življenju na morju in je zato prišla do splošnega zaključka, da kamor koli na angleško obalo greste, boste tam našli številne igralne avtomate, nekaj otrok, ki z lesenimi lopatkami kopljejo po pesku, potem vrsto penzionov in za njimi železniško postajo«</i>. [Caroll]</p>
+                </div>
+            </div>
+            <img src="images/hasty_generalization.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">26</div>
+                <div class="taxonomy">Neformalna zmota <b>&rsaquo;</b> Zmota pomanjkanja podatkov <b>&rsaquo;</b> <b>Sklicevanje na nevednost</b><sup>5</sup></div>
+                <div class="page-title">Sklicevanje na nevednost</div>
+                <div class="page-content">
+                    <p class='text-indent'>Tovrsten argument predvideva, da je določena trditev resnična samo zato, ker ni dokazil, ki bi kazala na nasprotno. Torej se odsotnost dokaza pojmuje kot dokaz odsotnosti. Primer Carla Sagana: <i>»Nimamo nobenih prepričljivih dokazov, da neznani leteči predmeti ne obiskujejo našega planeta; torej neznani leteči predmeti obstajajo.«</i> Podobno velja naslednje: ko še nismo vedeli, kako so bile zgrajene piramide, so nekateri sklepali, da je morala pri tem sodelovati, razen če se dokaže nasprotno, kakšna nadnaravna sila. Dokazno breme je vedno na osebi, ki podaja določeno trditev.</p>
+                    <p class='text-indent'>Še več, kot so dejali že mnogi drugi, se moramo vprašati, kaj je na podlagi dokazil iz preteklih opazovanj bolj in kaj manj verjetno. Ali je bolj verjetno, da je predmet, ki leti skozi vesolje, človeški izdelek ali le naravni pojav, ali pa je bolj od tega dvojega verjetno, da gre za vesoljce z drugega planeta? Ker smo pogosto prepoznali prvo in nikoli drugo, je zato bolj razumno sklepati, da je precej malo verjetno, da so ti neznani leteči predmeti vesoljci na obisku pri nas in prihajajo iz daljnih prostranstev.</p>
+                    <p class='text-indent'>Posebna oblika sklicevanja na nevednost je argument iz osebne nejevere, pri čemer predstavljalna nezmožnost določene osebe pripelje do prepričanja, da je prikazani argument napačen. Na primer: <i>Nemogoče si je predstavljali, da smo dejansko poslali človeka na luno, zato se to ni zgodilo.</i> Tovrstnim izjavam včasih sledi duhoviti odziv: <i>Zdaj vidim razlog, zakaj nisi postal fizik.</i></p>
+
+                    <p class="footnote" style="bottom:-15px"><sup>5</sup>Navdih za ilustracijo je bil odziv Neila deGrasse Tysona na vprašanje iz občinstva o neznanih letečih predmetih. Povezava na YouTube posnetek: <a href="http://youtu.be/NSJElZwEI8o">youtu.be/NSJElZwEI8o</a>。
+                </div>
+            </div>
+            <img src="images/appeal_to_ignorance.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">28</div>
+                <div class="taxonomy">Neformalnazmota <b>&rsaquo;</b> Dvoumnost <b>&rsaquo;</b> Dvoumnoizražanje <b>&rsaquo;</b> Redefinicija <b>&rsaquo;</b> <b>Noben pravi Škot</b></div>
+                <div class="page-title">Noben pravi Škot</div>
+                <div class="page-content">
+                    <p class='text-indent'>O določeni vrsti stvari (ali ljudi) lahko včasih podamo splošno trditev. Ko takšno trditev soočimo z dokazilom, ki jo zavrača, tovrstnemu argumentu nasprotujemo s samovoljno redefinicijo kriterijev za pripadnost tej vrsti, namesto da bi sprejeli ali zavrnili dokazilo<sup>6</sup>.</p>
+                    <p class='text-indent'>Na primer: lahko bi predpostavljali, da so programerji bitja brez družabnih spretnosti. Če pride nekdo in zavrne to trditev z <i>»Ampak John je programer in sploh ni nedružaben«</i>, lahko izzove odgovor: <i>»Da, ampak John ni pravi programer«</i>. V tem primeru ni jasno, kaj so lastnosti programerja, niti kategorija programerjev ni jasno definirana, kot je recimo kategorija ljudi z modrimi očmi. Nejasnost trmoglavcem dopušča, da stvari redefinirajo po svoje.</p>
+                    <p class='text-indent'>Omenjeno zmoto je prvi odkril in oblikoval Antony Flew v svoji knjigi <i>Thinking about Thinking (Razmišljati o razmišljanju)</i>, v kateri podaja naslednji primer: Hamish (op. prev.: škotsko moško ime) bere časopis in naleti na zgodbo o Angležu, ki je zakrivil strašen zločin, na kar se odzove: <i>»Noben Škot ne bi storil česa takega.«</i> Naslednji dan naleti na zgodbo o Škotu, ki je zakrivil še hujši zločin; namesto, da bi popravil svojo prvotno trditev o Škotih, se odzove s trditvijo: <i>»Noben pravi Škot ne bi storil česa takega.«</i></p>
+
+                    <p class="footnote" style="bottom:-15px"><sup>6</sup>Ko zavračajoča oseba škodoželjno redefinira kategorijo, čeprav dobro ve, da jo s tem namerno prikazuje napačno, zavračanje trditve spominja na zmoto slamnatega moža.</p>
+                </div>
+            </div>
+            <img src="images/no_true_scotsman.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">30</div>
+                <div class="taxonomy">Neformalnazmota <b>&rsaquo;</b> Napačnasled <b>&rsaquo;</b> <b>Izvornazmota</b></div>
+                <div class="page-title">Izvornazmota</div>
+                <div class="page-content">
+                    <p class='text-indent'>Izvor argumenta ali izvor osebe, ki argument podaja, nimata nikakršnega vpliva na veljavnost argumenta. Izvorno zmoto zagrešimo, če je argument ali razvrednoten ali se ga brani izključno zaradi svoje zgodovine. Kot poudarja T. Edward Damer: ko smo enkrat čustveno navezani na izvor ideje, pri ocenjevanju slednje ni vedno lahko zanemariti prvega.</p>
+                    <p class='text-indent'>Vzemimo naslednji argument: <i>Seveda podpira stavkajoče sindikalne delavce; navsezadnje prihaja iz iste vasi.</i> Namesto da bi argument presojali na podlagi njegove lastne vrednosti, se ga zavrže, ker oseba po naključju prihaja iz iste vasi kot protestniki. Taka informacija se potem uporabi za sklepanje, da je podan argument zato brez vrednosti. Tukaj je še en primer: <i>Kot moški in ženske, ki živimo v 21. stoletju, ne moremo še naprej negovati prepričanj iz bronaste dobe.</i> Zakaj ne, bi lahko kdo vprašal. Ali naj zavržemo vse ideje, ki izvirajo iz bronaste dobe preprosto zato, ker so nastale v tem časovnem obdobju?</p>
+                    <p class='text-indent'>Po drugi strani pa je izvorno zmoto mogoče uporabiti tudi v pozitivnem smislu, če na primer rečemo: <i>Jackovim pogledom na umetnost ni mogoče oporekati, saj prihaja iz dolge vrste uglednih umetnikov.</i> Tukaj je za sklep, kot v prejšnjih primerih, prav tako uporabljeno pomanjkljivo dokazilo. Iz tega, da prihaja iz družine s tradicijo umetnikov, pač ne moremo ničesar izpeljati.</p>
+                </div>
+            </div>
+            <img src="images/genetic_fallacy.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">32</div>
+                <div class="taxonomy">Neformalnazmota <b>&rsaquo;</b> Napačnasled <b>&rsaquo;</b> <b>Krivdapopovezavi</b></div>
+                <div class="page-title">Krivdapopovezavi</div>
+                <div class="page-content">
+                    <p class='text-indent'>Krivda po povezavi je zavračanje argumenta z uvedbo njegove povezave z družbeno demoniziranim posameznikom ali skupino ljudi. Na primer: <i>Moj nasprotnik zahteva zdravstveni sistem, ki bi bil podoben tistim v socialističnih državah. Jasno je, da bi bilo to nesprejemljivo.</i> To, ali je predlagani zdravstveni sistem podoben tistim v socialističnih državah, nima nobenega vpliva na to, ali je dober ali slab; to je popoln <i>non sequitur</i> (ne sledi).</p>
+                    <p class='text-indent'>Drugi tip argumenta, ki se v nekaterih družbah ponavlja <i>ad nauseam</i> (do točke gnusa), je naslednji: <i>Ženskam ne moremo dovoliti voziti avtomobila, ker to ženskam dopuščajo v brezbožnih državah.</i> V bistvu ta in prejšnji primer poskušata zatrditi, da so nekatere skupine ljudi absolutno in kategorično slabe: socialistične in potem še brezbožne države. Torej: če si z omenjeno skupino delimo le eno samcato lastnost, se nas obravnava kot člana te skupine in potem se nad nas zgrne vso zlo, ki ga je mogoče upravičeno ali neupravičeno povezati s to skupino.</p>
+                </div>
+            </div>
+            <img src="images/guilt_by_association.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">34</div>
+                <div class="taxonomy">Formalnazmota <b>&rsaquo;</b> Propozicijskazmota <b>&rsaquo;</b> <b>Zatrjenikonsekvens</b></div>
+                <div class="page-title">Zatrjenikonsekvens</div>
+                <div class="page-content">
+                    <p class='text-indent' style='margin:0'>Ena od številnih veljavnih oblik argumenta je znana kot modus ponens (način zatrjevanja s pomočjo zatrjevanja) in ima naslednjo obliko: <b>Če A, potem C, A; torej C.</b> Bolj formalno:</p>
+                    <p style='margin:0'>A <b>&rArr;</b> C, A &#8866; C.</p>
+                    <p class='text-indent''>Tukaj imamo prisotne tri stavke, dve premisi in sklep. A se imenuje antecedens in C konsekvens. Na primer: <i>Če voda zavre na višini morja, potem je njena temperatura vsaj 100° C.</i> Ta kozarec vode vre na višini morja; torej je temperatura vsaj 100°C. Tak argument je veljaven ob tem, da je tudi zdrav. In zdrav je, če so premise resnične.</p>
+                    <p class='text-indent'>Zatrjevanje konsekvensa je formalna napaka, ki ima naslednjo obliko: <b>Če A, potem C, C; torej A.</b></p>
+                    <p class='text-indent'>Napaka je v predpostavki, da če je konsekvens resničen, potem mora biti resničen tudi antecedens, kar v resnici ni nujno. Na primer: <i>Ljudje, ki hodijo na univerzo, so v življenju uspešnejši. John je uspešen; torej je moral hoditi na univerzo</i>. Johnov uspeh bi lahko bil rezultat šolanja, lahko pa bi bil tudi rezultat njegove vzgoje ali morda njegove vneme pri premagovanju težkih okoliščin. V splošnem ne moremo reči, da samo zato, ker šolanje nakazuje uspeh, iz tega sledi, da je ta, ki je uspešen, tudi hodil na univerzo.</p>
+                </div>
+            </div>
+            <img src="images/affirming_the_consequent.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">36</div>
+                <div class="taxonomy">Neformalnazmota <b>&rsaquo;</b> Napačnasled <b>&rsaquo;</b> <b>Sklicevanjenahinavščino</b></div>
+                <div class="page-title">Sklicevanjenahinavščino</div>
+                <div class="page-content">
+                    <p class='text-indent'>Znana tudi po svojem latinskem imenu <i>tu quoque</i>, kar pomeni <i>tudi ti</i>. Pri tej zmoti želimo namesto naslovitve zastavljenega vprašanja preusmeriti pozornost od prvotnega argumenta, s čimer na obtožbo odgovarjamo z novo obtožbo. Janez recimo pravi: <i>»Ta človek se moti, saj nima dostojanstva; samo vprašajte ga, zakaj so ga odpustili iz njegove zadnje službe,« na kar Miha odgovori: »Kaj pa, če rečemo kakšno o veliki povišici, ki si jo prejel lani, kljub temu, da se je tvoje podjetje skrčilo za polovico?«</i> Sklicevanje na hinavščino se lahko pojavi tudi takrat, ko oseba zavrača trditev druge, ker je to, kar trdi, v nasprotju z njegovimi ali njenimi preteklimi dejanji [Engel].</p>
+                    <p class='text-indent'>V epizodi satirične britanske televizijske oddaje <i>»Have I Got News for You«</i> (Imam novico za vas) je govorec nasprotoval protestu proti korporacijskemu pohlepu v Londonu zaradi očitne hinavščine protestnikov in poudaril, da čeprav se zdi, da nasprotujejo kapitalizmu, še naprej uporabljajo pametne telefone in kupujejo kavo. Omenjeni odlomek je dostopen na YouTubu (povezava: <a href="http://youtu.be/8WvAkhW-XNI" target="_blank">youtu.be/8WvAkhW-XNI</a>).</p>
+                    <p class='text-indent'>Tukaj je še en primer iz filma Jasona Reitmana, z naslovom <i>»Thank You for Smoking« (Hvala, ker kadite</i>, Fox Searchlight Pictures, 2005), kjer se izmenjava v slogu <i>tu quoque</i> zaključi, ko dobrikajoči se tobačni lobist Nick Naylor pove: <i>»Zabava me, da me ima gospod iz Vermonta za hinavca, ko pa je taisti gospod v enem dnevu sklical tiskovno konferenco, kjer je pozival, da bi morali ameriške nasade tobaka uničiti in zažgati, nato pa je skočil na svoje zasebno letalo in odletel na dobrodelni dogodek za pomoč kmetijam, kjer se je na oder pripeljal s traktorjem in objokoval propadanje ameriškega kmeta.«</i></p>
+                </div>
+            </div>
+            <img src="images/appeal_to_hypocrisy.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">38</div>
+                <div class="taxonomy">Neformalnazmota <b>&rsaquo;</b> Napačenvzrok <b>&rsaquo;</b> <b>Spolzkastrmina</b></div>
+                <div class="page-title">Spolzkastrmina</div>
+                <div class="page-content">
+                    <p class='text-indent'>Spolzka strmina<sup>7</sup> poskuša diskreditirati določeno stališče s trditvijo, da bo njeno sprejetje nedvomno vodilo do zaporedja dogodkov, od katerih je eden ali več njih nezaželenih. Čeprav se neko zaporedje dogodkov lahko zgodi, pri čemer se vsak prehod res lahko odvije po neki določeni verjetnosti, ta vrsta argumenta predvideva, da so vsi prehodi neizogibni, hkrati pa v podporo temu ne ponuja nobenih dokazil. Ta zmota igra na strahove občinstva in je povezana s številnimi drugimi zmotami, kot so sklicevanje na strah, napačna dilema in argument iz posledic.</p>
+                    <p class='text-indent'>Na primer: <i>Ljudem ne bi smeli dovoliti nenadzorovanega dostopa do spleta. Kot vemo, bo potem sledilo, da bodo množično obiskovali pornografske spletne strani, potem bo naše moralno jedro skupnosti razpadlo in na koncu bomo zvedeni na živali.</i> Več kot očitno razen neutemeljene domneve ni podanih nobenih dokazov, da dostop do spleta vodi do razpada družbenega moralnega jedra, hkrati pa (neupravičeno) predpostavlja tudi določeno obnašanje.</p>
+
+                    <p class="footnote" style="bottom:-15px"><sup>7</sup>Tukaj opisana zmota spolzke strmine je vzročne vrste.</p>
+                </div>
+            </div>
+            <img src="images/slippery_slope.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">40</div>
+                <div class="taxonomy">Neformalnazmota <b>&rsaquo;</b> Napačnasled <b>&rsaquo;</b> <b>Sklicevanjenasplošnoprakso</b></div>
+                <div class="page-title">Sklicevanjenasplošnoprakso</div>
+                <div class="page-content">
+                    <p class='text-indent'>Znana tudi kot zmota sklicevanja na ljudi; tak argument uporabi okoliščino, da veliko število ali celo večina ljudi verjame v nekaj v podporo temu, da mora zaradi tega biti resnično ali veljavno. Takšni so bili nekoč nekateri argumenti, ki so zavirali priznanje pionirskih idej. Galileja so na primer njegovi sodobniki zasmehovali, ker je podpiral Kopernikov heliocentrični model. Nedavno je moral Barry Marshall poseči po skrajnih sredstvih in opraviti preizkus na sebi, da je znanstveno skupnost lahko prepričal, kako lahko želodčne razjede povzroči bakterija <i>H. pylori</i> - teorija, ki so jo sprva ostro zavračali.</p>
+                    <p class='text-indent'>Zvabljanje ljudi v sprejemanje nečesa, kar je priljubljeno, je metoda, ki se pogosto uporablja v oglaševanju in politiki. Na primer: <i>»Vsi otroci, ki so kul, uporabljajo ta gel za lase; bodi eden izmed njih.«</i> Čeprav je postati »kul otrok« mikavna ponudba, s katero se naslavljajo na otroke in domnevno splošno prakso, je tak pristop uporabljen le zato, da bi oglaševani proizvod kupili. Politiki pogosto uporabljajo podobno retoriko, da močneje izpostavijo svojo kampanjo in vplivajo na volivce.</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_bandwagon.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">42</div>
+                <div class="taxonomy">Neformalna zmota <b>&rsaquo;</b> Napačna sled <b>&rsaquo;</b> <b>Argument proti človeku</b><sup>8</sup></div>
+                <div class="page-title">Argument proti človeku</div>
+                <div class="page-content">
+                    <p class='text-indent'>Pri argumentu proti človeku ali <i>ad hominem</i> argumentu gre za napad na značaj osebe in ne na to, kar izjavlja, vse z namenom, da se razpravo spelje drugam in tako diskreditira njeno trditev. Na primer: <i>»Nisi zgodovinar; zakaj se ne držiš svojega področja.«</i> Tukaj na vrednost argumenta nima nobenega vpliva, ali je oseba, ki ga zagovarja, zgodovinar ali ne; to dejstvo na noben način ne okrepi tega, kar pravi.</p>
+                    <p class='text-indent'>Tovrstni osebni napad se imenuje zmerjalni <i>ad hominem</i>. Pri njem še največkrat drugo osebno enostavno zmerjamo, namesto da bi odgovarjali na postavljeno trditev. Druga vrsta napada, znana kot posredni ad hominem, je vsak argument, ki zaradi ciničnih razlogov osebo napade s presojanjem njenih namenov. Na primer: <i>»V resnici ti ni mar za zmanjšanje kriminala v mestu, želiš si samo, da bi ljudje volili zate.«</i> Obstajajo pa situacije, ko je vendarle upravičeno podvomiti v značaj in dostojanstvo osebe, kot na primer med pričanjem na sodišču.</p>
+
+                    <p class="footnote" style="bottom:-15px"><sup>8</sup>Ilustracijo je navdihnila razprava, ki se je pred leti odvijala na elektronski oglasni deski Usenet, v kateri je sodeloval tudi nek prekomerno prizadeven in trmast programer.</p>
+                </div>
+            </div>
+            <img src="images/ad_hominem.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">44</div>
+                <div class="taxonomy">Neformalna zmota <b>&rsaquo;</b> Zahteva po vprašanju <b>&rsaquo;</b> <b>Krožno sklepanje</b></div>
+                <div class="page-title">Krožno sklepanje</div>
+                <div class="page-content">
+                    <p class='text-indent'>Krožno sklepanje je ena izmed štirih vrst argumentov, znanih kot zahteva po vprašanju (<i>petitio principii</i>) [Damer]. Pri njem implicitno ali eksplicitno predvidevamo sklep, skrit v eni ali več premisah. Pri krožnem sklepanju je sklep ali povsem neposredno uporabljen kot premisa, ali pa je, kar se dogaja pogosteje, preoblikovan na način, da je videti, kot da gre za drugo trditev, kar pa v resnici ni. Na primer: <i>»Zelo se motiš, ker to, kar praviš, nima nobenega smisla.«</i> Tukaj sta dve trditvi povsem enaki, saj motiti se in ne govoriti smiselno v tem kontekstu pomeni isto. Argument preprosto trdi »ker X, zato X«, kar je nesmiselno.</p>
+                    <p class='text-indent'>Najbolj zlizana ilustracija krožnosti je tista o tem, da je sveto pismo zanesljivo napisal Bog, saj v njem piše, da ga je napisal. Takšna in podobna sklepanja so zmotna, saj to, da v premisah predpostavimo, da je sklep resničen, še ne predstavlja dokaza zanj; običajno v najbolj preprosti obliki sklepanje sledi principu »X je resničen, dokaz za to pa je, da je X resničen«.</p>
+                    <p class='text-indent'>Poglejmo še naslednji stavek: <i>»Ženske imajo pravico do splava, zato ga moramo dovoliti.«</i> V tem primeru pride do sklepanja v krogu, ker je »pravica do nečesa« isto kot »dolžnost drugih, da vam to dovolijo«, zaradi česar je premisa zgolj preoblikovani sklep, kar pa se na prvi pogled, in to je za primere iz vsakdanjega življenja tudi značilno, sploh ne opazi.</p>
+                </div>
+            </div>
+            <img src="images/circular.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">46</div>
+                <div class="taxonomy">Neformalna zmota <b>&rsaquo;</b> Neupravičena domneva <b>&rsaquo;</b> <b>Sestava in delitev</b></div>
+                <div class="page-title">Sestava in delitev</div>
+                <div class="page-content">
+                    <p class='text-indent'>Sestava je zmota s sklepanjem, da mora celota imeti neko določeno lastnost, ker imajo tudi njeni deli po naključju to lastnost. Če parafraziramo Petra Millicana: četudi je res, da ima vsaka ovca v čredi mamo, to še ne pomeni, da ima čreda mamo. Tukaj je še en primer: <i>»Vsak modul tega sistema programske opreme je bil podvržen nizu testov enote in je vse preizkuse prestal. Zato velja, da ko so enkrat moduli integrirani, sistem programske opreme ne bo kršil nobenih konstant, preverjenih s temi preizkusi enot.«</i> V resnici integracija posameznih delov zaradi soodvisnosti v sistem vpelje nove kompleksnosti, ki lahko v zameno odprejo nove možnosti za morebitne napake.</p>
+                    <p class='text-indent'>Nasprotno pa zmota delitve pravi, da mora tudi del imeti nekatere lastnosti, saj ima celota, ki ji pripada, po naključju te lastnosti. Na primer: <i>»Naša ekipa je nepremagljiva. Vsak izmed naših igralcev bi se lahko soočil z igralcem katere koli druge ekipe in ga prekosil.«</i> Medtem ko lahko drži, da je celotna ekipa nepremagljiva, ne moremo tega uporabiti kot dokaz, da je zato tudi vsak njen posamezen član nepremagljiv. Uspeh ekipe očitno ni vedno seštevek individualnih spretnosti njenih članov.</p>
+                </div>
+            </div>
+            <img src="images/composition_and_division.png" class="right" />
+
+            <!-- final remarks -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/final_remarks.png" />
+            </div>
+            <div class="right">
+                <div class="page-number">49</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent' style="margin-top:95px"> Pred nekaj leti sem slišal profesorja, kako je z uporabo čudovite metafore predstavil deduktivne argumente. Opisal jih je kot vodotesne cevi, v katere gre na eni strani resnica noter, na drugi strani pa pride (kot) resnica tudi ven. Ta metafora je postala inspiracija za platnico te knjige. Ko ste tako dospeli do konca knjige, lahko upam, da jo zapuščate ne le z boljšim razumevanjem o prednostih vodotesnih argumentov pri potrjevanju in širjenju znanja, ampak tudi o zapletenosti induktivnih argumentov, pri katerih imamo opravka z verjetnostmi. Še posebej pri tovrstnih argumentih se kritično mišljenje izkaže za nepogrešljivo orodje. Upam, da boste knjigo odložili tudi s spoznanjem o nevarnostih slabih argumentov in tem, kako pogosti so v našem vsakdanjiku.</p>
+                    <p class="footnote license" style="position:absolute;bottom:36px;width:520px;font-family:'SimSun','FangSong','SimFang'">
+                        <p class="footnote license" style="position:absolute;bottom:36px;width:520px">
+                        <a class="internal" href="#base">Scroll down for more</a> &nbsp; <b>&middot;</b> &nbsp;
+                        Share on &nbsp; 
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                    </p>
+                </div>
+            </div>
+
+            <!-- definitions -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/definitions.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">51</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>Propozicija:</strong> Izjava ali trditev, ki je ali resnična ali neresnična, a ne oboje. Na primer: <i>»Ljubljana je največje mesto v Sloveniji.«</i> V tej knjigi smo jo poenostavljeno prevedli kot trditev.</p>
+                    <p><strong>Premisa:</strong> Trditev v funkciji podpore sklepa argumenta. Argument ima lahko eno ali več premis.</p>
+                    <p><strong>Argument:</strong> Skupek trditev, ki nas želi prepričati s pomočjo sklepanja. Pri argumentu podmnožica propozicij, imenovanih premise, nudi podporo drugi propoziciji, imenovani sklep.</p>
+                    <p><strong>Deduktivni argument:</strong> Argument, pri katerem bo v primeru, če so resnične premise, resničen tudi sklep. Sklep z logično nujnostjo sledi iz premis. Na primer: <i>»Vsi ljudje so smrtni. Sokrat je človek. Torej je Sokrat smrten.«</i> Deduktivni argument želi biti veljaven, toda zgodi se tudi, da ni.</p>
+                    <p><strong>Induktivni argument:</strong> Argument, pri katerem bo, če so resnične premise, potem zelo verjetno resničen tudi sklep<sup>9</sup>. Sklep zato premisam ne sledi z logično nujnostjo, ampak z verjetnostjo. Na primer: <i>»Vedno, kadar merimo svetlobno hitrost v brezzračnem prostoru, je ta 3 × 10<sup>8</sup> m/s. Zato je svetlobna hitrost v brezzračnem prostoru univerzalna konstanta.«</i> Induktivni argumenti navadno potekajo od posebnega primera k splošnemu zaključku.</p>
+                
+                    <p class="footnote" style="bottom:-55px"><sup>9</sup>V znanosti navadno induktivno sklepamo iz podatkov na zakone in iz zakonov na teorije, zato je induktivnost temelj velikega dela znanosti. Induktivnost navadno pomeni testiranje trditve na vzorcu, ker bi bilo nepraktično ali nemogoče delati drugače.</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">52</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>Logična zmota:</strong> Napaka pri sklepanju, ki ima za posledico neveljaven argument. Napake se pojavijo izključno pri dokazovanju, ko prehajamo iz ene propozicije v drugo, ne pa pri dejstvih. Drugače povedano, neveljaven argument pri neki stvari ne pomeni nujno, da je ta stvar nesmiselna. Logične zmote so kršitve enega ali več načel, ki sestavljajo dober argument, kot so dobra strukturiranost, konsistenca, jasnost, vrstni red, relevantnost in celovitost.</p>
+                    <p><strong>Formalna zmota:</strong> Logična zmota, katere oblika ne ustreza slovnici in pravilom logičnega sklepanja. Veljavnost argumenta je mogoče določiti le z analizo njegove abstraktne strukture, ob tem pa ni potrebe po oceni njegove vsebine.</p>
+                    <p><strong>Neformalna zmota:</strong> Logična zmota, ki je nastala zaradi neskladij v vsebini in kontekstu, ne pa v obliki. Napaka v sklepanju mora biti splošno in pogosto navzoča, če želimo argument obravnavati kot neformalno zmoto.</p>
+                    <p><strong>Veljavnost:</strong> Deduktivni argument je veljaven, če je sklep logično izpeljan iz njegov premis. Drugače je neveljaven. Opisa <i>veljaven</i> in <i>neveljaven</i> veljata le za argumente, ne pa za trditve.</p>
+                    <p><strong>Zdravje:</strong> Deduktivni argument je zdrav, če je veljaven in če so premise resnične. Če kateri izmed teh pogojev ni izpolnjen, potem argument ni zdrav. Resničnost je določena s preverjanjem, ali so premise in sklepi argumenta v skladu z dejstvi resničnega sveta.</p>
+                </div>
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">53</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>Moč:</strong> Induktivni argument je močan v primeru, da so njegove premise resnične, kajti potem je zelo verjetno, da je resničen tudi sklep. Če je malo verjetno, da je njegov sklep resničen, potem velja, da je šibek. Induktivni argumenti ne ohranjajo resničnostne vrednosti, kajti ni nujno, da mora resničen sklep slediti iz resničnih premis.</p>
+                    <p><strong>Prepričljivost:</strong> Induktivni argument je prepričljiv, če je močan in če so premise dejansko resnične – so torej v skladu z dejstvi. Drugače je prepoznan ko neprepričljiv.</p>
+                    <p><strong>Zavržba:</strong> Lastnost propozicije ali argumenta, kadar lahko prvo in drugo zavračamo ali ovržemo z opazovanjem ali eksperimentom. Na primer trditev <i>»Vsa drevesa so rjava«</i> je mogoče izpodbiti tako, da pokažemo na drevo, ki ni rjavo. Zavržba je prej znak moči argumenta kot pa njegove šibkosti.</p>
+                </div>
+            </div>
+            <!-- end definitions -->
+
+            <!-- references -->
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/references_i.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">55</div>
+                <div class="page-title"></div>
+                <div class="page-content bibliography">
+                    <p>[Aristotel] Aristotle, On Sophistical Refutations, prevod W. A. Pickard, http://classics.mit.edu/Aristotle/sophist_refut.html</p>
+                    <p>[Avicenna] Avicenna, Treatise on Logic, prevod Farhang Zabeeh, 1971.</p>
+                    <p>[Carroll] Lewis Carroll, Alice's Adventures in Wonderland, 2008, http://www.gutenberg.org/files/11/11-h/11-h.htm</p>
+                    <p>[Curtis] Gary N. Curtis, Fallacy Files, http://fallacyfiles.org</p>
+                    <p>[Damer] T. Edward Damer, Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments (6. izdaja), 2005.</p>
+                    <p>[Engel] S. Morris Engel, With Good Reason: An Introduction to Informal Fallacies, 1999.</p>
+                    <p>[Farmelo] Graham Farmelo, The Strangest Man: The Hidden Life of Paul Dirac, Mystic of the Atom, 2011.</p>
+                    <p>[Fieser] James Fieser, Internet Encyclopedia of Philosophy, http://www.iep.utm.edu</p>
+                    <p>[Firestein] Stuart Firestein, Ignorance: How it Drives Science, 2012.</p>
+                    <p>[Fischer] David Hackett Fischer, Historians' Fallacies: Toward a Logic of Historical Thought, 1970.</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">56</div>
+                <div class="page-title"></div>
+                <div class="page-content bibliography">
+                    <p>[Gula] Robert J. Gula, Nonsense: A Handbook of Logical Fallacies, 2002. [Hamblin] C. L. Hamblin, Fallacies, 1970.</p>
+                    <p>[King] Stephen King, On Writing, 2000.</p>
+                    <p>[Minsky] Marvin Minsky, The Society of Mind, 1988.</p>
+                    <p>[Pólya] George Pólya, How to Solve It: A New Aspect of Mathematical Method, 2004.</p>
+                    <p>[Russell] Bertrand Russell, The Problems of Philosophy, 1912, http://ditext.com/russell/russell.html</p>
+                    <p>[Sagan] Carl Sagan, The Demon-Haunted World: Science as a Candle in the Dark, 1995.</p>
+                    <p>[Simanek] Donald E. Simanek, Uses and Misuses of Logic, 2002, https://www.lockhaven.edu/~dsimanek/philosop/logic.htm</p>
+                    <p>[Smith] Peter Smith, An Introduction to Formal Logic, 2003.</p>
+                </div>
+            </div>
+            <div class="right right-option3">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">              
+                </div>
+            </div>
+            <!-- end references -->
+            
+            <!-- translator's note -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/afterword.png" />
+            </div>
+            <div class="right">
+                <div class="page-number">59</div>
+                <div class="page-title">
+                  <span style='font-size:16px'>Boris Vezjak</span><br />
+                  <span style="font-size:18px">Slabi argumenti, preslana začimba našega imenitnega življenja</span>
+                </div>
+                <div class="page-content">
+                    <p class='text-indent'>Pričujoča knjižica, nekolikanj prirejena za slovenske razmere, sodi v žanr del o kritičnem mišljenju in logičnih zmotah; avtor knjige je Ali Almossawi, ilustrator knjige Alejandro Giraldo. V njej je z nizom ilustracij obravnavanih 19 logičnih zmot, liki iz ilustracij pa komplementarno in na simpatičen, tudi izjemno duhovit način orisujejo konkretne situacije, s katerimi je ponazorjena vsaka od njih. Knjiga je bila objavljena na spletu pod licenco Creative Commons julija 2013, tiskana izdaja pa decembra istega leta. Namen izdajatelja knjige je širiti zavest o pomenu logičnega in kritičnega mišljenja v družbi in avtorja aktivno podpirata njegove prevode in tudi priredbe v različne jezike.</p>
+                    <p class='text-indent'>Temeljnega namena knjige najbrž ni potrebno posebej predstavljati; lahko ga uganemo. Slaba argumentacija danes išče svoje priložnosti na vsakem koraku, postala je zaščitni znak potrošniške retorike, političnih manipulacij, strokovnih diskusij, vrstniških in medsosedskih pogovorov, razprav na socialnih omrežjih, časopisnih polemik, razprav ob kavi ali na dvorišču. Večja težava tiči v dejstvu, da jo kot takšno zlahka sprejemamo: živimo v družbi, kjer prazna retorična gesta prepričevanja pogosto šteje več od argumentirane, zato se slednji zaradi neučinkovitosti vedno lažje in brez zadržkov odpovedujemo.</p>
+
+                    <!-- <p style="font-weight:bold;text-align:right;padding-top:20px;margin-left:270px">镜飞<br />写于2015年复活节</p> -->
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">60</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent'>Najbrž je naloga tistih, ki se s filozofijo in argumentacijo tako ali drugače profesionalno ukvarjajo, da poskušajo v javnosti opozarjati na nižanje miselnih in logičnih standardov. Še več, brez takih opozoril tudi zanje kmalu ne bo več prostora. Želeti si moramo dobre argumentacije in svariti pred slabo, kar je naloga, ki se pred nas postavlja kot nuja na vseh starostnih ravneh in otroke, učence ali dijake, če odraslih niti ne štejemo, navajati na njene sprejemljive in nesprejemljive plati. Način argumentacije nam posredno razkriva, kaj se okoli nas dogaja in kako nevarno je lahko takšno početje. Dialog pač ne pomeni, da enkrat zmagujejo slabi argumenti, drugič manj slabi in da med njimi na dolgi rok ni razlike. Kot tudi nima nobenega smisla v takšni odprtosti videti prostorov demokracije.</p>
+                    <p class='text-indent'>Slabi argumenti velikokrat vodijo do slabih odločitev in enako zgrešenih dejanj. Vse to nas lahko zadeva na čisto osebni in zasebni ravni, lahko pa tudi na družbeni ali politični. Najbrž si ne želimo sprejemati nevarnih in nepravičnih zakonov, voditi slabe zunanje in notranje politike, prispevati h krivicam v družbi, k splošnemu dvigu krivičnosti, diskriminacije, neenakopravnosti, rasizma in drugih kršitev človekovih pravic, socialni in politični nestanovitnosti sploh, razslojevanju in podobno. Slaba argumentacija, predpostavljamo, nujno vodi v slabšanje človekovih standardov življenja, v krhanje medsebojnih odnosov, k povečanju družbenih konfliktov in nestabilnosti neke družbe. Vprašanje je seveda, če nam dobra vse to lahko jamči. Najbrž ne, a v pomembni meri prispeva.</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="page-number">61</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent'>A povrnimo se za trenutek k neoliberalni in potrošniki družbi in k zraku, ki ga v njej dihamo. Če kaj, je danes postalo kritično navajanje samih argumentov. In kaj za njih šteje? Kadar želimo podpreti določeno trditve z razlogi za njeno sprejetje v širšem smislu, govorimo o argumentu in tega uporabljamo za zagovarjanje odločitev, kritiziranje stališč, pa tudi za ocenjevanje dejanj in iskanje resnice. Nagovarjajo nas k sprejetju različnih trditev, pri odločanju o tem, kaj bomo sprejeli, pa moramo biti pozorni na to, ali so argumenti, ki jih za sprejetje neke trditve naš sogovornik navaja, sploh dobri. Ker velja argument za eno izmed najmočnejših sredstev prepričevanja, je razumljivo in pričakovano, da skuša danes vsakdo svoje ideje utemeljevati na takšen način.</p>
+                    <p class='text-indent'>Toda argument ni zgolj skupek trditev, katerim lahko pripišemo resničnostno vrednost in so zatorej lahko resnične ali napačne. Pomembno je tudi, kako so trditve organizirane. Če so trditve v zgradbi argumenta resnične ali smo v to prepričani, jim pravimo premise. Trditve, ki jih iz njih izpeljemo ter so bolj ali manj sporne, imenujemo sklepi. Razen tega se kot del argumenta razume tudi odnos med premisami in sklepi, ki mora biti takšen, da premise podpirajo sklepe in do njih vodijo. Običajno pravimo, da iz nečesa sklepamo na nekaj, pri čemer se beseda 'sklepanje' nanaša na postopek, v katerem smo na koncu prišli do tega, da je ena trditev resnična na osnovi drugih, ki smo jih sprejeli že na začetku. Mesto sklepov v argumentih ni določeno, nahajajo se lahko na koncu, sredini ali na začetku, enako pa velja tudi za premise. Sklepi ali premise so lahko tudi zamolčani oziroma skriti, do česar pride takrat, ko avtor zaradi prepričanja, da lahko bralec iz konteksta brez truda razbere, kaj v</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">62</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent'>argumentu manjka, določene propozicije, ki je splošno znana in sprejeta, namenoma ne navede.</p>
+                    <p class='text-indent'>Ločimo več vrst argumentov, najpomembnejši kriterij delitve pa je verjetnost, s katero sklepi sledijo iz premis. To imenujemo logična moč, razumemo pa jo lahko kot stopnjo podpore, s katero premise utemeljujejo sklepe. Glede na to razdelimo argumente na tiste, v katerih sklepi nujno sledijo iz premis, imenujemo jih deduktivni, in one druge, v katerih sklepi iz premis sledijo zgolj z večjo ali manjšo zanesljivostjo, imenujemo jih induktivni. Deduktivni argumenti imajo takšno obliko, da če so premise resnične, ni mogoče, da bi bil izpeljani sklep napačen, induktivni pa takšno, da se lahko kljub resničnosti premis glede izpeljanega sklepa motimo. Zato pravimo, da so deduktivni argumenti veljavni, induktivni pa neveljavni.</p>
+                    <p class='text-indent'>Toda veljavnost sama še ni dovolj za to, da je argument dober. Slednje bi moralo biti glavni kriterij za odločanje o tem, ali bomo neko stališče sprejeli ali ne. Jasno je, da trditev, ki jih podpirajo slabi argumenti, ni smiselno posvojiti. Tako morajo argumenti za to, da bi bili dobri, poleg velike logične moči, ki predstavlja nujni pogoj za to, vsebovati še resnične premise. Seveda pa si moramo zapomniti, da niti največja logična moč argumentu ne pomaga, da bi bil dober, če hkrati ob tem nima tudi resničnih premis. Za deduktivne argumente, ki izpolnijo oba pogoja, pravimo, da so zdravi.</p>
+                    <p class='text-indent'>Toda, kako nekoga sploh prepričati, v čem se skriva smisel argumentov? Ljudje namreč</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="page-number">63</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent'>izmenjavo argumentov običajno razumejo kot prepiranje njihovih avtorjev in prazno besedičenje brez kakršnekoli praktične vrednosti, ki je, kot pravimo, samo sebi namen. Včasih to drži, vendar velikokrat zaradi našega ignoriranja splošnih logičnih načel in konkretnih pravil sklepanja oziroma neustavljive želje, da bi nekaj bilo resnično, ali potrebe po tem, da nasprotnika v razpravi za vsako ceno porazimo. Če se logičnih principov držimo in smo sposobni oceniti, kdaj so naši razlogi za neko prepričanje slabi, v okviru tega pa predvsem priznati, da se motimo in dati nekomu drugemu prav, potem razen argumentov ne obstaja noben drug način, kako najti resnico.</p>
+                    <p class='text-indent'>Seveda pa je pot do nje polna pasti, ki se jim moramo izogniti. Boljšega sredstva od poznavanja metod in principov, s katerimi ločimo dobro sklepanje od slabega, in sposobnosti njihove uporabe na konkretnih praktičnih primerih, ni na voljo. Vendar to ne pomeni, da lahko pravilno sklepa le tisti, ki je dobršen del svojega življenje posvetil študiju logike. Vsak izmed nas je že po naravi nagnjen k zagovarjanju enih in zavračanju drugih stališč. Nesporno pa je, da ima tisti, ki je vešč razlikovanja med dobrimi in slabimi argumenti, pri čemer je sposoben svoja čustva in občutke, da mu ti ne bi zameglili presoje, pustiti ob strani, v razpravi o tem, kaj je resnično in kaj napačno, veliko prednost. In ravno zato so knjige, kot je ta, nadvse dobrodošle.</p>
+                    <p class='text-indent'>V slabih argumentih premise sklepov ne podpirajo in jih, četudi so ti po naključju resnični, ne dokazujejo. Pravimo, da je avtor zagrešil zmoto, pri čemer se pojem zmote uporablja za tipične primere slabega sklepanja. Latinski izraz <i>fallacia</i> (prevara) kaže na to, da so bile</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">64</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class='text-indent'>zmote tradicionalno pojmovane kot prevare. Opozoriti velja, da lahko neko sklepanje, ki je v danem kontekstu najprej zmotno, kasneje ob poznavanju dodatnih informacij postane dober argument. Splošno pravilo, ki ga moramo pri ocenjevanju upoštevati, pa je, da dana oblika ni zmotna takrat, ko so navedene premise relevantne za sklep. Prepoznavanje zmot je zaradi nepopolnosti argumentov in leporečja, s katerim so pogosto prepredeni, oteženo. Točna identifikacija zmot je včasih težavna tudi zato, ker je lahko v argumentu kršenih več načel dobrega sklepanja hkrati.</p>
+                    <p class='text-indent'>Tudi knjiga pred nami poskuša biti prijazna in z ilustracijami podkrepljena vstopna točka za nekatere v pogovoru ali drugih posebnih priložnostih najbolj pogoste rabe slabih argumentov. Včasih so ti le navidezno dobri in jih je zato težko spregledati kot slabe, spet drugič pa so očitno slabi, vendar so zaradi svoje psihološke moči prepričljivi. Takšne jih lahko naredi tudi družbena situacija in kultura, v kateri že živimo, ko nam fake news in poresničnosti spreminjajo in na novo krojijo dojemanje sveta in resnice same. Zato je tudi velikokrat izjemno težko ločevati, kdaj argumentacijske zmote obravnavati kot napake (ki so nehotene) ali prevare (ki so načrtovane in hotene). V slovenščini že imamo kakšno knjigo s področja logičnih zmot, spodaj navajam zelo kratek seznam, ki lahko služi v pomoč. Če bralcu kronično primanjkuje časa in ima morda za nameček še nekaj smisla za humor, pa je spodaj kratek namig k srečanju z najbolj znanimi zmotami, razloženimi v enem stavku z njimi samimi – v prirejeni obliki. Za pokušino in tiste bolj radovedne.</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="page-number">65</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <ol>
+                        <li><b>Zahteva po vprašanju</b> ali <b>petitio principii</b> je najbolj splošna vrsta zmote, ki je takšna zato, ker nastopa najbolj pogosto.</li>
+                        <li>Slaba izbira možnosti je, če imamo na voljo zgolj izbiro med <b>napačno dilemo</b> in resnično dilemo.</li>
+                        <li>Argumenta nikoli ne smemo označiti za <b>spolzko strmino</b>, kajti potem je naslednja stvar, ki jo bomo storili, res ta, da bomo imeli vse argumente za take, nakar nihče več ne bo hotel argumentirati in končali bomo v vojni.</li>
+                        <li>Ali veste še za koga, ki se je ob vas navduševal za <b>krivdo po povezavi</b>, razen Hitlerja, Stalina in Pol Pota?</li>
+                        <li>Če ne veš, kaj je <b>argumentum ad hominem</b>, potem si navaden bebec.</li>
+                        <li><b>Sklicevanje na avtoriteto</b> je logično zdrava trditev, ker se s tem strinja tudi papež in on je gotovo zelo izobražen človek.</li>
+                        <li>Prav nič ne more biti narobe s <b>prehitro posplošitvijo</b>. Zmoto sem preizkusil na številnih prijateljih in večina mi je dala takoj prav.</li>
+                        <li>Tako kot je marelična marmelada najboljša med vsemi, je tudi <b>napačna analogija</b> najboljša med vsemi zmotami.</li>
+                        <li><b>Non sequitur</b> zasledimo takrat, ko sklep ne sledi iz premis, zato morajo biti v njem nujno napačne premise.</li>
+                        <li><b>Argumentum ad logicam</b> je zmota, ki vedno vodi do napačnega sklepa.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">66</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <ol start='11'>
+                        <li><b>Dvoumnost</b> lahko zavede Mojco, ker je takšna že po naravi.</li>
+                        <li>Nekoga ne morete obtožiti, da uporablja zmoto ekvivokacije, ne da bi bili sami krivi uporabe <b>»ekvivokacije«</b>. Razumete?</li>
+                        <li><b>Zatrditev konsekvensa</b> pomeni, da delam logično napako. Če delam logično napako, potem sem gotovo storil zatrditev konsekvensa.</li>
+                        <li>Če <b>zanikam antecedens</b>, potem sem storil logično napako. Toda nisem zanikal antecedensa, torej nisem storil logične napake!</li>
+                        <li><b>Argument »do bljuvanja«</b> sploh ni logična napaka. <b>Argument »do bljuvanja«</b> sploh ni logična napaka. <b>Argument »do bljuvanja«</b> sploh ni logična napaka. <b>Argument »do bljuvanja«</b> sploh ni logična napaka.</li>
+                        <li>Tale <b>zmota sestave</b> je del čutnozaznavnega sveta, torej je tudi ta izjava o njej čutnozaznavna.</li>
+                        <li><b>Zmoto delitve</b> uporabljajo vsi v tvoji družini, torej jo tudi ti.</li>
+                        <li><b>Sklicevanja na moč</b> pa res ne uporabljam; če boš trdil to, ti bom že pokazal!</li>
+                        <li>Lahko dokažete, da v svojem govoru niste uporabili <b>bremena dokaza?</b></li>
+                        <li>Je tale tvoj namig <b>nabito vprašanje</b> ali je zgolj trapasto?</li>
+                        <li>Nisem uporabil <b>strašila</b>, čeravno drži, da je tvoja argumentacija eno samo strašilo!</li>
+                        <li>Zmoto <b>napačnega vzroka</b> lahko zagreši le idiot, zatorej je ta vrsta argumenta tista, po kateri prepoznamo človekov idiotizem.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="right">
+                <div class="page-number">67</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <ol start='23'>
+                        <li>Veliko ljudi ve, da je <b>argumentum ad populum</b> veljaven, še posebno v demokraciji, v kateri živimo, ker večina se res ne more motiti</li>
+                        <li><b>Ignoratio elenchi</b> je kar pogosta zmota, saj sociološke analize kažejo, da ljudje ravnajo bolj na pamet kot premišljeno.</li>
+                        <li><b>Sklicevanje na tradicijo</b> uporabljamo že stoletja: le kako bi lahko bila to argumentativna zmota?</li>
+                        <li>Potrudi se še malo, <b>reifikacija</b>, in postala boš najzanimivejša med vsemi zmotami!</li>
+                        <li><b>Pobožna želja</b> je primer zmote, za katero sem čisto iskreno prepričan, da je nikoli ne zagrešim.</li>
+                        <li>Če zmote <b>sklicevanja na strah</b> ne boste vzeli resno, potem bodo v Sloveniji zmagali ultralevičarji in spet nas čaka komunizem.</li>
+                        <li>Odkar sem se začel ukvarjati z zmoto <b>po tem, torej zaradi tega</b>, je število samomorov pri nas drastično padlo.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">68</div>
+                <div class="page-title">Zelo kratka izbrana literatura v slovenščini</div>
+                <div class="page-content">
+                    <p class='text-indent'>Bregant, Janez in Vezjak, Boris. 2007. <i>Zmote in napake v argumentaciji: vodič po slabi argumentaciji v družbenem vsakdanu.</i> Maribor: Subkulturni azil.</p>
+                    <p class='text-indent'>Šuster, Danilo. 2015. <i>Moč argumenta. Neformalna logika v teoriji in praksi.</i> Maribor: Aristej.</p>
+                    <p class='text-indent'>Klampfer, Friderik, Bregant, Janez in Gartner, Smiljana. 2008. <i>Telovadnica za možgane: uvod v kritično mišljenje.</i> Maribor: Svarog.</p>
+                    <p class='text-indent'>Uršič, Marko in Markič, Olga. 2003. <i>Osnove logike</i>. Ljubljana: Filozofska fakulteta.</p>
+                    <p class='text-indent'>Vezjak, Boris. 2015. <i>Ali je to zmota?</i> Maribor: Aristej.</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class="footnote license" style="position:absolute;bottom:-50px;width:520px">
+                        <a class="internal" href="#base">Scroll down for more</a> &nbsp; <b>&middot;</b> &nbsp;
+                        Share on &nbsp; 
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="hope-you-enjoyed-that"> 
+            <h3>Hope you enjoyed that</h3>
+            <div class="outro">
+                <p>This has been <span class="highlight">An Illustrated Book of Bad Arguments</span>.  Thanks for visiting.  Sightings of unintended irony should be <a href='https://github.com/almossawi/badarguments/issues' class='underline'>reported to the author!</a></p>
+                <p>If you would like to help support this book with a small donation, that would be much appreciated.  Thank you!</p>
+                
+                <div id="slider-div">
+                    <div id="slider-range-min" style="margin-top:5px;padding-right:10px"></div>
+                    <label for="amount" style="line-height:40px">Name your price (drag slider to change)</label>
+                </div>
+                <div id="amount-div">
+                    <span id="amount" style="font-size:40px"></span>
+                </div>
+
+                <form id="stripe-form" action="../charge.php" method="POST" style="padding-top:22px">
+                    <input type="hidden" id="amount_in_cents" name="amount_in_cents" value="200" />
+
+                    <div>
+                    <script
+                      src="https://checkout.stripe.com/v2/checkout.js" class="stripe-button"
+                          data-key="pk_live_1wyUR9ETeoSkjh7mvhfbYkLz"
+                          data-name="An Illustrated Book of Bad Arguments"
+                          data-description="Donation"
+                          data-currency="usd"
+                          data-image="../images/stripe_thumb.png">
+                    </script>
+                    </div>
+                </form>
+                <p class="stripe">Secure payments by <a href="https://stripe.com" class="underline" target="_blank">stripe</a></p>
+                <p class="courtesy-of">Background image courtesy of <a href="http://subtlepatterns.com" class="underline">subtlepatterns</a></p>
+
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHRwYJKoZIhvcNAQcEoIIHODCCBzQCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYC4WHPVa+29SuioGqHt01NUHAxbkRYBoaztr+ujnKAGgl/AJvpWo7HLiwh8HwtJG7JuDyzDSnD2MeegwGyvh8kZRIOtD95vTGj3w4jHbPZxzeufTQBgsSOxKTLFACJtcF09cmF5H+Ho87hkg5lBps1jPfIdUfTlOoslnOcEfaDrKjELMAkGBSsOAwIaBQAwgcQGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQINB++j5Z2XoSAgaBQdLH/6j+AyGfYOOxREz/7UooEWn9TwNjoax8xzIDYcPE5YuejTg8ztN2i78FR0EDZOHe2feCkshxtox95PPC+t5vRnWxYntkJE04tVwUFy0B0HoYTBx78CD65uuW8O9AmOxqI0L5Dq44MtI2E+NXnQQVOfzsbNOTJzdPM6FMr1JFaC2A+x2AXccZ4su6o2QR+GaoEFnvCXror57is5kW8oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTQwNjIwMjExNjA3WjAjBgkqhkiG9w0BCQQxFgQUwMFAvYwN5fWFnC6A3WyA+a07u/gwDQYJKoZIhvcNAQEBBQAEgYA1J7KFMhnclAg5Lyqf7ZvGFmAOu7u0/o2QasuztGZEiTCJ1eaiWHFO3jAcZ5pd3faC0XYNBIbpmvyo6daI4AOu7aCn1mMfWNE0VCTE+piSa7BxfM90n30bqra9SWy4Gxeod20OLuuwgnSkSFKNDp9WoRSB5hei+K/Cd1JPNlwdUA==-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://bookofbadarguments.com/images/paypal-donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="margin-left:30px;margin-top:15px">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </div>
+            <div class="gradient"></div>
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div id="base" name="base">
+            <div id="base-book" class="hide-on-mobile">
+                <img src="../images/book.png" width="220" height="185" alt="In print" />
+            </div>
+
+            <div id="base-prose">
+                <p style="margin-left:12px">Join the mailing list for occasional news about <i>Bad Arguments</i>, <a href='https://bookofbadchoices.com' class='underline'><i>Bad Choices</i></a>, and <a href='https://almossawi.com/pointless-work' class='underline'><i>The Point of Pointless Work</i></a>.</p>
+
+                <link href="../css/mailchimp-slim-081711.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{clear:left;font:14px;width:400px;}
+                </style>
+                <div id="mc_embed_signup">
+                    <form action="https://almossawi.us7.list-manage.com/subscribe/post?u=9c4dbd8f3e2d9a588cfe43dae&amp;id=3c89277de1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="base-contact">
+                <a class='tiny-button fa fa-2x fa-facebook-square' href='https://www.facebook.com/almossawi' title='Facebook'></a> 
+                <a class='tiny-button fa fa-2x fa-github' href='https://github.com/almossawi/badarguments' title='Github'></a> 
+                <a class='tiny-button fa fa-2x fa-twitter' href='https://twitter.com/alialmossawi' title='Twitter'></a> 
+                <a class='tiny-button fa fa-2x fa-instagram' href='https://instagram.com/almossawi' title='Instagram'></a>
+                <!--<a class='tiny-button fa fa-2x fa-envelope-o' href='mailto:ali@almossawi.com' title='Email'></a>-->
+
+                <div id="base-social">
+                    <div class="twitter-block"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://bookofbadarguments.com" data-via="alialmossawi">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+                    <div id="fb-block" class="fb-like" data-href="https://bookofbadarguments.com" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-font="arial"></div>
+
+                    <div style="height:15px;clear:both"></div>
+                    <div class="copyright-strip">
+                        2013-2020 &middot; <a href="#inline_content" class='inline underline'>See the sketches</a> 
+                        &middot; <a href="https://github.com/almossawi/badarguments" class='underline'>Get the code</a>
+                        <div class="url-link"><a href="https://almossawi.com/bookofbadarguments.html" style="text-decoration:none;color:#c7c7c7">www.bookofbadarguments.com</a></div>
+                        <div class="buy-the-book-bottom"><b><a class='underline' href="/thebook/?from=main_page_bottom" style="color:#c7c7c7">Buy the book in print</a></b></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="base-news">
+                <div class='announcement'><b>Announcement</b> &middot; <a href="onward/" class='underline'>Signed holiday cards are now available. Orders close November 14.</a></div>
+                <div class='announcement'><b>News</b> &middot; <a href="https://www.reddit.com/r/IAmA/comments/6407oc/im_the_creator_of_an_illustrated_book_of_bad/" class='underline'>I loved answering your questions on Reddit.</a></div>
+                <div class='announcement'><b>News</b> &middot; <a href="https://github.com/almossawi/badarguments#an-illustrated-book-of-bad-arguments" class='underline'>See photos of the book in the wild and other related material.</a></div>
+                <div class='announcement'><b>News</b> &middot; <a href="http://www.abc.net.au/radionational/programs/drive/the-lost-art-of-making-sense/5919286" class='underline'>A conversation with ABC Radio about the art of making sense.</a></div>
+                <!--<div class='announcement'><b>News</b> &middot; <a href="https://twitter.com/alialmossawi/status/526110069348257795" class='underline'>The Book of Bad Arguments website recently crossed 1 million visitors.</a></div>-->
+                <!--<div class='announcement'><b>Announcement</b> &middot; <a href="http://www.reddit.com/r/IAmA/comments/2irsu5/hi_reddit_i_created_the_book_of_bad_arguments/" class='underline'>I'll be doing a Reddit Ask Me Anything on October 9 at 1:00PM (ET).</a></div>-->
+            </div>
+
+            <div style="clear:both;height:20px"></div>
+
+            <div id="press" class="hide-on-mobile">
+                <img src="../images/in_the_press.png" /> 
+                <a href="https://www.fastcocreate.com/3019063/now-more-than-ever-you-need-this-illustrated-guide-to-bad-arguments-faulty-logic-and-silly-r"><img src="../images/fastcompany.png" /></a> 
+                <a href="http://geekdad.com/2013/09/teach-kids-logic-illustrated-book-bad-arguments/"><img src="../images/geekdad.png" /></a> 
+                <a href="http://dish.andrewsullivan.com/2013/09/09/this-little-piggy-made-a-logical-error/"><img src="../images/the_dish.png" /></a> &nbsp;
+                <a href="https://www.buzzfeed.com/kevintang/charming-cartoons-that-debunk-your-bs-arguments"><img src="../images/buzzfeed.png" /></a> &nbsp;
+                <a href="http://io9.com/a-guide-to-fallacious-arguments-illustrated-with-funny-1273276162"><img src="../images/io9.png" /></a> 
+                <a href="https://laughingsquid.com/an-illustrated-book-of-bad-arguments-logical-fallacies-explained-with-fun-animal-illustrations/"><img src="../images/laughing_squid.png" /></a> 
+                <a href="https://boingboing.net/2014/03/21/bad-arguments-great-illustrat.html"><img src="../images/boingboing.png" /></a> &nbsp;
+                <!--<a href="https://www.reddit.com/r/philosophy/comments/1lcqzu/an_illustrated_book_of_bad_arguments/"><img src="images/reddit.png" /></a> &nbsp;-->
+                <!--<a href="http://www.philosophynews.com/post/2013/08/21/An-Illustrated-Book-of-Bad-Arguments.aspx"><img src="images/philosophy_news.png" /></a>--> 
+                <a href="http://www.openculture.com/2015/04/an-illustrated-book-of-bad-arguments.html"><img src="../images/open_culture.png" /></a> 
+                <a href="http://dangerousminds.net/comments/an_illustrated_book_of_bad_arguments_dispatching_the_dumb_one_funny_animal" class="hide-on-mobile"><img src="../images/dangerous_minds.png" /></a> 
+            </div>
+        </div>
+
+        <div style='display:none'>
+            <div id='inline_content'>
+                <p>A reader recently wrote in asking if I could share a bit about the process of putting the book together and talk about how the project started.  Certainly.</p>
+                <br /><br />
+                <p><span style="font-family:Georgia,Times;font-size:60px">I</span> go on two solitary walks every day.  There is a small park off the Embarcadero that is tucked away in a quiet spot.  It has a pleasant stream flowing through it and an unassuming bench beside that stream.  I have made walking to that frail bench a ritual, and the half an hour or so spent daydreaming on it amid the cool San Francisco breeze, an article of faith.</p>
+                <p>It was on a day in October of last year when, during one of those quiet moments on that bench, I recalled my college years and how outspoken I happened to be during them, an observation only made interesting by the fact that  I have since turned into the quietest of beings.  They say that achieving knowledge is a function of one's ability to maintain both doubt and hubris.  I don't know.  I find that as the years go by, I am left with more of the former and less of the latter.</p>
+                <p>A realization that coincided with that nostalgic whiff was that a sizable amount of the discourse nowadays continues to be plagued with bad reasoning.</p>
+                <p>Hence, the idea that finally shook me into soberness was one that had been fermenting for a while.  It was that of visualizing, in a simple manner, some of the principles that had helped me do well in debates and in off-the-cuff arguments with colleagues.  Simple.  That would be the novelty of it.  And so, with my two-year old daughter in the back of my mind, I decided that illustration would be an ideal language, given its universal appeal.</p>
+                <p>Once I had a draft version of the book ready, I sent it to one of my life-long idols, Marvin Minsky, co-founder of the MIT Artificial Intelligence Lab and author of <i>The Society of Mind</i>.  I must have spent a good week writing that email.  I was overjoyed when he wrote back a few hours later calling the book &ldquo;beautiful!&rdquo;  It was quite possibly one of the highlights of my life.  Having read the email, I made sure to maintain my earnestness while I found a private place, wherein I proceeded to do the Apache dance from <i>Fresh Prince</i>.</p>
+                <div style="height:312px;width:800px">
+                    <img src="../images/sketches/minsky.jpg" />
+                </div>
+                <p>The cover is inspired by one of my favorite games growing up: LucasArts' <i>Monkey Island</i> series.  The title's typography and the general feel of the whole scene borrow a bit from <i>Monkey Island</i> and a bit from <i>Indiana Jones</i>.  The cover's concept is based on the metaphor that good deductive logic is like a watertight pipe where truth goes in and truth comes out.  Hence, the cave that the two explorers are peeking through, which you may notice has an opening resembling that of a human ear, is actually the inside of someone's head, and the leaking pipes indicate that this person's head is filled with bad logic.</p>
+                <p>Shown below are some of the original sketches that I came up with.  I had the scenarios, characters and captions in mind, and a modest ability to transform them into drawings.  What I really wanted though was a woodcut style that would give the work an antiquated feel, because after all, if it looks old, then it must be of value&mdash;irony intended.  I commissioned a professional illustrator who did a nice job of translating a set of sketches, prose and undocumented ideas into the illustrations you see in this final artifact.</p>
+                <p>The project is a public service, and although it has cost a fair amount of money, nothing would make me happier than to see it used to teach younger people or those new to the field the importance of logical reasoning.  It is meant to serve as a modest, yet hopefully timeless, contribution.</p>
+                <p>Thank you for visiting and for your emails; they make my day.  Enjoy the sketches below.  If you don't see them, then they are still being loaded. Look out for the print version on Amazon later this year.</p>
+                <p><i>August 20, 2013 &middot; <a href="/#inline_content" style="color:white">(permalink)</a></i></p>
+                <div style="height:9600px;width:800px"> 
+                    <img src="../images/sketches/bear.jpg" />
+                    <img src="../images/sketches/pig.jpg" />
+                    <img src="../images/sketches/donkey.jpg" />
+                    <img src="../images/sketches/donkey2.jpg" />
+                    <img src="../images/sketches/frog.jpg" />
+                    <img src="../images/sketches/frog2.jpg" />
+                    <img src="../images/sketches/cat.jpg" />
+                    <img src="../images/sketches/vultures.jpg" />
+                    <img src="../images/sketches/toucan.jpg" />
+                    <img src="../images/sketches/chimp.jpg" />
+                    <img src="../images/sketches/crane.jpg" />
+                    <img src="../images/sketches/cow.jpg" />
+                    <img src="../images/sketches/sealion.jpg" />
+                    <img src="../images/sketches/all.jpg" />
+                    <img src="../images/sketches/proof.jpg" />
+                </div>
+            </div>
+        </div>
+
+        <script>
+        yepnope([{
+           load: ['https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js'],
+           complete: function () {
+                if (!window.jQuery) {
+                    yepnope(['js/jquery.min.js', 'js/jquery-ui.min.js']);
+                }
+
+                yepnope({
+                    test: Modernizr.csstransforms,
+                    yep: ['../js/turn.min.js'],
+                    nope: ['../js/turn.html4.min.js'],
+                    both: ['../js/scissor.min.js', 
+                    '../css/double-page.css', 
+                    '../js/jquery.colorbox-min.js',
+                    '../js/scissor.min.js',
+                    '../js/jquery.easing.1.3.min.js',
+                    'js/global.js']
+                });
+            }
+        }]);
+        </script>
+    </body>
+</html> 
