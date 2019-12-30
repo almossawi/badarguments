@@ -369,7 +369,7 @@ div.page-content p.license {
     color: #e1ded8;
     float: left;
     font-size: 1rem;
-    margin: 10px 0 0 50px;
+    margin: 10px 0 0 40px;
     padding-right: 40px;
     height: 180px;
     width: 380px;
@@ -669,6 +669,21 @@ a:visited.tiny-button {
     border: 0;
     height: 100px;
     width: 300px;
+}
+
+#mc_embed_signup input.email {
+    font-size: 0.95em;
+    padding: 5px 4px !important;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #d6d6d6
+}
+
+#mc_embed_signup input.button {
+    border-radius: 2px !important;
+    background-color: #e1306c !important;
+    letter-spacing: 0.01em;
+    font-weight: 600;
 }
 
 div.right p.translated-by,
