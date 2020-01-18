@@ -1,6 +1,6 @@
 # An Illustrated Book of Bad Arguments
 
-_Bad Arguments_ has been read by over two million visitors since its release in July 2013. This repository contains the code and documentation for the project, beginning in October 2015, which coincides with the first major update to the website since its release. This update cleans up the code and makes it mobile-friendly.
+_Bad Arguments_ has been read by over three million visitors since its release in July 2013. This repository contains the code and documentation for the project, beginning in October 2015, which coincides with the first major update to the website since its release. This update cleans up the code and makes it mobile-friendly.
 
 ## How to contribute
 
@@ -26,6 +26,8 @@ You are welcome to suggest corrections or submit suggestions by opening an [issu
 * [French (Alcide Leon)](fr)
 * [Japanese (Masahito Nangaku)](jp)
 * [German (Claudia Aden, Ian Erik Stewart)](de)
+* [Russian (Alexander Maslov, Shashi Martynova)](ru)
+* [Slovenian (Zofijini, with an afterword by Boris Vezjak)](si)
 
 ## Related material
 * [List of contributors](https://github.com/almossawi/badarguments/wiki/Contributors)
