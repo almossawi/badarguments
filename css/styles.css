@@ -134,7 +134,7 @@ div.left p {
     font-family: Georgia, Times;
     font-size: 0.8rem;
     line-height: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 div.bibliography p {
