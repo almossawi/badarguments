@@ -1,0 +1,9 @@
+- name: Mr. Rabbit
+  slug: mr-rabbit
+  bio: |
+    Writes about sneaky rhetoric.
+  avatar: ./avatars/rabbit.png
+  featured: true
+  social:
+    - url: https://instagram.com/almossawi
+    - url: https://twitter.com/alialmossawi

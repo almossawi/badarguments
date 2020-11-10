@@ -1,0 +1,26 @@
+li::before {
+  top:  0.19rem !important;
+  font-size: 1.7rem !important;
+  width: 3.2em !important;
+  left: -2.7rem !important;
+}
+
+li {
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+
+@media (max-width: 45.9375em) {
+  li::before {
+    left: 0.1em !important;
+  }
+  
+  li {
+    padding-left: 4rem !important;
+  }
+}
+
+
+form div {
+  bottom: auto !important;
+}
