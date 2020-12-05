@@ -621,9 +621,9 @@ But minister, one feels compelled to ask, you spend much of your time in that sa
   <figcaption>[Art 5] Mr. Rabbit, donning Ray-Bans, tips his head and looks at the reader a la Matthew McConaughey; speech bubble reads "Alright alright alright."</figcaption>
 </div>
 
-Telling others how the world is or ought to be, without evidence, betrays our own implicit and conscious biases about others. They reveal us, more than they do others. To realize how contemptuous and entitled that can be, one can imagine how it might seem if Badger were to narrate a rabbit’s every move in the style of a David Attenborough nature documentary. "And here. We find the rabbit. We will call him Bob. He walks up to a bush. He must be looking for some food."
+Telling others how the world is or ought to be, without evidence, betrays our own implicit and conscious biases about others. They reveal us, more than they do others. To realize how contemptuous that can appear, one can imagine how it might seem if Badger were to narrate a rabbit’s every move in the style of a David Attenborough nature documentary (much like Gustave Flaubert did as he walked the streets of Cairo). _And here. We find a rabbit. We will call him Bob. He walks up to a bush. He must be starving._
 
-On an episode of Paul Hollywood's City Bakes, we find that model at play. As Paul samples a city's cuisine, a badger gives him a tour of the badger food in the city. And another badger gives him a tour of the rabbit food in the city.
+On an episode of Paul Hollywood: City Bakes, we find that same model at play. As Paul samples a city's cuisine, a badger gives him a tour of the badger food in the city. And later, another badger gives him a tour of the _rabbit_ food in the city.
 
 ### 5. Language that feigns objectivity with apparent neutrality
 
@@ -894,7 +894,13 @@ In _1984_, Orwell writes, "Every record has been destroyed or falsified, every b
 
 ### 7. Language that tells you how to think about yourself
 
-Language is perhaps most harmful on an individual level when it burrows into our sense of self-worth. In doing so, it directly impacts our relationship with ourselves. Language can deny to a group that they ever had a history or that they somehow exist outside of history. If you think you have nothing to be proud of, it's not impossible that you'll end up feeling dislocated, dispirited, and disenfranchised.
+Language is perhaps most harmful on an individual level when it burrows into our sense of self-worth. In doing so, it directly impacts our relationship with ourselves. Language can deny to a group that they ever had a history or that they somehow exist outside of history. If you think you have nothing to be proud of, it's not impossible that you'll end up feeling dislocated, dispirited, and disenfranchised. On the flip side, language can give you the sense that you've peaked, either as an individual or as a social group, and therefore have no more room to grow.
+
+In a talk by a Silicon Valley venture capitalist at an event in London, we hear this line about the implications of labeling countries as developing or developed
+
+"This developing-developed dichotomy, while pro-globalization is also anti-technological because it tells us that we are the part of the world that is developed, that is done, that is finished, where nothing new is going to happen, that's stagnant, where we can expect nothing to change, where we can expect the younger generation to do no better than their parents."
+
+We find that same insinuation in certain intellectual or religious circles where seminal books are deemed beyond reproach by virtue of calling them something to the effect of "fully authentic". In the former case, at the very least, we find that such a naming results in closing the gate of intellectual curiosity, leading to stagnating and perhaps even declining institutions.
 
 In _Eat, Pray, Love_, we find the line
 
@@ -1097,6 +1103,7 @@ Thanks for stopping by.
 85. Useful Idiots, September 11, 2020, [https://youtu.be/FSCc7ak_fBg](https://youtu.be/FSCc7ak_fBg)
 79. The Kyle Kulinski Show, October 10, 2020, [https://youtu.be/A489LAOhAbA](https://youtu.be/A489LAOhAbA)
 79. The Kyle Kulinski Show, October 28, 2020, [https://youtu.be/i9nbJtXznNc](https://youtu.be/i9nbJtXznNc)
+79. Peter Thiel: Successful Businesses are Based on Secrets | WIRED, [https://youtu.be/watch?v=yODORwGmHqo](https://youtu.be/watch?v=yODORwGmHqo)
 ---
 
 ### Acknowledgements
