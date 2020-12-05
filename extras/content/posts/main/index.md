@@ -111,11 +111,13 @@ It's the worst, isn't it? When you're sitting around, minding your own business,
 
 More generally, actions are sometimes attributed to a vague or unknown actor even though the actor is known or known with high confidence.
 
-“Four guards fired after a man **dies** in custody.”
+"West Rabbit teen wounded by Badger gunfire **dies**"
+
+“Four guards fired after a man **dies** in custody”
 
 “Hiroshima marks 75th anniversary of **world's** first atomic bombing”
 
-“Violent protests **leave dozens dead**.”
+“Violent protests **leave dozens dead**”
 
 “Rabbits zapped three badgers in an ambush last night; the event happened hours after six rabbits in a neighboring town **lost their lives**.”
 
@@ -299,6 +301,16 @@ Similarly, a story about the U.S. ambassador to the UK is titled
 “Trump ambassador investigated for controversial comments”
 
 The qualifier at the start of the title serves one purpose&mdash;to imply a sort of ipso facto connection between the ambassador and the fact he was investigated.
+
+In a leading broadsheet, we find the following headline
+
+"Congresswoman condemns death of Rabbit child by Badger forces"
+
+And the article begins with a picture of the congresswoman and the lines
+
+"A teenage rabbit was killed on Friday ... leading to international denunciation, including from congresswoman Jane Bo. Ms Bo is a rabbit congresswoman who has faced accusations of being anti-badger, a fierce critic of badgers, and a supporter of economic movements aimed at pressuring the Badger Kingdom."
+
+What does this politician have anything to do with the story about an unarmed teenager being killed, one wonders.
 
 **Metaphors and analogies**. Other times, metaphors, analogies, and colorful imagery, either explicitly stated or inferred, come to the rescue. To make readers feel repulsion toward a group of people, a Sunday columnist writes
 
@@ -727,9 +739,13 @@ What evidence in particular? This line comes from a documentary in which the gue
 
 Other times, the phrase is used to achieve the exact opposite effect&mdash;introducing doubt where none exists.
 
-“Badgers perfected the modern carrot. According to the rabbit version, rabbits were the ones who did so.”
+“Badgers perfected the modern carrot. **According to the rabbit version**, rabbits were the ones who did so.”
 
-One position is stated as an objective fact. The other is stated as a mere possibility.
+One position is stated as an objective fact. The other is stated as a mere possibility. Similarly,
+
+"**Rabbits say** teenage rabbit, 13, shot and killed by badgers"
+
+A demonstrably objective fact is presented as a point of view.
 
 **Politically neutral**. A San Francisco-based non-profit known for its prolific edits to American K-12 textbooks writes in one of its comments on a high school world history textbook
 
@@ -900,7 +916,7 @@ In a talk by a Silicon Valley venture capitalist at an event in London, we hear 
 
 "This developing-developed dichotomy, while pro-globalization is also anti-technological because it tells us that we are the part of the world that is developed, that is done, that is finished, where nothing new is going to happen, that's stagnant, where we can expect nothing to change, where we can expect the younger generation to do no better than their parents."
 
-We find that same insinuation in certain intellectual or religious circles where seminal books are deemed beyond reproach by virtue of calling them something to the effect of "fully authentic". In the former case, at the very least, we find that such a naming results in closing the gate of intellectual curiosity, leading to stagnating and perhaps even declining institutions.
+We find that same constrictive language in certain intellectual or religious circles where seminal books are deemed beyond reproach by virtue of calling them something to the effect of "fully authentic". In the former case, at the very least, we find that such a naming results in closing the gate of intellectual curiosity, leading to stagnating and perhaps even declining institutions.
 
 In _Eat, Pray, Love_, we find the line
 
