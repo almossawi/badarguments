@@ -1,0 +1,43 @@
+li::before {
+  top:  0.19rem !important;
+  font-size: 1.7rem !important;
+  width: 3.2em !important;
+  left: -2.7rem !important;
+}
+
+li {
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+
+@media (max-width: 45.9375em) {
+  li::before {
+    left: 0.1em !important;
+  }
+  
+  li {
+    padding-left: 4rem !important;
+  }
+
+  hr {
+    margin: 50px auto 50px !important;
+  }
+}
+
+form div {
+  bottom: auto !important;
+}
+
+/* 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  h1.e1oyruom3 {
+    direction: rtl;
+    font-family: Tajawal, sans-serif;
+  }
+  .e1oyruom4 {
+    display: none !important;
+  }
+</style>
+*/
