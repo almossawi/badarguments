@@ -28,10 +28,30 @@ form div {
   bottom: auto !important;
 }
 
+p.translations {
+  font-family: Tajawal, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  max-width: 425px;
+  min-width: 367px;
+  direction: rtl;
+}
+
+p.translations a {
+  text-decoration: none !important;
+  margin: auto 8px;
+}
+
+p.translations a.active {
+  background-color: var(--theme-ui-colors-accent,#6166DC);
+  color: white;
+  border: 1px solid var(--theme-ui-colors-accent,#6166DC);
+  border-radius: 25px;
+  padding: 8px 12px 3px 12px;
+}
+
 /* 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500&display=swap" rel="stylesheet">
-<style>
+  <style>
   h1.e1oyruom3 {
     direction: rtl;
     font-family: Tajawal, sans-serif;
@@ -39,5 +59,5 @@ form div {
   .e1oyruom4 {
     display: none !important;
   }
-</style>
+  </style>
 */

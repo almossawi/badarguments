@@ -5,8 +5,12 @@ slug: guide-to-sneaky-rhetoric
 date: 2020-11-10
 hero: ./images/rabbit.png
 excerpt: A guide to the subtle ways language influences our thinking. How the sentences we construct and consume in our news, in our politics, and in our everyday lives impact the way we perceive the world around us. Examples include language that prevaricates, language that conceals with vagueness, and language that feigns objectivity with apparent neutrality.
-
 ---
+
+<p class='translations'>
+  <a href='https://bookofbadarguments.com/extras/guide-to-sneaky-rhetoric-arabic'>العربية</a>
+  <a href='https://bookofbadarguments.com/extras/guide-to-sneaky-rhetoric' class='active'>English</a>
+</p>
 
 ---
  
@@ -310,7 +314,7 @@ And the article begins with a picture of the congresswoman and the lines
 
 "A teenage rabbit was killed on Friday ... leading to international denunciation, including from congresswoman Jane Bo. Ms Bo is a rabbit congresswoman who has faced accusations of being anti-badger, a fierce critic of badgers, and a supporter of economic movements aimed at pressuring the Badger Kingdom."
 
-What does this politician have anything to do with the story about an unarmed teenager being killed, one wonders.
+What does this politician have anything to do with the story about an unarmed teenager being killed, one wonders?
 
 **Metaphors and analogies**. Other times, metaphors, analogies, and colorful imagery, either explicitly stated or inferred, come to the rescue. To make readers feel repulsion toward a group of people, a Sunday columnist writes
 
@@ -492,7 +496,7 @@ A columnist, well-versed in false dilemmas, writes in one of the broadsheets
 
 "On balance . . . a **transfer of human capital**. They're not impoverishing people, on the contrary."
 
-Ministry of **Defense** is more respectable than Ministry of War. It implies we're reacting to aggression whenever we engage in combat. The change in naming is perfectly reasonable, in principal, in a post-World War II era, but doesn't always hold on examination. Similarly, defense contractors are in the business of _defending_ and forces like the Badger Shield are in the business of _shielding_ ergo protecting rather than shooting civilians at point-blank range.
+Ministry of **Defense** is more respectable than Ministry of War. It implies we're reacting to aggression whenever we engage in combat. The change in naming is perfectly reasonable, in principal, in a post-World War II era, but doesn't always hold on examination. Similarly, defense contractors are in the business of _defending_ and forces like the Badger Shield are in the business of _shielding_ ergo protecting.
 
 **Prepositions and possessives**. Robert Clive going by _Clive of India_ aims to suggest _he_ belonged to India, when in fact, as one Indian MP states, it was India that belonged to him. The royal title _Protector of the Three Big Islands_ aims to suggest a monarch is in service of a set of prosperous cities when in reality it's the other way around.
 
@@ -616,7 +620,7 @@ More perniciously, it can go as far as define who is good and who is evil. In th
 
 But minister, one feels compelled to ask, you spend much of your time in that same region in hopes of spreading _your_ influence. Not that it has any bearing on whether or not the Rabbit Kingdom's influence is good or evil, but it does reveal a presupposed position that everything we do is categorically good and everything somebody we don't like does isn't.
 
-**Foregone conclusions**. Words, phrases, and preambles can be used to presuppose facts about the world without evidence. They can suggest that what follows or what precedes them is a foregone conclusion that's universally applicable. Some of those words are: the fact of the matter is, it is generally assumed, it therefore follows, in the final analysis, so, as we all know, rather, it turns out, right.
+**Foregone conclusions**. Words, phrases, and preambles can be used to presuppose facts about the world without evidence. They can suggest that what follows or what precedes them is a foregone conclusion that's universally applicable. Some of those words are: the fact of the matter is, it is generally assumed, it therefore follows, in the final analysis, so, obviously, as we all know, rather, it turns out, right.
 
 “In the final analysis, the goal of life is to be happy.”
 
@@ -634,8 +638,6 @@ But minister, one feels compelled to ask, you spend much of your time in that sa
 </div>
 
 Telling others how the world is or ought to be, without evidence, betrays our own implicit and conscious biases about others. They reveal us, more than they do others. To realize how contemptuous that can appear, one can imagine how it might seem if Badger were to narrate a rabbit’s every move in the style of a David Attenborough nature documentary (much like Gustave Flaubert did as he walked the streets of Cairo). _And here. We find a rabbit. We will call him Bob. He walks up to a bush. He must be starving._
-
-On an episode of Paul Hollywood: City Bakes, we find that same model at play. As Paul samples a city's cuisine, a badger gives him a tour of the badger food in the city. And later, another badger gives him a tour of the _rabbit_ food in the city.
 
 ### 5. Language that feigns objectivity with apparent neutrality
 
@@ -1119,7 +1121,7 @@ Thanks for stopping by.
 85. Useful Idiots, September 11, 2020, [https://youtu.be/FSCc7ak_fBg](https://youtu.be/FSCc7ak_fBg)
 79. The Kyle Kulinski Show, October 10, 2020, [https://youtu.be/A489LAOhAbA](https://youtu.be/A489LAOhAbA)
 79. The Kyle Kulinski Show, October 28, 2020, [https://youtu.be/i9nbJtXznNc](https://youtu.be/i9nbJtXznNc)
-79. Peter Thiel: Successful Businesses are Based on Secrets | WIRED, [https://youtu.be/watch?v=yODORwGmHqo](https://youtu.be/watch?v=yODORwGmHqo)
+79. Peter Thiel: Successful Businesses are Based on Secrets | WIRED, [https://youtu.be/yODORwGmHqo](https://youtu.be/yODORwGmHqo)
 ---
 
 ### Acknowledgements

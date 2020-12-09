@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: `https://bookofbadarguments.com`,
     description: `In your hands is an illustrated guide to the subtle ways in which language influences our thinking. In ten sections, and accompanied by charming illustrations (all of me), you'll learn plenty of examples of how the language we consume in our news, in our politics, and in our everyday lives shapes how we perceive the world around us. Examples include language that prevaricates, language that conceals with vagueness, and language that feigns objectivity with neutrality.`,
     hero: {
-      heading: `From the front lines.`,
+      heading: `Work in progress.`,
       maxWidth: 652,
     },
     social: [

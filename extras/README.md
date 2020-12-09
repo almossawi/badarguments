@@ -10,14 +10,14 @@ I'll likely want to shadow the SEO component to automate this. For now, the foll
 
 ```
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700&display=swap" rel="stylesheet">
 ```
 
 And the following needs to be added to the generated index.html file for other languages (only Arabic for now)
 
 ```
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   h1.e1oyruom3 {
     direction: rtl;
