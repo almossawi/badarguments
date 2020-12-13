@@ -14,9 +14,9 @@ excerpt: A guide to the subtle ways language influences our thinking. How the se
 
 ---
  
-<p style='text-align:center;max-width:425px;min-width:367px;'>[T]hat the very concept of objective truth is fading out of the world ... frightens me much more than bombs.</p>
+<p class='epigraph-one'>[T]hat the very concept of objective truth is fading out of the world ... frightens me much more than bombs.</p>
 
-<p style='text-align:center;max-width:425px;min-width:367px;font-weight:600;font-size:1em;margin-bottom:0'>&#8288;—&#8288;George&nbsp;Orwell</p>
+<p class='epigraph-two'>&#8288;—&#8288;George&nbsp;Orwell</p>
 
 ---
 
@@ -203,9 +203,11 @@ The article fails to point out that defunding a police force entails reallocatin
 
 It's unlikely the announcement will have come as a surprise to the CEO nor is the CEO's grief comparable to that of a person losing his or her job.
 
+<!-- 
 More destructively, an authority can eliminate prisoners of conscience by bundling them with actual criminals, and using vague headlines to muddy public opinion. It may also pardon actual criminals by bundling them with prisoners of conscience.
 
 “The court ruled this morning that the 13 criminals accused of high treason will be given the maximum sentence.”
+ -->
 
 **Seem.** In a book by a popular podcast host, we find the paragraph
 
@@ -496,7 +498,7 @@ A columnist, well-versed in false dilemmas, writes in one of the broadsheets
 
 "On balance . . . a **transfer of human capital**. They're not impoverishing people, on the contrary."
 
-Ministry of **Defense** is more respectable than Ministry of War. It implies we're reacting to aggression whenever we engage in combat. The change in naming is perfectly reasonable, in principal, in a post-World War II era, but doesn't always hold on examination. Similarly, defense contractors are in the business of _defending_ and forces like the Badger Shield are in the business of _shielding_ ergo protecting.
+Ministry of **Defense** is more respectable than Ministry of War. It implies we're reacting to aggression whenever we engage in combat. The change in naming is perfectly reasonable, in principal, in a post-World War II era, but doesn't always hold on examination. Similarly, defense contractors are in the business of _defending_ and forces like the Badger Buckler are in the business of _shielding_ ergo protecting.
 
 **Prepositions and possessives**. Robert Clive going by _Clive of India_ aims to suggest _he_ belonged to India, when in fact, as one Indian MP states, it was India that belonged to him. The royal title _Protector of the Three Big Islands_ aims to suggest a monarch is in service of a set of prosperous cities when in reality it's the other way around.
 
@@ -815,11 +817,11 @@ While a progressive sentiment, it does come across as an attempt at whitewashing
 
 If a state builds a dam and decides a few years later to clear the area near it, it can pass a law that deems all houses in and around the dam unlawful, concealing the fact that the houses came before the dam.
 
-Similarly, a state wishing to shift demographics or voting blocs or otherwise try its hands at social engineering may change the zoning laws of a neighborhood and then raze homes that don't have the "necessary construction permits", which those homeowners wouldn't have been able to get anyway.
+Similarly, a state wishing to shift demographics or <!-- voting blocs  --> or otherwise try its hands at social engineering may change the zoning laws of a neighborhood and then raze homes that don't have the "necessary construction permits", which those homeowners wouldn't have been able to get anyway.
 
 It might also pass into law the requirement that, say, one can't become a judge unless one has performed military service. It then makes it near impossible, by law or in practice, for rabbits to enlist in the military. And then it gets to say, “We’re not precluding rabbits from being judges.”
 
-It might also crack down on a group of protestors by imprisoning every last _non-violent_ protestor and then proclaiming, "Look at the streets, these people are all violent. Where are their Martin Luther Kings?" They're all behind bars of course.
+<!-- It might also crack down on a group of protestors by imprisoning every last _non-violent_ protestor and then proclaiming, "Look at the streets, these people are all violent. Where are their Martin Luther Kings?" They're all behind bars of course. -->
 
 Other times, it's more blatant. In March 2020, a cable news channel reported that the World Health Organization (WHO) had said masks are ineffective at stopping a contagious virus from spreading. The whole truth was that a later WHO announcement amended the previous one and recommended that people _do_ wear face masks. The news channel had chosen to pick the outdated guidance seeing as it suited its narrative.
 
@@ -932,7 +934,7 @@ In a 1968 Washington Post piece, an ex-Attorney General who was brother to the t
 
 Being disenfranchised means that even the most emancipating voices around invariably and implicitly remind you that you're at such a disadvantage that if you wanted to become something like the President, then maybe, in forty years time, if you're on your best behavior, you might be able to achieve that.
 
-**Labeling**. Statistics, invented or shared in bad faith, or language that aims to give a group a sinister image can lead to a fatalism, a self-fulfilling prophecy that directly impacts how that group's members behave and see themselves. People turn _into_ their labels, compelled by language. For instance, a Newsweek article reads
+**Labeling**. Statistics, invented or shared in bad faith, or language that aims to give a group a sinister image can lead to a fatalism, a self-fulfilling prophecy that directly impacts how that group's members behave and see themselves. People turn _into_ their labels, compelled by language. The way that intertwinement devours one's spirit is more effective than all the tanks in the world. For instance, a Newsweek article reads
 
 “A recent poll shows that rabbits are happy with how badgers treat them.”
 
@@ -947,9 +949,11 @@ Elsewhere, a line in an article reads
 
 This sort of fatalism is destructive. It can lead a young reader to actually believe that all young people are and always will be lazy.
 
+<!-- 
 **King and country**. Nations named after living individuals or families lead to a conflation between king and country. More specifically, between the relationship one has to one's place of birth and the relationship one has to the ruling class in that country.
 
 A rabbit born in the northern rabbit kingdom of Iduas&mdash;ruled by the Iduas family&mdash;will identify himself as _Iduasi_ in all walks of life. If he does so with pride, he will be at best submissive and at worse obsequious to the Iduasi family by virtue of it being intertwined with his own personal identity. The way that intertwinement devours the rabbit's spirit is more effective than all the tanks in the world.
+ -->
 
 **Slave versus enslaved person**. It was not a choice to be a slave, nor was it a genetic disposition one was born into. One was rather _enslaved_. Referring to people as slaves can make it seem as though it's a naturally-occurring group.
 

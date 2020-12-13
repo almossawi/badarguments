@@ -28,10 +28,14 @@ form div {
   bottom: auto !important;
 }
 
+p {
+  text-align: justify !important;
+}
+
 p.translations {
   font-family: Tajawal, sans-serif;
   font-size: 20px;
-  text-align: center;
+  text-align: center !important;
   max-width: 425px;
   min-width: 367px;
   direction: rtl;
@@ -48,6 +52,21 @@ p.translations a.active {
   border: 1px solid var(--theme-ui-colors-accent,#6166DC);
   border-radius: 25px;
   padding: 8px 12px 3px 12px;
+}
+
+p.epigraph-one {
+  text-align: center !important;
+  max-width: 425px;
+  min-width: 367px;
+}
+
+p.epigraph-two {
+  text-align: center !important;
+  max-width: 425px;
+  min-width: 367px;
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: 0;
 }
 
 /* 
