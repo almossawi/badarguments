@@ -28,10 +28,6 @@ form div {
   bottom: auto !important;
 }
 
-p {
-  text-align: justify !important;
-}
-
 p.translations {
   font-family: Tajawal, sans-serif;
   font-size: 20px;
@@ -68,13 +64,3 @@ p.epigraph-two {
   font-size: 1em;
   margin-bottom: 0;
 }
-
-/* 
-    h1.e1oyruom3 {
-      direction: rtl;
-      font-family: Tajawal, sans-serif;
-    }
-    .e1oyruom4 {
-      display: none !important;
-    }
-*/
