@@ -1,6 +1,6 @@
 # An Illustrated Book of Bad Arguments
 
-_Bad Arguments_ has been read by over three million visitors since its release in July 2013. This repository contains the code and documentation for the project, beginning in October 2015, which coincides with the first major update to the website since its release. This update cleans up the code and makes it mobile-friendly.
+_Bad Arguments_ has been read by over three million visitors since its release in July 2013. This repository contains the code and documentation for the project, beginning in October 2015, which coincides with the first major update to the website since its release. This update cleans up the code and makes it mobile-friendly. It also includes the code for _Mr. Rabbit's Guide to Sneaky Rhetoric_—the follow-on project to _Bad Arguments_ that's planned for release in 2021. That project is available at [https://bookofbadarguments.com/extras/](bookofbadarguments.com/extras).
 
 ## How to contribute
 
@@ -37,7 +37,11 @@ You are welcome to suggest corrections or submit suggestions by opening an [issu
 * [Video: This Week in Tech interview](http://www.twit.tv/tri/306)
 
 ## In the press
+
+* [How to be a human lie detector of fake news, according to the latest science, CNN.com](https://www.cnn.com/2019/09/16/health/human-lie-detector-fake-news-wellness/index.html)
+* [Why smart people believe coronavirus myths, BBC.com](https://www.bbc.com/future/article/20200406-why-smart-people-believe-coronavirus-myths)
 * [Summer Reading For The College-Bound, NPR](https://www.npr.org/sections/ed/2017/06/30/534458892/the-books-college-kids-are-reading-this-summer)
+* [A Finnish article on teaching children about logical arguments, yle.fi](https://yle.fi/uutiset/3-10994266)
 * [In the Mailbag: BEA 2015 Edition, Book Riot](https://www.youtube.com/watch?v=hvindvG0AbA#t=7m53s)
 * [San Diego Book Review](http://www.sandiegobookreview.com/an-illustrated-book-of-bad-arguments/)
 * [Hones Of Contention, The Common Reader](http://commonreader.wustl.edu/c/hones-of-contention/)
@@ -60,7 +64,9 @@ You are welcome to suggest corrections or submit suggestions by opening an [issu
 * [How to argue, with others and yourself; Andreessen Horowitz Weekend Newsletter](http://us7.campaign-archive2.com/?u=35c671b34bb404149166bf755&id=278fbd99ab)
 * [Shelf Awareness starred review](http://www.shelf-awareness.com/readers-issue.html?issue=326#m5772)
 * [The Booklist Reader review](http://www.booklistreader.com/2016/07/29/bookends-childrens-literature/bad-arguments-learning-the-lost-art-of-making-sense/)
+* [Article on the Farsi translation](http://www.ibna.ir/fa/longint/294364/%D8%AC%D8%A7%DB%8C-%D8%AA%D9%81%DA%A9%D8%B1-%D9%86%D9%82%D8%A7%D8%AF%D8%A7%D9%86%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%87%D8%A7%DB%8C-%D8%AF%D8%B1%D8%B3%DB%8C-%D8%AE%D8%A7%D9%84%DB%8C-%D8%B3%D8%AA-%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%85%D9%81%D9%87%D9%88%D9%85-19-%D9%85%D8%BA%D8%A7%D9%84%D8%B7%D9%87-%D9%86%D9%88%D8%AC%D9%88%D8%A7%D9%86%D8%A7%D9%86)
+* [Review of the Farsi translation](https://vinesh.ir/%d9%87%d9%86%d8%b1-%d8%ad%d8%b1%d9%81-%d8%ad%d8%b3%d8%a7%d8%a8-%d8%b2%d8%af%d9%86/)
 
 ## License
 
-The _Bad Arguments_ code is shared under the terms of the [Creative Commons BY-NC License v3.0](https://creativecommons.org/licenses/by-nc/3.0/).
+The _Bad Arguments_ and _Mr. Rabbit's Guide to Sneaky Rhetoric_ code is shared under the terms of the [Creative Commons BY-NC License v3.0](https://creativecommons.org/licenses/by-nc/3.0/).
