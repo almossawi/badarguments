@@ -1,6 +1,6 @@
 # An Illustrated Book of Bad Arguments
 
-_Bad Arguments_ has been read by over three million visitors since its release in July 2013. This repository contains the code and documentation for the project, beginning in October 2015, which coincides with the first major update to the website since its release. This update cleans up the code and makes it mobile-friendly. It also includes the code for _Mr. Rabbit's Guide to Sneaky Rhetoric_—the follow-on project to _Bad Arguments_ that's planned for release in 2021. That project is available at [https://bookofbadarguments.com/extras/](bookofbadarguments.com/extras).
+_Bad Arguments_ has been read by over three million visitors since its release in July 2013. This repository contains the code and documentation for the project, including all translations. It also includes the code for _Mr. Rabbit's Guide to Sneaky Rhetoric_—the follow-on project to _Bad Arguments_ that's planned for release in 2021. That project is available at [https://bookofbadarguments.com/extras/](bookofbadarguments.com/extras).
 
 ## How to contribute
 
