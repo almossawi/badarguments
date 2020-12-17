@@ -153,7 +153,7 @@ A coffee bean producer responds to an allegation about mistreating an employee w
 
 “We have a responsibility to the people mentioned and to our employees and a fair investigation **will be conducted**.”
 
-The thing we're counting on them doing is described in the passive voice, which makes us wonder whether or not they intend to do it at all. It brings to mind other similar promises by corporate executives and state officials, all of which were meant to throw dust into people's eyes. 
+The thing we're counting on them doing is described in the passive voice, which makes us wonder whether or not they intend to do it at all. It brings to mind other similar promises by corporate executives and state officials, all of which were meant to throw dust into people's eyes.
 
 **Omitting detail**. On the financial news website Barron's, we find the headline
 
@@ -196,18 +196,6 @@ In another example, a Washington Post headline reads
 “This California city defunded its police force. Killings by officers soared.”
 
 The article fails to point out that defunding a police force entails reallocating those funds to social services agencies. The city in question never did that.
-
-**Like not for like**. A CEO's email to all employees reads
-
-“We are reducing the size of the workforce by approximately 250 roles. I know that this will take a while to process. **Each of us** will go through **our** own cycle of surprise, grief, and individual response.”
-
-It's unlikely the announcement will have come as a surprise to the CEO nor is the CEO's grief comparable to that of a person losing his or her job.
-
-<!-- 
-More destructively, an authority can eliminate prisoners of conscience by bundling them with actual criminals, and using vague headlines to muddy public opinion. It may also pardon actual criminals by bundling them with prisoners of conscience.
-
-“The court ruled this morning that the 13 criminals accused of high treason will be given the maximum sentence.”
- -->
 
 **Seem.** In a book by a popular podcast host, we find the paragraph
 
@@ -362,7 +350,7 @@ Scientific guidance nowadays is partial to not attributing diseases to character
 
 Time, strangely enough, has a way of bringing yesterday's radicals into the fold of acceptability and even reverence. 
 
-**Hyperbole**. We're constantly reading headlines about people slamming or being slammed, blasting or being blasted, destroying or being destroyed. Embellishments normalize a charged culture of political discourse and make it easy for opportunists and populists to gain a foothold in the mainstream. The world is projected as a wild, tough, rough place, one that only a lone hero on saddleback can sort out.
+**Hyperbole**. We're constantly reading headlines about people slamming or being slammed, blasting or being blasted, destroying or being destroyed. Embellishments normalize a charged culture of political discourse and make it easy for opportunists and populists to gain a foothold in the mainstream. The world is projected as a wild, tough, rough place, one that only a lone hero on saddleback can sort out. More generally, one could say it's used, principally, to redirect your attention, as with phrases like "Breaking News" and "Key Race Alert" to name two of several CNN favorites.
 
 A quick rundown of some examples.
 
@@ -492,7 +480,9 @@ A columnist, well-versed in false dilemmas, writes in one of the broadsheets
 
 **For further consideration**. A phrase that can create the sense that slowing down and showing caution are more reasonable than actually making a decision. It shows up in stagnating organizations that never get anything done. Funny aside&mdash;the Office of Strategic Services (the CIA's predecessor) published a manual in 1944 called _Simple Sabotage Field Manual_. In its list of things to do to "interfere with organizations and production," it include the item "When possible, refer all matters to committees, for 'further study and consideration.' Attempt to make the committees as large as possible&mdash;never less than five."
 
-**Democratic**. A system of government, either out of sanctimoniousness or in search of legitimacy, might call itself democratic or make a similarly grand claim about how it affords representation. As Orwell writes, “In the case of a word like democracy, not only is there no agreed definition, but the attempt to make one is resisted from all sides. It is almost universally felt that when we call a country democratic we are praising it: Consequently the defenders of every kind of regime claim that it is a democracy.”
+**Democratic**. A system of government, either out of sanctimoniousness or in search of legitimacy, might call itself democratic or make a similarly grand claim about how it affords representation. The irony of an autocracy calling itself a democracy might be blazingly obvious to some of us, but repeated often and with the right geopolitical climate, it can in fact have the desired propagandistic effect.
+
+As Orwell writes, “In the case of a word like democracy, not only is there no agreed definition, but the attempt to make one is resisted from all sides. It is almost universally felt that when we call a country democratic we are praising it: Consequently the defenders of every kind of regime claim that it is a democracy.”
 
 **Transfer of human capital** whitewashes the immense suffering and looting that are part and parcel of colonialism. In an interview, Peter Robinson looks back nostalgically on Empire, calling it all
 
@@ -622,15 +612,17 @@ More perniciously, it can go as far as define who is good and who is evil. In th
 
 But minister, one feels compelled to ask, you spend much of your time in that same region in hopes of spreading _your_ influence. Not that it has any bearing on whether or not the Rabbit Kingdom's influence is good or evil, but it does reveal a presupposed position that everything we do is categorically good and everything somebody we don't like does isn't.
 
-**Foregone conclusions**. Words, phrases, and preambles can be used to presuppose facts about the world without evidence. They can suggest that what follows or what precedes them is a foregone conclusion that's universally applicable. Some of those words are: the fact of the matter is, it is generally assumed, it therefore follows, in the final analysis, so, obviously, as we all know, rather, it turns out, right.
+**Foregone conclusions**. Words, phrases, and preambles can be used to presuppose facts about the world without evidence. They can suggest that what follows or what precedes them is a foregone conclusion that's universally applicable. Some of those words are: the fact of the matter is, it is generally assumed, it therefore follows, in the final analysis, so, obviously, as we all know, rather, it turns out, right, and surely.
 
 “In the final analysis, the goal of life is to be happy.”
 
 “As we all know, if you want to be happy, quit your day job and follow your passion.”
 
-"Some people browsing my work have called it the ultimate map of maps, right."
-
 "As it turns out, my path in life has been a unique one."
+
+“You can’t believe that, surely.” (Common in British English.)
+
+"Some people browsing my work have called it the ultimate map of maps, right." (Common in Silicon Valley English.)
 
 "Books never go back before the 18th century to explain the origins of data visualization. As if nothing else happened before, right."
 
@@ -781,6 +773,8 @@ An addendum to the piece three days later reveals the real reason for the caveat
 
 **Quotations**. Single or double quotes can be used to cast doubt on something that may not be at all controversial, often in a crafty way that's meant to come across as objective. For instance,
 
+“I like how you **'drove'** that project.”
+
 “The protestors attempted to hold **‘a prayer vigil'** at City Hall and were arrested.”
 
 “After the politician won the election, there was a big debate over the role **‘identity politics'** played in his victory.”
@@ -914,7 +908,7 @@ In _1984_, Orwell writes, "Every record has been destroyed or falsified, every b
 
 ### 7. Language that tells you how to think about yourself
 
-Language is perhaps most harmful on an individual level when it burrows into our sense of self-worth. In doing so, it directly impacts our relationship with ourselves. Language can deny to a group that they ever had a history or that they somehow exist outside of history. If you think you have nothing to be proud of, it's not impossible that you'll end up feeling dislocated, dispirited, and disenfranchised. On the flip side, language can give you the sense that you've peaked, either as an individual or as a social group, and therefore have no more room to grow.
+Language is perhaps most harmful on an individual level when it burrows into our emotional state, possibly even going so far as affecting our sense of self-worth. In doing so, it directly impacts our relationship with ourselves. Language can deny to a group that they ever had a history or that they somehow exist outside of history. If you think you have nothing to be proud of, it's not impossible that you'll end up feeling dislocated, dispirited, and disenfranchised. On the flip side, language can give you the sense that you've peaked, either as an individual or as a social group, and therefore have no more room to grow.
 
 In a talk by a Silicon Valley venture capitalist at an event in London, we hear this line about the implications of labeling countries as developing or developed
 
@@ -933,6 +927,24 @@ In a 1968 Washington Post piece, an ex-Attorney General who was brother to the t
 “There's no question about it . . . in the next 40 years a [rabbit] can achieve the same position that my brother has.”
 
 Being disenfranchised means that even the most emancipating voices around invariably and implicitly remind you that you're at such a disadvantage that if you wanted to become something like the President, then maybe, in forty years time, if you're on your best behavior, you might be able to achieve that.
+
+**Like not for like**. In an announcement about a series of layoffs, a CEO's email to all employees reads
+
+“We are reducing the size of the workforce by approximately 250 roles. I know that this will take a while to process. **Each of us** will go through **our** own cycle of surprise, grief, and individual response.”
+
+It's unlikely the announcement will have come as a surprise to the CEO nor is the CEO's grief comparable to that of a person losing his or her job. What the implied equivalence does, crucially, in addition to it taking the edge off the decision being one-sided, is it effectively _tells_ you how you ought to deal with this development.
+
+Other times in corporate culture or in politics, we find sentiments like
+
+"We're all a family here."
+
+Here too, the implied equivalence with one's actual family aims to suggest how one ought to deal with the arrangement. If your father were to have trouble drafting an email late at night, you wouldn't tell him you'll take a look at it the next morning, now would you?
+
+<!-- 
+More destructively, an authority can eliminate prisoners of conscience by bundling them with actual criminals, and using vague headlines to muddy public opinion. It may also pardon actual criminals by bundling them with prisoners of conscience.
+
+“The court ruled this morning that the 13 criminals accused of high treason will be given the maximum sentence.”
+ -->
 
 **Labeling**. Statistics, invented or shared in bad faith, or language that aims to give a group a sinister image can lead to a fatalism, a self-fulfilling prophecy that directly impacts how that group's members behave and see themselves. People turn _into_ their labels, compelled by language. The way that intertwinement devours one's spirit is more effective than all the tanks in the world. For instance, a Newsweek article reads
 
@@ -1130,6 +1142,8 @@ Thanks for stopping by.
 
 ### Acknowledgements
 
-_Mr. Rabbit's Guide to Sneaky Rhetoric_ is illustrated by my good friend and longtime collaborator Alejandro Giraldo. The font used in the artwork is Alegreya. The serif font used on this page is Merriweather. I'm grateful to Grigory Pogulsky for reviewing and contributing to an early draft, and to Reed O'Brien for sharing the study on artful dodging with me. This project is the first of two companions to _Bad Arguments_. It is dedicated to my father.
+_Mr. Rabbit's Guide to Sneaky Rhetoric_ is illustrated by my good friend and longtime collaborator Alejandro Giraldo. The font used in the artwork is Alegreya. The serif font used on this page is Merriweather. I'm grateful to Grigory Pogulsky for reviewing and contributing to an early draft and to Reed O'Brien for sharing the study on artful dodging with me. Furthermore, I'm grateful to two anonymous reviewers for contributing significant edits to the work's first translated edition, and to Irina "Alex" Sandu for contributing excellent examples to the sections on passive voice, hyperbole, feel-good associations, language that presupposes, and language that tells you how to think about yourself.
+
+This project is the first of two companions to _Bad Arguments_. It is dedicated to my father.
 
 &mdash;_Ali Almossawi, San Francisco, November 2020_
