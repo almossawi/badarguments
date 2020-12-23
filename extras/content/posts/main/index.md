@@ -444,6 +444,8 @@ It's a **victory** if we like the people doing it, and a massacre if we don't.
 
 **Enhanced interrogation techniques** sounds better than good old torture.
 
+**Private military company** sounds better than mercenary.
+
 **Collateral damage** sounds better than civilian deaths.
 
 **Moving tactically** makes it easier to justify an overreaction.
@@ -785,8 +787,6 @@ An addendum to the piece three days later reveals the real reason for the caveat
 
 **Quotations**. Single or double quotes can be used to cast doubt on something that may not be at all controversial, often in a crafty way that's meant to come across as objective. For instance,
 
-“I like how you **'drove'** that project.”
-
 “The protestors attempted to hold **‘a prayer vigil'** at City Hall and were arrested.”
 
 “After the politician won the election, there was a big debate over the role **‘identity politics'** played in his victory.”
@@ -1090,6 +1090,7 @@ Thanks for stopping by.
 45. How ‘Urban Renewal' Decimated the Fillmore District, and Took Jazz With It, [https://www.kqed.org/news/11825401/how-urban-renewal-decimated-the-fillmore-district-and-took-jazz-with-it](https://www.kqed.org/news/11825401/how-urban-renewal-decimated-the-fillmore-district-and-took-jazz-with-it)
 46. Pacification, [https://www.merriam-webster.com/dictionary/pacification](https://www.merriam-webster.com/dictionary/pacification#:~:text=%2D%CB%88k%C4%81%2Dsh%C9%99n%20%5C-,Definition%20of%20pacification,2%20%3A%20a%20treaty%20of%20peace)
 47. The Terrible Violence of ‘Pacification', [https://www.nytimes.com/2018/01/18/opinion/violence-pacification-vietnam-war.html](https://www.nytimes.com/2018/01/18/opinion/violence-pacification-vietnam-war.html)
+48. Statement from the Press Secretary Regarding Executive Grants of Clemency, [https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-122220/](https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-122220)
 48. Population transfer, [https://en.wikipedia.org/wiki/Population_transfer](https://en.wikipedia.org/wiki/Population_transfer)
 51. Bill Gates Always Reads Before Bed. Science Suggests You Should Too, [https://www.inc.com/jessica-stillman/bill-gates-always-reads-for-an-hour-before-bed-science-suggests-you-should-do-same.html?cid=sf01001](https://www.inc.com/jessica-stillman/bill-gates-always-reads-for-an-hour-before-bed-science-suggests-you-should-do-same.html?cid=sf01001)
 53. Martin Luther King Jr. is arrested, Item # 670259,  [http://www.rarenewspapers.com/view/670259?list_url=%2Flist%3Fq%255Bsearch_method%255D%3DExact%2BPhrase%2525q%255Bquery%255D%3Dmartin%2Bluther%2Bking](http://www.rarenewspapers.com/view/670259?list_url=%2Flist%3Fq%255Bsearch_method%255D%3DExact%2BPhrase%2525q%255Bquery%255D%3Dmartin%2Bluther%2Bking)
@@ -1154,8 +1155,6 @@ Thanks for stopping by.
 
 ### Acknowledgements
 
-_Mr. Rabbit's Guide to Sneaky Rhetoric_ is illustrated by my good friend and longtime collaborator Alejandro Giraldo. The font used in the artwork is Alegreya. The serif font used on this page is Merriweather. I'm grateful to Grigory Pogulsky for reviewing and contributing to an early draft and to Reed O'Brien for sharing the study on artful dodging with me. Furthermore, I'm grateful to two anonymous reviewers for contributing significant edits to the work's first translated edition, and to Irina "Alex" Sandu for contributing excellent examples to the sections on passive voice, hyperbole, feel-good associations, language that presupposes, and language that tells you how to think about yourself.
-
-This project is the first of two companions to _Bad Arguments_. It is dedicated to my father.
+_Mr. Rabbit's Guide to Sneaky Rhetoric_ is illustrated by my good friend and longtime collaborator Alejandro Giraldo. The font used in the artwork is Alegreya. The serif font used on this page is Merriweather. I'm grateful to Grigory Pogulsky for reviewing and contributing to an early draft and to Reed O'Brien for sharing the study on artful dodging with me. Furthermore, I'm grateful to two anonymous reviewers for contributing significant edits to the work's first translated edition, and to Irina "Alex" Sandu for contributing excellent examples to several sections. This project is the first of two companions to _Bad Arguments_. It is dedicated to my father.
 
 &mdash;_Ali Almossawi, San Francisco, November 2020_
