@@ -149,7 +149,13 @@ In an interview on BBC's Newsnight, when a minister is asked if he knew that his
 
 The passive voice describes the bad thing. The active voice describes the good thing. What we end up with is a shifting of blame, and a weaseling out of any sense of responsibility. No one ever makes a mistake, mistakes are always made. No one ever commits a crime, crimes are always committed.
 
-A coffee bean producer responds to an allegation about mistreating an employee with
+In a grant of clemency from an outgoing president, we find the following line
+
+"When the convoy attempted to establish a blockade, **the situation** turned violent, which **resulted** in the unfortunate deaths and injuries of civilians."
+
+The passive voice aims to disassociate the four defense contractors being pardoned from their heinous act.
+
+And finally, a coffee bean producer responds to an allegation about mistreating an employee with
 
 “We have a responsibility to the people mentioned and to our employees and a fair investigation **will be conducted**.”
 
@@ -290,7 +296,13 @@ That same incident is reported by another paper with the more reasonable headlin
 
 The reference to Scary Organization in the first headline serves one purpose—to tell the reader this person's life didn't matter because, after all, he had some distant connection to this organization we know you all despise.
 
-Similarly, a story about the U.S. ambassador to the UK is titled
+Similarly, in a grant of  clemency from an outgoing president, we find the following line about four defense contractors accused of a heinous act
+
+"Prosecutors recently disclosed—more than 10 years after the incident—that the lead investigator **may have had ties** to insurgent groups himself."
+
+Nothing is said about the evidence in the case. The reader's attention is merely misdirected to the allegation that the investigator must have been partial because of a possible tie to some unnamed evil group.
+
+Elsewhere, a story about the U.S. ambassador to the UK is titled
 
 “Trump ambassador investigated for controversial comments”
 
