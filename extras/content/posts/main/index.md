@@ -382,6 +382,10 @@ A cable news anchor comments during a segment
 
 A headline in a daily paper reads
 
+"Badger on being named transportation secretary nominee: 'The **eyes of history** are on this appointment'"
+
+Another reads
+
 “Renters break leases and **flee** city”
 
 You'd think they were scrambling to board the last helicopter out of Vietnam, [as Brian Regan might say](https://youtu.be/G9em-ZCddWk).
