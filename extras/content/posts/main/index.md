@@ -803,7 +803,23 @@ The desire to merely appear rational or to appeal to the rational leads to the m
 
 ### 6. Language that starts the clock of history when it's most convenient
 
-Just like adding enough qualifiers to any achievement can make someone the first or the best at something (I was on Forbes Magazine's list of the 10 most influential grey rabbits who wear bowties and comb their hair to one side), insincere language absolves or assigns blame, elevates or denigrates, guilts and gaslights, by deciding unilaterally when to start or stop time.
+Just like adding enough qualifiers to any achievement can make someone the first or the best at something (I was on Forbes Magazine's list of the 10 most influential grey rabbits who wear bowties and comb their hair to one side), insincere language absolves or assigns blame, elevates or denigrates, guilts and gaslights, by deciding unilaterally when to start or stop time. You can try it out with any old fairy tale, to great effect. For instance, from _English Fairy Tales_, we might essentialize _The Story of the Three Bears_ like so:
+
+"Up she started, and when she saw the Three Bears on one side of the bed, she tumbled herself out at the other, and ran to the window."
+
+Poor Goldilocks. Pause for effect. To be frightened half to death by those scary bears like that.
+
+Or from _Grimms' Fairy Tales_ we might tell the story of Hansel and Gretel like so:
+
+"But Gretel saw what she had in mind, so she said, 'I don't know how to do that. How can I get inside?'
+
+"'Stupid goose,' said the old woman. 'The opening is big enough. See, I myself could get in.' And she crawled up and stuck her head into the oven.
+
+"Then Gretel gave her a shove, causing her to fall in. Then she closed the iron door and secured it with a bar. The old woman began to howl frightfully. But Gretel ran away, and the godless witch burned up miserably. Gretel ran straight to Hansel, unlocked his stall, and cried, 'Hansel, we are saved. The old witch is dead.'"
+
+Ignoring the egregious imagery of a witch burning to a crisp (nighty night, children), the excerpt allows us to recast the children as the murderous offenders and the witch as merely a hapless victim.
+
+This may all seem obvious, but it's truly surprising how often this type of selective reading of history occurs in media. Let's look at some examples.
 
 In an online lesson by education company _Studies Weekly_, we find the question
 
@@ -1054,6 +1070,8 @@ Thanks for stopping by.
 10. _Brain Droppings_ by George Carlin
 12. _The Imperial Idea and its Enemies: A Study in British Power_ by Archibald Paton Thornton
 13. _Requiem for a Nun_ by William Faulkner
+11. _Grimms' Fairy Tales_ by Jacob and Wilhelm Grimm
+11. _English Fairy Tales_ by Flora Annie Steel
 7. _Simple Sabotage Field Manual_, [https://www.cia.gov/news-information/featured-story-archive/2012-featured-story-archive/CleanedUOSSSimpleSabotage_sm.pdf](https://www.cia.gov/news-information/featured-story-archive/2012-featured-story-archive/CleanedUOSSSimpleSabotage_sm.pdf)
 7. Looking Back on the Spanish War by George Orwell, [https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/looking-back-on-the-spanish-war/](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/looking-back-on-the-spanish-war/)
 2. Politics and the English Language by George Orwell, [https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/)
