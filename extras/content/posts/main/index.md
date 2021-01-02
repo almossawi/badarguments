@@ -1046,6 +1046,8 @@ Such ontological classifications emerge when a person in power gets to _tell_ yo
 
 ---
 
+Most of the examples in this guide have come from politics. Why so, you might ask. I believe it would be hard to untangle politics from the current systems of representation that permeate and constitute much of our culture, which is to say, much of what consumes us. The "main", so to speak, in any of our industries is invariably intertwined with politics. This reality necessitates that the critical thinker, whose sole function is to identify and tell the truth, deal principally with political discourse. As C. Wright Mills puts it, "it is in politics that intellectual solidarity and effort must be centered. If the thinker does not relate himself to the value of truth in political struggle, he cannot responsibly cope with the whole of live experience."
+
 I would love to add examples from a greater variety of sources, especially ones that I don't normally read and therefore don't know about. If you have any to share, send them to my handler (see the links at the very bottom of the page) and I'll add them to this page and credit you.
 
 Thanks for stopping by.
@@ -1064,6 +1066,7 @@ Thanks for stopping by.
 2. _1984_ by George Orwell
 4. _Language and Politics_ by Noam Chomsky
 4. _The Tyranny of Merit: What's Become of the Common Good?_ by Michael Sandel
+11. _Power, Politics, and People: The Collected Essays of C. Wright Mills_ by C. Wright Mills
 7. _Silent Revolution: The Rise And Crisis Of Market Economics In Latin America_ by Duncan Green
 8. _The Handmaid's Tale_ by Margaret Atwood
 9. _Selections from the Prison Notebooks_ by Antonio Gramsci
