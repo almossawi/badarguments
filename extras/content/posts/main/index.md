@@ -1066,7 +1066,7 @@ Thanks for stopping by.
 2. _1984_ by George Orwell
 4. _Language and Politics_ by Noam Chomsky
 4. _The Tyranny of Merit: What's Become of the Common Good?_ by Michael Sandel
-11. _Power, Politics, and People: The Collected Essays of C. Wright Mills_ by C. Wright Mills
+11. _Power, Politics, and People: The Collected Essays of C. Wright Mills_ by C. Wright Mills and Irving Louis Horowitz (ed.)
 7. _Silent Revolution: The Rise And Crisis Of Market Economics In Latin America_ by Duncan Green
 8. _The Handmaid's Tale_ by Margaret Atwood
 9. _Selections from the Prison Notebooks_ by Antonio Gramsci
@@ -1093,6 +1093,7 @@ Thanks for stopping by.
 18. _Frankie Boyle's Election Autopsy (2015)_, BBC
 17. _Dress to Kill_, Eddie Izzard, [https://youtu.be/_9W1zTEuKLY](https://youtu.be/_9W1zTEuKLY)
 16. _Doin' It Again_, George Carlin
+21. Born To Win, Schooled To Lose: Why Equally Talented Students Don’t Get Equal Chances to Be All They Can Be, [https://cew.georgetown.edu/cew-reports/schooled2lose/](https://cew.georgetown.edu/cew-reports/schooled2lose/)
 21. Does your Language Shape How You Think?, [https://www.nytimes.com/2010/08/29/magazine/29language-t.html](https://www.nytimes.com/2010/08/29/magazine/29language-t.html)
 63. The Rise of “Slam” Journalism, [https://textio.com/blog/the-rise-of-slam-journalism/17517342693](https://textio.com/blog/the-rise-of-slam-journalism/17517342693)
 22. Chart shows 'what the British say, what they really mean, and what others understand', [https://www.independent.co.uk/news/uk/home-news/chart-shows-what-british-people-say-what-they-really-mean-and-what-others-understand-a6730046.html](https://www.independent.co.uk/news/uk/home-news/chart-shows-what-british-people-say-what-they-really-mean-and-what-others-understand-a6730046.html)
