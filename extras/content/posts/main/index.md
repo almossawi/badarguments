@@ -636,7 +636,7 @@ But minister, one feels compelled to ask, you spend much of your time in that sa
 
 Following a recent attack on a federal building that led to casualties, property damage, and widespread condemnation, a journalist shared the line
 
-"Today reminded me of my time reporting from the Rabbit Kingdom. It felt like we were in some *Third World* country. This is not us. *This is not who we are.*"
+"Today reminded me of my time reporting from the Rabbit Kingdom. It felt like we were in some **third world** country. This is not us. **This is not who we are.**"
 
 I wonder how the rabbits watching the events of that day go down must have reacted.
 
