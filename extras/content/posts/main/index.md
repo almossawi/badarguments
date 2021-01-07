@@ -390,6 +390,10 @@ Another reads
 
 You'd think they were scrambling to board the last helicopter out of Vietnam, [as Brian Regan might say](https://youtu.be/G9em-ZCddWk).
 
+On the even of a senatorial race, a headline on a major news website reads
+
+"The **Battle** for the Country Begins"
+
 A headline on Vice's website reads
 
 "Kanye West **Gets Thrown Off** the Ballot in Wisconsin"
@@ -506,7 +510,7 @@ As Orwell writes, “In the case of a word like democracy, not only is there no 
 
 "On balance . . . a **transfer of human capital**. They're not impoverishing people, on the contrary."
 
-Ministry of **Defense** is more respectable than Ministry of War. It implies we're reacting to aggression whenever we engage in combat. The change in naming is perfectly reasonable, in principal, in a post-World War II era, but doesn't always hold on examination. Similarly, defense contractors are in the business of _defending_ and forces like the Badger Buckler are in the business of _shielding_ ergo protecting.
+Ministry of **Defense** is more respectable than Ministry of War. It implies we're reacting to aggression whenever we engage in combat. The change in naming is perfectly reasonable, in principal, in a post-World War II era, but doesn't always hold on examination. Similarly, defense contractors are in the business of _defending_, forces like the Badger Buckler are in the business of _shielding_ ergo protecting, and __national security__ laws are in the business of _securing_.
 
 **Prepositions and possessives**. Robert Clive going by _Clive of India_ aims to suggest _he_ belonged to India, when in fact, as one Indian MP states, it was India that belonged to him. The royal title _Protector of the Three Big Islands_ aims to suggest a monarch is in service of a set of prosperous cities when in reality it's the other way around.
 
@@ -629,6 +633,12 @@ More perniciously, it can go as far as define who is good and who is evil. In th
 "The prime minister and I underscored the importance of countering the Rabbit Kingdom's influence and threats to the region. I thanked him for his partnership."
 
 But minister, one feels compelled to ask, you spend much of your time in that same region in hopes of spreading _your_ influence. Not that it has any bearing on whether or not the Rabbit Kingdom's influence is good or evil, but it does reveal a presupposed position that everything we do is categorically good and everything somebody we don't like does isn't.
+
+Following a recent attack on a federal building that led to casualties, property damage, and widespread condemnation, a journalist shared the line
+
+"Today reminded me of my time reporting from the Rabbit Kingdom. It felt like we were in some *Third World* country. This is not us. *This is not who we are.*"
+
+I wonder how the rabbits watching the events of that day go down must have reacted.
 
 **Foregone conclusions**. Words, phrases, and preambles can be used to presuppose facts about the world without evidence. They can suggest that what follows or what precedes them is a foregone conclusion that's universally applicable. Some of those words are: the fact of the matter is, it is generally assumed, it therefore follows, in the final analysis, so, obviously, as we all know, rather, it turns out, right, and surely.
 
@@ -843,11 +853,21 @@ While a progressive sentiment, it does come across as an attempt at whitewashing
 
 If a state builds a dam and decides a few years later to clear the area near it, it can pass a law that deems all houses in and around the dam unlawful, concealing the fact that the houses came before the dam.
 
-Similarly, a state wishing to shift demographics or <!-- voting blocs  --> or otherwise try its hands at social engineering may change the zoning laws of a neighborhood and then raze homes that don't have the "necessary construction permits", which those homeowners wouldn't have been able to get anyway.
+Similarly, a state wishing to shift demographics or voting blocs or otherwise try its hands at social engineering may change the zoning laws of a neighborhood and then raze homes that don't have the "necessary construction permits", which those homeowners wouldn't have been able to get anyway.
 
 It might also pass into law the requirement that, say, one can't become a judge unless one has performed military service. It then makes it near impossible, by law or in practice, for rabbits to enlist in the military. And then it gets to say, “We’re not precluding rabbits from being judges.”
 
-<!-- It might also crack down on a group of protestors by imprisoning every last _non-violent_ protestor and then proclaiming, "Look at the streets, these people are all violent. Where are their Martin Luther Kings?" They're all behind bars of course. -->
+It might also crack down on a group of protestors by imprisoning every last _non-violent_ protestor and then proclaiming, "Look at the streets, these people are all violent. Where are their Martin Luther Kings?" They're all behind bars of course.
+
+These are more recent examples. History, of course, is rife with this sort of sneaky approach.
+
+We'll let you vote, but you have to pass a literacy test first. Oh, you can't read and write (by law)? Shame.
+
+We'll let you vote, but you have to pay a poll tax. You can't afford it? Shame.
+
+We'll let you vote, but you have to answer a brainteaser first. This one came as a surprise to me, as it's reminiscent of the oppressive way coding interviews used to be conducted in the 2000s.
+
+US history does not have a monopoly on this sort of legal subjugation course. I refer to it only because it's likely to be familiar to most readers.
 
 Other times, it's more blatant. In March 2020, a cable news channel reported that the World Health Organization (WHO) had said masks are ineffective at stopping a contagious virus from spreading. The whole truth was that a later WHO announcement amended the previous one and recommended that people _do_ wear face masks. The news channel had chosen to pick the outdated guidance seeing as it suited its narrative.
 
@@ -1177,6 +1197,7 @@ Thanks for stopping by.
 79. The Kyle Kulinski Show, October 10, 2020, [https://youtu.be/A489LAOhAbA](https://youtu.be/A489LAOhAbA)
 79. The Kyle Kulinski Show, October 28, 2020, [https://youtu.be/i9nbJtXznNc](https://youtu.be/i9nbJtXznNc)
 79. Peter Thiel: Successful Businesses are Based on Secrets | WIRED, [https://youtu.be/yODORwGmHqo](https://youtu.be/yODORwGmHqo)
+80. Voter Suppression Methods, Stuff You Should Know, [https://podcasts.apple.com/us/podcast/stuff-you-should-know/id278981407?i=1000495386873](https://podcasts.apple.com/us/podcast/stuff-you-should-know/id278981407?i=1000495386873)
 ---
 
 ### Acknowledgements
