@@ -274,6 +274,12 @@ What the examples in this section show us is that vagueness works to distance la
 
 "The Home Secretary has all but declared war on the strikers, and has taken a swipe at those who aid and abet them: human rights lawyers."
 
+Similarly, a headline about lawmakers organizing to make a political push reads as follows
+
+"Badgers **plot** head of government's removal after deadly riots"
+
+Plotting suggests a clandestine act rather than a banal, expected one.
+
 **Removing a word**. The sleight of hand is also effective when removing words. In an article we find the line
 
 “The socialist senator is the most dangerous major party presidential contender in our country's history.”
@@ -638,7 +644,7 @@ Following a recent attack on a federal building that led to casualties, property
 
 "Today reminded me of my time reporting from the Rabbit Kingdom. It felt like we were in some **third world** country. This is not us. **This is not who we are.**"
 
-I wonder how the rabbits watching the events of that day go down must have reacted.
+The same sentiment was repeated by a senator the very next morning. One wonders how the rabbits listening to that kind of rhetoric must have reacted.
 
 **Foregone conclusions**. Words, phrases, and preambles can be used to presuppose facts about the world without evidence. They can suggest that what follows or what precedes them is a foregone conclusion that's universally applicable. Some of those words are: the fact of the matter is, it is generally assumed, it therefore follows, in the final analysis, so, obviously, as we all know, rather, it turns out, right, and surely.
 
@@ -714,6 +720,10 @@ Was he or wasn't he?
 “Today we bring you a video that **many describe as** vertically taken.”
 
 Was it or wasn't it?
+
+"Video **appears to show** Capitol Hill police officer taking selfie with rioter"
+
+Does it or doesn't it?
 
 “While the first author's clarification appeased some fans, it appears to have irked the second author. **Some social media users have also speculated** that the two unfollowed each other on Twitter.”
 
@@ -867,7 +877,7 @@ We'll let you vote, but you have to pay a poll tax. You can't afford it? Shame.
 
 We'll let you vote, but you have to answer a brainteaser first. This one came as a surprise to me, as it's reminiscent of the oppressive way coding interviews used to be conducted in the 2000s.
 
-US history does not have a monopoly on this sort of legal subjugation course. I refer to it only because it's likely to be familiar to most readers.
+US history does not have a monopoly on this sort of legal subjugation of course. I refer to it only because it's likely to be familiar to most readers.
 
 Other times, it's more blatant. In March 2020, a cable news channel reported that the World Health Organization (WHO) had said masks are ineffective at stopping a contagious virus from spreading. The whole truth was that a later WHO announcement amended the previous one and recommended that people _do_ wear face masks. The news channel had chosen to pick the outdated guidance seeing as it suited its narrative.
 
@@ -1137,6 +1147,7 @@ Thanks for stopping by.
 46. Pacification, [https://www.merriam-webster.com/dictionary/pacification](https://www.merriam-webster.com/dictionary/pacification#:~:text=%2D%CB%88k%C4%81%2Dsh%C9%99n%20%5C-,Definition%20of%20pacification,2%20%3A%20a%20treaty%20of%20peace)
 47. The Terrible Violence of ‘Pacification', [https://www.nytimes.com/2018/01/18/opinion/violence-pacification-vietnam-war.html](https://www.nytimes.com/2018/01/18/opinion/violence-pacification-vietnam-war.html)
 48. Statement from the Press Secretary Regarding Executive Grants of Clemency, [https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-122220/](https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-122220)
+48. Democrats plot Trump's removal after deadly riots, [https://www.politico.com/news/2021/01/07/lawmakers-trump-25th-amendment-455832](https://www.politico.com/news/2021/01/07/lawmakers-trump-25th-amendment-455832)
 48. Population transfer, [https://en.wikipedia.org/wiki/Population_transfer](https://en.wikipedia.org/wiki/Population_transfer)
 51. Bill Gates Always Reads Before Bed. Science Suggests You Should Too, [https://www.inc.com/jessica-stillman/bill-gates-always-reads-for-an-hour-before-bed-science-suggests-you-should-do-same.html?cid=sf01001](https://www.inc.com/jessica-stillman/bill-gates-always-reads-for-an-hour-before-bed-science-suggests-you-should-do-same.html?cid=sf01001)
 53. Martin Luther King Jr. is arrested, Item # 670259,  [http://www.rarenewspapers.com/view/670259?list_url=%2Flist%3Fq%255Bsearch_method%255D%3DExact%2BPhrase%2525q%255Bquery%255D%3Dmartin%2Bluther%2Bking](http://www.rarenewspapers.com/view/670259?list_url=%2Flist%3Fq%255Bsearch_method%255D%3DExact%2BPhrase%2525q%255Bquery%255D%3Dmartin%2Bluther%2Bking)
@@ -1177,6 +1188,7 @@ Thanks for stopping by.
 78. Hiroshima marks 75th anniversary of world's first atomic bombing, [https://twitter.com/i/events/1291258068550918144](https://twitter.com/i/events/1291258068550918144)
 80. NBC News on Twitter, [https://twitter.com/NBCNews/status/1295951897300480000](https://twitter.com/NBCNews/status/1295951897300480000)
 82. Zuckerberg Dumped on by Facebook Employees Over Handling of Militia, QAnon Groups, [https://www.thedailybeast.com/zuckerberg-dumped-on-by-facebook-employees-over-handling-of-militia-qanon-groups?via=twitter_page](https://www.thedailybeast.com/zuckerberg-dumped-on-by-facebook-employees-over-handling-of-militia-qanon-groups?via=twitter_page)
+82. Video appears to show Capitol Hill police officer taking selfie with rioter, [https://www.cnn.com/politics/live-news/washington-dc-election-riots/h_bf082e3fc62f47230f3e22c8d188f80d](https://www.cnn.com/politics/live-news/washington-dc-election-riots/h_bf082e3fc62f47230f3e22c8d188f80d)
 86. Debbie Reese tweet, October 3, 2020, [https://mobile.twitter.com/debreese/status/1312343395671642112](https://mobile.twitter.com/debreese/status/1312343395671642112)
 16. Aldous Huxley interviewed by Mike Wallace, [https://youtu.be/alasBxZsb40](https://youtu.be/alasBxZsb40)
 34. John Campbell's COVID-19 updates, June 30, 2020, [https://youtu.be/U0vyTgBT_9Q](https://youtu.be/U0vyTgBT_9Q)
