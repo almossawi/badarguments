@@ -266,7 +266,7 @@ What the examples in this section show us is that vagueness works to distance la
 
 ### 2. Language that creates sinister associations
 
-“Once you label me, you negate me,” Kierkegaard may or may not have said. The brain is an association machine. Sinister associations aim to encourage us to feel the same way about two possibly unrelated things by virtue of language connecting them. It's for this very reason people have written about the importance of travel, of being alone, of being far away. So that we may fall into a silence capable of freeing us from the heavily loaded assumptions and associations imposed on us by language.
+“Once you label me, you negate me,” Kierkegaard may or may not have said. The brain is an association machine. Sinister associations aim to encourage us to feel the same way about two possibly unrelated things by virtue of language connecting them. What's the first thing that comes to mind when you see the word Belfast or Beirut? It's for this very reason writers have written about the importance of travel, of being alone, of being far away. So that we may fall into a silence capable of freeing us from the heavily loaded assumptions and associations imposed on us by language.
 
 **Adding a word**. An association may be forced with the intentional use of words or phrases that have a negative connotation.
 
