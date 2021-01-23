@@ -747,6 +747,10 @@ In an interview with a Secretary of Defense, the Secretary shared his thoughts o
 
 “We thought it might have been an attack, it could have been an armed shipment, a bomb-making facility, __who knows?__ Yesterday I commented that it was looking like an accident.”
 
+A comment by a congressman about who was to blame for an assault by an identifiable group of people on the US Capitol reads
+
+"I also think **everybody** across this country has some responsibility."
+
 A headline in a paper of record reads
 
 "For Establishment politicians, Jim Bo Is a **Complicated Figure to Defend**"
@@ -1187,6 +1191,7 @@ Thanks for stopping by.
 87. Melania Trump’s Ex-BFF Tells (Almost) All, [https://nymag.com/intelligencer/article/melania-and-me-stephanie-winston-wolkoff.html](https://nymag.com/intelligencer/article/melania-and-me-stephanie-winston-wolkoff.html)
 87. American Indians in Children's Literature, [http://americanindiansinchildrensliterature.net/](http://americanindiansinchildrensliterature.net/)
 79. Allegations And Apologies Rock La Marzocco, [https://sprudge.com/allegations-and-apologies-rock-la-marzocco-164312.html](https://sprudge.com/allegations-and-apologies-rock-la-marzocco-164312.html)
+79. Twitter Users Erupt Over Kevin McCarthy’s ‘Everybody’ To Blame For Capitol Riot Claim, [https://www.huffpost.com/entry/kevin-mccarthy-blame-twitter-anger_n_600bf920c5b6fe97669cbbbd](https://www.huffpost.com/entry/kevin-mccarthy-blame-twitter-anger_n_600bf920c5b6fe97669cbbbd)
 33. Bob Wachter Tweets on the mixed messages about face masks, [https://twitter.com/Bob_Wachter/status/1277797797513752576](https://twitter.com/Bob_Wachter/status/1277797797513752576)
 73. The grocer takes woke orders on its brands from a 17-year-old, [https://twitter.com/WSJ/status/1289229567975186432](https://twitter.com/WSJ/status/1289229567975186432)
 78. Hiroshima marks 75th anniversary of world's first atomic bombing, [https://twitter.com/i/events/1291258068550918144](https://twitter.com/i/events/1291258068550918144)
