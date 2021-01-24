@@ -97,6 +97,11 @@ Let's look at some examples.
 
 Once connected, one might imagine, the fist proceeds of its own accord to impart force on said face, which results in a bruise. The fist is then taken into custody and is denied bail.
 
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>[Art 3] A handcuffed, frowning fist, flanked by two police officers, is being walked to a police car.</figcaption>
+</div>
+
 In a paper of record we find the headline
 
 "Missile at Local Cafe **Finds Patrons** Poised for World Cup”
@@ -112,6 +117,11 @@ A tell-all memoir chronicling the life of a First Lady's personal friend include
 "I’d **found myself** planning the most divisive inauguration in history."
 
 It's the worst, isn't it? When you're sitting around, minding your own business, and then you _find yourself_ planning an inauguration.
+
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>[Art 4] A boy is eating chocolate cake in his room, his mom walks in, looks angry, the caption reads "I was sitting in my room, doing my homework. And then I somehow found myself eating the cake."</figcaption>
+</div>
 
 More generally, actions are sometimes attributed to a vague or unknown actor even though the actor is known or known with high confidence.
 
@@ -230,11 +240,6 @@ The view conflates a scientific finding that a face mask reduces the oxygen leve
 **Probably, might have** may be used to weaken an indisputable fact by introducing doubt.
 
 “Spices became part of the national cuisine in the Badger Kingdom over time. Their popularity spread with the help of badgers in the eastern rabbit territories, who **probably** learned it from the local rabbits.”
-
-<div class="Image__Small">
-  <img src="./images/alpha.png" alt="" />
-  <figcaption>[Art 3] Mr. Rabbit whispers to the reader: “Spoiler alert: They definitely did.”</figcaption>
-</div>
 
 Other times, it may be used to insinuate a subtext without explicitly stating it. In a TV interview, an activist recalls an anecdote in which the intention, it becomes evident, is for the activist to delegitimize an influential rival.
 
@@ -460,6 +465,11 @@ It's a **victory** if we like the people doing it, and a massacre if we don't.
 
 **Kinetic military action** sounds better than dropping bombs. Jonny, did you just push Jack off the play structure? No, ma'am, I simply imparted some kinetic action on his shoulder.
 
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>[Art 5] A school teacher on the playground is telling off a small boy. Caption reads: "Jonny, did you just push Jack off the play structure?" "No, ma’am, I simply imparted some kinetic action on his shoulder."</figcaption>
+</div>
+
 **Enhanced interrogation techniques** sounds better than good old torture.
 
 **Private military company** sounds better than mercenary.
@@ -635,7 +645,7 @@ Suggestive adjectives aside (the second headline is much more coy about the badg
 
 <div class="Image__Small">
   <img src="./images/alpha.png" alt="" />
-  <figcaption>[Art 4] Mr. Rabbit looks at the reader, stony-faced, as he holds a cup of coffee and forces it toward his face.</figcaption>
+  <figcaption>[Art 6] Mr. Rabbit looks at the reader, stony-faced, as he holds a cup of coffee and forces it toward his face.</figcaption>
 </div>
 
 More perniciously, it can go as far as define who is good and who is evil. In the writings of a foreign minister, we find the line
@@ -663,11 +673,6 @@ The same sentiment was repeated by a senator the very next morning. One wonders 
 "Some people browsing my work have called it the ultimate map of maps, right." (Common in Silicon Valley English.)
 
 "Books never go back before the 18th century to explain the origins of data visualization. As if nothing else happened before, right."
-
-<div class="Image__Small">
-  <img src="./images/alpha.png" alt="" />
-  <figcaption>[Art 5] Mr. Rabbit, donning Ray-Bans, tips his head and looks at the reader a la Matthew McConaughey; speech bubble reads "Alright alright alright."</figcaption>
-</div>
 
 Telling others how the world is or ought to be, without evidence, betrays our own implicit and conscious biases about others. They reveal us, more than they do others. To realize how contemptuous that can appear, one can imagine how it might seem if Badger were to narrate a rabbit’s every move in the style of a David Attenborough nature documentary (much like Gustave Flaubert did as he walked the streets of Cairo). _And here. We find a rabbit. We will call him Bob. He walks up to a bush. He must be starving._
 
@@ -732,6 +737,11 @@ Does it or doesn't it?
 “While the first author's clarification appeased some fans, it appears to have irked the second author. **Some social media users have also speculated** that the two unfollowed each other on Twitter.”
 
 Did they or didn't they? It would have been easy to confirm that before running the story.
+
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>[Art 7] A carton of watermelons in front of a mercado, a sign reads "$3 per watermelon", a masked bandit who looks like The Hamburgler is putting watermelons into his bag. The bag is black and says "Stolen watermelons" on it, the burglar is wearing a capre that says "Free watermelons for all" on it. Caption reads "Tonight, we bring you a story about a man that many describe as stuffing watermelons into his bag and not paying for them. Details at six."</figcaption>
+</div>
 
 **Shifting responsibility.** The qualifying phrase “people experiencing” followed by some misfortune or quality moves the agency away from the person in question to an external factor. It's meant to humanize, though in cases where the movement of that agency is debatable, it ends up passing the buck.
 
@@ -849,6 +859,11 @@ Ignoring the egregious imagery of a witch burning to a crisp (nighty night, chil
 
 This may all seem obvious, but it's truly surprising how often this type of selective reading of history occurs in media. Let's look at some examples.
 
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>[Art 8] The witch from Hansel and Gretel is inside the oven, looking out, scared; the two children are walking away, smacking their coal-covered hands aginst each other as though to say "Job done"</figcaption>
+</div>
+
 In an online lesson by education company _Studies Weekly_, we find the question
 
 "What was the language used by American Indians, **many years ago?**"
@@ -941,11 +956,6 @@ And a few decades before that, one can only imagine how confused the rabbits in 
 
 History is particularly rife with examples of this sort of guilting. In justifying the moral case for imperialism, Arthur Balfour states in 1910: “Is it a good thing for these great nations … that this absolute government should be exercised by us? I think it is a good thing. I think that experience shows that they have got under it a far better government than in the whole history of the world they ever had before. . . We are in Egypt not merely for the sake of the Egyptians, **though we are there for their sake**.”
 
-<div class="Image__Small">
-  <img src="./images/alpha.png" alt="" />
-  <figcaption>[Art 6] Mr. Rabbit sings a line from <i>Hamilton</i>: “And when push comes to shove / I will send a fully armed battalion to remind you of my love! / Da da da dat da dat da da da da ya da”</figcaption>
-</div>
-
 In an interview about postmodernism, a public intellectual shares the line
 
 "All these people ever talk about is oppression. Everything to them is some form of oppression. **It's so annoying**."
@@ -953,6 +963,11 @@ In an interview about postmodernism, a public intellectual shares the line
 Similarly, in a speech in 1960s Harlem by James Baldwin, he recalls a line he hears from both friends and critics
 
 “But why are you **so bitter** all the time, Jimmy?”
+
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>[Art 9] Person A: "They ripped my tie right off and ran away. And not for the first time. Person B: You're always so bitter, Jimmy. It's so annoying."</figcaption>
+</div>
 
 In a 2017 interview, an influential author and political commentator shares the line
 
@@ -1022,7 +1037,7 @@ More destructively, an authority can eliminate prisoners of conscience by bundli
 
 <div className="Image__Small">
   <img src="./images/art7.png" alt="Mr. Rabbit, speaking to the reader: Neither have I met the rabbits these pollsters have met, nor have they met the ones I've met." />
-  <figcaption>[Art 7 / Sketch] Mr. Rabbit, speaking to the reader: "Neither have I met the rabbits these pollsters have met, nor have they met the ones I've met."</figcaption>
+  <figcaption>[Art 1 with caption / Sketch] Mr. Rabbit, speaking to the reader: "Neither have I met the rabbits these pollsters have met, nor have they met the ones I've met."</figcaption>
 </div>
 
 Elsewhere, a line in an article reads
@@ -1052,11 +1067,6 @@ As that exchange in King of the Hill goes between Hank and John Redcord: “So d
 In an interview with a top podcaster, a standup comedian shares the shrewd insight
 
 "You know how with rabbits, a lot of them aren't really that funny. I mean, it's not a big part of their culture, is comedy (sic). Seinfeld thinks it's because we badgers have a love of language."
-
-<div class="Image__Small">
-  <img src="./images/alpha.png" alt="" />
-  <figcaption>[Art 8] Mr. Rabbit with a speech bubble that reads: “Riiight.”</figcaption>
-</div>
 
 We find categorical insinuations in intellectual discourse as well, of the kind that is often and ironically a veil for anti-intellectualism. A prominent panelist talking about the challenges of disparate groups integrating into society on the Badger continent shares the following line
 
@@ -1092,7 +1102,7 @@ Thanks for stopping by.
 
 <div class="Image__Small">
   <img src="./images/art9.png" alt="Mr. Rabbit waves goodbye." />
-  <figcaption>[Art 9 / Sketch] Mr. Rabbit waves goodbye.</figcaption>
+  <figcaption>[Art 10 / Sketch] Mr. Rabbit waves goodbye.</figcaption>
 </div>
 
 ---
