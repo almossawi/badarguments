@@ -37,7 +37,7 @@ featured in it. He was on the cover and I was one of the extras on page 27.
 
 We play the room as it lays, my friend. We play the room as it lays.
 
-I've since landed a new gig, and I'm excited to share it with you. This project is planned for completion in 2021. In the meantime, you're all welcome to contribute your perspectives to it.
+I've since landed a new gig, and I'm excited to share it with you. This project is planned for completion in 2021 (along with a book in print later in the year!) In the meantime, you're all welcome to contribute your perspectives to it.
 
 ### A Quick Introduction
 
@@ -740,7 +740,7 @@ Did they or didn't they? It would have been easy to confirm that before running 
 
 <div class="Image__Small">
   <img src="" />
-  <figcaption>[Art 7] A carton of watermelons in front of a mercado, a sign reads "$3 per watermelon", a masked bandit who looks like The Hamburgler is putting watermelons into his bag. The bag is black and says "Stolen watermelons" on it, the burglar is wearing a capre that says "Free watermelons for all" on it. Caption reads "Tonight, we bring you a story about a man that many describe as stuffing watermelons into his bag and not paying for them. Details at six."</figcaption>
+  <figcaption>[Art 7] A carton of watermelons in front of a mercado, a sign reads "$3 per watermelon", a masked bandit who looks like The Hamburgler is stuffing his bag with watermelons. The bag is black and says "Stolen watermelons" on it, the burglar is wearing a cape that says "Watermelons should be free!" on it. Caption reads "Tonight, we bring you a story about a man that many describe as the watermelon bandit. Details at six."</figcaption>
 </div>
 
 **Shifting responsibility.** The qualifying phrase “people experiencing” followed by some misfortune or quality moves the agency away from the person in question to an external factor. It's meant to humanize, though in cases where the movement of that agency is debatable, it ends up passing the buck.
@@ -841,7 +841,9 @@ The desire to merely appear rational or to appeal to the rational leads to the m
 
 ### 6. Language that starts the clock of history when it's most convenient
 
-Just like adding enough qualifiers to any achievement can make someone the first or the best at something (I was on Forbes Magazine's list of the 10 most influential grey rabbits who wear bowties and comb their hair to one side), insincere language absolves or assigns blame, elevates or denigrates, guilts and gaslights, by deciding unilaterally when to start or stop time. You can try it out with any old fairy tale, to great effect. For instance, from _English Fairy Tales_, we might essentialize _The Story of the Three Bears_ like so:
+Near the end of Chekhov's _The Student_, the protagonist Ivan, warming his hands in front of a fire during a bitter cold winter night, finishes a story about Peter the Apostle. The woman opposite him, having listened intently, smiles then weeps. Ivan, in deep thought, has an epiphany. "'The past,' he thought,' is linked to the present by an unbroken chain of events flowing from one to the other." And it seemed to him that he had just seen both ends of the chain, and when he touched one end the other trembled."
+
+Insincere language does not recognize that fact. It absolves or assigns blame, elevates or denigrates, guilts and gaslights, by deciding unilaterally when to start or stop time. You can try it out with any old fairy tale, to great effect. For instance, from _English Fairy Tales_, we might essentialize _The Story of the Three Bears_ like so:
 
 "Up she started, and when she saw the Three Bears on one side of the bed, she tumbled herself out at the other, and ran to the window."
 
@@ -861,7 +863,7 @@ This may all seem obvious, but it's truly surprising how often this type of sele
 
 <div class="Image__Small">
   <img src="" />
-  <figcaption>[Art 8] The witch from Hansel and Gretel is inside the oven, looking out, scared; the two children are walking away, smacking their coal-covered hands aginst each other as though to say "Job done"</figcaption>
+  <figcaption>[Art 8] The witch from Hansel and Gretel is inside the oven, looking out, scared; the two children are walking away, smacking their coal-covered hands against each other as though to say "Job done".</figcaption>
 </div>
 
 In an online lesson by education company _Studies Weekly_, we find the question
@@ -966,7 +968,7 @@ Similarly, in a speech in 1960s Harlem by James Baldwin, he recalls a line he he
 
 <div class="Image__Small">
   <img src="" />
-  <figcaption>[Art 9] Person A: "They ripped my tie right off and ran away. And not for the first time. Person B: You're always so bitter, Jimmy. It's so annoying."</figcaption>
+  <figcaption>[Art 9] Animal A: "They ripped my tie right off and ran away. And not for the first time. Animal B: You're always so bitter, Jimmy. It's so annoying."</figcaption>
 </div>
 
 In a 2017 interview, an influential author and political commentator shares the line
@@ -1120,6 +1122,7 @@ Thanks for stopping by.
 9. _Selections from the Prison Notebooks_ by Antonio Gramsci
 10. _Brain Droppings_ by George Carlin
 12. _The Imperial Idea and its Enemies: A Study in British Power_ by Archibald Paton Thornton
+12. _Forty Stories_ by Anton Chekhov, Robert Payne
 13. _Requiem for a Nun_ by William Faulkner
 11. _Grimms' Fairy Tales_ by Jacob and Wilhelm Grimm
 11. _English Fairy Tales_ by Flora Annie Steel
