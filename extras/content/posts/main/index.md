@@ -441,7 +441,7 @@ All in all, associations with negative connotations are easy to form, often thro
 
 ### 3. Language that creates feel-good associations
 
-A magazine wanting you to renew your subscription will call out the intelligence, wit, style, and humor that you would be missing out on if you don't renew, as The New Yorker does. Another magazine will paint you a picture of a dinner party and of that one person who always happens to have something interesting to stay. You can be that person, you're told. All you need to do is renew your subscription.
+A magazine wanting you to renew your subscription will call out the intelligence, wit, style, and humor that you would be missing out on if you don't renew, as the New Yorker does. Another magazine will paint you a picture of a dinner party and of that one person who always happens to have something interesting to stay. You can be that person, you're told. All you need to do is renew your subscription.
 
 It might not sit right, you sense the language is loaded, but you feel special all the same. Feel-good associations aim to compel you to do something you wouldn't otherwise do. Other times, they're more sinister. Euphemisms, for instance, help disassociate us from a repellant action, thereby removing any residual sense of guilt we may have felt. Let's see some examples of both, in reverse order.
 
@@ -598,6 +598,12 @@ What's missing from that sentiment, attractive though it is, is the reality that
 “Now, we can't entirely be sure about the **accuracy** of the data about active cases **coming to us from** that country; they may well be underestimates, in fact, I'm sure they are.”
 
 No evidence is offered for why it's more probable than not that the data coming from that country is inaccurate.
+
+In a tweet from the New York Times, we find the line
+
+"Amateur investors, **perhaps propelled by a mix of greed and boredom**, are looking to teach Wall Street a lesson."
+
+No evidence is offered here either to corroborate the insinuation.
 
 We find that line of reasoning elsewhere too.
 
@@ -1208,10 +1214,11 @@ Thanks for stopping by.
 33. Bob Wachter Tweets on the mixed messages about face masks, [https://twitter.com/Bob_Wachter/status/1277797797513752576](https://twitter.com/Bob_Wachter/status/1277797797513752576)
 73. The grocer takes woke orders on its brands from a 17-year-old, [https://twitter.com/WSJ/status/1289229567975186432](https://twitter.com/WSJ/status/1289229567975186432)
 78. Hiroshima marks 75th anniversary of world's first atomic bombing, [https://twitter.com/i/events/1291258068550918144](https://twitter.com/i/events/1291258068550918144)
+78. New York Times tweet, January 27, 2021, [https://twitter.com/nytimes/status/1354572430086463488](https://twitter.com/nytimes/status/1354572430086463488)
+86. Debbie Reese tweet, October 3, 2020, [https://twitter.com/debreese/status/1312343395671642112](https://twitter.com/debreese/status/1312343395671642112)
 80. NBC News on Twitter, [https://twitter.com/NBCNews/status/1295951897300480000](https://twitter.com/NBCNews/status/1295951897300480000)
 82. Zuckerberg Dumped on by Facebook Employees Over Handling of Militia, QAnon Groups, [https://www.thedailybeast.com/zuckerberg-dumped-on-by-facebook-employees-over-handling-of-militia-qanon-groups?via=twitter_page](https://www.thedailybeast.com/zuckerberg-dumped-on-by-facebook-employees-over-handling-of-militia-qanon-groups?via=twitter_page)
 82. Video appears to show Capitol Hill police officer taking selfie with rioter, [https://www.cnn.com/politics/live-news/washington-dc-election-riots/h_bf082e3fc62f47230f3e22c8d188f80d](https://www.cnn.com/politics/live-news/washington-dc-election-riots/h_bf082e3fc62f47230f3e22c8d188f80d)
-86. Debbie Reese tweet, October 3, 2020, [https://mobile.twitter.com/debreese/status/1312343395671642112](https://mobile.twitter.com/debreese/status/1312343395671642112)
 16. Aldous Huxley interviewed by Mike Wallace, [https://youtu.be/alasBxZsb40](https://youtu.be/alasBxZsb40)
 34. John Campbell's COVID-19 updates, June 30, 2020, [https://youtu.be/U0vyTgBT_9Q](https://youtu.be/U0vyTgBT_9Q)
 35. Political Tricks, [https://youtu.be/bJwQAzkCR7A](https://youtu.be/bJwQAzkCR7A&list=WL&index=2&t=0s)
