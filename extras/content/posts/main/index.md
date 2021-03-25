@@ -7,11 +7,6 @@ hero: ./images/rabbit.png
 excerpt: A guide to the subtle ways language influences our thinking. How the sentences we construct and consume in our news, in our politics, and in our everyday lives impact the way we perceive the world around us. Examples include language that prevaricates, language that conceals with vagueness, and language that feigns objectivity with apparent neutrality.
 ---
 
-<p class='translations'>
-  <a href='https://bookofbadarguments.com/extras/guide-to-sneaky-rhetoric-arabic'>العربية</a>
-  <a href='https://bookofbadarguments.com/extras/guide-to-sneaky-rhetoric' class='active'>English</a>
-</p>
-
 ---
  
 <p class='epigraph-one'>[T]hat the very concept of objective truth is fading out of the world ... frightens me much more than bombs.</p>
@@ -24,7 +19,7 @@ excerpt: A guide to the subtle ways language influences our thinking. How the se
 
 <div className="Image__Small">
   <img src="./images/art2.png" alt="Art 1: Mr. Rabbit looks straight at the reader." />
-  <figcaption>[Art 1 / Sketch] Mr. Rabbit looks straight at the reader.</figcaption>
+  <figcaption>[Art 1 / Sketch] Rabbit is sitting on a chair, finger tips touching, legs crossed, and looks straight at the reader.</figcaption>
 </div>
 
 You might remember me from a project from several years ago. Badger and I both 
@@ -120,7 +115,7 @@ It's the worst, isn't it? When you're sitting around, minding your own business,
 
 <div class="Image__Small">
   <img src="" />
-  <figcaption>[Art 4] A boy is eating chocolate cake in his room, his mom walks in, looks angry, the caption reads "I was sitting in my room, doing my homework. And then I somehow found myself eating the cake."</figcaption>
+  <figcaption>[Art 4] Reporters (animals) are holding microphones in front of a senator's face. "Senator, were you the one who ate all the leftover chocolate cake?" reads the speech bubble. The stony-faced senator (animal) turns to face the camera, jabbing an index finger at the lens, "Look,” he says, “the fact of the matter is, when I closed the fridge door, that cake had already been eaten."</figcaption>
 </div>
 
 More generally, actions are sometimes attributed to a vague or unknown actor even though the actor is known or known with high confidence.
@@ -467,7 +462,7 @@ It's a **victory** if we like the people doing it, and a massacre if we don't.
 
 <div class="Image__Small">
   <img src="" />
-  <figcaption>[Art 5] A school teacher on the playground is telling off a small boy. Caption reads: "Jonny, did you just push Jack off the play structure?" "No, ma’am, I simply imparted some kinetic action on his shoulder."</figcaption>
+  <figcaption>[Art 5] A school teacher on the playground asks a young animal student in a school uniform (tie, shirt, shorts). Caption reads: "Jonny, did you just push Jack off the play structure?" "No, ma’am, I simply imparted kinetic action on his shoulder." The teacher replies, "Oh, alright then. As you were."</figcaption>
 </div>
 
 **Enhanced interrogation techniques** sounds better than good old torture.
@@ -599,12 +594,6 @@ What's missing from that sentiment, attractive though it is, is the reality that
 
 No evidence is offered for why it's more probable than not that the data coming from that country is inaccurate.
 
-In a tweet from the New York Times, we find the line
-
-"Amateur investors, **perhaps propelled by a mix of greed and boredom**, are looking to teach Wall Street a lesson."
-
-No evidence is offered here either to corroborate the insinuation.
-
 We find that line of reasoning elsewhere too.
 
 How we talk about a vaccine produced by a country can depend on which country it is and if we like it or not.
@@ -651,7 +640,7 @@ Suggestive adjectives aside (the second headline is much more coy about the badg
 
 <div class="Image__Small">
   <img src="./images/alpha.png" alt="" />
-  <figcaption>[Art 6] Mr. Rabbit looks at the reader, stony-faced, as he holds a cup of coffee and forces it toward his face.</figcaption>
+  <figcaption>[Art 6] An animal on a couch watching TV, the speech bubble from the TV says, “Today’s attack took place near a psychiatric hospital, but there is no evidence to suggest the offender was a patient at the hospital.”</figcaption>
 </div>
 
 More perniciously, it can go as far as define who is good and who is evil. In the writings of a foreign minister, we find the line
@@ -700,6 +689,11 @@ The line is disingenuous because it removes the nuance of what is more likely an
 
 Language like this does away with all detail. We are left with a static view of an aftermath where we are compelled to sympathize with the effect rather than gain any insight into the cause.
 
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>[Art 7] A man in uniform (who looks like a politician) says to two toucans: “I'm urging both of you toucans to show restraint, please.” The artwork is a hat tip to the picture of the toucans in BAD ARGUMENTS where one looks good and the other looks beat up. The beat up toucan is surprised by the politician's statement.</figcaption>
+</div>
+
 In the same vein, a line in a newspaper of note reads
 
 “The nation cannot afford to say ‘amen' to either form of extremism, rabbit or badger.”
@@ -743,11 +737,6 @@ Does it or doesn't it?
 “While the first author's clarification appeased some fans, it appears to have irked the second author. **Some social media users have also speculated** that the two unfollowed each other on Twitter.”
 
 Did they or didn't they? It would have been easy to confirm that before running the story.
-
-<div class="Image__Small">
-  <img src="" />
-  <figcaption>[Art 7] A carton of watermelons in front of a mercado, a sign reads "$3 per watermelon", a masked bandit who looks like The Hamburgler is stuffing his bag with watermelons. The bag is black and says "Stolen watermelons" on it, the burglar is wearing a cape that says "Watermelons should be free!" on it. Caption reads "Tonight, we bring you a story about a man that many describe as the watermelon bandit. Details at six."</figcaption>
-</div>
 
 **Shifting responsibility.** The qualifying phrase “people experiencing” followed by some misfortune or quality moves the agency away from the person in question to an external factor. It's meant to humanize, though in cases where the movement of that agency is debatable, it ends up passing the buck.
 
@@ -847,7 +836,7 @@ The desire to merely appear rational or to appeal to the rational leads to the m
 
 ### 6. Language that starts the clock of history when it's most convenient
 
-Near the end of Chekhov's _The Student_, the protagonist Ivan, warming his hands in front of a fire during a bitter cold winter night, finishes a story about Peter the Apostle. The woman opposite him, having listened intently, smiles then weeps. Ivan, in deep thought, has an epiphany. "'The past,' he thought,' is linked to the present by an unbroken chain of events flowing from one to the other." And it seemed to him that he had just seen both ends of the chain, and when he touched one end the other trembled."
+Near the end of Chekhov's _The Student_, the protagonist Ivan, warming his hands in front of a fire during a bitter cold winter night, finishes a story about Peter the Apostle. The woman opposite him, having listened intently, smiles then weeps. Ivan, hand cradling his forehead, has an epiphany. "'The past,' he thought,' is linked to the present by an unbroken chain of events flowing from one to the other." And it seemed to him that he had just seen both ends of the chain, and when he touched one end the other trembled."
 
 Insincere language does not recognize that fact. It absolves or assigns blame, elevates or denigrates, guilts and gaslights, by deciding unilaterally when to start or stop time. You can try it out with any old fairy tale, to great effect. For instance, from _English Fairy Tales_, we might essentialize _The Story of the Three Bears_ like so:
 
@@ -869,7 +858,7 @@ This may all seem obvious, but it's truly surprising how often this type of sele
 
 <div class="Image__Small">
   <img src="" />
-  <figcaption>[Art 8] The witch from Hansel and Gretel is inside the oven, looking out, scared; the two children are walking away, smacking their coal-covered hands against each other as though to say "Job done".</figcaption>
+  <figcaption>[Art 8] A shy sword and an equally shy neck are face to face, one has its hand clasped behind its back.</figcaption>
 </div>
 
 In an online lesson by education company _Studies Weekly_, we find the question
@@ -922,6 +911,14 @@ To which a user replies, "It is Zen **in essence**, not in origin."
 
 Conflating the two things on the part of the person in the video was almost certainly accidental, but the second line in the exchange betrays a line of reasoning that's troublesome when applied generally. It lays the groundwork for a sort of after-the-fact appropriation of things.
 
+Similarly, in a thread elsewhere on the Internet, we find a polemic about some author who is being berated for being disingenuous.
+
+"This man is funded by the Hokey Pokey brothers," says a first poster, confidently.
+
+"Is he actually funded by them in any way?" responds a second.
+
+"He certainly **feels like exactly the kind** of ghoul they would throw money at," comes the response.
+
 **Naming rights**. A piece in The Atlantic includes the line
 
 "The history of vaccinology goes back to the late 1700s when Edward Jenner developed the first vaccine, for smallpox, a turning point in the war between microbes and humans."
@@ -951,6 +948,12 @@ The responsibility the privileged in society have toward those less privileged m
 A wealthy person donating to charity is, practically speaking, a very good thing. Are there, however, societal assumptions that ought to be revisited so that we don't end up with such a tremendous disparity in wealth even in a society where inequality of outcome is, rightfully, encouraged?
 
 **Gaslighting, guilting**. Gaslighting is a form of psychological manipulation aimed at making you question your recollection of an event and therefore your sanity. It is an effective tool for someone in power who wants to stay in power, or a speaker who wants to disorient and confuse an opponent or an audience. Guilting is emotional manipulation that aims to shift blame and to steer you in a particular direction. Both are highly toxic.
+
+In a meeting between employee and boss, the boss might share the line
+
+"I'm trying my best to get your promotion approved, **since I know how important that is to you**."
+
+The effect is tied to satisfying some _feeling_ the employee seemingly has rather than an objective reward for hard work.
 
 Not too long ago, a former head of state proclaimed
 
