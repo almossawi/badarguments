@@ -240,6 +240,13 @@ Other times, it may be used to insinuate a subtext without explicitly stating it
 
 "Following my visit to his house, we agreed to abide by a set of terms. The ones I agreed to happened. The ones he agreed to **might not have** happened."
 
+**Kinetic military action** sounds better than dropping bombs. Jonny, did you just push Jack off the play structure? No, ma'am, I simply imparted some kinetic action on his shoulder.
+
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>[Art 5] A school teacher on the playground asks a young animal student in a school uniform (tie, shirt, shorts). Caption reads: "Jonny, did you just push Jack off the play structure?" "No, ma’am, I simply imparted kinetic action on his shoulder." The teacher replies, "Oh, alright then. As you were."</figcaption>
+</div>
+
 **Concealing with apparent precision**. A San Francisco Chronicle article states
 
 "At UC Berkeley, beavers and hamsters make up only 15% and 3% of undergraduates, respectively, whereas 45% of California high school seniors who meet UC requirements are beavers and 4% are hamsters."
@@ -458,16 +465,9 @@ A **wave of layoffs** makes it seem like an inevitability. A force of nature. So
 
 It's a **victory** if we like the people doing it, and a massacre if we don't.
 
-**Kinetic military action** sounds better than dropping bombs. Jonny, did you just push Jack off the play structure? No, ma'am, I simply imparted some kinetic action on his shoulder.
-
-<div class="Image__Small">
-  <img src="" />
-  <figcaption>[Art 5] A school teacher on the playground asks a young animal student in a school uniform (tie, shirt, shorts). Caption reads: "Jonny, did you just push Jack off the play structure?" "No, ma’am, I simply imparted kinetic action on his shoulder." The teacher replies, "Oh, alright then. As you were."</figcaption>
-</div>
-
 **Enhanced interrogation techniques** sounds better than good old torture.
 
-**Private military company** sounds better than mercenary.
+**Private military company** sounds better than mercenary. Or in a world where, say, rabbits are projected in the image of a monster, then a phrase like "Anti-rabbit fighter" right away sounds better than "mercenary". They're anti-rabbit, we're anti-rabbit, so naturally, we must both be righteous.
 
 **Collateral damage** sounds better than civilian deaths.
 
@@ -619,6 +619,12 @@ Not every cultural identifier is meant as an affront or statement to the world a
 **The conjunction But**. A _But_ is sometimes cavalierly squeezed between a line fragment that makes some claim and a line fragment that includes a passing mention of why, maybe, that claim might not be reliable. For instance,
 
 “[Science suggests] you just might end up richer [if you read a book for an hour before bed]. **Correlation is definitely not causation here, but** the same survey found bedtime readers make an average of $3,705 more annually.”
+
+In 1850, the anatomist Robert Knox wrote
+
+“I feel disposed to think there must be a physical and, consequently, a psychological inferiority [between rabbits and badgers] generally.” He goes on for the rest of the page to describe the differences, ending with “**but I speak from extremely limited experience.**”
+
+As the narrator of the four-part documentary series _Exterminate All the Brutes_ quips after reading that line, Knox had at the time done an autopsy on a single rabbit, “which somehow does demonstrate the limitations of his experiments.” I suppose it does.
 
 Not too long ago, a rabbit descended on a grocery store owned by badgers and nibbled on all their carrots. The next morning, a headline read
 
@@ -933,7 +939,9 @@ The dramatization of inventions is so overstated in popular culture that we comm
 
 "Newton invented calculus **practically on a dare.**"
 
-**Discover, claim**. Justifying a claim over land is often helped by the clever use of language. America was **discovered** in 1492, much like Count Olaf _discovers_ the inhabited island near the end of _A Series of Unfortunate Events_. India was, similarly, **claimed** in the 19th century. In describing how one of the world's largest cut diamonds ended up in the Crown Jewels, the Tower of London website shares the line
+**Discover, claim**. Pythagoras _discovers_ a theorem even though it existed in Babylonian tablets several hundreds of years before him. As his ship approached the continent, Columbus writes in his journal, “At two hours after midnight, **land appeared**.” It wasn't he who appeared, but rather the land that somehow did.
+
+Justifying a claim over land is often helped by the clever use of language. America was **discovered** in 1492, much like Count Olaf _discovers_ the inhabited island near the end of _A Series of Unfortunate Events_. India was, similarly, **claimed** in the 19th century. In describing how one of the world's largest cut diamonds ended up in the Crown Jewels, the Tower of London website shares the line
 
 “The history of the ‘Mountain of Light' diamond is steeped in myth and anecdote. Discovered in 15th-century India, it was passed from ill-fated male hand to hand, until it earned a reputation of bringing bad luck to men. It was **presented** to Queen Victoria in 1849. It now adorns the front of Queen Elizabeth The Queen Mother's Crown.”
 
@@ -1057,11 +1065,19 @@ Elsewhere, a line in an article reads
 
 This sort of fatalism is destructive. It can lead a young reader to actually believe that all young people are and always will be lazy.
 
+On August 11, 1945, a President responsible for dropping two atomic bombs that killed over 200,000 civilians writes
+
+"The only language they seem to understand is the one we have been using to bombard them. When you have to deal with a beast **you have to treat him as a beast**. It is most regrettable but nevertheless true."
+
+_What are we supposed to do?_, is the sentiment. They are beasts, after all. And so the moral question of whether it is permissable to annihilate them is put to rest.
+
 <!-- 
 **King and country**. Nations named after living individuals or families lead to a conflation between king and country. More specifically, between the relationship one has to one's place of birth and the relationship one has to the ruling class in that country.
 
 A rabbit born in the northern rabbit kingdom of Iduas&mdash;ruled by the Iduas family&mdash;will identify himself as _Iduasi_ in all walks of life. If he does so with pride, he will be at best submissive and at worse obsequious to the Iduasi family by virtue of it being intertwined with his own personal identity. The way that intertwinement devours the rabbit's spirit is more effective than all the tanks in the world.
  -->
+ 
+Given names can be as shackling, which is why the self-aware might decide to change them later in life. Oodgeroo Noonuccal comes to mind, for instance. The Aboriginal Australian activist who was born Kathleen Ruska.
 
 **Slave versus enslaved person**. It was not a choice to be a slave, nor was it a genetic disposition one was born into. One was rather _enslaved_. Referring to people as slaves can make it seem as though it's a naturally-occurring group.
 
@@ -1135,6 +1151,7 @@ Thanks for stopping by.
 13. _Requiem for a Nun_ by William Faulkner
 11. _Grimms' Fairy Tales_ by Jacob and Wilhelm Grimm
 11. _English Fairy Tales_ by Flora Annie Steel
+12. _The Races of Men: A Fragment_ by Robert Knox
 7. _Simple Sabotage Field Manual_, [https://www.cia.gov/news-information/featured-story-archive/2012-featured-story-archive/CleanedUOSSSimpleSabotage_sm.pdf](https://www.cia.gov/news-information/featured-story-archive/2012-featured-story-archive/CleanedUOSSSimpleSabotage_sm.pdf)
 7. Looking Back on the Spanish War by George Orwell, [https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/looking-back-on-the-spanish-war/](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/looking-back-on-the-spanish-war/)
 2. Politics and the English Language by George Orwell, [https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/)
@@ -1148,6 +1165,7 @@ Thanks for stopping by.
 19. Physiological Impact of the N95 Filtering Facepiece Respirator on Healthcare Workers, Roberge et al, [http://rc.rcjournal.com/content/55/5/569/tab-pdf](http://rc.rcjournal.com/content/55/5/569/tab-pdf)
 15. If Black English Isn't a Language, Then Tell Me, What Is?” by James Baldwin, [https://movies2.nytimes.com/books/98/03/29/specials/baldwin-english.html](https://movies2.nytimes.com/books/98/03/29/specials/baldwin-english.html)
 15. Tesla 2019 Impact Report, [https://www.tesla.com/ns_videos/tesla-impact-report-2019.pdf](https://www.tesla.com/ns_videos/tesla-impact-report-2019.pdf)
+18. [Exterminate All the Brutes](https://www.hbo.com/exterminate-all-the-brutes), HBO
 18. _Stewart Lee's Comedy Vehicle_, [Season 3, Episode 2](https://www.bbc.co.uk/programmes/b03y41vd), BBC
 79. _(Un)Well_, Episode 1: Essential Oils, Netflix
 18. _Frankie Boyle's Election Autopsy (2015)_, BBC
