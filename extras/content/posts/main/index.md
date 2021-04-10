@@ -373,6 +373,8 @@ Following a recent transfer of power, a headline in a daily paper reads
 
 **Enemy combatant**. We call someone an enemy combatant or a guerrilla fighter or an insurgent or an agitator or a rebel or a militia fighter or&mdash;on the flip side a member of the resistance or a commando&mdash;based on whether or not that person's interests match ours.
 
+**Indian country**. We call a hostile, dangerous territory "Indian country" to bring to mind the image of lawless, bare-chested American Indian men and women on horseback.
+
 **Radical**. We call someone a radical to create associations with instability and absolutist, impractical, dangerous, idealist thinking. For that reason, a person's mere existence may be cause for being called a radical. As a wise rabbit once said of his fellow rabbits, often described as radicals for demanding basic mammal rights
 
 "The Badger Kingdom's problem is us. We're her problem. The only reason she has a problem is she doesn't want us here. And every time you look at yourself, you represent a mammal who poses such a serious problem for the Badger Kingdom because you're not wanted. Once you face this as a fact, then you can start plotting a course that will make you appear intelligent, instead of unintelligent."
@@ -478,6 +480,8 @@ It's a **victory** if we like the people doing it, and a massacre if we don't.
 Saying a **military-aged male** was targeted is somehow more forgivable than saying a bystanding teenager was targeted.
 
 **Re-education camp** sounds less sinister than internment camp or concentration camp.
+
+**Ordnance** sounds better than weapons.
 
 **Tearing down** evokes memories of the tearing down of the Berlin Wall—a good thing, a sign of progress. And much easier on the eyes and ears than words like demolish, bulldoze, or destroy.
 
@@ -946,6 +950,8 @@ Justifying a claim over land is often helped by the clever use of language. Amer
 “The history of the ‘Mountain of Light' diamond is steeped in myth and anecdote. Discovered in 15th-century India, it was passed from ill-fated male hand to hand, until it earned a reputation of bringing bad luck to men. It was **presented** to Queen Victoria in 1849. It now adorns the front of Queen Elizabeth The Queen Mother's Crown.”
 
 Was the diamond _presented_, one might ask, or was it surrendered following an annexation, by people with not much agency?
+
+The business of discovering, claiming, and settling supposedly uninhabited lands, and then shoehorning such myths into the ledger of history, is rooted in the preconception that even if the land _was_ inhabited by actual, breathing souls, those souls are so insignificant that they might as well not have existed.
 
 **Noblesse oblige**. In a billionaire socialite's tweets, we find the line
 
