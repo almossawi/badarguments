@@ -943,7 +943,7 @@ The dramatization of inventions is so overstated in popular culture that we comm
 
 "Newton invented calculus **practically on a dare.**"
 
-**Discover, claim**. Pythagoras _discovers_ a theorem even though it existed in Babylonian tablets several hundreds of years before him. As his ship approached the continent, Columbus writes in his journal, “At two hours after midnight, **land appeared**.” It wasn't he who appeared, but rather the land that somehow did.
+**Discover, claim**. Pythagoras _discovers_ a theorem even though it existed in Babylonian tablets several hundreds of years before him. As his ship approached the continent, Columbus writes in his journal, “At two hours after midnight, **land appeared**.” From the perspective of the natives, the land was always there. It was Colombus who appeared.
 
 Justifying a claim over land is often helped by the clever use of language. America was **discovered** in 1492, much like Count Olaf _discovers_ the inhabited island near the end of _A Series of Unfortunate Events_. India was, similarly, **claimed** in the 19th century. In describing how one of the world's largest cut diamonds ended up in the Crown Jewels, the Tower of London website shares the line
 
@@ -951,7 +951,7 @@ Justifying a claim over land is often helped by the clever use of language. Amer
 
 Was the diamond _presented_, one might ask, or was it surrendered following an annexation, by people with not much agency?
 
-The business of discovering, claiming, and settling supposedly uninhabited lands, and then shoehorning such myths into the ledger of history, is rooted in the preconception that even if the land _was_ inhabited by actual, breathing souls, those souls are so insignificant that they might as well not have existed.
+The business of discovering, claiming, and settling supposedly uninhabited lands, and then shoehorning such myths into the ledger of history, is rooted in the preconception that even if the land _were_ inhabited by actual, breathing souls, those souls are so insignificant that they might as well not have existed.
 
 **Noblesse oblige**. In a billionaire socialite's tweets, we find the line
 
@@ -1071,11 +1071,11 @@ Elsewhere, a line in an article reads
 
 This sort of fatalism is destructive. It can lead a young reader to actually believe that all young people are and always will be lazy.
 
-On August 11, 1945, a President responsible for dropping two atomic bombs that killed over 200,000 civilians writes
+On August 11, 1945, a President responsible for dropping two atomic bombs on a pair of cities, killing at least a third of the inhabitants of each, writes
 
 "The only language they seem to understand is the one we have been using to bombard them. When you have to deal with a beast **you have to treat him as a beast**. It is most regrettable but nevertheless true."
 
-_What are we supposed to do?_, is the sentiment. They are beasts, after all. And so the moral question of whether it is permissable to annihilate them is put to rest.
+_What are we supposed to do?_, is the implicit sentiment. They are beasts, after all. And so the moral question of whether it is permissable to annihilate them is, a priori, put to rest.
 
 <!-- 
 **King and country**. Nations named after living individuals or families lead to a conflation between king and country. More specifically, between the relationship one has to one's place of birth and the relationship one has to the ruling class in that country.
