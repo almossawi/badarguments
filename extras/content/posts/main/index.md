@@ -943,7 +943,7 @@ The dramatization of inventions is so overstated in popular culture that we comm
 
 "Newton invented calculus **practically on a dare.**"
 
-**Discover, claim**. Pythagoras _discovers_ a theorem even though it existed in Babylonian tablets several hundreds of years before him. As his ship approached the continent, Columbus writes in his journal, “At two hours after midnight, **land appeared**.” From the perspective of the natives, the land was always there. It was Colombus who appeared.
+**Discover, claim**. Pythagoras _discovers_ a theorem even though it existed in Babylonian tablets several hundreds of years before him. As his ship approaches the continent, Columbus writes in his journal, “At two hours after midnight, land appeared.” Innocuous in and of itself, were it not for the events that followed. From the perspective of the natives, of course, the land was always there. It was Colombus who appeared.
 
 Justifying a claim over land is often helped by the clever use of language. America was **discovered** in 1492, much like Count Olaf _discovers_ the inhabited island near the end of _A Series of Unfortunate Events_. India was, similarly, **claimed** in the 19th century. In describing how one of the world's largest cut diamonds ended up in the Crown Jewels, the Tower of London website shares the line
 
@@ -951,7 +951,7 @@ Justifying a claim over land is often helped by the clever use of language. Amer
 
 Was the diamond _presented_, one might ask, or was it surrendered following an annexation, by people with not much agency?
 
-The business of discovering, claiming, and settling supposedly uninhabited lands, and then shoehorning such myths into the ledger of history, is rooted in the preconception that even if the land _were_ inhabited by actual, breathing souls, those souls are so insignificant that they might as well not have existed.
+The business of discovering, claiming, and settling supposedly uninhabited lands, and then shoehorning such myths into the ledger of history, is rooted in the preconception that even if the land _were_ inhabited by actual, breathing souls, those souls are so insignificant, so disposable, that they might as well not have existed.
 
 **Noblesse oblige**. In a billionaire socialite's tweets, we find the line
 
