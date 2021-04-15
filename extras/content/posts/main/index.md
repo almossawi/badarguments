@@ -240,13 +240,6 @@ Other times, it may be used to insinuate a subtext without explicitly stating it
 
 "Following my visit to his house, we agreed to abide by a set of terms. The ones I agreed to happened. The ones he agreed to **might not have** happened."
 
-**Kinetic military action** sounds better than dropping bombs. Jonny, did you just push Jack off the play structure? No, ma'am, I simply imparted some kinetic action on his shoulder.
-
-<div class="Image__Small">
-  <img src="" />
-  <figcaption>[Art 5] A school teacher on the playground asks a young animal student in a school uniform (tie, shirt, shorts). Caption reads: "Jonny, did you just push Jack off the play structure?" "No, ma’am, I simply imparted kinetic action on his shoulder." The teacher replies, "Oh, alright then. As you were."</figcaption>
-</div>
-
 **Concealing with apparent precision**. A San Francisco Chronicle article states
 
 "At UC Berkeley, beavers and hamsters make up only 15% and 3% of undergraduates, respectively, whereas 45% of California high school seniors who meet UC requirements are beavers and 4% are hamsters."
@@ -504,6 +497,13 @@ Saying a **military-aged male** was targeted is somehow more forgivable than say
 **Economically disadvantaged** sounds better than economically exploited. Granted, economic disparity isn't always due to exploitation. In the context of developed and developing nations, it can be&mdash;a nation like India's share of the world economy tanks from 24% to 4% following a century and a half of economic exploitation, and the question of how that came to be doesn't come up nearly as often as it should.
 
 **Think tanks** are meant to evoke an air of sophistication and an intellectual, objective endeavor. In reality, the more influential think tanks are often well-funded groups of like-minded individuals who trade in intellectual-sounding language that justifies hard-set preconceptions.
+
+**Kinetic military action** sounds better than dropping bombs. Jonny, did you just push Jack off the play structure? No, ma'am, I simply imparted some kinetic action on his shoulder.
+
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>[Art 5] A school teacher on the playground asks a young animal student in a school uniform (tie, shirt, shorts). Caption reads: "Jonny, did you just push Jack off the play structure?" "No, ma’am, I simply imparted kinetic action on his shoulder." The teacher replies, "Oh, alright then. As you were."</figcaption>
+</div>
 
 **Sustainable cars**. Some manufacturers might refer to their electric cars as sustainable, even though not everything about them is. Their batteries, for instance, require mining the earth for rare elements. Half of the world's cobalt is used in batteries, and that number is slated to only go up in the decades to come.
 
@@ -913,7 +913,7 @@ Other times, it's more blatant. In March 2020, a cable news channel reported tha
 
 Related to that, a view from the White House, often and most recently repeated in July 2020, stated that the shutdown orders states imposed in March 2020 caused the US economy to tank. The suggestion was that the _shutdown orders_ caused the economy to tank, and not a fast-spreading, deadly virus.
 
-**Essence**. In the frightening territory that is the comments section on YouTube, the following exchange takes place about a video in which an author references a Zen saying. The first user objects to the attribution.
+**Essence, time travel**. In the frightening territory that is the comments section on YouTube, the following exchange takes place about a video in which an author references a Zen saying. The first user objects to the attribution.
 
 "For anyone who's interested, 'You can't step in the same river twice', isn't a Zen saying, it's Heraclitus."
 
@@ -1084,6 +1084,8 @@ A rabbit born in the northern rabbit kingdom of Iduas&mdash;ruled by the Iduas f
  -->
  
 Given names can be as shackling, which is why the self-aware might decide to change them later in life. Oodgeroo Noonuccal comes to mind, for instance. The Aboriginal Australian activist who was born Kathleen Ruska.
+
+Similarly, the names of places can be equally shackling. "North Africa", for instance, is a description of a geographic position with respect to a named continent. A colonial term like "Middle East", however, is quite different. Middle of where? East of what?
 
 **Slave versus enslaved person**. It was not a choice to be a slave, nor was it a genetic disposition one was born into. One was rather _enslaved_. Referring to people as slaves can make it seem as though it's a naturally-occurring group.
 
