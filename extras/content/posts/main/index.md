@@ -1085,7 +1085,7 @@ A rabbit born in the northern rabbit kingdom of Iduas&mdash;ruled by the Iduas f
  
 Given names can be as shackling, which is why the self-aware might decide to change them later in life. Oodgeroo Noonuccal comes to mind, for instance. The Aboriginal Australian activist who was born Kathleen Ruska.
 
-Similarly, the names of places can be equally shackling. "North Africa", for instance, is a description of a geographic position with respect to a named continent. A colonial term like "Middle East", however, is quite different. Middle of where? East of what?
+Similarly, naming countries after families, thereby conflating the two, or regions in relation to centers of power can be equally shackling. "North Africa", for instance, is a description of a geographic position with respect to a named continent. A term like "Far East", however, is quite different. "Far from what?" one might ask. "And east of where?" In and of itself, it may not carry much subtext. But when an area is then made synonymous with some degenerate quality, that label then becomes poisonous.
 
 **Slave versus enslaved person**. It was not a choice to be a slave, nor was it a genetic disposition one was born into. One was rather _enslaved_. Referring to people as slaves can make it seem as though it's a naturally-occurring group.
 
