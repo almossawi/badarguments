@@ -440,7 +440,13 @@ All in all, associations with negative connotations are easy to form, often thro
 
 A magazine wanting you to renew your subscription will call out the intelligence, wit, style, and humor that you would be missing out on if you don't renew, as the New Yorker does. Another magazine will paint you a picture of a dinner party and of that one person who always happens to have something interesting to stay. You can be that person, you're told. All you need to do is renew your subscription.
 
-It might not sit right, you sense the language is loaded, but you feel special all the same. Feel-good associations aim to compel you to do something you wouldn't otherwise do. Other times, they're more sinister. Euphemisms, for instance, help disassociate us from a repellant action, thereby removing any residual sense of guilt we may have felt. Let's see some examples of both, in reverse order.
+It might not sit right, you sense the language is loaded, but you feel special all the same. Feel-good associations aim to compel you to do something you wouldn't otherwise do. Other times, they're more sinister. Euphemisms, for instance, help disassociate us from a repellant action, thereby removing any residual sense of guilt we may have felt. And a positive quality thrown into the midst of a paragraph might convince us that someone isn't that bad after all.
+
+On an ABC affiliate's website, an article about a man who stormed the US Capitol in January 2021 includes the line
+
+"Jack, who addressed the judge as 'ma'am' and 'your honor,' also faces charges of stealing public property and violent entry and disorderly conduct on Capitol grounds."
+
+One is left wondering how that line adds anything substantive to the story. Here are some other examples.
 
 **Children**. References to children or other helpless beings can be a way to make the speaker sound selfless.
 
@@ -748,7 +754,15 @@ Does it or doesn't it?
 
 Did they or didn't they? It would have been easy to confirm that before running the story.
 
-**Shifting responsibility.** The qualifying phrase “people experiencing” followed by some misfortune or quality moves the agency away from the person in question to an external factor. It's meant to humanize, though in cases where the movement of that agency is debatable, it ends up passing the buck.
+**Shifting responsibility.** "Carbon footprint" is a term popularized by British Petroleum, and one they successfully managed to make stick with catchy PR blurbs like "It’s time to go on a low-carbon diet." The term's aim, undoubtedly, was to insinuate to ordinary people that _their_ everyday activities were major contributors to global warming, rather than the actions of fossil fuel companies. An ingenius shifting of blame.
+
+<p style='text-align:center;font-style:italic;margin-bottom:10px'>Who said that water<br />
+Is a precious commodity<br />
+Then dropped a big old black oil slick<br />
+In the deep blue sea?</p>
+<p style='text-align:center'>—Prince (Dear Mr. Man)</p>
+
+Elsewhere, the qualifying phrase “people experiencing” followed by some misfortune or quality has a similar effect. It moves the agency away from the person in question to an external factor. It's meant to humanize, though in cases where the movement of that agency is debatable, it ends up passing the buck.
 
 A property criminal is given a punishment commensurate with his or her crime. A “person experiencing criminal urges” can't really be dealt with in the same way. Instead, society is made to feel a degree of compassion toward the person, city budgets may get misallocated, and public funds may go to waste as they solve an incidental problem rather than a fundamental one.
 
@@ -1085,7 +1099,7 @@ A rabbit born in the northern rabbit kingdom of Iduas&mdash;ruled by the Iduas f
  
 Given names can be as shackling, which is why the self-aware might decide to change them later in life. Oodgeroo Noonuccal comes to mind, for instance. The Aboriginal Australian activist who was born Kathleen Ruska.
 
-Similarly, naming countries after families, thereby conflating the two, or regions in relation to centers of power can be equally shackling. "North Africa", for instance, is a description of a geographic position with respect to a named continent. A term like "Far East", however, is quite different. "Far from what?" one might ask. "And east of where?" In and of itself, it may not carry much subtext. But when an area is then made synonymous with some degenerate quality, that label then becomes poisonous.
+Similarly, naming countries after families, thereby conflating the two, or regions in relation to centers of power can be equally shackling. "North Africa", for instance, is a description of a geographic position with respect to a named continent. A term like "Far East", however, is quite different. "Far from what?" one might ask. "And east of where?" In and of itself, it does not hold any subtext. But when an area is made synonymous with some degenerate quality, that label then becomes poisonous.
 
 **Slave versus enslaved person**. It was not a choice to be a slave, nor was it a genetic disposition one was born into. One was rather _enslaved_. Referring to people as slaves can make it seem as though it's a naturally-occurring group.
 
@@ -1234,12 +1248,14 @@ Thanks for stopping by.
 85. Minerals for Climate Action: The Mineral Intensity of the Clean Energy Transition, [http://pubdocs.worldbank.org/en/961711588875536384/Minerals-for-Climate-Action-The-Mineral-Intensity-of-the-Clean-Energy-Transition.pdf](http://pubdocs.worldbank.org/en/961711588875536384/Minerals-for-Climate-Action-The-Mineral-Intensity-of-the-Clean-Energy-Transition.pdf)
 85. Bernie Sanders told Elizabeth Warren in private 2018 meeting that a woman can't win, sources say, [https://www.cnn.com/2020/01/13/politics/bernie-sanders-elizabeth-warren-meeting/index.html](https://www.cnn.com/2020/01/13/politics/bernie-sanders-elizabeth-warren-meeting/index.html)
 85. Encryption Debate Stalls Child Protection Bill, [https://www.infosecurity-magazine.com/news/encryption-debate-stalls-child](https://www.infosecurity-magazine.com/news/encryption-debate-stalls-child)
+85. A Brief (and Frustrating) History of the Carbon Footprint, [https://www.yesmagazine.org/environment/2020/07/21/carbon-footprint-big-oil](https://www.yesmagazine.org/environment/2020/07/21/carbon-footprint-big-oil)
 85. Coronavirus: Testing problems to be solved in weeks, says Hancock, [https://www.bbc.com/news/uk-54163683](https://www.bbc.com/news/uk-54163683)
 85. The News Quiz - Friday 18th September 2020, [https://www.bbc.co.uk/sounds/play/p08rx5yv](https://www.bbc.co.uk/sounds/play/p08rx5yv)
 87. Melania Trump’s Ex-BFF Tells (Almost) All, [https://nymag.com/intelligencer/article/melania-and-me-stephanie-winston-wolkoff.html](https://nymag.com/intelligencer/article/melania-and-me-stephanie-winston-wolkoff.html)
 87. American Indians in Children's Literature, [http://americanindiansinchildrensliterature.net/](http://americanindiansinchildrensliterature.net/)
 79. Allegations And Apologies Rock La Marzocco, [https://sprudge.com/allegations-and-apologies-rock-la-marzocco-164312.html](https://sprudge.com/allegations-and-apologies-rock-la-marzocco-164312.html)
 79. Twitter Users Erupt Over Kevin McCarthy’s ‘Everybody’ To Blame For Capitol Riot Claim, [https://www.huffpost.com/entry/kevin-mccarthy-blame-twitter-anger_n_600bf920c5b6fe97669cbbbd](https://www.huffpost.com/entry/kevin-mccarthy-blame-twitter-anger_n_600bf920c5b6fe97669cbbbd)
+79. Charge upgraded against Arkansas man arrested in US Capitol siege, [https://katv.com/news/local/arkansas-man-arrested-in-us-capitol-siege-makes-1st-court-appearance](https://katv.com/news/local/arkansas-man-arrested-in-us-capitol-siege-makes-1st-court-appearance)
 33. Bob Wachter Tweets on the mixed messages about face masks, [https://twitter.com/Bob_Wachter/status/1277797797513752576](https://twitter.com/Bob_Wachter/status/1277797797513752576)
 73. The grocer takes woke orders on its brands from a 17-year-old, [https://twitter.com/WSJ/status/1289229567975186432](https://twitter.com/WSJ/status/1289229567975186432)
 78. Hiroshima marks 75th anniversary of world's first atomic bombing, [https://twitter.com/i/events/1291258068550918144](https://twitter.com/i/events/1291258068550918144)
