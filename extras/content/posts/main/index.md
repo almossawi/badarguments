@@ -1,5 +1,5 @@
 ---
-title: Mr. Rabbit's Guide to Sneaky Rhetoric
+title: Mr. Rabbit's Guide to Sneaky Rhetoric (Working Title)
 author: Mr. Rabbit
 slug: guide-to-sneaky-rhetoric
 date: 2020-11-10
@@ -82,6 +82,11 @@ Most of those adaptations feature rabbits and badgers. Any connection between ba
 
 ### 1. Language that conceals with vagueness
 
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>The sole of an elephant's foot is visible from below. The rest of the foot and elephant are either out of view or out of focus. The foot has just crushed a mouse's house. Mouse looks devastated. A mouse police officer is holding a notebook and looking up at the foot, reading it its right (you have the right to remain silent...)</figcaption>
+</div>
+
 Vagueness is at the heart of insincere language. It clouds thinking, it muddies meanings, and as Orwell writes about vague words, "the person who uses them has his own private definition, but allows his hearer to think he means something quite different." Other times, vagueness disassociates us from a contemptible act or a bad memory. In that sense it brings to mind moral thought experiments like the trolley problem, wherein people might be more inclined to justify causing harm _indirectly_ than to physically push someone onto the tracks and be directly complicit in that harm.
 
 Let's look at some examples.
@@ -91,11 +96,6 @@ Let's look at some examples.
 “The man **connected his fist** to the officer's face.”
 
 Once connected, one might imagine, the fist proceeds of its own accord to impart force on said face, which results in a bruise. The fist is then taken into custody and is denied bail.
-
-<div class="Image__Small">
-  <img src="" />
-  <figcaption>[Art 3] A handcuffed, frowning fist, flanked by two police officers, is being walked to a police car.</figcaption>
-</div>
 
 In a paper of record we find the headline
 
@@ -115,7 +115,7 @@ It's the worst, isn't it? When you're sitting around, minding your own business,
 
 <div class="Image__Small">
   <img src="" />
-  <figcaption>[Art 4] Reporters (animals) are holding microphones in front of a senator's face. "Senator, were you the one who ate all the leftover chocolate cake?" reads the speech bubble. The stony-faced senator (animal) turns to face the camera, jabbing an index finger at the lens, "Look,” he says, “the fact of the matter is, when I closed the fridge door, that cake had already been eaten."</figcaption>
+  <figcaption>Reporters (animals) are holding microphones in front of a senator's face. "Senator, were you the one who ate all the leftover chocolate cake?" reads the speech bubble. The stony-faced senator (animal) turns to face the camera, jabbing an index finger at the lens, "Look,” he says, “the fact of the matter is, when I closed the fridge door, that cake had already been eaten."</figcaption>
 </div>
 
 More generally, actions are sometimes attributed to a vague or unknown actor even though the actor is known or known with high confidence.
@@ -266,6 +266,11 @@ What the examples in this section show us is that vagueness works to distance la
 
 ### 2. Language that creates sinister associations
 
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>A papa/mama bear looks angrily at a baby bear who is sitting at a dinner table that has bowls of porridge on it. The caption reads: "I'm fine with you only eating fish. But calling yourself a pescatarian?!"</figcaption>
+</div>
+
 “Once you label me, you negate me,” Kierkegaard may or may not have said. The brain is an association machine. Sinister associations aim to encourage us to feel the same way about two possibly unrelated things by virtue of language connecting them. What's the first thing that comes to mind when you read the word Belfast or Beirut? It's for this very reason writers have written about the importance of travel, of being alone, of being far away. So that we may fall into a silence capable of freeing us from the heavily loaded assumptions and associations imposed on us by language.
 
 **Adding a word**. An association may be forced with the intentional use of words or phrases that have a negative connotation.
@@ -358,6 +363,8 @@ The insinuation is that young people don't seem to have the capacity to offer go
 
 Scientific guidance nowadays is partial to not attributing diseases to characteristics like geography. Principally, to avoid unintended backlashes. Nearly a third of Asian Americans say they've experienced some form of discrimination since the COVID-19 pandemic for instance.
 
+**Running hot**. A market may be described as running too hot, and therefore due for a sell-off, by someone who stands to benefit from investors selling their positions.
+
 **Regime**. We call a system of government or an administration a regime if we don't like them. As recently as a few years ago, in a regional conflict in which two groups are vying for political power, we have headlines from opposite sides, each referring to its preferred group as a government and to the other group as a regime.
 
 Following a recent transfer of power, a headline in a daily paper reads
@@ -438,6 +445,11 @@ All in all, associations with negative connotations are easy to form, often thro
 
 ### 3. Language that creates feel-good associations
 
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>A school teacher on the playground asks a young student in a school uniform (tie, shirt, shorts). Caption reads: "Jonny, did you just push Jack off the play structure?" "No, ma’am, I merely assisted his forward progress with a hearty pat on the back." The teacher replies, "Oh, alright then. As you were."</figcaption>
+</div>
+
 A magazine wanting you to renew your subscription will call out the intelligence, wit, style, and humor that you would be missing out on if you don't renew, as the New Yorker does. Another magazine will paint you a picture of a dinner party and of that one person who always happens to have something interesting to stay. You can be that person, you're told. All you need to do is renew your subscription.
 
 It might not sit right, you sense the language is loaded, but you feel special all the same. Feel-good associations aim to compel you to do something you wouldn't otherwise do. Other times, they're more sinister. Euphemisms, for instance, help disassociate us from a repellant action, thereby removing any residual sense of guilt we may have felt. And a positive quality thrown into the midst of a paragraph might convince us that someone isn't that bad after all.
@@ -462,11 +474,15 @@ A **wave of layoffs** makes it seem like an inevitability. A force of nature. So
 
 **Externalities** can serve as an abstract catch-all euphemism a city mayor might blame delays on. The project is two years behind schedule not because we didn't step up, but because of externalities.
 
-**Algorithms**, just like all layers of indirection, conceal subjectivity. **Credit scores** hide the criteria by which someone might be denied a loan or a rental. **Borderline content** determines whether or not your videos are recommended to new users on YouTube, even when it complies with YouTube's terms of use. **Community standards** determine whether or not your content gets published on Facebook, even when it complies with Facebook's terms of use.
+**Algorithms**, just like all layers of indirection, can conceal subjectivity. As might statements like, "Let's see what the data tells us." If you're not careful, the data will tell you anything you want it to tell you.
+
+**Credit scores** can hide the criteria by which someone might be denied a loan or a rental. **Borderline content** determines whether or not your videos are recommended to new users on YouTube, even when it complies with YouTube's terms of use. **Community standards** determine whether or not your content gets published on Facebook, even when it complies with Facebook's terms of use.
 
 It's a **victory** if we like the people doing it, and a massacre if we don't.
 
 **Enhanced interrogation techniques** sounds better than good old torture.
+
+**Excited delirium** sounds more organic than death by Taser. A syndrome pushed into the mainstream, coincidentally, by the Taser company Axon and its catalog of self-funded studies and network of experts, researchers, and consultants.
 
 **Private military company** sounds better than mercenary. Or in a world where, say, rabbits are projected in the image of a monster, then a phrase like "Anti-rabbit fighter" right away sounds better than "mercenary". They're anti-rabbit, we're anti-rabbit, so naturally, we must both be righteous.
 
@@ -505,11 +521,6 @@ Saying a **military-aged male** was targeted is somehow more forgivable than say
 **Think tanks** are meant to evoke an air of sophistication and an intellectual, objective endeavor. In reality, the more influential think tanks are often well-funded groups of like-minded individuals who trade in intellectual-sounding language that justifies hard-set preconceptions.
 
 **Kinetic military action** sounds better than dropping bombs. Jonny, did you just push Jack off the play structure? No, ma'am, I simply imparted some kinetic action on his shoulder.
-
-<div class="Image__Small">
-  <img src="" />
-  <figcaption>[Art 5] A school teacher on the playground asks a young animal student in a school uniform (tie, shirt, shorts). Caption reads: "Jonny, did you just push Jack off the play structure?" "No, ma’am, I simply imparted kinetic action on his shoulder." The teacher replies, "Oh, alright then. As you were."</figcaption>
-</div>
 
 **Sustainable cars**. Some manufacturers might refer to their electric cars as sustainable, even though not everything about them is. Their batteries, for instance, require mining the earth for rare elements. Half of the world's cobalt is used in batteries, and that number is slated to only go up in the decades to come.
 
@@ -568,6 +579,11 @@ Other vague terms that are used in advertising for the same purpose include: pla
 George Carlin has a bit in one of his live acts where he goes through a catalog of feel-good language, with many examples from advertising&mdash;they're _mobile homes_ not house trailers! William Lutz covers quite a few as well in his essay and book on doublespeak, with plenty of examples from the 20th century.
 
 Associations with positive connotations help sell us things and, crucially, make palatable something we might not otherwise be willing to find acceptable.
+
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>A fox holds a sign for "RABBIT MEET" (depicting happily socializing rabbits) as an invitation to enter a fenced-in fairground or bus that, from the side, says RABBIT MEAT. Various rabbits are happily entering/boarding while Mr. Rabbit looks on stonyfaced . . . </figcaption>
+</div>
 
 ### 4. Language that presupposes
 
@@ -654,11 +670,6 @@ Suggestive adjectives aside (the second headline is much more coy about the badg
 
 "Coffee ... the favorite beverage of the civilised world."
 
-<div class="Image__Small">
-  <img src="./images/alpha.png" alt="" />
-  <figcaption>[Art 6] An animal on a couch watching TV, the speech bubble from the TV says, “Today’s attack took place near a psychiatric hospital, but there is no evidence to suggest the offender was a patient at the hospital.”</figcaption>
-</div>
-
 More perniciously, it can go as far as define who is good and who is evil. In the writings of a foreign minister, we find the line
 
 "The prime minister and I underscored the importance of countering the Rabbit Kingdom's influence and threats to the region. I thanked him for his partnership."
@@ -689,6 +700,11 @@ Telling others how the world is or ought to be, without evidence, betrays our ow
 
 ### 5. Language that feigns objectivity with apparent neutrality
 
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>Cutaway view of pond that is clearly drained well below its normal depth: Either Pelicans or herons are leering hungrily over fish who are cowering under the little cover remaining. Caption: "Local fish describe the pond as half-empty, while neighboring pelicans see it as half full. The debate continues." Fish: "Help!"</figcaption>
+</div>
+
 One of the hardest things to spot is the disingenuous feigning of objectivity merely as a cover for subjectivity. It's often a telltale sign of someone whose words cannot be taken at face value. Other times, the appeal to objectivity altogether is misplaced. It is simply not the case that there are two logical and legitimate sides to every argument. Language can give equal weight to things that are disproportionate, either as a form of noncommitment or because the writer wants to create an equivalence that obscures an otherwise self-evident truth.
 
 A headline in a newspaper of record reads
@@ -705,11 +721,6 @@ The line is disingenuous because it removes the nuance of what is more likely an
 
 Language like this does away with all detail. We are left with a static view of an aftermath where we are compelled to sympathize with the effect rather than gain any insight into the cause.
 
-<div class="Image__Small">
-  <img src="" />
-  <figcaption>[Art 7] A man in uniform (who looks like a politician) says to two toucans: “I'm urging both of you toucans to show restraint, please.” The artwork is a hat tip to the picture of the toucans in BAD ARGUMENTS where one looks good and the other looks beat up. The beat up toucan is surprised by the politician's statement.</figcaption>
-</div>
-
 In the same vein, a line in a newspaper of note reads
 
 “The nation cannot afford to say ‘amen' to either form of extremism, rabbit or badger.”
@@ -721,6 +732,12 @@ Elsewhere, we find the line
 “The Senator, though he calls himself an independent, is to others a raging socialist.”
 
 All it takes is for one person to hold each view for the line to be factually true. But the question remains whether the line is at all in accordance with reality, and whether its implication that there's a split in how the person is perceived is indeed a proportional split.
+
+A day after tensions escalated in a neighborhood, due to marauding badgers roaming the streets, calling for all rabbits to be expelled, a major news outlet's headline read
+
+"More than 100 animals injured in last night's clashes"
+
+No distinction is made between how many of those animals were rabbits and how many were badgers.
 
 In another example, an op-ed in the Washington Post attempts to offer a balanced narrative of the 2013 Federal Government's shutdown, but as The Guardian's Bob Garfield points out, it ends up mischaracterizing the lead up to the shutdown. A shutdown that wasn't due to a split between left and right, but rather due to a faction in the Republican party seeing the shutdown as a way of pressuring the Senate into repealing the Affordable Care Act.
 
@@ -737,6 +754,10 @@ A tautology that in so many words says nothing whatsoever.
 “We caught up with a man who **some people are calling** racist after he yelled at a neighbor.” 
 
 Was he or wasn't he? If he wasn't, one might ask, then aren't you traducing him? And if he was, then why the insincere language?
+
+"**Apparent** badger extremist attack in rabbit neighborhood comes amid continued tensions in capital and leaves three cars torched."
+
+Was it or wasn't it?
 
 “This is a video showing people toppling a statue of Jim Bo. He wrote our national anthem and **was also known to have been** a tax evader.”
 
@@ -755,12 +776,6 @@ Does it or doesn't it?
 Did they or didn't they? It would have been easy to confirm that before running the story.
 
 **Shifting responsibility.** "Carbon footprint" is a term popularized by British Petroleum, and one they successfully managed to make stick with catchy PR blurbs like "It’s time to go on a low-carbon diet." The term's aim, undoubtedly, was to insinuate to ordinary people that _their_ everyday activities were major contributors to global warming, rather than the actions of fossil fuel companies. An ingenius shifting of blame.
-
-<p style='text-align:center;font-style:italic;margin-bottom:10px'>Who said that water<br />
-Is a precious commodity<br />
-Then dropped a big old black oil slick<br />
-In the deep blue sea?</p>
-<p style='text-align:center'>—Prince (Dear Mr. Man)</p>
 
 Elsewhere, the qualifying phrase “people experiencing” followed by some misfortune or quality has a similar effect. It moves the agency away from the person in question to an external factor. It's meant to humanize, though in cases where the movement of that agency is debatable, it ends up passing the buck.
 
@@ -860,6 +875,11 @@ The desire to merely appear rational or to appeal to the rational leads to the m
 
 ### 6. Language that starts the clock of history when it's most convenient
 
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>"I claim this pristine wilderness for His Majesty the King!" shouts an explorer (badger) dressed like Christopher Columbus, having walked off his ship, index finger aloft, his eyes closed, face toward the sky. A group of locals (rabbits) have their heads popping out of the ground, looking at him from below. One of them says to the other "How do we break it to him?" (or maybe "You think it's blurry vision?")</figcaption>
+</div>
+
 Near the end of Chekhov's _The Student_, the protagonist Ivan, warming his hands in front of a fire during a bitter cold winter night, finishes a story about Peter the Apostle. The woman opposite him, having listened intently, smiles then weeps. Ivan, hand cradling his forehead, has an epiphany. "'The past,' he thought,' is linked to the present by an unbroken chain of events flowing from one to the other." And it seemed to him that he had just seen both ends of the chain, and when he touched one end the other trembled."
 
 Insincere language does not recognize that fact. It absolves or assigns blame, elevates or denigrates, guilts and gaslights, by deciding unilaterally when to start or stop time. You can try it out with any old fairy tale, to great effect. For instance, from _English Fairy Tales_, we might essentialize _The Story of the Three Bears_ like so:
@@ -880,11 +900,6 @@ Ignoring the egregious imagery of a witch burning to a crisp (nighty night, chil
 
 This may all seem obvious, but it's truly surprising how often this type of selective reading of history occurs in media. Let's look at some examples.
 
-<div class="Image__Small">
-  <img src="" />
-  <figcaption>[Art 8] A shy sword and an equally shy neck are face to face, one has its hand clasped behind its back.</figcaption>
-</div>
-
 In an online lesson by education company _Studies Weekly_, we find the question
 
 "What was the language used by American Indians, **many years ago?**"
@@ -892,6 +907,12 @@ In an online lesson by education company _Studies Weekly_, we find the question
 The choices are: German, English, Spanish, and "There was no language."
 
 The insinuation is that _many years ago_ can only mean a time after the colonization of North America, not before. Moreover, and as Debbie Reese points out, _American Indians_ implies there was just one group and therefore one language that could have possibly been spoken, and _used_ can imply that these mythical people who somehow didn't exist before the 16th century don't exist today either.
+
+On a leading news website, we find the following opening line about a multilateral agreement between several nations
+
+"The badger administration is weighing unfreezing $1 billion in rabbit funds that the country could use for humanitarian relief, amid negotiations for badgers to reenter the multilateral deal and **bring rabbits back into compliance with its terms.**
+
+Of note is that the multilateral agreement was broken, unilaterally, by badgers several years ago. Rabbits, subsequently, fell out of compliance. The latter is referenced, the former isn't.
 
 On SFGate, we find the headline
 
@@ -909,9 +930,11 @@ If a state builds a dam and decides a few years later to clear the area near it,
 
 Similarly, a state wishing to shift demographics or voting blocs or otherwise try its hands at social engineering may change the zoning laws of a neighborhood and then raze homes that don't have the "necessary construction permits", which those homeowners wouldn't have been able to get anyway.
 
-It might also pass into law the requirement that, say, one can't become a judge unless one has performed military service. It then makes it near impossible, by law or in practice, for rabbits to enlist in the military. And then it gets to say, “We’re not precluding rabbits from being judges.”
+<!-- It might also pass into law the requirement that, say, one can't become a judge unless one has performed military service. It then makes it near impossible, by law or in practice, for rabbits to enlist in the military. And then it gets to say, “We’re not precluding rabbits from being judges.” -->
 
 It might also crack down on a group of protestors by imprisoning every last _non-violent_ protestor and then proclaiming, "Look at the streets, these people are all violent. Where are their Martin Luther Kings?" They're all behind bars of course.
+
+It might also evict scores of families from their homes, then pass a missing owner property law the next year stating that all unoccupied houses are state property, to do with them what it wishes.
 
 These are more recent examples. History, of course, is rife with this sort of sneaky approach.
 
@@ -1003,11 +1026,6 @@ Similarly, in a speech in 1960s Harlem by James Baldwin, he recalls a line he he
 
 “But why are you **so bitter** all the time, Jimmy?”
 
-<div class="Image__Small">
-  <img src="" />
-  <figcaption>[Art 9] Animal A: "They ripped my tie right off and ran away. And not for the first time. Animal B: You're always so bitter, Jimmy. It's so annoying."</figcaption>
-</div>
-
 In a 2017 interview, an influential author and political commentator shares the line
 
 “I met Jim Bo one night, during a debate, and the first thing I realized is how bitter he was. And how much he **hated** this country.”
@@ -1031,6 +1049,11 @@ In an interview with a partial peace broker between rabbits and badgers, we hear
 In _1984_, Orwell writes, "Every record has been destroyed or falsified, every book rewritten, every picture has been repainted, every statue and street building has been renamed, every date has been altered. And the process is continuing day by day and minute by minute. History has stopped. Nothing exists except an endless present in which the Party is always right." History is, as Shakespeare said of the afterlife, the land of no return. It is prone to manipulation, not least through language, so that it fits whatever agenda is being pushed.
 
 ### 7. Language that tells you how to think about yourself
+
+<div class="Image__Small">
+  <img src="" />
+  <figcaption>A toucan is in what looks like an interrogration room, behind a pane of glass, sitting on a stool. A mic is hanging from the ceiling, as is the sign "Re-Presentation Room". Behind the glass, someone is holding up a clipboard or piece of paper with two sketches of the toucan--one as it actually looks and one with ruffled hair. The first says "Not a beast" under it, and the other says "Beast" under it.</figcaption>
+</div>
 
 Language is perhaps most harmful on an individual level when it burrows into our emotional state, possibly even going so far as affecting our sense of self-worth. In doing so, it directly impacts our relationship with ourselves. Language can deny to a group that they ever had a history or that they somehow exist outside of history. If you think you have nothing to be proud of, it's not impossible that you'll end up feeling dislocated, dispirited, and disenfranchised. On the flip side, language can give you the sense that you've peaked, either as an individual or as a social group, and therefore have no more room to grow.
 
@@ -1256,6 +1279,8 @@ Thanks for stopping by.
 79. Allegations And Apologies Rock La Marzocco, [https://sprudge.com/allegations-and-apologies-rock-la-marzocco-164312.html](https://sprudge.com/allegations-and-apologies-rock-la-marzocco-164312.html)
 79. Twitter Users Erupt Over Kevin McCarthy’s ‘Everybody’ To Blame For Capitol Riot Claim, [https://www.huffpost.com/entry/kevin-mccarthy-blame-twitter-anger_n_600bf920c5b6fe97669cbbbd](https://www.huffpost.com/entry/kevin-mccarthy-blame-twitter-anger_n_600bf920c5b6fe97669cbbbd)
 79. Charge upgraded against Arkansas man arrested in US Capitol siege, [https://katv.com/news/local/arkansas-man-arrested-in-us-capitol-siege-makes-1st-court-appearance](https://katv.com/news/local/arkansas-man-arrested-in-us-capitol-siege-makes-1st-court-appearance)
+79. Behind The Bastards, May 14, 2021, [https://www.iheart.com/podcast/105-behind-the-bastards-29236323/episode/part-one-excited-delirium-how-cops-81965684/](https://www.iheart.com/podcast/105-behind-the-bastards-29236323/episode/part-one-excited-delirium-how-cops-81965684/)
+79. Police Call It “Excited Delirium.” Civil Rights Groups Call It a Sham, [https://harvardcrcl.org/police-call-it-excited-delirium-civil-rights-groups-call-it-a-sham/](https://harvardcrcl.org/police-call-it-excited-delirium-civil-rights-groups-call-it-a-sham/)
 33. Bob Wachter Tweets on the mixed messages about face masks, [https://twitter.com/Bob_Wachter/status/1277797797513752576](https://twitter.com/Bob_Wachter/status/1277797797513752576)
 73. The grocer takes woke orders on its brands from a 17-year-old, [https://twitter.com/WSJ/status/1289229567975186432](https://twitter.com/WSJ/status/1289229567975186432)
 78. Hiroshima marks 75th anniversary of world's first atomic bombing, [https://twitter.com/i/events/1291258068550918144](https://twitter.com/i/events/1291258068550918144)
