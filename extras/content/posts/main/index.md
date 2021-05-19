@@ -62,6 +62,11 @@ Also note that this guide is about the _words_ used to talk about various issues
 
 Most of those adaptations feature rabbits and badgers. Any connection between badgers and the culpable side in an example is purely coincidental.
 
+<div class="Image__Small">
+  <img src="./images/2-scene.jpg" alt="Intro" />
+  <figcaption>A naked King Squirrel is paraded by on a palanquin while onlookers dance for joy. One of them wipes a tear away, while saying to the other (a skeptical-looking rabbit), "It's beautiful, isn't it. His Majesty's clothes-free sartorial style." All the onlooking animals are extravagantly clothed.</figcaption>
+</div>
+
 ---
 
 ### The Subtle Ways Language Influences Thought
@@ -118,7 +123,7 @@ A tell-all memoir chronicling the life of a First Lady's personal friend include
 It's the worst, isn't it? When you're sitting around, minding your own business, and then you _find yourself_ planning an inauguration.
 
 <div class="Image__Small">
-  <img src="" />
+  <img src="./images/4-scene.jpg" alt="Conceals with vagueness" />
   <figcaption>Reporters (animals) are holding microphones in front of a senator's face. "Senator, were you the one who ate all the leftover chocolate cake?" reads the speech bubble. The stony-faced senator (animal) turns to face the camera, jabbing an index finger at the lens, "Look,” he says, “the fact of the matter is, when I closed the fridge door, that cake had already been eaten."</figcaption>
 </div>
 
