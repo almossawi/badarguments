@@ -1,5 +1,5 @@
 ---
-title: Mr. Rabbit's Guide to Sneaky Rhetoric (Working Title)
+title: An Illustrated Book of Loaded Language (Working Draft)
 author: Mr. Rabbit
 slug: guide-to-sneaky-rhetoric
 date: 2020-11-10
@@ -18,7 +18,7 @@ excerpt: A guide to the subtle ways language influences our thinking. How the se
 ### Oh, hello. It's Mr. Rabbit here.
 
 <div className="Image__Small">
-  <img src="./images/art2.png" alt="Art 1: Mr. Rabbit looks straight at the reader." />
+  <img src="./images/1-spot.jpg" alt="Art 1: Mr. Rabbit looks straight at the reader." />
   <figcaption>[Art 1 / Sketch] Rabbit is sitting on a chair, finger tips touching, legs crossed, and looks straight at the reader.</figcaption>
 </div>
 
@@ -32,11 +32,11 @@ featured in it. He was on the cover and I was one of the extras on page 27.
 
 We play the room as it lays, my friend. We play the room as it lays.
 
-I've since landed a new gig, and I'm excited to share it with you. This project is planned for completion in 2021 (along with a book in print later in the year!) In the meantime, you're all welcome to contribute your perspectives to it.
+I've since landed a new gig, and I'm excited to share it with you. This project will be released in print with 12+ beautiful illustrations in October 2021, and is [now available for preorder!](https://theexperimentpublishing.com/catalogs/fall-2021/an-illustrated-book-of-loaded-language) In the meantime, you're all welcome to contribute your perspectives to it.
 
 ### A Quick Introduction
 
-Some will say rhetoric is old-school trickery. That it no longer works. That we're all much wiser now and can tell when we're being duped by crafty language. I disagree. Sneaky rhetoric is still prevalent in everyday conversations, in newspapers and websites of record, in posts shared by influential people, and in speeches by eloquent intellectuals. And it continues to impact how we perceive the world around us. I want to walk you through a sort of dictionary of this kind of rhetoric.
+Some will say sneaky rhetoric is old-school trickery. That it no longer works. That we're all much wiser now and can tell when we're being duped by crafty language. I disagree. Sneaky rhetoric is still prevalent in everyday conversations, in newspapers and websites of record, in posts shared by influential people, and in speeches by eloquent intellectuals. And it continues to impact how we perceive the world around us. I want to walk you through a sort of dictionary of this kind of rhetoric.
 
 Part of the reason why these sleights of hand get past us is because of our tendency, when listening to someone speak for instance, to be focused on whether or not we like that person, and not on whether or not that person is making any sense. Another reason is due to how we instinctively process information. Consider two well-known effects.
 
@@ -107,6 +107,10 @@ Another of the paper's headlines about a fatal airstrike reminds us that beaches
 
 "Rabbits **Drawn to** Beach and **Into** Center of Conflict"
 
+A columnist writing for that same paper shares a post that reads
+
+"Our final wrap on today's events, **which left** 20 missing"
+
 A tell-all memoir chronicling the life of a First Lady's personal friend includes the line
 
 "I’d **found myself** planning the most divisive inauguration in history."
@@ -119,6 +123,8 @@ It's the worst, isn't it? When you're sitting around, minding your own business,
 </div>
 
 More generally, actions are sometimes attributed to a vague or unknown actor even though the actor is known or known with high confidence.
+
+"Tower housing foreign correspondents **collapses** after missile strike"
 
 "West Rabbit teen wounded by Badger gunfire **dies**"
 
@@ -147,6 +153,10 @@ In the first instance, the expulsion is attributed to rabbits. In the second the
 An article about a bus driver being beaten with a bat by three passengers refusing to wear face masks includes the lines
 
 "The victim pulled over the bus to escort the males off. As the victim was escorting the males off the bus one of the males pulled out a wooden bat and struck the victim several times, **which caused the victim to be injured**."
+
+The headline for an online article about an airstrike that killed dozens of civilians reads
+
+"Commander said it didn't mean to kill 42 civilians on Sunday, saying it attacked a series of militant tunnels **that caused people's homes to collapse**"
 
 In an interview on BBC's Newsnight, when a minister is asked if he knew that his security forces were so brutal replies
 
@@ -260,6 +270,12 @@ Specifically, four sources are cited. Later in the article, we find a line revea
 
 "The description of that meeting is based on the accounts of four people: two people Badger **spoke with directly soon after** the encounter, and two people **familiar** with the meeting."
 
+In the opening paragraph in an article by the New York Times, we find the following paraphrased line
+
+"Rabbits projectile-threw 3,000 carrots at badgers on Sunday, while badgers deafened 33 rabbits by screaming annoyingly through megaphones."
+
+An image is painted in the reader's mind. Relative to 3,000, 33 isn't that bad. What the line conceals, however, is that badgers have a sophisticated defense system that prevented the overwhelming majority of those carrots from reaching their targets.
+
 Apparent precision manifests as jargon as well&mdash;technical-sounding language, understood by a select group, that does anything but communicate with clarity.
 
 What the examples in this section show us is that vagueness works to distance language from one of the very things it's meant to do&mdash;be a sincere reflection of reality.
@@ -365,15 +381,17 @@ Scientific guidance nowadays is partial to not attributing diseases to character
 
 **Running hot**. A market may be described as running too hot, and therefore due for a sell-off, by someone who stands to benefit from investors selling their positions.
 
-**Regime**. We call a system of government or an administration a regime if we don't like them. As recently as a few years ago, in a regional conflict in which two groups are vying for political power, we have headlines from opposite sides, each referring to its preferred group as a government and to the other group as a regime.
+**Regime**. We might call a system of government or an administration a regime if we don't like them. As recently as a few years ago, in a regional conflict in which two groups are vying for political power, we have headlines from opposite sides, each referring to its preferred group as a government and to the other group as a regime.
 
 Following a recent transfer of power, a headline in a daily paper reads
 
 "Fauci says Rabbit administration will be ‘transparent and honest’ on Covid unlike Badger **regime**"
 
-**Enemy combatant**. We call someone an enemy combatant or a guerrilla fighter or an insurgent or an agitator or a rebel or a militia fighter or&mdash;on the flip side a member of the resistance or a commando&mdash;based on whether or not that person's interests match ours.
+**Enemy combatant**. We might call someone an enemy combatant or a guerrilla fighter or an insurgent or an agitator or a rebel or a militia fighter or&mdash;on the flip side a member of the resistance or a commando&mdash;based on whether or not that person's interests match ours.
 
-**Indian country**. We call a hostile, dangerous territory "Indian country" to bring to mind the image of lawless, bare-chested American Indian men and women on horseback.
+**Sanctions**. We might talk about imposing sanctions on a country, to imply that the country must have done something horrendous, worthy of severe punishment. A more useful, sanctimonious, term in some cases than a phrase like "Unilateral economic measures aimed at coercing a population and therefore its government".
+
+**Indian country**. We might call a hostile, dangerous territory "Indian country" to bring to mind the image of lawless, bare-chested American Indian men and women on horseback.
 
 **Radical**. We call someone a radical to create associations with instability and absolutist, impractical, dangerous, idealist thinking. For that reason, a person's mere existence may be cause for being called a radical. As a wise rabbit once said of his fellow rabbits, often described as radicals for demanding basic mammal rights
 
@@ -466,7 +484,7 @@ One is left wondering how that line adds anything substantive to the story. Here
 
 It can also be useful as a headfake, in order to get a bill into law for instance. A recent bill that aims to prevent companies from using end-to-end encryption in their services goes by the name "Eliminating Abusive and Rampant Neglect of Interactive Technologies Act of 2020" and promises to **protect children** against online abusers. Of course, if passed, it will do much more than that.
 
-A **wave of layoffs** makes it seem like an inevitability. A force of nature. Something that was out of the CEO's hands.
+A **wave of layoffs** makes it seem like an inevitability. A force of nature. Something that was out of the CEO's hands. Much like a **cycle of violence** might depersonalize a conflict by projecting it as an inevitability.
 
 **Urban renewal** makes it seem like a neighborhood is made better, albeit at the cost of its former residents of course. “Better never means better for everyone,” as The Commander tells Offred in _The Handmaid's Tale_.
 
@@ -476,15 +494,17 @@ A **wave of layoffs** makes it seem like an inevitability. A force of nature. So
 
 **Algorithms**, just like all layers of indirection, can conceal subjectivity. As might statements like, "Let's see what the data tells us." If you're not careful, the data will tell you anything you want it to tell you.
 
-**Credit scores** can hide the criteria by which someone might be denied a loan or a rental. **Borderline content** determines whether or not your videos are recommended to new users on YouTube, even when it complies with YouTube's terms of use. **Community standards** determine whether or not your content gets published on Facebook, even when it complies with Facebook's terms of use.
+**Credit scores** can hide the criteria by which someone might be denied a loan or a rental. **Borderline content** determines whether or not your videos are recommended to new users on YouTube, even when it complies with YouTube's terms of use. **Community standards** determine whether or not your content gets published on Facebook, even when it complies with Facebook's terms of use. And **software glitches** are made to take the blame when inconvenient content is deleted on social media websites.
 
 It's a **victory** if we like the people doing it, and a massacre if we don't.
 
 **Enhanced interrogation techniques** sounds better than good old torture.
 
-**Excited delirium** sounds more organic than death by Taser. A syndrome pushed into the mainstream, coincidentally, by the Taser company Axon and its catalog of self-funded studies and network of experts, researchers, and consultants.
+**Administrative detention** sounds better than incarceration without trial.
 
-**Private military company** sounds better than mercenary. Or in a world where, say, rabbits are projected in the image of a monster, then a phrase like "Anti-rabbit fighter" right away sounds better than "mercenary". They're anti-rabbit, we're anti-rabbit, so naturally, we must both be righteous.
+**Rubber bullets**, much like their cousins the sponge grenades, sound softer, kinder, gentler, and moral civilized than steel bullets. Until you realize rubber bullets contain a metal core, that is. Until you realize they are often fired at faces with the goal of blinding, maiming, and severely injuring. Rubber bullets, fired from **nonlethal weapons**.
+
+**Private military company** sounds better than mercenary. Or in a world where, say, rabbits are projected in the image of a monster, then a phrase like "Anti-rabbit fighter" right away sounds better than "mercenary". They're anti-rabbit, we're anti-rabbit, so naturally, we must both be righteous. And those others must be . . . wrongus.
 
 **Collateral damage** sounds better than civilian deaths.
 
@@ -507,6 +527,12 @@ Saying a **military-aged male** was targeted is somehow more forgivable than say
 **Pacification** suggests bringing something back to its natural state. Its two definitions couldn't be more different&mdash;“a: the act or process of pacifying (to restore to a tranquil state), and b: the act of forcibly suppressing or eliminating a population considered to be hostile.”
 
 **Population transfer** and depopulation sound so much better than forced migration, as they bring to mind no images of how those ventures always come at somebody else's cost.
+
+**Eviction** sounds better than forced expulsion or ethnic cleansing.
+
+**Conflict** sounds better than struggle.
+
+**Effort** sounds better than crime.
 
 **Community** sounds more agreeable than **settlement**.
 
@@ -546,7 +572,9 @@ As Orwell writes, “In the case of a word like democracy, not only is there no 
 
 "On balance . . . a **transfer of human capital**. They're not impoverishing people, on the contrary."
 
-Ministry of **Defense** is more respectable than Ministry of War. It implies we're reacting to aggression whenever we engage in combat. The change in naming is perfectly reasonable, in principal, in a post-World War II era, but doesn't always hold on examination. Similarly, defense contractors are in the business of _defending_, forces like the Badger Buckler are in the business of _shielding_ ergo protecting, and __national security__ laws are in the business of _securing_.
+Ministry of **Defense** is more respectable than Ministry of War. It implies we're reacting to aggression whenever we engage in combat. The change in naming is perfectly reasonable, in principal, in a post-World War II era, but doesn't always hold on examination. A "Badger bomber flying over Rabbit country in a **defensive** move" is a bit hard to rationalize when one looks at a map and sees that the two are 6,000 miles apart.
+
+And in that vein, defense contractors are in the business of _defending_, forces like the Badger Buckler are in the business of _shielding_ ergo protecting, and __national security__ laws are in the business of _securing_.
 
 **Prepositions and possessives**. Robert Clive going by _Clive of India_ aims to suggest _he_ belonged to India, when in fact, as one Indian MP states, it was India that belonged to him. The royal title _Protector of the Three Big Islands_ aims to suggest a monarch is in service of a set of prosperous cities when in reality it's the other way around.
 
@@ -735,9 +763,13 @@ All it takes is for one person to hold each view for the line to be factually tr
 
 A day after tensions escalated in a neighborhood, due to marauding badgers roaming the streets, calling for all rabbits to be expelled, a major news outlet's headline read
 
-"More than 100 animals injured in last night's clashes"
+"More than 100 animals injured in last night's **clashes**"
 
-No distinction is made between how many of those animals were rabbits and how many were badgers.
+No distinction is made between how many of those animals were rabbits and how many were badgers. Moreover, we have the word _Clashes_, which is often intentionally used to create an equivelance between two unequal sides.
+
+Similarly, a Reuters headline reads
+
+"Rabbits, Badgers clash downtown, scores injured"
 
 In another example, an op-ed in the Washington Post attempts to offer a balanced narrative of the 2013 Federal Government's shutdown, but as The Guardian's Bob Garfield points out, it ends up mischaracterizing the lead up to the shutdown. A shutdown that wasn't due to a split between left and right, but rather due to a faction in the Republican party seeing the shutdown as a way of pressuring the Senate into repealing the Affordable Care Act.
 
@@ -771,11 +803,17 @@ Was it or wasn't it?
 
 Does it or doesn't it?
 
+"Most of the injuries were to the face and eyes and **appeared to be caused** by rubber bullets."
+
+It's fairly straightforward to tell if an injury was caused by a rubber bullet.
+
 “While the first author's clarification appeased some fans, it appears to have irked the second author. **Some social media users have also speculated** that the two unfollowed each other on Twitter.”
 
 Did they or didn't they? It would have been easy to confirm that before running the story.
 
 **Shifting responsibility.** "Carbon footprint" is a term popularized by British Petroleum, and one they successfully managed to make stick with catchy PR blurbs like "It’s time to go on a low-carbon diet." The term's aim, undoubtedly, was to insinuate to ordinary people that _their_ everyday activities were major contributors to global warming, rather than the actions of fossil fuel companies. An ingenius shifting of blame.
+
+Similarly, **excited delirium** sounds more organic than death by Taser. A syndrome pushed into the mainstream, coincidentally, by the Taser company Axon and its catalog of self-funded studies and network of experts, researchers, and consultants.
 
 Elsewhere, the qualifying phrase “people experiencing” followed by some misfortune or quality has a similar effect. It moves the agency away from the person in question to an external factor. It's meant to humanize, though in cases where the movement of that agency is debatable, it ends up passing the buck.
 
@@ -936,13 +974,17 @@ It might also crack down on a group of protestors by imprisoning every last _non
 
 It might also evict scores of families from their homes, then pass a missing owner property law the next year stating that all unoccupied houses are state property, to do with them what it wishes.
 
+It might also destroy a city's media towers and decimate its infrastructure, causing the deaths of many, and once the number of casualties comes out, counter with,
+
+"Casualty reports are hard to verify because those people control the media in the city."
+
 These are more recent examples. History, of course, is rife with this sort of sneaky approach.
 
 We'll let you vote, but you have to pass a literacy test first. Oh, you can't read and write (by law)? Shame.
 
 We'll let you vote, but you have to pay a poll tax. You can't afford it? Shame.
 
-We'll let you vote, but you have to answer a brainteaser first. This one came as a surprise to me, as it's reminiscent of the oppressive way coding interviews used to be conducted in the 2000s.
+We'll let you vote, but you have to answer a brainteaser first. An approach reminiscent of the oppressive way coding interviews used to be conducted in the 2000s.
 
 US history does not have a monopoly on this sort of legal subjugation of course. I refer to it only because it's likely to be familiar to most readers.
 
@@ -1119,6 +1161,16 @@ _What are we supposed to do?_, is the implicit sentiment. They are beasts, after
 
 A rabbit born in the northern rabbit kingdom of Iduas&mdash;ruled by the Iduas family&mdash;will identify himself as _Iduasi_ in all walks of life. If he does so with pride, he will be at best submissive and at worse obsequious to the Iduasi family by virtue of it being intertwined with his own personal identity. The way that intertwinement devours the rabbit's spirit is more effective than all the tanks in the world.
  -->
+
+In an online tabloid, a headline was erroneously published. It read
+
+"Airstrikes from rabbits destroy 18 bushes, including eight seedlings"
+
+A few minutes later, it realized that what had actually happened was the exact opposite, and that badgers were the perpetrators. Instead of fixing the headline, the paper changed it to
+
+"Rabbits launch new attack on badgers"
+
+What the paper is telling its readers, and rabbits by extension, is that aggression is endemic in rabbits. It doesn't matter what they did or was done unto them, they must, invariably, in every situation, irrespective of context or facts, be projected as the aggressor.
  
 Given names can be as shackling, which is why the self-aware might decide to change them later in life. Oodgeroo Noonuccal comes to mind, for instance. The Aboriginal Australian activist who was born Kathleen Ruska.
 
@@ -1240,6 +1292,7 @@ Thanks for stopping by.
 46. Pacification, [https://www.merriam-webster.com/dictionary/pacification](https://www.merriam-webster.com/dictionary/pacification#:~:text=%2D%CB%88k%C4%81%2Dsh%C9%99n%20%5C-,Definition%20of%20pacification,2%20%3A%20a%20treaty%20of%20peace)
 47. The Terrible Violence of ‘Pacification', [https://www.nytimes.com/2018/01/18/opinion/violence-pacification-vietnam-war.html](https://www.nytimes.com/2018/01/18/opinion/violence-pacification-vietnam-war.html)
 48. Statement from the Press Secretary Regarding Executive Grants of Clemency, [https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-122220/](https://www.whitehouse.gov/briefings-statements/statement-press-secretary-regarding-executive-grants-clemency-122220)
+48. From tear gas to rubber bullets, here’s what ‘nonlethal’ weapons can do to the body, [https://www.nationalgeographic.com/science/article/what-nonlethal-weapons-can-do-to-the-body-george-floyd](https://www.nationalgeographic.com/science/article/what-nonlethal-weapons-can-do-to-the-body-george-floyd)
 48. Democrats plot Trump's removal after deadly riots, [https://www.politico.com/news/2021/01/07/lawmakers-trump-25th-amendment-455832](https://www.politico.com/news/2021/01/07/lawmakers-trump-25th-amendment-455832)
 48. Population transfer, [https://en.wikipedia.org/wiki/Population_transfer](https://en.wikipedia.org/wiki/Population_transfer)
 51. Bill Gates Always Reads Before Bed. Science Suggests You Should Too, [https://www.inc.com/jessica-stillman/bill-gates-always-reads-for-an-hour-before-bed-science-suggests-you-should-do-same.html?cid=sf01001](https://www.inc.com/jessica-stillman/bill-gates-always-reads-for-an-hour-before-bed-science-suggests-you-should-do-same.html?cid=sf01001)
@@ -1313,6 +1366,8 @@ Thanks for stopping by.
 
 ### Acknowledgements
 
-_Mr. Rabbit's Guide to Sneaky Rhetoric_ is illustrated by my good friend and longtime collaborator Alejandro Giraldo. The font used in the artwork is Alegreya. The serif font used on this page is Merriweather. I'm grateful to Grigory Pogulsky for reviewing and contributing to an early draft and to Reed O'Brien for sharing the study on artful dodging with me. Furthermore, I'm grateful to two anonymous reviewers for contributing significant edits to the work's first translated edition, and to Irina "Alex" Sandu for contributing excellent examples to several sections. This project is the first of two companions to _Bad Arguments_. It is dedicated to my father.
+_Loaded Language_ is illustrated by my good friend and longtime collaborator Alejandro Giraldo. The font used in the artwork is Alegreya. The serif font used on this page is Merriweather. I'm grateful to Grigory Pogulsky for reviewing and contributing to an early draft and to Reed O'Brien for sharing the study on artful dodging with me. Furthermore, I'm grateful to two anonymous reviewers for contributing significant edits to the work's first translated edition, and to Irina "Alex" Sandu for contributing excellent examples to several sections. This project is the first of two companions to _Bad Arguments_. It is dedicated to my father.
+
+The print edition is [now available for preorder](https://theexperimentpublishing.com/catalogs/fall-2021/an-illustrated-book-of-loaded-language) and will be released in October 2021.
 
 &mdash;_Ali Almossawi, San Francisco, November 2020_

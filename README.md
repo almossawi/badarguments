@@ -1,6 +1,6 @@
 # An Illustrated Book of Bad Arguments
 
-_Bad Arguments_ has been read by over three million visitors since its release in July 2013. This repository contains the code and documentation for the project, including all translations. It also includes the code for _Mr. Rabbit's Guide to Sneaky Rhetoric_—the follow-on project to _Bad Arguments_ that's planned for release in 2021. That project is available at [bookofbadarguments.com/extras](https://bookofbadarguments.com/extras/).
+_Bad Arguments_ has been read by over three million visitors since its release in July 2013. This repository contains the code and documentation for the project, including all translations. It also includes the code for _An Illustrated Book of Loaded Language_—the follow-on project to _Bad Arguments_ that's planned for release in October 2021. That project is available at [bookofbadarguments.com/extras](https://bookofbadarguments.com/extras/).
 
 ## How to contribute
 
@@ -69,4 +69,4 @@ You are welcome to suggest corrections or submit suggestions by opening an [issu
 
 ## License
 
-The _Bad Arguments_ and _Mr. Rabbit's Guide to Sneaky Rhetoric_ code is shared under the terms of the [Creative Commons BY-NC License v3.0](https://creativecommons.org/licenses/by-nc/3.0/).
+The _Bad Arguments_ and _Loaded Language_ code is shared under the terms of the [Creative Commons BY-NC License v3.0](https://creativecommons.org/licenses/by-nc/3.0/).

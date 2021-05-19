@@ -594,6 +594,7 @@ p.justify-last:after {
     position: absolute;
     right: 30px;
     top: 10px;
+    width: 191px;
     z-index: 9999999;
 }
 

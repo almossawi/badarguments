@@ -610,6 +610,7 @@ p.justify-last:after {
     position: absolute;
     right: 30px;
     top: 10px;
+    width: 191px;
     z-index: 9999999;
 }
 
@@ -703,9 +704,15 @@ div.left p.translated-by span.translated-into {
     font-style: normal;
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1430px) {
     .hide-on-mobile {
         display: none;
+    }
+}
+
+@media (max-width: 1450px) {
+    .in-the-press {
+        width: 104px;
     }
 
     .container-languages,
