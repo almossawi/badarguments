@@ -2,8 +2,8 @@
 title: An Illustrated Book of Loaded Language (Working Draft)
 author: Mr. Rabbit
 slug: guide-to-sneaky-rhetoric
+hero: ./images/2-scene.jpg
 date: 2020-11-10
-hero: ./images/rabbit.png
 excerpt: A guide to the subtle ways language influences our thinking. How the sentences we construct and consume in our news, in our politics, and in our everyday lives impact the way we perceive the world around us. Examples include language that prevaricates, language that conceals with vagueness, and language that feigns objectivity with apparent neutrality.
 ---
 
@@ -19,7 +19,7 @@ excerpt: A guide to the subtle ways language influences our thinking. How the se
 
 <div className="Image__Small">
   <img src="./images/1-spot.jpg" alt="Art 1: Mr. Rabbit looks straight at the reader." />
-  <figcaption>[Art 1 / Sketch] Rabbit is sitting on a chair, finger tips touching, legs crossed, and looks straight at the reader.</figcaption>
+  <figcaption>Rabbit is sitting on a chair, finger tips touching, legs crossed, and looks straight at the reader.</figcaption>
 </div>
 
 You might remember me from a project from several years ago. Badger and I both 
@@ -32,7 +32,7 @@ featured in it. He was on the cover and I was one of the extras on page 27.
 
 We play the room as it lays, my friend. We play the room as it lays.
 
-I've since landed a new gig, and I'm excited to share it with you. This project will be released in print with 12+ beautiful illustrations in October 2021, and is [now available for preorder!](https://theexperimentpublishing.com/catalogs/fall-2021/an-illustrated-book-of-loaded-language) In the meantime, you're all welcome to contribute your perspectives to it.
+I've since landed a new gig, and I'm excited to share it with you. This project will be released in print with 13+ beautiful illustrations in October 2021, and is [now available for preorder!](https://theexperimentpublishing.com/catalogs/fall-2021/an-illustrated-book-of-loaded-language) In the meantime, you're all welcome to contribute your perspectives to it.
 
 ### A Quick Introduction
 
@@ -80,15 +80,10 @@ Most of those adaptations feature rabbits and badgers. Any connection between ba
 
 ---
 
-<div className="Image__Small">
-  <img src="./images/art1.png" alt="Art 2: Mr. Rabbit pulls back a pair of tonsils and invites the reader to follow him. [I've so many questions &mdash;Ed.]" />
-  <figcaption>[Art 2 / Sketch] Mr. Rabbit pulls back a pair of tonsils and invites the reader to follow him. [I've so many questions &mdash;Ed.]</figcaption>
-</div>
-
 ### 1. Language that conceals with vagueness
 
 <div class="Image__Small">
-  <img src="" />
+  <img src="./images/3-scene.jpg" alt="Concealing with vagueness" />
   <figcaption>The sole of an elephant's foot is visible from below. The rest of the foot and elephant are either out of view or out of focus. The foot has just crushed a mouse's house. Mouse looks devastated. A mouse police officer is holding a notebook and looking up at the foot, reading it its right (you have the right to remain silent...)</figcaption>
 </div>
 
@@ -112,9 +107,7 @@ Another of the paper's headlines about a fatal airstrike reminds us that beaches
 
 "Rabbits **Drawn to** Beach and **Into** Center of Conflict"
 
-A columnist writing for that same paper shares a post that reads
-
-"Our final wrap on today's events, **which left** 20 missing"
+More generally, actions are sometimes attributed to a vague or unknown actor even though the actor is known or known with high confidence.
 
 A tell-all memoir chronicling the life of a First Lady's personal friend includes the line
 
@@ -122,14 +115,21 @@ A tell-all memoir chronicling the life of a First Lady's personal friend include
 
 It's the worst, isn't it? When you're sitting around, minding your own business, and then you _find yourself_ planning an inauguration.
 
-<div class="Image__Small">
-  <img src="./images/4-scene.jpg" alt="Conceals with vagueness" />
-  <figcaption>Reporters (animals) are holding microphones in front of a senator's face. "Senator, were you the one who ate all the leftover chocolate cake?" reads the speech bubble. The stony-faced senator (animal) turns to face the camera, jabbing an index finger at the lens, "Look,” he says, “the fact of the matter is, when I closed the fridge door, that cake had already been eaten."</figcaption>
-</div>
+A columnist for a paper of record shares a post that reads
 
-More generally, actions are sometimes attributed to a vague or unknown actor even though the actor is known or known with high confidence.
+"Our final wrap on today's events, **which left** 20 missing."
 
-"Tower housing foreign correspondents **collapses** after missile strike"
+The loss in life is attributed to an abstract concept—a vague collective.
+
+A headline on a major cable news network reads
+
+"Beloved bookshop becomes a **casualty of conflict**"
+
+The bookshop being the target of a laser-guided missile never comes up.
+
+Lines like these crop up all the time. For instance:
+
+"Tower housing foreign correspondents **collapses** after strike"
 
 "West Rabbit teen wounded by Badger gunfire **dies**"
 
@@ -142,6 +142,11 @@ More generally, actions are sometimes attributed to a vague or unknown actor eve
 “Rabbits zapped three badgers in an ambush last night; the event happened hours after six rabbits in a neighboring town **lost their lives**.”
 
 In each of those examples, a word or a set of words help take the edge off the unpleasant fact that's being conveyed. In the last example, an action is attributed to rabbits in the first part, but not to badgers in the second part.
+
+<div class="Image__Small">
+  <img src="./images/4-scene.jpg" alt="Conceals with vagueness" />
+  <figcaption>Reporters (animals) are holding microphones in front of a senator's face. "Senator, were you the one who ate all the leftover chocolate cake?" reads the speech bubble. The stony-faced senator (animal) turns to face the camera, jabbing an index finger at the lens, "Look,” he says, “the fact of the matter is, when I closed the fridge door, that cake had already been eaten."</figcaption>
+</div>
 
 **Misattributing quotes**. A quote or quality attributable to a single person may be attributed to an entire group in order to increase credibility for the thing being said. It can often be hard to spot. For instance, a line in The Guardian reads
 
@@ -499,17 +504,23 @@ A **wave of layoffs** makes it seem like an inevitability. A force of nature. So
 
 **Algorithms**, just like all layers of indirection, can conceal subjectivity. As might statements like, "Let's see what the data tells us." If you're not careful, the data will tell you anything you want it to tell you.
 
-**Credit scores** can hide the criteria by which someone might be denied a loan or a rental. **Borderline content** determines whether or not your videos are recommended to new users on YouTube, even when it complies with YouTube's terms of use. **Community standards** determine whether or not your content gets published on Facebook, even when it complies with Facebook's terms of use. And **software glitches** are made to take the blame when inconvenient content is deleted on social media websites.
+**Credit scores** can hide the criteria by which someone might be denied a loan or a rental. **Borderline content** determines whether or not your videos are recommended to new users on YouTube, even when it complies with YouTube's terms of use. **Community standards** determine whether or not your content gets published on Facebook, even when it complies with Facebook's terms of use. **Software glitches** are made to take the blame when inconvenient content is deleted on social media websites.
 
 It's a **victory** if we like the people doing it, and a massacre if we don't.
+
+It's a **revolutionary war** if we're the ones fighting it, and sedition if it's somebody else doing the fighting.
+
+In a world where rabbits are projected in the image of a monster, **anti-rabbit fighter** right away lends someone legitimacy. They're anti-rabbit, we're anti-rabbit, so naturally, we must both be righteous. It's a selective yardstick that gets to conflate which side you're on with whether what you're doing is morally permissable.
 
 **Enhanced interrogation techniques** sounds better than good old torture.
 
 **Administrative detention** sounds better than incarceration without trial.
 
-**Rubber bullets**, much like their cousins the sponge grenades, sound softer, kinder, gentler, and moral civilized than steel bullets. Until you realize rubber bullets contain a metal core, that is. Until you realize they are often fired at faces with the goal of blinding, maiming, and severely injuring. Rubber bullets, fired from **nonlethal weapons**.
+**Rubber bullets**, much like sponge grenades, sound softer, kinder, gentler, and more civilized than steel bullets. Until one realizes rubber bullets contain a metal core, that is, as an article in <i>Le Monde</i> recently reported. Until one realizes that when fired at someone's face, they blind, maim, and severely injure. Rubber bullets, fired from **nonlethal weapons**.
 
-**Private military company** sounds better than mercenary. Or in a world where, say, rabbits are projected in the image of a monster, then a phrase like "Anti-rabbit fighter" right away sounds better than "mercenary". They're anti-rabbit, we're anti-rabbit, so naturally, we must both be righteous. And those others must be . . . wrongus.
+**Private military company** sounds better than mercenary.
+
+**Military target** sounds better than _families_ of military targets.
 
 **Collateral damage** sounds better than civilian deaths.
 
@@ -529,7 +540,13 @@ Saying a **military-aged male** was targeted is somehow more forgivable than say
 
 **Purging** suggests the elimination of something hostile or unreliable, a purification. Purging institutions and government agencies sounds better than saying who was forcibly removed, for what reason they were removed, and what terrible fate befell them.
 
-**Pacification** suggests bringing something back to its natural state. Its two definitions couldn't be more different&mdash;“a: the act or process of pacifying (to restore to a tranquil state), and b: the act of forcibly suppressing or eliminating a population considered to be hostile.”
+**Pacification** suggests bringing something back to its natural state. Its two definitions have an eery undertone in common&mdash;“a: the act or process of pacifying (to restore to a tranquil state), and b: the act of forcibly suppressing or eliminating a population considered to be hostile.”
+
+A headline in The Guardian reads
+
+"Bears vow not to stop attacks until there is 'complete quiet'"
+
+"Quiet," as in a state in which the enemy is utterly and mortally crushed.
 
 **Population transfer** and depopulation sound so much better than forced migration, as they bring to mind no images of how those ventures always come at somebody else's cost.
 
@@ -543,7 +560,7 @@ Saying a **military-aged male** was targeted is somehow more forgivable than say
 
 **Security fence** sounds more agreeable than **wall**.
 
-**Controlled** sounds more agreeable than **occupied**. 
+**Controlled** or **disputed** sounds more agreeable than **occupied**. 
 
 **Expat** evokes different images than migrant or foreign worker. An expat brings to mind “someone sipping a gin and tonic by the pool at sunset,” as one journalist writes in The Atlantic. A foreign worker on the other hand brings to mind a range of images, some of which include uneducated, sunburned people who have no inkling of how to assimilate into society.
 
@@ -577,7 +594,7 @@ As Orwell writes, “In the case of a word like democracy, not only is there no 
 
 "On balance . . . a **transfer of human capital**. They're not impoverishing people, on the contrary."
 
-Ministry of **Defense** is more respectable than Ministry of War. It implies we're reacting to aggression whenever we engage in combat. The change in naming is perfectly reasonable, in principal, in a post-World War II era, but doesn't always hold on examination. A "Badger bomber flying over Rabbit country in a **defensive** move" is a bit hard to rationalize when one looks at a map and sees that the two are 6,000 miles apart.
+Ministry of **Defense** is more respectable than Ministry of War. It implies we're reacting to aggression whenever we engage in combat. The change in naming is perfectly reasonable, in principal, in a post-World War II era, but doesn't always hold on examination. A "Badger bomber flying over Rabbit country in a **defensive** move" is a bit hard to rationalize when one looks at a map and sees that the two nations are 6,000 miles apart.
 
 And in that vein, defense contractors are in the business of _defending_, forces like the Badger Buckler are in the business of _shielding_ ergo protecting, and __national security__ laws are in the business of _securing_.
 
@@ -633,6 +650,8 @@ Having red or brown hair adds no useful context. Repeated often, it may eventual
 
 Like on a clinical psychologist's talk show on CBS, where we find an episode in which the host constantly and repeatedly refers to one of his guests as a brown-haired rabbit, gratuitously and to no objectively useful end. The guest on this episode was being castigated for being some sort of monster, so the overstatement clearly aimed at associating the guest's actions with the incidental quality of him having brown hair. 
 
+The same happens when in a conflict, a hospital is called a "Rabbit-run hospital" or a school is called a "Rabbit-run school".
+
 **Definition of normal**. In a recent work of fiction, we find the following two lines
 
 “How **cruel** that they punished you for something you **cannot change**.”
@@ -641,11 +660,13 @@ Like on a clinical psychologist's talk show on CBS, where we find an episode in 
 
 They imply there's something wrong with the person. Even if that person could change themselves, the question becomes why would they? As James Baldwin writes in an essay, “Language, incontestably, reveals the speaker. Language, also, far more dubiously, is meant to define the other.”
 
-**Authentic self**. We sometimes hear from well-meaning people and animals the phrase
+**Authentic self**. We sometimes hear from well-meaning souls the phrase
 
 "Everyone should feel comfortable **being their authentic selves**."
 
-What's missing from that sentiment, attractive though it is, is the reality that not all authentic selves _can_ be revealed without paying a bitter cost. A self that identifies with a morally just albeit unpopular contemporary cause or issue can't really be expected to feel at liberty to be authentic. Everywhere and with everyone. The price of the ticket is almost always too high. Those who do pay it are rare souls worthy of reverence.
+What's missing from that sentiment, attractive though it is, is the reality that not all authentic selves _can_ be revealed without paying a bitter cost. A self that identifies with a morally just albeit unpopular contemporary cause or issue can't really be expected to feel at liberty to be authentic. Everywhere and with everyone. The price of the ticket is almost always too high.
+
+And so, one is left with the immense trauma that subjugation imparts. Particularly when the subjugator holds all the cards. The double pain—of when it happens, and then, of not being allowed to bear witness to it having happened.
 
 **Opinions passed as prima facie evidence**. In a daily medical YouTube show, a physician shares the line
 
@@ -709,7 +730,7 @@ More perniciously, it can go as far as define who is good and who is evil. In th
 
 But minister, one feels compelled to ask, you spend much of your time in that same region in hopes of spreading _your_ influence. Not that it has any bearing on whether or not the Rabbit Kingdom's influence is good or evil, but it does reveal a presupposed position that everything we do is categorically good and everything somebody we don't like does isn't.
 
-Following a recent attack on a federal building that led to casualties, property damage, and widespread condemnation, a journalist shared the line
+Following a recent attack on a federal building that led to casualties, property damage, and widespread condemnation, a badger journalist shared the line
 
 "Today reminded me of my time reporting from the Rabbit Kingdom. It felt like we were in some **third world** country. This is not us. **This is not who we are.**"
 
@@ -903,6 +924,12 @@ The second line doesn’t quite sit well. What exactly is our friend saying with
 An addendum to the piece three days later reveals the real reason for the caveat-laden line&mdash;its whole point was to lay the groundwork for deniability:
 
 “When I speak of profiling 'rabbits, or anyone who looks like he or she could conceivably be a rabbit,' I am not narrowly focused on mammals with long ears and protruding teeth. In fact, I included myself in the description of the type of mammal I think should be profiled.”
+
+In an op-ed in Newsweek, we find the following line
+
+"The scenario has existed before. It will be repeated again. Our enemy wages a war of attrition—or, **as observers of asymmetrical warfare have called it, the war of the flea**. The flea is small and the dog is large, but over time enough attacks by enough fleas will bring down the dog. An intractable enemy must be destroyed. If the dog is to survive, then the fleas must be destroyed in their earliest stages."
+
+Again, the author is not _really_ saying an entire ethnic group is akin to fleas that must be exterminated, preemptively. That's what the literature says. What is a man like me supposed to do?
 
 **Quotations**. Single or double quotes can be used to cast doubt on something that may not be at all controversial, often in a crafty way that's meant to come across as objective. For instance,
 
@@ -1146,7 +1173,7 @@ More destructively, an authority can eliminate prisoners of conscience by bundli
 
 <div className="Image__Small">
   <img src="./images/art7.png" alt="Mr. Rabbit, speaking to the reader: Neither have I met the rabbits these pollsters have met, nor have they met the ones I've met." />
-  <figcaption>[Art 1 with caption / Sketch] Mr. Rabbit, speaking to the reader: "Neither have I met the rabbits these pollsters have met, nor have they met the ones I've met."</figcaption>
+  <figcaption>Mr. Rabbit, speaking to the reader: "Neither have I met the rabbits these pollsters have met, nor have they met the ones I've met."</figcaption>
 </div>
 
 Elsewhere, a line in an article reads
@@ -1229,10 +1256,15 @@ I would love to add examples from a greater variety of sources, especially ones 
 
 Thanks for stopping by.
 
-<div class="Image__Small">
-  <img src="./images/art9.png" alt="Mr. Rabbit waves goodbye." />
-  <figcaption>[Art 10 / Sketch] Mr. Rabbit waves goodbye.</figcaption>
+<div className="Image__Small">
+  <img src="./images/art1.png" alt="Art 2: Mr. Rabbit pulls back a pair of tonsils and invites the reader to follow him. [I've so many questions &mdash;Ed.]" />
+  <figcaption>Mr. Rabbit pulls back a pair of tonsils and invites the reader to follow him. [I've so many questions &mdash;Ed.]</figcaption>
 </div>
+
+<!--<div class="Image__Small">
+  <img src="./images/art9.png" alt="Mr. Rabbit waves goodbye." />
+  <figcaption>Mr. Rabbit waves goodbye.</figcaption>
+</div>-->
 
 ---
 
@@ -1306,6 +1338,7 @@ Thanks for stopping by.
 56. Spike Lee's Amazing Rant Against Gentrification: ‘We Been Here!', [https://nymag.com/intelligencer/2014/02/spike-lee-amazing-rant-against-gentrification.html](https://nymag.com/intelligencer/2014/02/spike-lee-amazing-rant-against-gentrification.html)
 57. Eat, Pray, Love, Leave: Orientalism Still Big Onscreen, [https://www.npr.org/templates/story/story.php?storyId=129254808](https://www.npr.org/templates/story/story.php?storyId=129254808)
 58. Final survivor of last American slave ship identified, [https://www.foxnews.com/science/final-survivor-of-last-american-slave-ship-identified](https://www.foxnews.com/science/final-survivor-of-last-american-slave-ship-identified)
+58. Beloved Gaza bookshop becomes a casualty of Israel-Hamas conflict, [https://www.nbcnews.com/news/world/beloved-gaza-bookshop-becomes-casualty-israel-hamas-conflict-n1267996?cid=sm_npd_nn_tw_ma](https://www.nbcnews.com/news/world/beloved-gaza-bookshop-becomes-casualty-israel-hamas-conflict-n1267996?cid=sm_npd_nn_tw_ma)
 61. Bush: 'Democracy will succeed' in Iraq, [https://www.cnn.com/2003/WORLD/europe/11/19/bush.speech/index.html](https://www.cnn.com/2003/WORLD/europe/11/19/bush.speech/index.html)
 62. How world newspapers reported India's independence in 1947, [https://indianexpress.com/article/research/70-years-of-independence-how-world-newspapers-reported-on-indian-independence-in-1947-4796660/](https://indianexpress.com/article/research/70-years-of-independence-how-world-newspapers-reported-on-indian-independence-in-1947-4796660/)
 64. GOP aghast as Trump's polls sink amid divisive racial rhetoric: 'It's been a bad couple weeks', [https://www.cnn.com/2020/06/24/politics/republican-reaction-trump-racist-rhetoric/index.html](https://www.cnn.com/2020/06/24/politics/republican-reaction-trump-racist-rhetoric/index.html)
@@ -1371,7 +1404,7 @@ Thanks for stopping by.
 
 ### Acknowledgements
 
-_Loaded Language_ is illustrated by my good friend and longtime collaborator Alejandro Giraldo. The font used in the artwork is Alegreya. The serif font used on this page is Merriweather. I'm grateful to Grigory Pogulsky for reviewing and contributing to an early draft and to Reed O'Brien for sharing the study on artful dodging with me. Furthermore, I'm grateful to two anonymous reviewers for contributing significant edits to the work's first translated edition, and to Irina "Alex" Sandu for contributing excellent examples to several sections. This project is the first of two companions to _Bad Arguments_. It is dedicated to my father.
+_Loaded Language_ is illustrated by my good friend and longtime collaborator Alejandro Giraldo. It is being edited by the inimitable Karen Giangreco. The font used in the artwork is Alegreya. The serif font used on this page is Merriweather. I'm grateful to Grigory Pogulsky for reviewing and contributing to an early draft and to Reed O'Brien for sharing the study on artful dodging with me. Furthermore, I'm grateful to two anonymous reviewers for contributing significant edits to the work's first translated edition, and to Irina "Alex" Sandu for contributing excellent examples to several sections. This project is the first of two companions to _Bad Arguments_. It is dedicated to my father.
 
 The print edition is [now available for preorder](https://theexperimentpublishing.com/catalogs/fall-2021/an-illustrated-book-of-loaded-language) and will be released in October 2021.
 
