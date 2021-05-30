@@ -512,6 +512,8 @@ It's a **revolutionary war** if we're the ones fighting it, and sedition if it's
 
 In a world where rabbits are projected in the image of a monster, **anti-rabbit fighter** right away lends someone legitimacy. They're anti-rabbit, we're anti-rabbit, so naturally, we must both be righteous. It's a selective yardstick that gets to conflate which side you're on with whether what you're doing is morally permissable.
 
+Defining morality based on who the other side happens to be is why, as Gabor Maté puts it, a protestor throwing stones at government forces in, say, Hong Kong is praised in our media, but the exact same act committed in some other part of the world is demonized.
+
 **Enhanced interrogation techniques** sounds better than good old torture.
 
 **Administrative detention** sounds better than incarceration without trial.
@@ -519,6 +521,8 @@ In a world where rabbits are projected in the image of a monster, **anti-rabbit 
 **Rubber bullets**, much like sponge grenades, sound softer, kinder, gentler, and more civilized than steel bullets. Until one realizes rubber bullets contain a metal core, that is, as an article in <i>Le Monde</i> recently reported. Until one realizes that when fired at someone's face, they blind, maim, and severely injure. Rubber bullets, fired from **nonlethal weapons**.
 
 **Private military company** sounds better than mercenary.
+
+**Acts** sound better than **atrocities** when referring to massacres of civilians. Pearson would know a thing or two about this one.
 
 **Military target** sounds better than _families_ of military targets.
 
@@ -897,6 +901,16 @@ One position is stated as an objective fact. The other is stated as a mere possi
 
 A demonstrably objective fact is presented as a point of view.
 
+In a revision to a GCSE (high school) textbook, the line
+
+"[I]nternational law states that a country cannot annex or indefinitely occupy territory gained by force."
+
+is revised to read
+
+"**Some argue** that international law states that a country cannot annex or indefinitely occupy territory gained by force."
+
+It's not like international law is some scribbles on a scrap of paper, tucked away in some hippie's nightstand.
+
 **Politically neutral**. A San Francisco-based non-profit known for its prolific edits to American K-12 textbooks writes in one of its comments on a high school world history textbook
 
 "The term 'occupied' is a politicized term inappropriate for a public school text. The text should remove it in order to be **politically neutral**."
@@ -1171,10 +1185,10 @@ More destructively, an authority can eliminate prisoners of conscience by bundli
 
 “A recent poll shows that rabbits are happy with how badgers treat them.”
 
-<div className="Image__Small">
+<!--<div className="Image__Small">
   <img src="./images/art7.png" alt="Mr. Rabbit, speaking to the reader: Neither have I met the rabbits these pollsters have met, nor have they met the ones I've met." />
   <figcaption>Mr. Rabbit, speaking to the reader: "Neither have I met the rabbits these pollsters have met, nor have they met the ones I've met."</figcaption>
-</div>
+</div>-->
 
 Elsewhere, a line in an article reads
 
@@ -1367,6 +1381,7 @@ Thanks for stopping by.
 85. The News Quiz - Friday 18th September 2020, [https://www.bbc.co.uk/sounds/play/p08rx5yv](https://www.bbc.co.uk/sounds/play/p08rx5yv)
 87. Melania Trump’s Ex-BFF Tells (Almost) All, [https://nymag.com/intelligencer/article/melania-and-me-stephanie-winston-wolkoff.html](https://nymag.com/intelligencer/article/melania-and-me-stephanie-winston-wolkoff.html)
 87. American Indians in Children's Literature, [http://americanindiansinchildrensliterature.net/](http://americanindiansinchildrensliterature.net/)
+87. Report on the Revisions Made to Two Pearson GCSE Textbooks, [http://www.bricup.org.uk/documents/GCSE_textbooks.pdf](http://www.bricup.org.uk/documents/GCSE_textbooks.pdf)
 79. Allegations And Apologies Rock La Marzocco, [https://sprudge.com/allegations-and-apologies-rock-la-marzocco-164312.html](https://sprudge.com/allegations-and-apologies-rock-la-marzocco-164312.html)
 79. Twitter Users Erupt Over Kevin McCarthy’s ‘Everybody’ To Blame For Capitol Riot Claim, [https://www.huffpost.com/entry/kevin-mccarthy-blame-twitter-anger_n_600bf920c5b6fe97669cbbbd](https://www.huffpost.com/entry/kevin-mccarthy-blame-twitter-anger_n_600bf920c5b6fe97669cbbbd)
 79. Charge upgraded against Arkansas man arrested in US Capitol siege, [https://katv.com/news/local/arkansas-man-arrested-in-us-capitol-siege-makes-1st-court-appearance](https://katv.com/news/local/arkansas-man-arrested-in-us-capitol-siege-makes-1st-court-appearance)
