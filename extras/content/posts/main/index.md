@@ -84,7 +84,7 @@ Most of those adaptations feature rabbits and badgers. Any connection between ba
 
 <div class="Image__Small">
   <img src="./images/3-scene.jpg" alt="Concealing with vagueness" />
-  <figcaption>The sole of an elephant's foot is visible from below. The rest of the foot and elephant are either out of view or out of focus. The foot has just crushed a mouse's house. Mouse looks devastated. A mouse police officer is holding a notebook and looking up at the foot, reading it its right (you have the right to remain silent...)</figcaption>
+  <figcaption>The sole of an elephant's foot is visible from below. The rest of the foot and elephant are either out of view or out of focus. The foot has just crushed a mouse's house. Mouse looks devastated. A mouse police officer is holding a notebook and looking up at the foot, reading it its Miranda rights (you have the right to remain silent...)</figcaption>
 </div>
 
 Vagueness is at the heart of insincere language. It clouds thinking, it muddies meanings, and as Orwell writes about vague words, "the person who uses them has his own private definition, but allows his hearer to think he means something quite different." Other times, vagueness disassociates us from a contemptible act or a bad memory. In that sense it brings to mind moral thought experiments like the trolley problem, wherein people might be more inclined to justify causing harm _indirectly_ than to physically push someone onto the tracks and be directly complicit in that harm.
@@ -518,7 +518,7 @@ Defining morality based on who the other side happens to be is why, as Gabor Mat
 
 **Administrative detention** sounds better than incarceration without trial.
 
-**Rubber bullets**, much like sponge grenades, sound softer, kinder, gentler, and more civilized than steel bullets. Until one realizes rubber bullets contain a metal core, that is, as an article in <i>Le Monde</i> recently reported. Until one realizes that when fired at someone's face, they blind, maim, and severely injure. Rubber bullets, fired from **nonlethal weapons**.
+**Rubber bullets**, much like sponge grenades, sound softer, kinder, gentler, and more civilized than steel bullets. Until one realizes rubber bullets contain a metal core, that is, as a report from a human rights group, an article in <i>Le Monde</i>, and countless other sources have shared. Until one realizes that when fired at someone's face, they blind, maim, and severely injure. Rubber bullets, fired from **nonlethal weapons**.
 
 **Private military company** sounds better than mercenary.
 
@@ -909,7 +909,7 @@ is revised to read
 
 "**Some argue** that international law states that a country cannot annex or indefinitely occupy territory gained by force."
 
-It's not like international law is some scribbles on a scrap of paper, tucked away in some hippie's nightstand.
+It's not like international law is a bunch of scribbles on a scrap of paper, tucked away in some hippie's nightstand.
 
 **Politically neutral**. A San Francisco-based non-profit known for its prolific edits to American K-12 textbooks writes in one of its comments on a high school world history textbook
 
