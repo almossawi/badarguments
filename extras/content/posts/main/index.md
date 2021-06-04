@@ -36,7 +36,7 @@ I've since landed a new gig, and I'm excited to share it with you. This project 
 
 ### A Quick Introduction
 
-Some will say sneaky rhetoric is old-school trickery. That it no longer works. That we're all much wiser now and can tell when we're being duped by crafty language. I disagree. Sneaky rhetoric is still prevalent in everyday conversations, in newspapers and websites of record, in posts shared by influential people, and in speeches by eloquent intellectuals. And it continues to impact how we perceive the world around us. I want to walk you through a sort of dictionary of this kind of rhetoric.
+Some will say crafty language is old-school trickery. That it no longer works. That we're all much wiser now and can tell when we're being duped by sneaky sentences. I disagree. This kind of sneakiness is still prevalent in everyday conversations, in newspapers and websites of record, in posts shared by influential people, and in speeches by eloquent intellectuals. And it continues to impact how we perceive the world around us. Not only through what's said out loud, but also through what's left unsaid. I want to walk you through a compendium of this kind of rhetoric.
 
 Part of the reason why these sleights of hand get past us is because of our tendency, when listening to someone speak for instance, to be focused on whether or not we like that person, and not on whether or not that person is making any sense. Another reason is due to how we instinctively process information. Consider two well-known effects.
 
@@ -52,7 +52,7 @@ What these and many other social and perceptual biases show is that our heuristi
 
 And these biases—optical illusions, in effect—exist in the tens or hundreds depending on whom you ask, and are often subtle. For instance, grouping countries based on proximity seems natural, as does sorting a list of things alphabetically. Yet those inclinations are far from naturally occurring. And it's that second group of biases in particular that led me to wanting to share this guide with you.
 
-In seven sections, and accompanied by memorable illustrations (all of me), I'll be sharing examples of how the language we construct and consume shapes how we perceive the world around us. Examples include language that prevaricates, language that conceals with vagueness, and language that feigns objectivity with apparent neutrality. The sections aren't always non-overlapping, and the examples aren't meant to be exhaustive.
+In seven sections, and accompanied by memorable illustrations (mostly of me, Mr. Rabbit), I'll be sharing examples of how the language we construct and consume shapes how we perceive the world around us. Examples include language that prevaricates, language that conceals with vagueness, and language that feigns objectivity with apparent neutrality. The sections aren't always non-overlapping, and the examples aren't meant to be exhaustive.
 
 Note that in this guide I won't be focused on malleable constructs like political correctness nor with lazily exploitable ones like identity politics. I will overlook overt examples of bigotry and insincerity, which should no doubt provoke the requisite tuts and eye rolls from discerning readers. I will also sidestep the important topic of culture and how it informs our interpretations of language&mdash;two English-speakers may have a completely different relationship with the language by virtue of the cultures they come from.
 
@@ -60,7 +60,7 @@ I'm primarily interested in language that manipulates. So my goal is to highligh
 
 Also note that this guide is about the _words_ used to talk about various issues, and not about the issues themselves. You humans have a political climate that's charged as it is. I don't intend to contribute to that divisiveness. In achieving that goal, most examples will be _adaptations_ of actual lines from public figures, intellectuals, journalists, and broadsheets. A select few have been slightly embellished for comedic effect.
 
-Most of those adaptations feature rabbits and badgers. Any connection between badgers and the culpable side in an example is purely coincidental.
+Most of those adaptations feature rabbits and badgers. Any connection between badgers and the culpable side in an example is purely coincidental. I don't hold grudges.
 
 <div class="Image__Small">
   <img src="./images/2-scene.jpg" alt="Intro" />
@@ -125,9 +125,15 @@ A headline on a major cable news network reads
 
 "Beloved bookshop becomes a **casualty of conflict**"
 
-The bookshop being the target of a laser-guided missile never comes up.
+The bookshop being the target of a laser-guided projectile never comes up.
 
-Lines like these crop up all the time. For instance:
+In a grant of clemency from an outgoing president, we find the following line
+
+"When the convoy attempted to establish a blockade, **the situation** turned violent, which **resulted** in the unfortunate deaths and injuries of civilians."
+
+The choice of language aims to disassociate the four defense contractors being pardoned from their act.
+
+Lines like these crop up all the time. There are plenty more examples of them:
 
 "Tower housing foreign correspondents **collapses** after strike"
 
@@ -173,12 +179,6 @@ In an interview on BBC's Newsnight, when a minister is asked if he knew that his
 "Mistakes **were made**. We don't tolerate human rights violations or torture."
 
 The passive voice describes the bad thing. The active voice describes the good thing. What we end up with is a shifting of blame, and a weaseling out of any sense of responsibility. No one ever makes a mistake, mistakes are always made. No one ever commits a crime, crimes are always committed.
-
-In a grant of clemency from an outgoing president, we find the following line
-
-"When the convoy attempted to establish a blockade, **the situation** turned violent, which **resulted** in the unfortunate deaths and injuries of civilians."
-
-The passive voice aims to disassociate the four defense contractors being pardoned from their heinous act.
 
 And finally, a coffee bean producer responds to an allegation about mistreating an employee with
 
@@ -401,6 +401,12 @@ Following a recent transfer of power, a headline in a daily paper reads
 
 **Sanctions**. We might talk about imposing sanctions on a country, to imply that the country must have done something horrendous, worthy of severe punishment. A more useful, sanctimonious, term in some cases than a phrase like "Unilateral economic measures aimed at coercing a population and therefore its government".
 
+**Country at war**. In a tweet by an influential koala, we find the line
+
+"My country is at war. My heart breaks."
+
+On inspection, one finds that the event in question doesn't involve two countries of critters, but rather the country of Koalaland and a group of kangaroos living in an enclave. Koalaland has a ground force, a navy, an air force, nuclear weapons, sophisticated guidance technology, and all the other things wealthy, well-equipped countries have. The other belligerent has none of those things. All the word "war" does in a post like this is imply a sort of symmetry between both sides in order to justify the one-sidedness in the loss in life and property that will inevitably follow.
+
 **Indian country**. We might call a hostile, dangerous territory "Indian country" to bring to mind the image of lawless, bare-chested American Indian men and women on horseback.
 
 **Radical**. We call someone a radical to create associations with instability and absolutist, impractical, dangerous, idealist thinking. For that reason, a person's mere existence may be cause for being called a radical. As a wise rabbit once said of his fellow rabbits, often described as radicals for demanding basic mammal rights
@@ -408,6 +414,11 @@ Following a recent transfer of power, a headline in a daily paper reads
 "The Badger Kingdom's problem is us. We're her problem. The only reason she has a problem is she doesn't want us here. And every time you look at yourself, you represent a mammal who poses such a serious problem for the Badger Kingdom because you're not wanted. Once you face this as a fact, then you can start plotting a course that will make you appear intelligent, instead of unintelligent."
 
 Time, strangely enough, has a way of bringing yesterday's radicals into the fold of acceptability and even reverence. 
+
+<div class="Image__Small">
+  <img src="./images/6-scene.jpg" alt="Intro" />
+  <figcaption>Don Quixote Badger and exasperated Sancho Panza Rabbit, mounted on a horse and donkey, consider a clean-energy wind turbine. Badger: "I will not rest until we've stopped these unfeeling giants who blot out the very sky above with their whirling arms of steel!"</figcaption>
+</div>
 
 **Hyperbole**. We're constantly reading headlines about people slamming or being slammed, blasting or being blasted, destroying or being destroyed. Embellishments normalize a charged culture of political discourse and make it easy for opportunists and populists to gain a foothold in the mainstream. The world is projected as a wild, tough, rough place, one that only a lone hero on saddleback can sort out. More generally, one could say it's used, principally, to redirect your attention, as with phrases like "Breaking News" and "Key Race Alert" to name two of several CNN favorites.
 
@@ -510,7 +521,7 @@ It's a **victory** if we like the people doing it, and a massacre if we don't.
 
 It's a **revolutionary war** if we're the ones fighting it, and sedition if it's somebody else doing the fighting.
 
-In a world where rabbits are projected in the image of a monster, **anti-rabbit fighter** right away lends someone legitimacy. They're anti-rabbit, we're anti-rabbit, so naturally, we must both be righteous. It's a selective yardstick that gets to conflate which side you're on with whether what you're doing is morally permissable.
+**Anti-Rabbit Fighter**. In a world where rabbits are projected in the image of a monster, **anti-rabbit fighter** right away lends someone legitimacy. They're anti-rabbit, we're anti-rabbit, so naturally, we must both be righteous. It's a selective yardstick that gets to conflate which side you're on with whether what you're doing is morally permissable.
 
 Defining morality based on who the other side happens to be is why, as Gabor Maté puts it, a protestor throwing stones at government forces in, say, Hong Kong is praised in our media, but the exact same act committed in some other part of the world is demonized.
 
@@ -518,11 +529,15 @@ Defining morality based on who the other side happens to be is why, as Gabor Mat
 
 **Administrative detention** sounds better than incarceration without trial.
 
-**Rubber bullets**, much like sponge grenades, sound softer, kinder, gentler, and more civilized than steel bullets. Until one realizes rubber bullets contain a metal core, that is, as a report from a human rights group, an article in <i>Le Monde</i>, and countless other sources have shared. Until one realizes that when fired at someone's face, they blind, maim, and severely injure. Rubber bullets, fired from **nonlethal weapons**.
+**Rubber bullets**, much like sponge grenades, sound softer, kinder, gentler, and more civilized than steel bullets. The term hides the fact that rubber bullets may contain a metal core, as a report from a human rights group, an article in <i>Le Monde</i>, and countless other sources have shared. When fired at someone's face, these bullets blind, maim, and severely injure. Rubber bullets, one reads, fired from **nonlethal weapons**.
+
+That vagueness can even extend into morality, turning the association into an ideological point. As a man of the cloth says, in defense of an army's use of such bullets, and in reading into the intention behind their use,
+
+“You see in that word 'rubber bullets' the tension of trying to carry out a **[moral] vision** in the real world.”
 
 **Private military company** sounds better than mercenary.
 
-**Acts** sound better than **atrocities** when referring to massacres of civilians. Pearson would know a thing or two about this one.
+**Acts** sound better than **atrocities** when referring to massacres of civilians, as a revision in a Pearson high school text book can attest to.
 
 **Military target** sounds better than _families_ of military targets.
 
@@ -560,11 +575,11 @@ A headline in The Guardian reads
 
 **Effort** sounds better than crime.
 
-**Community** sounds more agreeable than **settlement**.
+**Community** sounds more agreeable than Settlement.
 
-**Security fence** sounds more agreeable than **wall**.
+**Security fence** sounds more agreeable than Wall.
 
-**Controlled** or **disputed** sounds more agreeable than **occupied**. 
+**Controlled** or **disputed** sounds more agreeable than Occupied.
 
 **Expat** evokes different images than migrant or foreign worker. An expat brings to mind “someone sipping a gin and tonic by the pool at sunset,” as one journalist writes in The Atlantic. A foreign worker on the other hand brings to mind a range of images, some of which include uneducated, sunburned people who have no inkling of how to assimilate into society.
 
@@ -799,7 +814,7 @@ No distinction is made between how many of those animals were rabbits and how ma
 
 Similarly, a Reuters headline reads
 
-"Rabbits, Badgers clash downtown, scores injured"
+"Rabbits, Badgers **clash** downtown, scores injured"
 
 In another example, an op-ed in the Washington Post attempts to offer a balanced narrative of the 2013 Federal Government's shutdown, but as The Guardian's Bob Garfield points out, it ends up mischaracterizing the lead up to the shutdown. A shutdown that wasn't due to a split between left and right, but rather due to a faction in the Republican party seeing the shutdown as a way of pressuring the Senate into repealing the Affordable Care Act.
 
@@ -943,7 +958,7 @@ In an op-ed in Newsweek, we find the following line
 
 "The scenario has existed before. It will be repeated again. Our enemy wages a war of attrition—or, **as observers of asymmetrical warfare have called it, the war of the flea**. The flea is small and the dog is large, but over time enough attacks by enough fleas will bring down the dog. An intractable enemy must be destroyed. If the dog is to survive, then the fleas must be destroyed in their earliest stages."
 
-Again, the author is not _really_ saying an entire ethnic group is akin to fleas that must be exterminated, preemptively. That's what the literature says. What is a man like me supposed to do?
+Again, the author is not _really_ saying an entire ethnic group is akin to fleas that must be exterminated, preemptively. That's what the literature says. _What is a man like me supposed to do_?
 
 **Quotations**. Single or double quotes can be used to cast doubt on something that may not be at all controversial, often in a crafty way that's meant to come across as objective. For instance,
 
