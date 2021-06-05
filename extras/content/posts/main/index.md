@@ -303,6 +303,9 @@ What the examples in this section show us is that vagueness works to distance la
   <figcaption>A papa/mama bear looks angrily at a baby bear who is sitting at a dinner table that has bowls of porridge on it. The caption reads: "I'm fine with you only eating fish. But calling yourself a pescatarian?!"</figcaption>
 </div>
 
+> ... once in every generation, without fail, there is an episode of hysteria about the barbarians.
+—J. M. Coetzee, _Waiting for the Barbarians_
+
 “Once you label me, you negate me,” Kierkegaard may or may not have said. The brain is an association machine. Sinister associations aim to encourage us to feel the same way about two possibly unrelated things by virtue of language connecting them. What's the first thing that comes to mind when you read the word Belfast or Beirut? It's for this very reason writers have written about the importance of travel, of being alone, of being far away. So that we may fall into a silence capable of freeing us from the heavily loaded assumptions and associations imposed on us by language.
 
 **Adding a word**. An association may be forced with the intentional use of words or phrases that have a negative connotation.
@@ -966,7 +969,7 @@ In an op-ed in Newsweek, we find the following line
 
 Again, the author is not _really_ saying an entire ethnic group is akin to fleas that must be exterminated, preemptively. That's what the literature says. _What is a man like me supposed to do_?
 
-At a news conference, when asked by whether the UK would go into another lockdown, British Prime Minister Boris Johnson says
+At a news conference, when asked about whether the UK would go into another lockdown, British Prime Minister Boris Johnson says
 
 "I am hopeful, **I don't see anything in the data** right now that would cause us to deviate from the roadmap, but we have got to remain humble in the face of nature and we have to be prepared to do whatever it takes to protect the British public."
 
