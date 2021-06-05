@@ -7,6 +7,12 @@ date: 2020-11-10
 excerpt: A guide to the subtle ways language influences our thinking. How the sentences we construct and consume in our news, in our politics, and in our everyday lives impact the way we perceive the world around us. Examples include language that prevaricates, language that conceals with vagueness, and language that feigns objectivity with apparent neutrality.
 ---
 
+<p style='text-align:center;font-weight:600'>
+  <a href='https://theexperimentpublishing.com/catalogs/fall-2021/an-illustrated-book-of-loaded-language'>
+  This project is now available for preorder in print!
+  </a>
+</p>
+
 ---
  
 <p class='epigraph-one'>[T]hat the very concept of objective truth is fading out of the world ... frightens me much more than bombs.</p>
@@ -448,7 +454,7 @@ Another reads
 
 You'd think they were scrambling to board the last helicopter out of Vietnam, [as Brian Regan might say](https://youtu.be/G9em-ZCddWk).
 
-On the even of a senatorial race, a headline on a major news website reads
+On the eve of a senatorial race, a headline on a major news website reads
 
 "The **Battle** for the Country Begins"
 
@@ -489,7 +495,7 @@ All in all, associations with negative connotations are easy to form, often thro
   <figcaption>A school teacher on the playground asks a young student in a school uniform (tie, shirt, shorts). Caption reads: "Jonny, did you just push Jack off the play structure?" "No, ma’am, I merely assisted his forward progress with a hearty pat on the back." The teacher replies, "Oh, alright then. As you were."</figcaption>
 </div>
 
-A magazine wanting you to renew your subscription will call out the intelligence, wit, style, and humor that you would be missing out on if you don't renew, as the New Yorker does. Another magazine will paint you a picture of a dinner party and of that one person who always happens to have something interesting to stay. You can be that person, you're told. All you need to do is renew your subscription.
+A magazine wanting you to renew your subscription will call out the intelligence, wit, style, and humor that you would be missing out on if you don't renew, as the New Yorker does. Another magazine will paint you a picture of a dinner party and of that one person who always happens to have something interesting to say. You can be that person, you're told. All you need to do is renew your subscription.
 
 It might not sit right, you sense the language is loaded, but you feel special all the same. Feel-good associations aim to compel you to do something you wouldn't otherwise do. Other times, they're more sinister. Euphemisms, for instance, help disassociate us from a repellant action, thereby removing any residual sense of guilt we may have felt. And a positive quality thrown into the midst of a paragraph might convince us that someone isn't that bad after all.
 
@@ -521,7 +527,7 @@ It's a **victory** if we like the people doing it, and a massacre if we don't.
 
 It's a **revolutionary war** if we're the ones fighting it, and sedition if it's somebody else doing the fighting.
 
-**Anti-Rabbit Fighter**. In a world where rabbits are projected in the image of a monster, **anti-rabbit fighter** right away lends someone legitimacy. They're anti-rabbit, we're anti-rabbit, so naturally, we must both be righteous. It's a selective yardstick that gets to conflate which side you're on with whether what you're doing is morally permissable.
+**Anti-rabbit fighter**. In a world where rabbits are projected in the image of a monster, **anti-rabbit fighter** right away lends someone legitimacy. They're anti-rabbit, we're anti-rabbit, so naturally, we must both be righteous. It's a selective yardstick that gets to conflate which side you're on with whether what you're doing is morally permissable.
 
 Defining morality based on who the other side happens to be is why, as Gabor Maté puts it, a protestor throwing stones at government forces in, say, Hong Kong is praised in our media, but the exact same act committed in some other part of the world is demonized.
 
@@ -960,6 +966,14 @@ In an op-ed in Newsweek, we find the following line
 
 Again, the author is not _really_ saying an entire ethnic group is akin to fleas that must be exterminated, preemptively. That's what the literature says. _What is a man like me supposed to do_?
 
+At a news conference, when asked by whether the UK would go into another lockdown, British Prime Minister Boris Johnson says
+
+"I am hopeful, **I don't see anything in the data** right now that would cause us to deviate from the roadmap, but we have got to remain humble in the face of nature and we have to be prepared to do whatever it takes to protect the British public."
+
+In response, on an episode of the TV show _Have I Got News for You_, regular guest Paul Merton makes the following quip
+
+"It’s one of those ways the English language can fool and bemuse you. [He says] 'I don’t see anything in the data', not, 'There isn’t anything in the data'."
+
 **Quotations**. Single or double quotes can be used to cast doubt on something that may not be at all controversial, often in a crafty way that's meant to come across as objective. For instance,
 
 “The protestors attempted to hold **‘a prayer vigil'** at City Hall and were arrested.”
@@ -1155,7 +1169,7 @@ In _1984_, Orwell writes, "Every record has been destroyed or falsified, every b
 
 <div class="Image__Small">
   <img src="" />
-  <figcaption>A toucan is in what looks like an interrogration room, behind a pane of glass, sitting on a stool. A mic is hanging from the ceiling, as is the sign "Re-Presentation Room". Behind the glass, someone is holding up a clipboard or piece of paper with two sketches of the toucan--one as it actually looks and one with ruffled hair. The first says "Not a beast" under it, and the other says "Beast" under it.</figcaption>
+  <figcaption>Scene is a WIP.</figcaption>
 </div>
 
 Language is perhaps most harmful on an individual level when it burrows into our emotional state, possibly even going so far as affecting our sense of self-worth. In doing so, it directly impacts our relationship with ourselves. Language can deny to a group that they ever had a history or that they somehow exist outside of history. If you think you have nothing to be proud of, it's not impossible that you'll end up feeling dislocated, dispirited, and disenfranchised. On the flip side, language can give you the sense that you've peaked, either as an individual or as a social group, and therefore have no more room to grow.
@@ -1331,6 +1345,7 @@ Thanks for stopping by.
 18. [Exterminate All the Brutes](https://www.hbo.com/exterminate-all-the-brutes), HBO
 18. _Stewart Lee's Comedy Vehicle_, [Season 3, Episode 2](https://www.bbc.co.uk/programmes/b03y41vd), BBC
 79. _(Un)Well_, Episode 1: Essential Oils, Netflix
+79. _Have I Got News for You_, Series 61, Episode 9
 18. _Frankie Boyle's Election Autopsy (2015)_, BBC
 17. _Dress to Kill_, Eddie Izzard, [https://youtu.be/_9W1zTEuKLY](https://youtu.be/_9W1zTEuKLY)
 16. _Doin' It Again_, George Carlin
@@ -1385,6 +1400,7 @@ Thanks for stopping by.
 83. Apple CEO Tim Cook Sold Shares Ahead of Stock Split, [https://apple.news/Aqi86uNTdR5-eNiZpFJpjzg](https://apple.news/Aqi86uNTdR5-eNiZpFJpjzg)
 84. I’m Optimistic That We Will Have a COVID-19 Vaccine Soon, [https://www.theatlantic.com/ideas/archive/2020/08/im-optimistic-that-we-will-have-a-covid-19-vaccine-soon/615811/](https://www.theatlantic.com/ideas/archive/2020/08/im-optimistic-that-we-will-have-a-covid-19-vaccine-soon/615811/)
 84. Is San Francisco about to return to its Bohemian roots?, [https://www.sfgate.com/culture/editorspicks/article/Is-San-Francisco-about-to-return-to-its-Bohemian-15455489.php](https://www.sfgate.com/culture/editorspicks/article/Is-San-Francisco-about-to-return-to-its-Bohemian-15455489.php)
+84. UK PM Johnson says he hopes to avoid another lockdown, [https://www.reuters.com/world/europe/uk-pm-johnson-says-he-hopes-avoid-another-lockdown-2021-03-29/#:~:text=%E2%80%9CI%20am%20hopeful%2C%20I%20don,Johnson%20told%20a%20news%20conference.](https://www.reuters.com/world/europe/uk-pm-johnson-says-he-hopes-avoid-another-lockdown-2021-03-29/#:~:text=%E2%80%9CI%20am%20hopeful%2C%20I%20don,Johnson%20told%20a%20news%20conference.)
 84. From Thomas Jefferson to Edmund Rogers, 14 February 1824, [https://founders.archives.gov/documents/Jefferson/98-01-02-4054](https://founders.archives.gov/documents/Jefferson/98-01-02-4054)
 84. People we've lost in 2020, [https://www.cnn.com/2020/01/10/entertainment/gallery/people-we-lost-2020/index.html](https://www.cnn.com/2020/01/10/entertainment/gallery/people-we-lost-2020/index.html)
 85. Lockdown? What Lockdown? Heat Wave Brings Britons Out in Droves, [https://web.archive.org/web/20200626162122/https://www.nytimes.com/2020/06/26/world/europe/uk-coronavirus-lockdown.html](https://web.archive.org/web/20200626162122/https://www.nytimes.com/2020/06/26/world/europe/uk-coronavirus-lockdown.html)
@@ -1434,8 +1450,8 @@ Thanks for stopping by.
 
 ### Acknowledgements
 
-_Loaded Language_ is illustrated by my good friend and longtime collaborator Alejandro Giraldo. It is being edited by the inimitable Karen Giangreco. The font used in the artwork is Alegreya. The serif font used on this page is Merriweather. I'm grateful to Grigory Pogulsky for reviewing and contributing to an early draft and to Reed O'Brien for sharing the study on artful dodging with me. Furthermore, I'm grateful to two anonymous reviewers for contributing significant edits to the work's first translated edition, and to Irina "Alex" Sandu for contributing excellent examples to several sections. This project is the first of two companions to _Bad Arguments_. It is dedicated to my father.
+_Loaded Language_ is illustrated by my good friend and longtime collaborator Alejandro Giraldo. It is being edited by the inimitable Karen Giangreco. The serif font used on this page is Merriweather. I'm grateful to Grigory Pogulsky for reviewing and contributing to an early draft and to Reed O'Brien for sharing the study on artful dodging with me. Furthermore, I'm grateful to two anonymous reviewers for contributing significant edits to the work's first translated edition, and to Irina "Alex" Sandu for contributing excellent examples to several sections. This project is the first of two companions to _Bad Arguments_. It is dedicated to my father.
 
 The print edition is [now available for preorder](https://theexperimentpublishing.com/catalogs/fall-2021/an-illustrated-book-of-loaded-language) and will be released in October 2021.
 
-&mdash;_Ali Almossawi, San Francisco, November 2020_
+&mdash;_Ali Almossawi, San Francisco_
