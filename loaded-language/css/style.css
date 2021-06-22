@@ -16,7 +16,7 @@ html, body {
 }
 
 a.hero-link, a.hero-link:active, a.hero-link:link, a.hero-link:visited {
-  border-bottom: 0 !important;
+  text-decoration: none !important;
 }
 
 input {
@@ -26,6 +26,40 @@ input {
 .hi-res-photo {
   max-width: 600px;
   width: 100%;
+  margin-top: 10px;
+}
+
+.contacts {
+  margin-bottom: 55px;
+}
+
+.contacts p {
+  font-size: 16px;
+  text-align: left;
+  line-height: 24px;
+  text-align: center;
+}
+
+.sample-spread {
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.padding-top-40 {
+  padding-top: 40px;
+}
+
+.padding-top-60 {
+  padding-top: 60px;
+}
+
+.shadow {
+  box-shadow: 0px 0 15px 2px #ccc;
+  margin-top: 13px;
 }
 
 .sold-out {
@@ -86,31 +120,6 @@ h1 {
   padding: 10px 16px;
 }
 
-.footer {
-  background-color: #231f20;
-  width: 100%;
-  text-align: center;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.footer-image {
-  grid-column: 1;
-  text-align: right;
-}
-
-.footer-text {
-  font-size: 14px;
-  color: #ececec !important;
-  grid-column: 2;
-  text-align: left;
-  color: white;
-  font-family: 'Gill Sans', 'Open Sans', sans-serif;
-  line-height: 20px;
-  margin-top: 70px;
-  letter-spacing: 0.04em;
-}
-
 .preorder-btn {
   font-family: 'Gill Sans', 'Open Sans', sans-serif;
   font-size: 1.5em;
@@ -121,6 +130,7 @@ h1 {
   padding: 10px 20px 10px 20px;
   color: white !important;
   cursor: pointer;
+  text-decoration: none !important;
 }
 
 .preorder-btn:hover {
@@ -138,10 +148,10 @@ h1 {
 }
 
 .main-title {
-  -moz-hyphens:none;
-  -ms-hyphens:none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
   -webkit-hyphens: none;
-  hyphens:none;
+  hyphens: none;
   font-weight: 400;
   letter-spacing: -1px;
   font-size: 48px;
@@ -168,8 +178,12 @@ p {
   margin: 0 auto;
   padding-bottom: 10px;
   line-height: 29px;
-  text-align: left;
+  text-align: justify;
   font-family: 'Gill Sans', 'Open Sans', sans-serif;
+  hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .lede {
@@ -193,13 +207,12 @@ p.sig {
 
 h2 a, h2 a:active, h2 a:link, h2 a:visited {
   text-decoration: none;
-  border-bottom: 0;
 }
 
 a, a:active, a:link, a:visited {
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
   color: black;
-  border-bottom: 1px solid #c9c9c9;
 }
 
 #mc_embed_signup {
@@ -316,6 +329,7 @@ a, a:active, a:link, a:visited {
 
   p {
     letter-spacing: -0.01em;
+    font-size: 21px;
   }
   
   .subtitle {

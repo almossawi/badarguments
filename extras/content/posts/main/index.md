@@ -7,8 +7,8 @@ date: 2020-11-10
 excerpt: A guide to the subtle ways language influences our thinking. How the sentences we construct and consume in our news, in our politics, and in our everyday lives impact the way we perceive the world around us. Examples include language that prevaricates, language that conceals with vagueness, and language that feigns objectivity with apparent neutrality.
 ---
 
-<p style='text-align:center;font-weight:600'>
-  <a href='https://theexperimentpublishing.com/catalogs/fall-2021/an-illustrated-book-of-loaded-language'>
+<p style='text-align:center; font-weight:600; font-size: 130%; top:0; left: 0; padding-top: 15px'>
+  <a href='https://bookofbadarguments.com/loaded-language/'>
   This project is now available for preorder in print!
   </a>
 </p>
@@ -107,7 +107,7 @@ In a paper of record we find the headline
 
 "Missile at Local Cafe **Finds Patrons** Poised for World Cup”
 
-A laser-guided missile saunters to the cafe, one is made to imagine, a toothpick hanging between its two chapped lips, pushes through the cafe's batwing doors and swiftly tips its wide-brimmed hat with thumb and forefinger.
+A missile saunters to the cafe, one is made to imagine, a toothpick hanging between its two chapped lips, pushes through the cafe's batwing doors and swiftly tips its wide-brimmed hat with thumb and forefinger.
 
 Another of the paper's headlines about a fatal airstrike reminds us that beaches won't ever learn to mind their own business. It reads
 
@@ -178,7 +178,7 @@ An article about a bus driver being beaten with a bat by three passengers refusi
 
 The headline for an online article about an airstrike that killed dozens of civilians reads
 
-"Commander said it didn't mean to kill 42 civilians on Sunday, saying it attacked a series of militant tunnels **that caused people's homes to collapse**"
+"Commander said it didn't mean to kill 42 civilians on Sunday, saying it attacked a series of underground storage units **that caused people's homes to collapse**"
 
 In an interview on BBC's Newsnight, when a minister is asked if he knew that his security forces were so brutal replies
 
@@ -288,9 +288,9 @@ Specifically, four sources are cited. Later in the article, we find a line revea
 
 In the opening paragraph in an article by the New York Times, we find the following paraphrased line
 
-"Rabbits projectile-threw 3,000 carrots at badgers on Sunday, while badgers deafened 33 rabbits by screaming annoyingly through megaphones."
+"Rabbits projectile-threw 800 carrots at badgers on Sunday, while badgers deafened 22 rabbits by screaming annoyingly through megaphones."
 
-An image is painted in the reader's mind. Relative to 3,000, 33 isn't that bad. What the line conceals, however, is that badgers have a sophisticated defense system that prevented the overwhelming majority of those carrots from reaching their targets.
+An image is painted in the reader's mind. Relative to 800, 22 isn't that bad. What the line conceals, however, is that badgers have a sophisticated defense system that prevented the overwhelming majority of those carrots from reaching their targets.
 
 Apparent precision manifests as jargon as well&mdash;technical-sounding language, understood by a select group, that does anything but communicate with clarity.
 
@@ -299,7 +299,7 @@ What the examples in this section show us is that vagueness works to distance la
 ### 2. Language that creates sinister associations
 
 <div class="Image__Small">
-  <img src="" />
+  <img src="./images/5-scene.jpeg" alt="Scene 5" />
   <figcaption>A papa/mama bear looks angrily at a baby bear who is sitting at a dinner table that has bowls of porridge on it. The caption reads: "I'm fine with you only eating fish. But calling yourself a pescatarian?!"</figcaption>
 </div>
 
@@ -414,9 +414,9 @@ Following a recent transfer of power, a headline in a daily paper reads
 
 "My country is at war. My heart breaks."
 
-On inspection, one finds that the event in question doesn't involve two countries of critters, but rather the country of Koalaland and a group of kangaroos living in an enclave. Koalaland has a ground force, a navy, an air force, nuclear weapons, sophisticated guidance technology, and all the other things wealthy, well-equipped countries have. The other belligerent has none of those things. All the word "war" does in a post like this is imply a sort of symmetry between both sides in order to justify the one-sidedness in the loss in life and property that will inevitably follow.
+On inspection, one finds that the event in question doesn't involve two countries of critters, but rather the country of Koalaland and a group of kangaroos living in an enclave. Koalaland has a ground force, a navy, an air force, nuclear warheads, sophisticated guidance technology, and all the other things wealthy, well-equipped countries have. The other belligerent doesn't have any of those things. All the word "war" does in a post like this is imply a sort of symmetry between both sides in order to justify the one-sidedness in the loss in life and property that will inevitably follow.
 
-**Indian country**. We might call a hostile, dangerous territory "Indian country" to bring to mind the image of lawless, bare-chested American Indian men and women on horseback.
+**Indian country**. In military parlance, we might call a hostile, dangerous territory "Indian country" to bring to mind the image of lawless, bare-chested Native Americans on horseback.
 
 **Radical**. We call someone a radical to create associations with instability and absolutist, impractical, dangerous, idealist thinking. For that reason, a person's mere existence may be cause for being called a radical. As a wise rabbit once said of his fellow rabbits, often described as radicals for demanding basic mammal rights
 
@@ -562,6 +562,8 @@ Saying a **military-aged male** was targeted is somehow more forgivable than say
 
 **Ordnance** sounds better than weapons.
 
+**Detaining** sounds more lawful than kidnapping.
+
 **Tearing down** evokes memories of the tearing down of the Berlin Wall—a good thing, a sign of progress. And much easier on the eyes and ears than words like demolish, bulldoze, or destroy.
 
 **Cleansing** leaves you with a cleaner kitchen counter. Public squares are _cleansed_ from sit-in students, streets are _cleansed_ from demonstrators, towns and cities are _cleansed_ from undesirable populations. It sounds better than saying atrocity or genocide.
@@ -578,17 +580,17 @@ A headline in The Guardian reads
 
 **Population transfer** and depopulation sound so much better than forced migration, as they bring to mind no images of how those ventures always come at somebody else's cost.
 
-**Eviction** sounds better than forced expulsion or ethnic cleansing.
+**Eviction** sounds better than forced expulsion.
 
 **Conflict** sounds better than struggle.
 
 **Effort** sounds better than crime.
 
-**Community** sounds more agreeable than Settlement.
+**Community** sounds more agreeable than settlement.
 
-**Security fence** sounds more agreeable than Wall.
+**Security fence** sounds more agreeable than wall.
 
-**Controlled** or **disputed** sounds more agreeable than Occupied.
+**Controlled** or **disputed** sounds more agreeable than occupied.
 
 **Expat** evokes different images than migrant or foreign worker. An expat brings to mind “someone sipping a gin and tonic by the pool at sunset,” as one journalist writes in The Atlantic. A foreign worker on the other hand brings to mind a range of images, some of which include uneducated, sunburned people who have no inkling of how to assimilate into society.
 
@@ -622,7 +624,7 @@ As Orwell writes, “In the case of a word like democracy, not only is there no 
 
 "On balance . . . a **transfer of human capital**. They're not impoverishing people, on the contrary."
 
-Ministry of **Defense** is more respectable than Ministry of War. It implies we're reacting to aggression whenever we engage in combat. The change in naming is perfectly reasonable, in principal, in a post-World War II era, but doesn't always hold on examination. A "Badger bomber flying over Rabbit country in a **defensive** move" is a bit hard to rationalize when one looks at a map and sees that the two nations are 6,000 miles apart.
+Ministry of **Defense** is more respectable than Ministry of War. It implies we're reacting to aggression whenever we engage in combat. The change in naming is perfectly reasonable, in principle, in a post-World War II era, but doesn't always hold on examination. A "Badger bomber flying over Rabbit country in a **defensive** move" is a bit hard to rationalize when one looks at a map and sees that the two nations are 6,000 miles apart.
 
 And in that vein, defense contractors are in the business of _defending_, forces like the Badger Buckler are in the business of _shielding_ ergo protecting, and __national security__ laws are in the business of _securing_.
 
@@ -1455,6 +1457,6 @@ Thanks for stopping by.
 
 _Loaded Language_ is illustrated by my good friend and longtime collaborator Alejandro Giraldo. It is being edited by the inimitable Karen Giangreco. The serif font used on this page is Merriweather. I'm grateful to Grigory Pogulsky for reviewing and contributing to an early draft and to Reed O'Brien for sharing the study on artful dodging with me. Furthermore, I'm grateful to two anonymous reviewers for contributing significant edits to the work's first translated edition, and to Irina "Alex" Sandu for contributing excellent examples to several sections. This project is the first of two companions to _Bad Arguments_. It is dedicated to my father.
 
-The print edition is [now available for preorder](https://theexperimentpublishing.com/catalogs/fall-2021/an-illustrated-book-of-loaded-language) and will be released in October 2021.
+The print edition is [now available for preorder](https://bookofbadarguments.com/loaded-language/) and will be released in October 2021.
 
 &mdash;_Ali Almossawi, San Francisco_
