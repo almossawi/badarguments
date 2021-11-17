@@ -28,11 +28,6 @@ a, a:active, a:link, a:visited {
     font-size: 14px;
 }
 
-.preorder-header {
-    font-weight: bold;
-    font-size: 16px;
-}
-
 html, body {
 	font:  16px;
 	font-weight: 400;

@@ -1,0 +1,19 @@
+.turnjs-slide{
+	width:600px;
+	height:8px;
+	background-color:#B4B4B4;
+	border-radius:5px;
+	margin:20px auto;
+}
+
+.turnjs-slide .ui-slider .ui-slider-handle{
+	background-color:#3a90ef;
+	z-index:1000;
+}
+
+.turnjs-slide .thumbnail{
+	background: #666;
+	padding: 0;
+    margin: 0;
+    border: 0;
+}

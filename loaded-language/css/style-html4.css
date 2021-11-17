@@ -1,0 +1,12 @@
+.flipbook .even{
+	background-image:url(../images/gradient-page-left.jpg);
+	background-position:right top;
+	background-repeat:repeat-y;
+}
+
+.flipbook .odd{
+	background-image:url(../images/gradient-page-right.jpg);
+	background-position:left top;
+	background-repeat:repeat-y;
+}
+

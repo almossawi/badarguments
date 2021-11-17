@@ -3,27 +3,33 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
-    <title>An Illustrated Book of Loaded Language — Now Available for Preorder</title>
+    <title>An Illustrated Book of Loaded Language — Now Available</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta property="og:title" content="An Illustrated Book of Loaded Language — Now Available for Preorder" /> 
+    <meta property="og:title" content="An Illustrated Book of Loaded Language — Now Available" /> 
     <meta property="og:description" content="In this adorably illustrated book, old Mr. Rabbit is your guide to loaded language. He mines real reporting (by respected and rogue media alike) to unmask rhetoric that shifts blame, erases responsibility, dog-whistles, plays on fear, or rewrites history—subtly or shamelessly. It takes a long pair of ears to hear what’s left unsaid—but when the very notion of truth is at stake, listening for 'spin' makes all the difference." />
     <meta property="og:image" content="https://bookofbadarguments.com/loaded-language/images/Loaded-Language_Cover-1000.png" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://bookofbadarguments.com/loaded-language/" />
-    <meta property="og:site_name" content="An Illustrated Book of Loaded Language — Now Available for Preorder" />
+    <meta property="og:site_name" content="An Illustrated Book of Loaded Language — Now Available" />
 
     <link rel="icon" type="image/png" href="images/favicon.png">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,400,300" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui-1.8.20.custom.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/modernizr.2.8.3.min.js" type="text/javascript"></script>
+    <script src="js/hash.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript">
 
     <script type="text/javascript">
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-35624223-1']);
+      _gaq.push(['_setAccount', 'UA-42350635-1']);
       _gaq.push(['_trackPageview']);
     
       (function() {
@@ -40,10 +46,66 @@
           <h1>An Illustrated Book of Loaded&nbsp;Language</h1>
         </div>
         <div class='top-bar-right'>
-          <a href='https://theexperimentpublishing.com/catalogs/fall-2021/an-illustrated-book-of-loaded-language/' class='preorder-btn'>Preorder the Book</a>
+          <a href='#buy-the-book' class='preorder-btn'>Order the Book</a>
         </div>
       </div>
+    </div>
 
+
+
+
+
+
+  <div class="mobile-message text-center sans-serif visible-xs">
+    (View this page on a larger display for an interactive excerpt from the book)
+  </div>
+
+  <div class="first-run-loading hidden-xs">
+    LOADING
+  </div>
+  
+  <!-- force background image to load first -->
+  <img src="images/book-covers.jpg" style="display:none">
+  <img src="images/arrow-left.png" style="display:none">
+  <img src="images/arrow-right.png" style="display:none">
+  <img src="images/pages-depth.png" style="display:none">
+  <img src="images/inner-cover.png" style="display:none">
+  <img src="images/pic1.png" style="display:none">
+  <img src="images/pic3.png" style="display:none">
+  <img src="images/pic4.png" style="display:none">
+  <img src="images/pic5.png" style="display:none">
+
+  <div id="canvas" class='hidden-xs'>
+    <div class="howto"><img src="images/howto.png"></div>
+    <div class="left-arrow">
+      <a href="#"><img src="images/trans.png"></a>
+    </div>
+    <div class="right-arrow">
+      <a href="#"><img src="images/trans.png"></a>
+    </div>
+    <div class="flipbook">
+      <div>
+        <div class="side"></div>
+      </div>
+      <div class="front-side">
+        <div class="depth"></div>
+      </div><!-- pages get appended here -->
+      <div class="fixed back-side p33">
+        <div class="depth"></div>
+      </div>
+      <div class="p34"></div>
+    </div>
+    <div class="turnjs-slider" id="slider-bar">
+      <div id="slider"></div>
+    </div>
+  </div>
+
+  
+  <div class='content text-center'>
+      <br /><br />
+      <p class='text-center'>“This is a book for every thinking person, the perfect antidote to today’s culture wars.”<br />—<b>Hope Jahren</b>, author of <i>Lab Girl</i> and <i>The Story of More</i></p>
+      <br /><br />
+      <p class='text-center'>“After you read this book, you'll never watch news broadcasts or read news articles the same way again. And that's a good thing.”<br />—<b>Jenny Bristol</b>, <a href='https://geekmom.com/2021/11/an-illustrated-book-of-loaded-language-dont-let-sneaky-rhetoric-get-the-best-of-you/'>GeekMom.com</a></p>
       <p class='main-title text-center'>Learn to hear what's left unsaid.<br />
 
       <a href='https://theexperimentpublishing.com/catalogs/fall-2021/an-illustrated-book-of-loaded-language/' class='hero-link'>
@@ -53,35 +115,37 @@
 
       <p>“In this adorably illustrated book, old Mr. Rabbit is your guide to loaded language. He mines real reporting (by respected and rogue media alike) to unmask rhetoric that shifts blame, erases responsibility, dog-whistles, plays on fear, or rewrites history—subtly or shamelessly. It takes a long pair of ears to hear what’s left unsaid—but when the very notion of truth is at stake, listening for 'spin' makes all the difference.”</p>
       <p class='text-center'>* * *</p>
-      <p>I’m thrilled that the <a href='https://bookofbadarguments.com/extras/guide-to-sneaky-rhetoric'>project I shared with you all</a> late last year will be out in print <b>this October</b>. It will look absolutely stunning, with 13+ original illustrations and a gorgeous cover by the always outstanding <a href='https://alejogiraldo.com/'>Alejandro Giraldo</a>.</p>
+      <p>I’m thrilled that the project I shared with you all late last year will be out in print <b>this <strike>October</strike> November</b>. It will look absolutely stunning, with 13+ original illustrations and a gorgeous cover by the always outstanding <a href='https://alejogiraldo.com/'>Alejandro Giraldo</a>.</p>
       <!--<p>The book will have seven chapters, touching on the different and often subtle ways headlines and various other forms of language influence our thinking.</p>-->
       <p>Transforming the working draft to a hardcover couldn't have been done by a better team. The project is in excellent hands. I’ll be sharing updates and photos on <a href='https://www.instagram.com/almossawi/'>Instagram</a> and <a href='https://twitter.com/alialmossawi'>Twitter</a> as we get closer to release&nbsp;day.
       <p class='sig text-center'><i>&mdash;A.A., June 22, 2021</i></p>
 
-      <h2 class='text-center'>Buy the Book</h2>
-      <p>In the <b>United States</b> and <b>Canada</b>, the hardcover is available from <a href='https://www.amazon.com/gp/product/1615198407/ref=as_li_tf_tl?tag=anillbooofbad-20&ie=UTF8'>Amazon</a>, Barnes & Noble, Books-A-Million, Bookshop, Indigo, Powell's, and Workman. As the book becomes available in other territories, I'll update this space.</p>
+      <h2 id='buy-the-book' class='text-center'>Buy the Book</h2>
+      <p>In the <b>United States</b> and <b>Canada</b>, the hardcover is available from <a href='https://www.amazon.com/gp/product/1615198407/ref=as_li_tf_tl?tag=anillbooofbad-20&ie=UTF8'>Amazon</a>, Barnes & Noble, Books-A-Million, Bookshop, Indigo, Powell's, and Workman. <b>Worldwide</b>, the book is available on <a href='https://www.bookdepository.com/Illustrated-Book-Loaded-Language-Ali-Almossawi/9781615198405?ref=grid-view&qid=1635357005446&sr=1-2'>Book Depository</a>, though I've never used it to know how well it works. As the book becomes available in other territories, I'll update this space.</p>
 
       <!--<a href='https://www.amazon.com/gp/product/1615198407/ref=as_li_tf_tl?tag=anillbooofbad-20&ie=UTF8' class='preorder-btn clear fixed-btn'>
         Order the Book from Amazon
       </a>-->
 
       <a href='https://theexperimentpublishing.com/catalogs/fall-2021/an-illustrated-book-of-loaded-language/' class='preorder-btn clear fixed-btn'>
-        Prorder the Book
+        Order the Book
       </a>
+      <p style='text-align:center;color: red; line-height: 23px; font-size: 16px;font-weight: 400'>If you received a book with an upside down cover, please <a href='mailto:ali@almossawi.com'>email me</a> and I'll take care of it for you.</p>
 
       <div class='contacts'>
       <p>For rights, please contact <a href='https://theexperimentpublishing.com/aboutus/rights-information/'>Margie Guerra</a>
       <p>For media inquiries, please contact <a href='https://theexperimentpublishing.com/aboutus/contact-information/'>Jennifer Hergenroeder</a></p>
       <p>For other questions, feel free to <a href='https://almossawi.com/'>email me</a></p>
       </div>
-    </div>
 
-    <img src='images/BOLL_Sample-illo_vagueness.jpg' class='sample-spread ' alt='A sample spread from An Illustrated Book of Loaded Language' title='A sample spread from An Illustrated Book of Loaded Language' />
+      <!--<img src='images/BOLL_Sample-illo_vagueness.jpg' class='sample-spread' alt='A sample spread from An Illustrated Book of Loaded Language' title='A sample spread from An Illustrated Book of Loaded Language' />-->
 
-    <div class='content text-center'>
       <!--<h2 class='text-center'>Giveaway</h2>
       <p>I'm giving away two advance copies of the book. Each will be signed and personally packed and shipped. I'll also include a limited edition bookmark (pictured above).</p>
       <p>The <a href='https://www.goodreads.com/book/show/40776164-the-point-of-pointless-work'>first giveaway is currently running on <b>Goodreads</b></a>. The <a href='https://instagram.com/almossawi'>second one is currently running on <b>Instagram</b></a>. Both end on September 3, 2018.</p>-->
+
+      <h2 class='text-center padding-top-60'>New best friends</h2>
+      <img src='images/new-best-friends.jpg' class='hi-res-photo' alt='New best friends' title='New best friends' />
 
       <h2 class='text-center padding-top-40'>Be the First to Know</h2>
       <p>Join the mailing list for a few emails per year about current and upcoming books. Though I try hard to get better at social media, email is still my preferred way of staying in touch with everyone.</p>
@@ -93,7 +157,7 @@
         <form action="https://almossawi.us7.list-manage.com/subscribe/post?u=9c4dbd8f3e2d9a588cfe43dae&amp;id=3c89277de1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div class='mailing-list'>
             <div class='mailing-list-text-box'>
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
             </div>
             <div class='mailing-list-button'>
               <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-slim"></div>
