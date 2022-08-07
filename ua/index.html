@@ -1,0 +1,731 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <meta property="og:title" content="Ілюстрована книга поганих («брудних») аргументів" />
+        <meta property="og:description" content="" />
+        <meta property="og:image" content="https://bookofbadarguments.com/ua/images/1.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://bookofbadarguments.com/" />
+        <meta property="og:site_name" content="Ілюстрована книга поганих («брудних») аргументів" />
+        <meta property="fb:admins" content="542418566" />
+
+        <title>Ілюстрована книга поганих («брудних») аргументів</title>
+
+        <link rel="stylesheet" href="../css/jquery-ui.css" type="text/css" />
+        <link rel="stylesheet" href="../css/colorbox.css" type="text/css" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js" type="text/javascript"></script>
+
+        <script src="../js/jquery.colorbox-min.js"></script>
+        <script src="../js/modernizr.2.5.3.min.js"></script>
+        <script src="../js/jquery.easing.1.3.min.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-42350635-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            //ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+    </head>
+    <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=256637467814064";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+ 
+        <!-- force background image to load first -->
+        <img src="../images/community-heart.png" style="display:none" />
+        <img src="../images/noise.png" style="display:none" />
+        <img src="../images/bg_right.png" style="display:none" />
+        <img src="../images/bg_right2.png" style="display:none" />
+        <img src="../images/bg_right3.png" style="display:none" />
+        <img src="../images/bg_left.png" style="display:none" />
+        <img src="../images/bg_left2.png" style="display:none" />
+        <img src="../images/arrow-right.png" style="display:none" />
+        <img src="../images/handle.png" style="display:none" />
+        <img src="../images/slider-bg.png" style="display:none" />
+        <img src="../images/bear.png" style="display:none" />
+        <img src="../images/book.png" style="display:none" />
+        <img src="../images/stripe_thumb.png" style="display:none" />
+
+        <div class="topbar">
+            <div class="contributors">
+                <a href="https://bookofbadarguments.com/loaded-language/">
+                    <img src="../images/rhetoric.png" alt="An Illustrated Book of Loaded Language" title="An Illustrated Book of Loaded Language" />
+                </a>
+            </div>
+            <a href="../thebook/?from=main_page">
+                <img src="../images/track_the_book.png" class="buy-the-book" />
+            </a>
+            <div id="zoom_info"></div>
+        </div>
+
+        <!-- languages -->
+        <div class="container-languages">
+            <div class="languages">
+                <a href="/">English</a>
+                <a href="/es/">Español</a>
+                <a href="/ar/">العربية</a>
+                <a href="/pt/">Português</a>
+                <a href="/pt-br/">Português brasileiro</a>
+                <a href="/zh-cn/">中文</a>
+                <a href="/fi/">Suomeksi</a>
+                <a href="/sk/">Slovenčina</a>
+                <a href="/he/">עברית</a>
+                <a href="/cz/">Česky</a>
+                <a href="/bg/">Български</a>
+                <a href="/fr/">Français</a>
+                <a href="/jp/">日本語版</a>
+                <a href="/de/">Deutsch</a>
+                <a href="/ru/">Pусский</a>
+                <a href="/si/">Slovensko</a>
+                <a href="/ua/" class="selected">Українська</a>
+            </div>
+        </div>
+
+        <div class="container">
+          <div class="left-arrow"><a href="#"><img src="../images/arrow-left.png" /></a></div>
+          <div class="right-arrow"><a href="#"><img src="../images/trans.png" /></a></div>
+
+          <div class="loading">ЗАГРУЗКА</div>
+          <div class="howto"><img src="images/howto.png" /></div>
+
+          <div class="flipbook" style="position:relative">
+            <div id="cover" class="left">
+                <img src="images/1.jpg" />
+            </div>
+            <div id="blank_page" class="left">
+            </div>
+            <div class="inner-title-page right right-option1">
+                <div class="page-content">
+                    <p class="translated-by">
+                        <span class="translated-into">переклад українською:</span><br />
+                        <span class="authors">
+                          <a href="https://t.me/Kiriche215">Stanislav Kirichenko</a>, 
+                          <a href="palma3000@airmail.cc">Пальма</a> && 
+                          <a href="https://github.com/221V">221V</a>
+                        </span>
+                        <br /><br />
+                        <span class="contact">08.XX.2022</span>
+                    </p>
+                </div>  
+            </div>
+
+            <!-- endorsements -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="text-align:left;margin-top:240px;width:520px;font-size:7.5pt;line-height:14px">
+                        Эта надпись мелким шрифтом совершенно бессмысленна. В бумажных книгах здесь обычно размещается уйма слов мелким шрифтом, перемежающихся значками типа © 2013. Все права защищены. То и сё. Напечатано там-то. Издатель может включить в состав книги прозу, чтобы отвадить пиратов. Ни одна часть этой книги не может быть ни использована, ни воспроизведена никаким манером без письменного разрешения. Следом обычно идет строка-другая об издателе, а потом какие-нибудь циферки.<br /><br />
+                        Ладно, кроме шуток – вам следует знать только вот что: эта книга – часть некоммерческого проекта и выходит по лицензии  <a href="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons BY-NC</a>, а значит, кто угодно может пересылать или адаптировать эту работу для любых некоммерческих целей, но с припиской «An Illustrated Book of Bad Arguments by Ali Almossawi, bookofbadarguments.com, 2013».<br /><br />
+                        <span style="font-size:11px;font-weight:normal">&copy; Creative and art direction Ali Almossawi, 2013</span><br />
+                        <span style="font-size:11px;font-weight:normal">&copy; Illustrations Alejandro Giraldo, 2013</span><br />
+                        <span style="font-size:11px;font-weight:normal">&copy; Dodo Magic Bookroom, 2013</span><br />
+                        <span style="font-size:11px;font-weight:normal">&copy; Ш. Мартынова, перевод, 2013</span><br />
+                    </p>
+                </div>
+            </div>
+            <div class="right right-option2">
+                <div class="page-number"></div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p class="endorsement"><span style="font-size:18px">&ldquo;</span>Замечательный иллюстрированный справочник по нелепым доводам.<br/> Безошибочно составленный свод ошибок.<span style="font-size:18px">&rdquo;</span></p>
+                    <p class="endorsement_author">&#8212;Профессор Элис Робертс, анатом, ведущая <br />телепередачи &ldquo;Путешествие человека&rdquo; на канале Би-би-си </p>
+
+                    <p class="endorsement2"><span style="font-size:18px">&ldquo;</span>Удивительно доходчивое изложение приемов и ошибок аргументации. Лучшего способа познакомиться с фундаментальными логическими понятиями или освежить их в памяти и не придумаешь.<br /> Восхитительная книга.<span style="font-size:18px">&rdquo;</span></p>
+                    <p class="endorsement_author2">&#8212;Аарон Коблин, креативный директор по<br /> визуализации данных в компании &ldquo;Гугл&rdquo;</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/toc_i.png" />
+            </div>
+            <div class="right right-option3">
+                <img src="images/toc_ii.png" style="margin-left:1px" />
+            </div>
+
+            <!-- who is this book for -->
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/who_for.png" />
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">3</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:100px">Эту книгу стоит читать новичкам в области логических рассуждений, в особенности тем – занимая выражение у Паскаля, – кто устроен так, что лучше всего понимает наглядное. Я составил небольшую подборку распространенных ошибок аргументации, придумал запоминающиеся картинки и снабдил их примерами. Надеюсь, читатель узнает из этой книги о наиболее распространенных ловушках рассуждений и сможет их вычислять и избегать на практике.</p>
+                </div>
+            </div>
+
+            <!-- preface -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/preface_i.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">5</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p></p>
+                    <p class="block">* * * *</p>
+
+                    <p class="footnote" style="position:absolute;bottom:-60px"><sup>1</sup> TK</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">6</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p>TK</p>
+                    <p class="justify-last">TK</p>
+                </div>
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">7</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p>TK</p>
+
+                    <p style="padding-top:20px;margin-left:270px;font-style:italic">&#8211; A. A., San Francisco, July 2013</p>
+                </div>
+            </div>
+            <!-- end preface -->
+
+            <!-- logical fallacies -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/logical_fallacies_i.png" />
+            </div>
+            <div class="right right-option1">
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:130px;padding-left:80px;padding-right:80px">The first principle is that you must not fool yourself and you are the easiest person to fool.</p>
+                    <p style="padding-left:300px">&#8212;Richard P. Feynman</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">10</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK<br /></div>
+                <div class="page-content">
+                    <p></p>
+
+                    <p class="footnote" style="position:absolute;bottom:-35px"><sup>2</sup> TK</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_consequences.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">12</div>
+                <div class="taxonomy">TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p></p>
+                </div>
+            </div>
+            <img src="images/strawman.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">14</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> TK <br /><b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">
+                    TK<br />
+                </div>
+                <div class="page-content">
+                    <p></p>
+                </div>
+            </div>
+            <img src="images/irrelevant_authority.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">16</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b><sup>3</sup></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p></p>
+
+                    <p class="footnote" style="position:absolute;bottom:-35px"><sup>3</sup> TK</p>
+                </div>
+            </div>
+            <img src="images/equivocation.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">18</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b><sup>4</sup></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p>TK</p>
+                    <p class="footnote" style="position:absolute;bottom:-35px"><sup>4</sup> TK.<br />
+                </div>
+            </div>
+            <img src="images/false_dilemma.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">20</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">Не потому что</div>
+                <div class="page-content">
+                    <p>TK</p>
+
+                    <p class="footnote" style="position:absolute;bottom:-35px">
+                    <sup>5</sup> TK</p>
+                </div>
+            </div>
+            <img src="images/not_a_cause_for_a_cause.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">22</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p>TK</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_fear.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">24</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p>TK</p>
+                </div>
+            </div>
+            <img src="images/hasty_generalization.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">26</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK<sup>6</sup></b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p></p>
+
+                    <p class="footnote" style="position:absolute;bottom:-15px"><sup>6</sup> TK <a href="http://youtu.be/NSJElZwEI8o">youtu.be/NSJElZwEI8o</a>.<br />
+                </div>
+            </div>
+            <img src="images/appeal_to_ignorance.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">28</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> TK <br /><b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p>TK</p>
+
+                    <p class="footnote" style="position:absolute;bottom:-35px"><sup>7</sup> TK</p>
+                </div>
+            </div>
+            <img src="images/no_true_scotsman.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">30</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p>TK</p>
+                </div>
+            </div>
+            <img src="images/genetic_fallacy.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">32</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p>TK</p>
+
+                    <p class="footnote" style="position:absolute;bottom:-35px">
+                        <sup>8</sup> TK<br />
+                        <sup>9</sup> TK
+                    </p>
+                </div>
+            </div>
+            <img src="images/guilt_by_association.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">34</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p>TK <i>(modus ponens)</i>  TK: <strong>TK A то C, A; TK C</strong>. TK:</p>
+                    <p style="text-align:center;font-weight:bold">A <b>&rArr;</b> C, A &#8866; C.</p>
+                    <p>TK</p>
+                </div>
+            </div>
+            <img src="images/affirming_the_consequent.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">36</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <i>Ad Hominem</i> <br /><b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p>TK</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_hypocrisy.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">38</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p>TK</p>
+
+                    <p class="footnote" style="position:absolute;bottom:-35px"><sup>10</sup> TK</p>
+                </div>
+            </div>
+            <img src="images/slippery_slope.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">40</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p>TK</p>
+                </div>
+            </div>
+            <img src="images/appeal_to_bandwagon.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">42</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>Ad Hominem</b><sup>11</sup></div>
+                <div class="page-title">Ad hominem, TK</div>
+                <div class="page-content">
+                    <p>TK</p>
+
+                    <p class="footnote" style="position:absolute;bottom:-35px"><sup>11</sup> TK</p>
+                </div>
+            </div>
+            <img src="images/ad_hominem.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">44</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p>TK</p>
+                </div>
+            </div>
+            <img src="images/circular.png" class="right" />
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">46</div>
+                <div class="taxonomy"> TK <b>&rsaquo;</b> TK <b>&rsaquo;</b> <b>TK</b></div>
+                <div class="page-title">TK</div>
+                <div class="page-content">
+                    <p>TK</p>
+                </div>
+            </div>
+            <img src="images/composition_and_division.png" class="right" />
+
+            <!--  final remarks -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/final_remarks.png" />
+            </div>
+            <div class="right">
+                <div class="page-number">49</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p style="margin-top:95px">TK</p>
+                    <p class="footnote license" style="position:absolute;bottom:36px;width:520px">
+                        <a class="internal" href="#base">TK</a> &nbsp; <b>&middot;</b> &nbsp;
+                        TK &nbsp;
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- definitions -->
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <img src="images/definitions.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">51</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>TK:</strong> TK</p>
+                    <p><strong>TK:</strong> TK</p>
+                    <p><strong>TK:</strong> TK</p>
+                    <p><strong>TK:</strong> TK</p>
+                    <p><strong>TK:</strong> TK</p>
+
+                    <p class="footnote" style="position:absolute;bottom:-55px"><sup>12</sup> TK</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left">
+                <div class="page-number">52</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>TK:</strong> TK</p>
+                    <p><strong>TK:</strong> TK</p>
+                    <p><strong>TK:</strong> TK</p>
+                    <p><strong>TK:</strong> TK</p>
+                </div>
+            </div>
+            <div class="right right-option1">
+                <div class="page-number">53</div>
+                <div class="page-title"></div>
+                <div class="page-content">
+                    <p><strong>TK:</strong> TK</p>
+                    <p><strong>TK:</strong> TK</p>
+                    <p><strong>TK:</strong> TK</p>
+                    <p><strong>TK:</strong> TK</p>
+                </div>
+            </div>
+            <!-- end definitions -->
+
+            <!-- references -->
+            <div class="page-break"></div>
+            <div class="left">
+                <img src="images/references_i.png" />
+            </div>
+            <div class="right right-option2">
+                <div class="page-number">55</div>
+                <div class="page-title"></div>
+                <div class="page-content bibliography">
+                    <p><strong>[Аристотель]</strong> Aristotle, On Sophistical Refutations, translated by W. A. Pickard, http://classics.mit.edu/Aristotle/sophist_refut.html<br>
+                        Рус. пер.: Аристотель. Сочинения в 4 томах. Т.2, О софистических опровержениях, М.: Мысль, 1978, пер. М. Иткина.</p>
+                    <p><strong>[Авиценна]</strong> Avicenna, Treatise on Logic, translated by Farhang Zabeeh, 1971.<br>
+                        Рус. пер.: Авиценна. Книга знаний. Избранные философские произведения (Серия «Антология мысли»), М.: ЭКСМО-Пресс, 1999.</p>
+                    <p><strong>[Кэрролл]</strong> Lewis Carroll, Alice's Adventures in Wonderland, 2008,<br />http://www.gutenberg.org/files/11/11-h/11-h.htm<br>
+                        Рус. пер.: Льюис Кэрролл, «Алиса в Стране чудес», любое издание.</p>
+                    <p><strong>[Кёртис]</strong> Gary N. Curtis, Fallacy Files, http://fallacyfiles.org</p>
+                    <p><strong>[Дэмер]</strong> T. Edward Damer, Attacking Faulty Reasoning: A Practical Guide to Fallacy-Free Arguments (6th ed), 2005.</p>
+                    <p><strong>[Энгел]</strong> S. Morris Engel, With Good Reason: An Introduction to Informal Fallacies, 1999.</p>
+                    <p><strong>[Фэрмело]</strong> Graham Farmelo, The Strangest Man: The Hidden Life of Paul Dirac, Mystic of the Atom, 2011.</p>
+                </div>
+            </div>
+
+            <div class="page-break"></div>
+            <div class="left left-option2">
+                <div class="page-number">56</div>
+                <div class="page-title"></div>
+                <div class="page-content bibliography">
+                    <p><strong>[Физер]</strong> James Fieser, Internet Encyclopedia of Philosophy, http://www.iep.utm.edu</p>
+                    <p><strong>[Файерстин]</strong> Stuart Firestein, Ignorance: How it Drives Science, 2012.</p>
+                    <p><strong>[Фишер]</strong> David Hackett Fischer, Historians' Fallacies: Toward a Logic of Historical Thought, 1970.</p>
+                    <p><strong>[Гула]</strong> Robert J. Gula, Nonsense: A Handbook of Logical Fallacies, 2002.</p>
+                    <p><strong>[Хэмблин]</strong> C. L. Hamblin, Fallacies, 1970.</p>
+                    <p><strong>[Кинг]</strong> Stephen King, On Writing, 2000.<br>
+                        Рус. пер.: Как писать книги. Мемуары о ремесле, М.: АСТ, 2002, пер. М. Левина.</p>
+                    <p><strong>[Мински]</strong> Marvin Minsky, The Society of Mind, 1988.</p>
+                    <p><strong>[Пойя]</strong> George P&oacute;lya, How to Solve It: A New Aspect of Mathematical Method, 2004.</p>
+                    <p><strong>[Расселл]</strong> Bertrand Russell, The Problems of Philosophy, 1912,<br />http://ditext.com/russell/russell.html<br>
+                        Рус. пер.: Проблемы философии, М.: Наука, 2001, пер. В. Целищева.</p>
+                    <p><strong>[Сэйген]</strong> Carl Sagan, The Demon-Haunted World: Science as a Candle in the Dark, 1995.</p>
+                </div>
+            </div>
+            <div class="right right-option3">
+                <div class="page-number">57</div>
+                <div class="page-title"></div>
+                <div class="page-content">      
+                    <p><strong>[Симанек]</strong> Donald E. Simanek, <i>Uses and Misuses of Logic</i>, 2002,<br />http://www.lhup.edu/~dsimanek/philosop/logic.htm</p>
+                    <p><strong>[Смит]</strong> Peter Smith, An Introduction to Formal Logic, 2003.</p>        
+                    <p class="footnote license" style="position:absolute;bottom:-60px;width:520px">
+                        <a class="internal" href="#base">Продолжение ниже</a> &nbsp; <b>&middot;</b> &nbsp;
+                        Поделиться в &nbsp;
+                        <a href="https://twitter.com/intent/tweet?original_referer=http%3A%2F%2Fbookofbadarguments.com&text=An%20Illustrated%20Book%20of%20Bad%20Arguments,&tw_p=tweetbutton&url=https%3A%2F%2Fbookofbadarguments.com&via=alialmossawi">Twitter</a> &nbsp; 
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbookofbadarguments.com">Facebook</a>
+                    </p>
+                </div>
+            </div>
+            <!-- end references -->
+          </div>
+        </div>
+
+        <div class="seperator"></div>
+
+        <div class="hope-you-enjoyed-that">
+            <h3>Hope you enjoyed that</h3>
+            <div class="outro">
+                <p>This has been <span class="highlight">An Illustrated Book of Bad Arguments</span>.  Thanks for visiting.  Sightings of unintended irony should be <a href='https://github.com/almossawi/badarguments/issues' class='underline'>reported to the author!</a></p>
+                <p>If you would like to help support this book with a small donation, that would be much appreciated.  Thank you!</p>
+
+                <div id="slider-div">
+                    <div id="slider-range-min" style="margin-top:5px;padding-right:10px"></div>
+                    <label for="amount" style="line-height:40px">Name your price (drag slider to change)</label>
+                </div>
+                <div id="amount-div">
+                    <span id="amount" style="font-size:40px"></span>
+                </div>
+
+                <form id="stripe-form" action="../charge.php" method="POST" style="padding-top:22px">
+                    <input type="hidden" id="amount_in_cents" name="amount_in_cents" value="200" />
+
+                    <div>
+                    <script
+                      src="https://checkout.stripe.com/v2/checkout.js" class="stripe-button"
+                          data-key="pk_live_1wyUR9ETeoSkjh7mvhfbYkLz"
+                          data-name="An Illustrated Book of Bad Arguments"
+                          data-description="Donation"
+                          data-currency="usd"
+                          data-image="../images/stripe_thumb.png">
+                    </script>
+                    </div>
+                </form>
+                <p class="stripe">Secure payments by <a href="https://stripe.com" class="underline" target="_blank">stripe</a></p>
+                <p class="courtesy-of">Background image courtesy of <a href="http://subtlepatterns.com" class="underline">subtlepatterns</a></p>
+
+                <a href='https://www.paypal.me/almossawi/2'>
+                  <img src="https://bookofbadarguments.com/images/paypal-donate.png" alt="PayPal - The safer, easier way to pay online!" style="margin-left:30px;margin-top:15px" />
+                </a>
+            </div>
+            <div class="gradient"></div>
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div id="base" name="base">
+            <div id="base-book" class="hide-on-mobile">
+                <img src="../images/book.png" width="220" height="185" alt="In print" />
+            </div>
+
+            <div id="base-prose">
+                <p style="margin-left:12px">Join the mailing list for occasional news about my books on critical thinking.</p>
+
+                <link href="../css/mailchimp-slim-081711.css" rel="stylesheet" type="text/css">
+                <style type="text/css">
+                    #mc_embed_signup{clear:left;font:14px;width:400px;}
+                </style>
+                <div id="mc_embed_signup">
+                    <form action="https://almossawi.us7.list-manage.com/subscribe/post?u=9c4dbd8f3e2d9a588cfe43dae&amp;id=3c89277de1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" required>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="base-contact">
+                <a class='tiny-button fab fa-2x fa-instagram' href='https://instagram.com/almossawi' title='Instagram'></a>
+                <a class='tiny-button fab fa-2x fa-github' href='https://github.com/almossawi/badarguments' title='GitHub'></a> 
+                <a class='tiny-button fab fa-2x fa-twitter' href='https://twitter.com/alialmossawi' title='Twitter'></a>
+                <a class='tiny-button fas fa-2x fa-info-circle' href='https://almossawi.com' title='Author's page''></a>
+
+                <div id="base-social">
+                    <div class="twitter-block"><a href="https://twitter.com/share" class="twitter-share-button" data-url="https://bookofbadarguments.com" data-via="alialmossawi">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+                    <div id="fb-block" class="fb-like" data-href="https://bookofbadarguments.com" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false" data-font="arial"></div>
+
+                    <div style="height:15px;clear:both"></div>
+                    <div class="copyright-strip">
+                        2013-2021 &middot; <a href="#inline_content" class='inline underline'>See the sketches</a> 
+                        &middot; <a href="https://github.com/almossawi/badarguments" class='underline'>Get the code</a>
+                        <div class="url-link"><a href="https://almossawi.com/bookofbadarguments.html" style="text-decoration:none;color:#c7c7c7">www.bookofbadarguments.com</a></div>
+                        <div class="buy-the-book-bottom"><b><a class='underline' href="/thebook/?from=main_page_bottom" style="color:#c7c7c7">Buy the book in print</a></b></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="base-news">
+                <div class='announcement'><b>Announcement</b> &middot; <a href="onward/" class='underline'>Signed holiday cards are now available. Orders close November 14.</a></div>
+                <div class='announcement'><b>News</b> &middot; <a href="https://www.reddit.com/r/IAmA/comments/6407oc/im_the_creator_of_an_illustrated_book_of_bad/" class='underline'>I loved answering your questions on Reddit.</a></div>
+                <div class='announcement'><b>News</b> &middot; <a href="https://github.com/almossawi/badarguments#an-illustrated-book-of-bad-arguments" class='underline'>See photos of the book in the wild and other related material.</a></div>
+                <div class='announcement'><b>News</b> &middot; <a href="http://www.abc.net.au/radionational/programs/drive/the-lost-art-of-making-sense/5919286" class='underline'>A conversation with ABC Radio about the art of making sense.</a></div>
+                <!--<div class='announcement'><b>News</b> &middot; <a href="https://twitter.com/alialmossawi/status/526110069348257795" class='underline'>The Book of Bad Arguments website recently crossed 1 million visitors.</a></div>-->
+                <!--<div class='announcement'><b>Announcement</b> &middot; <a href="http://www.reddit.com/r/IAmA/comments/2irsu5/hi_reddit_i_created_the_book_of_bad_arguments/" class='underline'>I'll be doing a Reddit Ask Me Anything on October 9 at 1:00PM (ET).</a></div>-->
+            </div>
+
+            <div style="clear:both;height:20px"></div>
+
+            <div id="press" class="hide-on-mobile">
+                <img src="../images/in_the_press.png" /> 
+                <a href="https://www.fastcocreate.com/3019063/now-more-than-ever-you-need-this-illustrated-guide-to-bad-arguments-faulty-logic-and-silly-r"><img src="../images/fastcompany.png" /></a> 
+                <a href="http://geekdad.com/2013/09/teach-kids-logic-illustrated-book-bad-arguments/"><img src="../images/geekdad.png" /></a> 
+                <a href="http://dish.andrewsullivan.com/2013/09/09/this-little-piggy-made-a-logical-error/"><img src="../images/the_dish.png" /></a> &nbsp;
+                <a href="https://www.buzzfeed.com/kevintang/charming-cartoons-that-debunk-your-bs-arguments"><img src="../images/buzzfeed.png" /></a> &nbsp;
+                <a href="http://io9.com/a-guide-to-fallacious-arguments-illustrated-with-funny-1273276162"><img src="../images/io9.png" /></a> 
+                <a href="https://laughingsquid.com/an-illustrated-book-of-bad-arguments-logical-fallacies-explained-with-fun-animal-illustrations/"><img src="../images/laughing_squid.png" /></a> 
+                <a href="https://boingboing.net/2014/03/21/bad-arguments-great-illustrat.html"><img src="../images/boingboing.png" /></a> &nbsp;
+                <!--<a href="https://www.reddit.com/r/philosophy/comments/1lcqzu/an_illustrated_book_of_bad_arguments/"><img src="images/reddit.png" /></a> &nbsp;-->
+                <!--<a href="http://www.philosophynews.com/post/2013/08/21/An-Illustrated-Book-of-Bad-Arguments.aspx"><img src="images/philosophy_news.png" /></a>--> 
+                <a href="http://www.openculture.com/2015/04/an-illustrated-book-of-bad-arguments.html"><img src="../images/open_culture.png" /></a> 
+                <a href="http://dangerousminds.net/comments/an_illustrated_book_of_bad_arguments_dispatching_the_dumb_one_funny_animal" class="hide-on-mobile"><img src="../images/dangerous_minds.png" /></a> 
+            </div>
+        </div>
+
+        <div style='display:none'>
+            <div id='inline_content'>
+                <p>A reader recently wrote in asking if I could share a bit about the process of putting the book together and talk about how the project started.  Certainly.</p>
+                <br /><br />
+                <p><span style="font-family:Georgia,Times;font-size:60px">I</span> go on two solitary walks every day.  There is a small park off the Embarcadero that is tucked away in a quiet spot.  It has a pleasant stream flowing through it and an unassuming bench beside that stream.  I have made walking to that frail bench a ritual, and the half an hour or so spent daydreaming on it amid the cool San Francisco breeze, an article of faith.</p>
+                <p>It was on a day in October of last year when, during one of those quiet moments on that bench, I recalled my college years and how outspoken I happened to be during them, an observation only made interesting by the fact that  I have since turned into the quietest of beings.  They say that achieving knowledge is a function of one's ability to maintain both doubt and hubris.  I don't know.  I find that as the years go by, I am left with more of the former and less of the latter.</p>
+                <p>A realization that coincided with that nostalgic whiff was that a sizable amount of the discourse nowadays continues to be plagued with bad reasoning.</p>
+                <p>Hence, the idea that finally shook me into soberness was one that had been fermenting for a while.  It was that of visualizing, in a simple manner, some of the principles that had helped me do well in debates and in off-the-cuff arguments with colleagues.  Simple.  That would be the novelty of it.  And so, with my two-year old daughter in the back of my mind, I decided that illustration would be an ideal language, given its universal appeal.</p>
+                <p>Once I had a draft version of the book ready, I sent it to one of my life-long idols, Marvin Minsky, co-founder of the MIT Artificial Intelligence Lab and author of <i>The Society of Mind</i>.  I must have spent a good week writing that email.  I was overjoyed when he wrote back a few hours later calling the book &ldquo;beautiful!&rdquo;  It was quite possibly one of the highlights of my life.  Having read the email, I made sure to maintain my earnestness while I found a private place, wherein I proceeded to do the Apache dance from <i>Fresh Prince</i>.</p>
+                <div style="height:312px;width:800px">
+                    <img src="../images/sketches/minsky.jpg" />
+                </div>
+                <p>The cover is inspired by one of my favorite games growing up: LucasArts' <i>Monkey Island</i> series.  The title's typography and the general feel of the whole scene borrow a bit from <i>Monkey Island</i> and a bit from <i>Indiana Jones</i>.  The cover's concept is based on the metaphor that good deductive logic is like a watertight pipe where truth goes in and truth comes out.  Hence, the cave that the two explorers are peeking through, which you may notice has an opening resembling that of a human ear, is actually the inside of someone's head, and the leaking pipes indicate that this person's head is filled with bad logic.</p>
+                <p>Shown below are some of the original sketches that I came up with.  I had the scenarios, characters and captions in mind, and a modest ability to transform them into drawings.  What I really wanted though was a woodcut style that would give the work an antiquated feel, because after all, if it looks old, then it must be of value&mdash;irony intended.  I commissioned a professional illustrator who did a nice job of translating a set of sketches, prose and undocumented ideas into the illustrations you see in this final artifact.</p>
+                <p>The project is a public service, and although it has cost a fair amount of money, nothing would make me happier than to see it used to teach younger people or those new to the field the importance of logical reasoning.  It is meant to serve as a modest, yet hopefully timeless, contribution.</p>
+                <p>Thank you for visiting and for your emails; they make my day.  Enjoy the sketches below.  If you don't see them, then they are still being loaded. Look out for the print version on Amazon later this year.</p>
+                <p><i>August 20, 2013 &middot; <a href="/#inline_content" style="color:white">(permalink)</a></i></p>
+                <div style="height:9600px;width:800px"> 
+                    <img src="../images/sketches/bear.jpg" />
+                    <img src="../images/sketches/pig.jpg" />
+                    <img src="../images/sketches/donkey.jpg" />
+                    <img src="../images/sketches/donkey2.jpg" />
+                    <img src="../images/sketches/frog.jpg" />
+                    <img src="../images/sketches/frog2.jpg" />
+                    <img src="../images/sketches/cat.jpg" />
+                    <img src="../images/sketches/vultures.jpg" />
+                    <img src="../images/sketches/toucan.jpg" />
+                    <img src="../images/sketches/chimp.jpg" />
+                    <img src="../images/sketches/crane.jpg" />
+                    <img src="../images/sketches/cow.jpg" />
+                    <img src="../images/sketches/sealion.jpg" />
+                    <img src="../images/sketches/all.jpg" />
+                    <img src="../images/sketches/proof.jpg" />
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/global.js"></script>
+    </body>
+</html> 
