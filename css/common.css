@@ -1,0 +1,97 @@
+.stripe-connect {
+    background: #635bff;
+    display: inline-block;
+    height: 38px;
+    text-decoration: none;
+    width: 180px;
+
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+.stripe-connect span {
+    color: #ffffff;
+    display: block;
+    font-family: sohne-var, "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 14px;
+    padding: 11px 0px 0px 24px;
+    position: relative;
+    text-align: left;
+}
+
+.stripe-connect:hover {
+    background: #7a73ff;
+}
+
+.stripe-connect.slate {
+    background: #0a2540;
+}
+
+.stripe-connect.slate:hover {
+    background: #425466;
+}
+
+.stripe-connect.white {
+    background: #ffffff;
+}
+
+.stripe-connect.white span {
+    color: #0a2540;
+}
+
+.stripe-connect.white:hover {
+    background: #f6f9fc;
+}
+
+.stripe-connect span::after {
+    background-repeat: no-repeat;
+    background-size: 49.58px;
+    content: "";
+    height: 20px;
+    left: 62%;
+    position: absolute;
+    top: 28.95%;
+    width: 49.58px;
+}
+
+.subscribe-pink {
+    border-radius: 2px !important;
+    background-color: #e1306c !important;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    display: block;
+    width: 35% !important;
+    margin: 0 0 10px 12px;
+    min-width: 90px;
+    clear: both;
+    background-color: #aaa;
+    border: 0 none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+}
+
+.subscribe-pink:hover {
+    filter: brightness(110%);
+}
