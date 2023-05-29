@@ -1,6 +1,6 @@
 # An Illustrated Book of Bad Arguments
 
-_Bad Arguments_ has been read by over three million visitors since its release in July 2013. This repository contains the code and documentation for the project, including all translations. It also includes the code for _An Illustrated Book of Loaded Language_—the follow-on project to _Bad Arguments_ that's planned for release in October 2021. That project is available at [bookofbadarguments.com/extras](https://bookofbadarguments.com/extras/).
+_Bad Arguments_ has been read by over three million visitors since its release in July 2013. This repository contains the code and documentation for the project, including all translations. It also includes the code for _An Illustrated Book of Loaded Language_—the follow-on project to _Bad Arguments_ that was released in November 2021. That project is available at [bookofbadarguments.com/loaded-language](https://bookofbadarguments.com/loaded-language/).
 
 ## How to contribute
 
@@ -28,6 +28,7 @@ You are welcome to suggest corrections or submit suggestions by opening an [issu
 * [German (Claudia Aden, Ian Erik Stewart)](de)
 * [Russian (Alexander Maslov, Shashi Martynova)](ru)
 * [Slovenian (Zofijini, with an afterword by Boris Vezjak)](si)
+* [Ukranian (Ріна, Пальма, 221V)](ua)
 
 ## Related material
 * [List of contributors](https://github.com/almossawi/badarguments/wiki/Contributors)
